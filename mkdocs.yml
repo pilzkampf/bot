@@ -6,7 +6,7 @@ theme:
   name: material
   language: de
   logo: assets/pilzkampf_bot.png
-  favicon: assets/pilzkampf_bot.png
+  favilecon: assets/pilzkampf_bot.png
   palette:
     - scheme: default
       toggle:
@@ -38,9 +38,43 @@ plugins:
   - i18n:
       default_language: de
       languages:
-        - en
-        - de
-      # material_alternate entfernen - wird nicht unterstützt
+        - locale: en
+          name: English
+          build: true
+          nav:
+            - Home: index.md
+            - Mushroom Battle: 
+              - Overview: battle.md
+              - Create a mushroom offer: offer-mushroom.md
+              - Joining a mushroom battle: join-mushroom.md
+            - Commands:
+              - Overview: commands.md
+              - Settings: userconfig.md
+              - Timer: timer.md
+              - Profile: profile.md
+              - List of active battles: active.md
+              - Mushroom alert: alarm.md
+            - Privacy: privacy.md
+            - Support: support.md
+        - locale: de
+          name: Deutsch
+          build: true
+          default: true
+          nav:
+            - Startseite: index.md
+            - Pilzkampf: 
+              - Pilzkampf Übersicht: battle.md
+              - Pilzkampf erstellen: offer-mushroom.md
+              - Pilzkampf beitreten: join-mushroom.md
+            - Kommandos:
+              - Übersicht: commands.md
+              - Einstellungen: userconfig.md
+              - Timer: timer.md
+              - Profil: profile.md
+              - Liste der aktiven Pilze: active.md
+              - Pilz-Alarm: alarm.md
+            - Datenschutz: privacy.md
+            - Unterstützen: support.md
   - search
 
 extra:
@@ -60,39 +94,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets:
       base_path: docs/includes/
-
-# Navigation für jede Sprache
-nav:
-  - Startseite: index.md
-  - Pilzkampf: 
-    - Pilzkampf Übersicht: battle.md
-    - Pilzkampf erstellen: offer-mushroom.md
-    - Pilzkampf beitreten: join-mushroom.md
-  - Kommandos:
-    - Übersicht: commands.md
-    - Einstellungen: userconfig.md
-    - Timer: timer.md
-    - Profil: profile.md
-    - Liste der aktiven Pilze: active.md
-    - Pilz-Alarm: alarm.md
-  - Datenschutz: privacy.md
-  - Unterstützen: support.md
-
-nav_en:
-  - Home: index.md
-  - Mushroom Battle: 
-    - Overview: battle.md
-    - Create a mushroom offer: offer-mushroom.md
-    - Joining a mushroom battle: join-mushroom.md
-  - Commands:
-    - Overview: commands.md
-    - Settings: userconfig.md
-    - Timer: timer.md
-    - Profile: profile.md
-    - List of active battles: active.md
-    - Mushroom alert: alarm.md
-  - Privacy: privacy.md
-  - Support: support.md
 
 extra_javascript:
   - javascripts/font-toggle.js
