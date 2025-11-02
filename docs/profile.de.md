@@ -1,9 +1,7 @@
 # Profileinstellungen
-
+![Profil-Einstellungen](assets/screenshot/profile.png){ width="30%" align="right"}
 
 Hier kannst du die Informationen zu deinem Pikmin Bloom-Spieleraccount eingeben und ändern.
-![Profil-Einstellungen](assets/screenshot/profile.png){ width="50%" style="display: block; margin: 0 auto" }
-<p align="center"><em>Profil-Einstellungen</em></p>
 
 ## Spielername
 

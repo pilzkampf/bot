@@ -6,29 +6,29 @@ Joining a mushroom battle is as simple as pressing a button. There are basically
 * Via the [Mushroom Alert](alarm.md)
 
 ## Mushroom message in the group
-![Mushroom message](assets/screenshot/groupmessage.png){ width="50%" style="display: block; margin: 0 auto" }
-<p align="center"><em>Mushroom message</em></p>
-
-There are two buttons that are important for you: ":thumbsup:I'm in" to participate and ":thumbsdown:I'm out" if you want to withdraw from the mushroom battle.  
+There are two buttons that are important for you: ":thumbsup:&nbsp;I'm in" to participate and ":thumbsdown:&nbsp;I'm out" if you want to withdraw from the mushroom battle.  
 In the mushroom message you can see...
 
 * who created the mushroom
-* until when the mushroom is (approximately) completed
+* until when the mushroom is (approximately)[^1] completed
 * who has already signed up for the mushroom
 * how many free or ticketed slots are still available
 
 The "configure" button is important for the mushroom creator, who can then [configure a mushroom](offer-mushroom.md#configure-mushroom).
 
+![Mushroom message](assets/screenshot/groupmessage.png){ width="50%" style="display: block; margin: 0 auto" }
+<p align="center"><em>Mushroom message</em></p>
+
 ### Register external players
 
-Using the commands `/with` and `/without`, you can register or unregister external players for the mushroom.  
-If you write the command `/with (playername)` _**as a reply to a mushroom message**_ in the group, this player will be registered under your name. For example:
+Using the commands `/mit` and `/ohne`, you can register or unregister external players for the mushroom.  
+If you write the command `/mit (playername)` _**as a reply to a mushroom message**_ in the group, this player will be registered under your name. For example:
 
     Lit'l Mello (via Mello Yellow)
 
 In this example, *Mello Yellow* registered the player *Lit'l Mello* for the mushroom. Please note that exchanging friend codes is now your responsibility, since the bot cannot know the external player’s code. This function can be useful if your partner also plays Pikmin Bloom but does not have a Telegram account, or if you want to register your second account for a mushroom.
 
-To undo the registration, use **as a reply to the mushroom message** `/without (playername)`. Make sure to use the same player name.
+To undo the registration, use **as a reply to the mushroom message** `/mit (playername)`. Make sure to use the same player name.
 
 ## Mushroom Alert
 
@@ -48,3 +48,8 @@ The "mute until tomorrow" feature will mute your mushroom alerts until tomorrow 
     The "mute until tomorrow" feature is only available to supporters. If you also want to become a supporter of the Pilzkampf Bot, [please check here](support.md).
 
 If you enable "mute all alerts", all mushroom alerts will be deactivated until further notice. They remain stored, but you will no longer receive notifications. You can re-enable or disable notifications in [the settings](userconfig.md) using the command `/userconfig`.
+
+[^1]:
+    When there is no remaining time configured manually, the remaining time is written as "(appr.)". As soon as the remaining time was adjusted manually once,
+    it's written without "(appr.)". However, the next player to join the mushroom battle will reduce the time by an estimation. You might need to adjust the
+    remaining time multiple times. It's also okay to leave the estimation. No worries.

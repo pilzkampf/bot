@@ -1,7 +1,5 @@
 # Profile Settings
-
-![Profile Settings](assets/screenshot/profile.png){ width="50%" style="display: block; margin: 0 auto" }
-<p align="center"><em>Profile Settings</em></p>
+![Profile Settings](assets/screenshot/profile.png){ width="30%" align="right"}
 
 Here you can enter and change the information for your Pikmin Bloom player account:
 

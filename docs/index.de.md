@@ -15,7 +15,7 @@ Du erreichst ihn direkt unter [https://t.me/pikminpilz_bot](https://t.me/pikminp
     Er reagiert nur auf spezielle Kommandos oder auf Nachrichten, die direkt an ihn gerichtet sind.
     Mehr Informationen findest du unter [Datenschutz](privacy.md).
 
-!!! note "Letzte Aktualisierung: 17. Oktober 2025"
+!!! note "Letzte Aktualisierung: 2. November 2025"
 
     Der Bot wird ständig weiter entwickelt. Diese Dokumentation kann leicht veraltet sein. Prüfe die
     Version vom Bot, indem du das Kommando `/userconfig` eingibst. Dort siehst du die Version mit
