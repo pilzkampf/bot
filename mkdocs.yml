@@ -6,7 +6,7 @@ theme:
   name: material
   language: de
   logo: assets/pilzkampf_bot.png
-  favilecon: assets/pilzkampf_bot.png
+  favicon: assets/pilzkampf_bot.png
   palette:
     - scheme: default
       toggle:
@@ -39,8 +39,10 @@ plugins:
       default_language: de
       languages:
         - locale: en
-          name: English
+          name: <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1ec-1f1e7.svg" height="20" style="vertical-align:middle;margin-right:0.3em;"> English
           build: true
+          site_name: Pilzkampf Bot Manual
+          site_description: Documentation for the Pilzkampf Bot for Pikmin Bloom
           nav:
             - Home: index.md
             - Mushroom Battle: 
@@ -54,12 +56,15 @@ plugins:
               - Profile: profile.md
               - List of active battles: active.md
               - Mushroom alert: alarm.md
+            - Multiple Groups: federation.md
             - Privacy: privacy.md
             - Support: support.md
         - locale: de
-          name: Deutsch
+          name: <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1e9-1f1ea.svg" height="20" style="vertical-align:middle;margin-right:0.3em;"> Deutsch
           build: true
           default: true
+          site_name: Pilzkampf-Bot Anleitung
+          site_description: Dokumentation für den Pilzkampf Bot für Pikmin Bloom
           nav:
             - Startseite: index.md
             - Pilzkampf: 
@@ -73,9 +78,33 @@ plugins:
               - Profil: profile.md
               - Liste der aktiven Pilze: active.md
               - Pilz-Alarm: alarm.md
+            - Mehrere Gruppen: federation.md
             - Datenschutz: privacy.md
             - Unterstützen: support.md
+        - locale: nl
+          name: <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1f3-1f1f1.svg" height="20" style="vertical-align:middle;margin-right:0.3em;"> Nederlands
+          build: true
+          site_name: Pilzkampf Bot Handleiding
+          site_description: Documentatie voor de Pilzkampf Bot voor Pikmin Bloom
+          nav:
+            - Startpagina: index.md
+            - Paddenstoelengevecht: 
+              - Overzicht: battle.md
+              - Paddenstoelengevecht aanmaken: offer-mushroom.md
+              - Deelnemen aan een paddenstoelengevecht: join-mushroom.md
+            - Commando's:
+              - Overzicht: commands.md
+              - Instellingen: userconfig.md
+              - Timer: timer.md
+              - Profiel: profile.md
+              - Lijst van actieve paddenstoelen: active.md
+              - Paddenstoelwaarschuwing: alarm.md
+            - Meerdere groepen: federation.md
+            - Privacy: privacy.md
+            - Ondersteunen: support.md
+      material_alternate: true
   - search
+  - offline
 
 extra:
   social:
@@ -94,6 +123,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets:
       base_path: docs/includes/
+  - footnotes
+
+# ENTFERNE die separaten nav und nav_en Abschnitte komplett!
+# Sie sind jetzt in den Plugin-Einstellungen enthalten
 
 extra_javascript:
   - javascripts/font-toggle.js
