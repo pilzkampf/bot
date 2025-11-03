@@ -1,0 +1,654 @@
+{
+  "version": "2025-11-03",
+  "grammar": {
+    "size": {
+      "small": {
+        "default": "Small"
+      },
+      "normal": {
+        "default": "Normal"
+      },
+      "large": {
+        "default": "Large"
+      },
+      "giant": {
+        "default": "Giant"
+      },
+      "weekly": {
+        "default": "Weekly Challenge"
+      }
+    },
+    "color": {
+      "red": {
+        "default": "Red Mushroom",
+        "noun": "Red",
+        "event": "<u>red</u> ",
+        "emoji": "🟥"
+      },
+      "yellow": {
+        "default": "Yellow Mushroom",
+        "noun": "Yellow",
+        "event": "<u>yellow</u> ",
+        "emoji": "🟨"
+      },
+      "blue": {
+        "default": "Blue Mushroom",
+        "noun": "Blue",
+        "event": "<u>blue</u> ",
+        "emoji": "🟦"
+      },
+      "purple": {
+        "default": "Purple Mushroom",
+        "noun": "Purple",
+        "emoji": "🟪"
+      },
+      "white": {
+        "default": "White Mushroom",
+        "noun": "White",
+        "event": "<u>white</u> ",
+        "emoji": "🔲"
+      },
+      "pink": {
+        "default": "Pink Mushroom",
+        "noun": "Pink",
+        "emoji": "🩷"
+      },
+      "grey": {
+        "default": "Gray Mushroom",
+        "noun": "Gray",
+        "emoji": "🪨"
+      },
+      "ice": {
+        "default": "Iceblue Mushroom",
+        "noun": "Iceblue",
+        "emoji": "🥶"
+      },
+      "fire": {
+        "default": "Fire Mushroom",
+        "noun": "Fire",
+        "emoji": "🔥"
+      },
+      "water": {
+        "default": "Water Mushroom",
+        "noun": "Water",
+        "emoji": "💧"
+      },
+      "electro": {
+        "default": "Electric Mushroom",
+        "noun": "Electric",
+        "emoji": "⚡️"
+      },
+      "crystal": {
+        "default": "Crystal Mushroom",
+        "noun": "Crystal",
+        "emoji": "💎"
+      },
+      "poison": {
+        "default": "Poisonous Mushroom",
+        "noun": "Poisonous",
+        "emoji": "🤢"
+      },
+      "event": {
+        "default": "Event Mushroom",
+        "noun": "Event",
+        "emoji": "🎉"
+      },
+      "heart": {
+        "default": "Special Nectar",
+        "noun": "Special Nectar",
+        "emoji": "❤️"
+      },
+      "run": {
+        "default": "steps",
+        "noun": "Steps",
+        "emoji": "📅🏃"
+      },
+      "plant": {
+        "default": "flower planting",
+        "noun": "Flowers",
+        "emoji": "📅🌼"
+      },
+      "all": {
+        "default": "all",
+        "noun": "Every nectar",
+        "emoji": "✨"
+      },
+      "any": {
+        "event": ""
+      },
+      "event08": {
+        "default": "Bizarre Mushroom",
+        "noun": "Bizarre Mushroom",
+        "emoji": "🍧"
+      },
+      "event09": {
+        "default": "Magnificent Mushroom",
+        "noun": "Magnificent Mushroom",
+        "emoji": "🥮"
+      },
+      "event2510": {
+        "default": "Colorful Mushroom",
+        "noun": "Colorful Mushroom",
+        "emoji": "💀🌹"
+      },
+      "event2511": {
+        "default": "Brilliant Mushroom",
+        "noun": "Brilliant Mushroom",
+        "emoji": "🎂🎉"
+      }
+    },
+    "status": {
+      "willing": {
+        "emoji": "❓"
+      },
+      "invited": {
+        "emoji": "📣"
+      },
+      "accepted": {
+        "emoji": "⚔️"
+      },
+      "starter": {
+        "emoji": "🍄"
+      }
+    }
+  },
+  "flowers": {
+    "flowers": {
+      "name": "flowers",
+      "emoji": "🌼"
+    },
+    "bougainvilleas": {
+      "name": "bougainvilleas",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "calla lily",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "camellias",
+      "emoji": "🏵️"
+    },
+    "cattleyas": {
+      "name": "cattleyas",
+      "emoji": "🌷"
+    },
+    "chrysanthemums": {
+      "name": "chrysanthemums",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "clematis",
+      "emoji": "✳️"
+    },
+    "cyclamens": {
+      "name": "cyclamens",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "daffodils",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "dahlias",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "dianthuses",
+      "emoji": "⚜️"
+    },
+    "frangipanis": {
+      "name": "frangipanis",
+      "emoji": "📿"
+    },
+    "gentians": {
+      "name": "gentians",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "helleborus",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "hibiscuses",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "hyacinths",
+      "emoji": "🟣"
+    },
+    "morning glories": {
+      "name": "morning glories",
+      "emoji": "🌀"
+    },
+    "peonies": {
+      "name": "peonies",
+      "emoji": "🌹"
+    },
+    "poinsettias": {
+      "name": "poinsettias",
+      "emoji": "🎀"
+    },
+    "plum blossoms": {
+      "name": "plum blossoms",
+      "emoji": "🪔"
+    },
+    "sweet peas": {
+      "name": "sweet peas",
+      "emoji": "🎐"
+    },
+    "water lilies": {
+      "name": "water lilies",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "windflowers",
+      "emoji": "🌬️"
+    },
+    "hydrangeas": {
+      "name": "hydrangeas",
+      "emoji": "🧩"
+    },
+    "cherry blossoms": {
+      "name": "cherry blossoms",
+      "emoji": "🌸"
+    },
+    "pansies": {
+      "name": "pansies",
+      "emoji": "🧿"
+    },
+    "lilies": {
+      "name": "lilies",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "lilies of the valley",
+      "emoji": "🔔"
+    },
+    "carnations": {
+      "name": "carnations",
+      "emoji": "🏐"
+    },
+    "tulips": {
+      "name": "tulips",
+      "emoji": "🌷"
+    },
+    "spider lilies": {
+      "name": "spider lilies",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "sun flowers",
+      "emoji": "🌻"
+    },
+    "roses": {
+      "name": "roses",
+      "emoji": "🌹"
+    },
+    "cosmoses": {
+      "name": "cosmoses",
+      "emoji": "☄️"
+    },
+    "snowdrops": {
+      "name": "snowdrops",
+      "emoji": "⛄"
+    },
+    "canola flowers": {
+      "name": "canola flowers",
+      "emoji": "🟡"
+    },
+    "freesias": {
+      "name": "freesias",
+      "emoji": "🎆"
+    },
+    "anniversary roses": {
+      "name": "anniversary roses",
+      "emoji": "🌹"
+    },
+    "irises": {
+      "name": "irises",
+      "emoji": "⚜️"
+    },
+    "birds of paradise": {
+      "name": "birds of paradise",
+      "emoji": "🌺"
+    },
+    "celosias": {
+      "name": "celosias",
+      "emoji": "🌺"
+    },
+    "marigolds": {
+      "name": "marigolds",
+      "emoji": "🌼"
+    },
+    "salvias": {
+      "name": "salvias",
+      "emoji": "🌿"
+    }
+  },
+  "cmd": {
+    "active": "🚨 Current mushrooms",
+    "userconfig": "👤 User Configuration",
+    "timer": "⏰ Set a Reminder",
+    "help": "❔ List of Commandos",
+    "divider": "🔽 Inaktive 🔽",
+    "cancel": "❌ Cancel Session",
+    "bug": "🪲 Bug-Report",
+    "event": "🗺 Event-Info",
+    "kill": "☠️ Bot Shut Down",
+    "pilz": "🍄 New Mushroom Offer",
+    "alarm": "🚨 Mushroom Alert",
+    "profile": "👤 User Profile"
+  },
+  "button": {
+    "colorbutton": "{color_emoji} {color_noun}",
+    "wish": "🚨 Mushroom alert",
+    "creation": "🍄 Mushroom creation",
+    "notifications": "✉️ Notifications",
+    "profile": "👤 Profile",
+    "config": "⚙️ Configure",
+    "comment": "💬 Comment",
+    "groups": "🗯 Chat Groups",
+    "time_remain": "⏰ Remaining time",
+    "in": "{ticket}👍 I'm in",
+    "out": "👎 I'm out",
+    "ignore": "🔇 Ignore",
+    "mute": "🔕 mute alerts",
+    "okay": "✅ Okay",
+    "done": "✅ Done",
+    "abort": "❌ Abort",
+    "back": "🔙 Back",
+    "forth": "🔜 Next",
+    "save": "⚙️ Save",
+    "saved": "💾 Updated",
+    "delete": "🗑 DELETE",
+    "delete_offer": "❌ Delete offer",
+    "delete_wish": "❌ Delete alert",
+    "withdraw_invite": "📣 Withdraw invite",
+    "deactivate": "Deactivate ❌",
+    "activate": "Activate ✅",
+    "adjust": "♻️ Adjust",
+    "active": "ACTIVE",
+    "inactive": "OFF",
+    "without_comment": "❌💬 No comment",
+    "delete_comment": "❌ Delete comment",
+    "reason_ticket": "🎟 Only ticket slots",
+    "reason_finalized": "⏰ Mushroom is done",
+    "reason_global": "🚫 Reject",
+    "invited": "📣 is invited",
+    "reject": "❌ reject",
+    "friend_code": "🤝 friend code"
+  },
+  "wish": {
+    "wishall": "All mushrooms",
+    "wishallsizes": "All sizes",
+    "wishbigsizes": "Only larger mushroom",
+    "message": "😍 A <b><a href=\"{link}\">{size_default} {color_default}</a>{ticket}</b> by {starter} fits your {emoji} alert list!",
+    "deleted": "Alert was deleted.",
+    "delete": "delete alert",
+    "no_tickets": "🆓 I've no tickets",
+    "yes_tickets": "🎟 I have tickets",
+    "instructions": "You can only have one alert at a time.\n\n",
+    "instruction_color": "<b>Choose the color of the nectar you're looking for.</b>\nWith <i>special nectar</i> you'll find large or elemental mushrooms.",
+    "instruction_size": "<b>What size are you looking for?</b>\nChoosing only larger mushrooms will stop notification for small and normal mushrooms.",
+    "instruction_ticket": "<b>Do you have a ticket?</b>\nIf you're looking for only free slots, you won't get notified for ticket slots. If you choose free and with ticket, you get notification for all possible invites.",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> with <b>pink</b> and <b>fire mushrooms</b>\n",
+    "instr_yellow": "{color_emoji} <b>{color_noun}</b> with <b>electric mushrooms</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> with <b>purple</b> and <b>water mushrooms</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> with <b>gray</b>, <b>crystal</b> and <b>poisonous mushrooms</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> with <b>fire, water, electric, crystal</b> and <b>poisonous mushrooms</b>\n",
+    "your_wish_big": "You're looking for <b>{color_default} (larger mushrooms)</b>.\n",
+    "your_wish_all": "You're looking for <b>{color_default} (all sizes)</b>.\n",
+    "have_no_ticket": "You have <u>NO</u> tickets.",
+    "have_ticket": "You have 🎟 tickets.",
+    "wish_red": "red, pink and fire mushrooms",
+    "wish_red_emoji": "🟥🩷🔥",
+    "wish_yellow": "yellow and elecric mushrooms",
+    "wish_yellow_emoji": "🟨⚡️",
+    "wish_blue": "blue, purple, ice and water mushrooms",
+    "wish_blue_emoji": "🟦🟪🥶💧",
+    "wish_white": "white, gray, crystal and poisonous mushrooms",
+    "wish_white_emoji": "🔲🪨💎🤢",
+    "wish_fire": "fire mushrooms",
+    "wish_fire_emoji": "🔥",
+    "wish_electro": "elecric mushrooms",
+    "wish_electro_emoji": "⚡️",
+    "wish_water": "water mushrooms",
+    "wish_water_emoji": "💧",
+    "wish_crystal": "crystal and poisonous mushrooms",
+    "wish_crystal_emoji": "💎🤢",
+    "wish_event": "event mushrooms",
+    "wish_heart": "special nectar",
+    "wish_event_emoji": "🎉",
+    "wish_heart_emoji": "❤️",
+    "wish_all": "All mushrooms",
+    "wish_all_emoji": "✨",
+    "with_ticket": " with 🎟ticket🎟",
+    "onlyfree": "only free slots",
+    "withticket": "🆓 and 🎟 slots",
+    "bigsize": "only big mushrooms",
+    "allsize": "all sizes",
+    "newalarm": "New mushroom alert",
+    "introduction": "The <b>Mushroom Alert</b> notifies you as soon as a suitable mushroom fight is available. In the list of active mushroom fights with <code>/active</code> is a list of alerts others have set. After three days of inactivity, your alert will not be listed anymore. After 14 days of inactivity, you will not get notified for new mushrooms. You stay active by joining or starting a mushroom fight with the bot.",
+    "noalarm": "There are no mushroom alerts set, yet.",
+    "saved": "Alert is saved"
+  },
+  "register": {
+    "not_registered": "You can only register yourself with me in a private chat. Start a chat with @{bot_name}, press 'START' and try the command /register again.",
+    "registered": "Please use the command /profile to edit or complete your profile.",
+    "ask_name": "What is you in-game-name with Pikmin Bloom?",
+    "ask_fc": "What is your friend code? This code is needed to get invited to mushroom battles in Pikmin Bloom. If you prefer to remain anonymous, enter \"0\".",
+    "fc_error": "The friend code must be a 12 digit number. You entered: {friend_code}. Try again. Enter \"0\" if you prefer to remain anonymous.",
+    "ask_level": "What is your level in Pikmin Bloom? To skip, enter \"0\".",
+    "saved": "Your data is saved!\nName: {name}\nFriend Code: {fc}\nLevel: {level}",
+    "newhint": "You can use commands which are in the menu at the bottom. With /profile you can set your language and time zone as well as your player information.\n\nTry /active to see active mushroom offers. At the bottom there is a button for mushroom alerts. With mushroom alerts you will be informed when there is a mushroom you can join.\n\nYou will be added to a chat group once you are a verified player.\n\n<b>Please add Mello Yellow to your friends list to be verified. Their friend code is</b>\n<code>499969789993</code>\n(click to copy)"
+  },
+  "notification": {
+    "invite": "<b>{player}</b> was invited to a <a href=\"{link}\"><b>{size_default} {color_default} battle</b></a>{ticket} by {starter}!",
+    "cancel": "Session was canceled.",
+    "boosted": "This mushroom was boosted. <a href=\"{link}\">It was moved here.</a>",
+    "bug_thanks": "Thank you for reporting a bug. Your message was forwarded. This is message number {number}.",
+    "willing": "{player} wants to join your <b><a href=\"{link}\">{size_default} {color_default} battle</a></b>{ticket}.",
+    "player_withdraw": "{player} withdrew from your <b><a href=\"{link}\">{size_default} {color_default} battle</a></b>.",
+    "confirmation_you": "You applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>{ticket}.",
+    "confirmation_they": "{plusone} applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>{ticket}.",
+    "no_free_slots": "❌Error during registration for <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>!\n🎟 Only ticket slots available."
+  },
+  "timer": {
+    "instructions": "With the /timer command, you can see and delete your active timers.\n- If you <i>answer</i> to a mushroom message, you can activate a timer with the time remaining on that mushroom.\n- With /timer 2h30m \"expedition\" you start a timer for 2 hours and 30 minutes with the comment \"expedition\".\n- Comments are optional. The comment will be shown when the timer goes off.",
+    "comment": "<b><a href=\"{link}\">{size_default} {color_default}</a></b>",
+    "set": "Timer set for {time} ({date})",
+    "headline": "<u>Your active timers:</u>\n\n",
+    "no_timer": "<b><i>No active timer.</i></b>\n\n",
+    "message": "⏰Timer for {time}",
+    "repeat": "(Reminder)",
+    "active": "in",
+    "inactive": "since",
+    "and": " and ",
+    "day": "day",
+    "days": "days",
+    "hour": "hour and ",
+    "hours": "hours and ",
+    "minute": "minute",
+    "minutes": "minutes",
+    "delete": "delete"
+  },
+  "event": {
+    "no_information": "No event information available, yet.",
+    "phase": "\n<u>Stage {phase_num}</u>\n",
+    "steps": "{number} 🏃 {amount} Steps\n",
+    "grow": "{number} 🌱 grow {amount} Pikmin\n",
+    "expeditions": "{number} 🗺 {amount} expeditions\n",
+    "plant": "{number} {flower_emoji} {amount} {color_event}{flower_name}\n",
+    "headline": "{flower_emoji} {flower_name} "
+  },
+  "mushroom": {
+    "small": "Small",
+    "normal": "Normal",
+    "large": "Large",
+    "giant": "Giant",
+    "free": "free",
+    "slot": "Slot ",
+    "slots": "Slots ",
+    "with_ticket": " with ticket 🎟",
+    "without_ticket": "without 🆓ticket ",
+    "weekly": "Weekly Challenge",
+    "aborted": "Creation aborted.",
+    "ask_size": "What size is your mushroom?",
+    "ask_weekly": "Which Weekly Challenge?",
+    "ask_color": "What color is your {size_default} mushroom?",
+    "ask_slots": "How many slots are available?",
+    "ask_time": "⏰<b>How long is the remaining time?</b>\n<b>Use this format: <u>1d 14h 38m</u> for days, hours and minutes.</b>\n\nEither take the estimation by clicking the button below or enter your actual time and send the text with ⬆️.\n",
+    "ask_comment": "\n\n💬<b>Do you have a comment for your offering?</b>\n",
+    "your_comment": "Your comment",
+    "minutes": "minutes",
+    "estimation": "Current estimation:",
+    "summary": "A {size_default} {color_default}, {slots} ",
+    "comment_desc": "Send the comment with a message here. If you don't have a comment, click the button \"No Comment\".",
+    "eventchange": "<b>Describe your event mushroom, i.e. \"lavish mushroom\" oder \"Halloween mushroom\".</b>",
+    "unknown_error": "There is an unknown error. Please try again. The creation was aborted.",
+    "status": " {status_emoji}\n"
+  },
+  "lang": {
+    "de": "🇩🇪 Deutsch",
+    "en": "🇬🇧 English",
+    "tr": "🇹🇷 Türkçe",
+    "nl": "🇳🇱 Nederlands",
+    "gsw-ZH": "🇨🇭 Züritüütsch",
+    "vi": "🇻🇳 Tiếng Việt",
+    "select": "Please choose your language.\n"
+  },
+  "configure": {
+    "time_unchanged": "Time remaining is unchanged. The mushroom ",
+    "remaining_time": "Time remaining: ",
+    "runtime": "Mushroom battle runs until <b>{time} ({date})</b>",
+    "unknown": "unknown",
+    "name": "Player name",
+    "groups": "Your groups",
+    "level": "Level",
+    "fc": "Friend code",
+    "language": "Language",
+    "your_status": "Your status: ",
+    "profile_choice": "What do you want to change?",
+    "menu": "Menu",
+    "ask_name": "Enter your Pikmin Bloom player name:",
+    "ask_level": "Which level are you in Pikmin Bloom?",
+    "ask_fc": "What is your 12 digit friend code?",
+    "ask_correct": "Is this correct?",
+    "ask_lang": "Which language do you choose?",
+    "ask_group": "Choose your main chat group:",
+    "hide_emoji": "Hide level emoji",
+    "show_emoji": "Show level emoji",
+    "hello": "Hello",
+    "config_choice": "What do you want to configure?",
+    "notifications": "Notifications",
+    "mushroom_creation": "Mushroom creation",
+    "wish": "Mushroom alert",
+    "profile": "Your profile",
+    "news": "News",
+    "news_desc": "You receive messages when there are news regarding the Pilzkampf Bot.\n",
+    "messages": "Messages",
+    "messages_desc": "You can receive messages via the mushroom battle message in the group.\n",
+    "comment": "Comment",
+    "comment_desc": "You are asked for a comment when you create a mushroom offering.\n",
+    "alert": "Mushroom Alert",
+    "alert_desc": "You'll be notified about mushrooms you need.\n",
+    "alert_notification": "Go to <b>Notifications</b> to active the mushroom alert.",
+    "remaining": "Time Remaining",
+    "remaining_desc": "You are asked for the remaining time when you create a mushroom offering.\n",
+    "kick": "<b>{user}</b> withdrew the invitation for the <a href=\"{link}\">{size_default} {color_default} battle</a>.",
+    "kick_plusone": "<b>{user}</b> withdraw the invitation for the <a href=\"{link}\">{size_default} {color_default} battle</a> for {plusone}.",
+    "confirm_delete": "<b>Do you REALLY want to delete? This cannot be made undone.</b>",
+    "ask_comment": "<b>What is your comment?</b>",
+    "comment_deleted": "<b>Comment deleted</b>",
+    "ask_uninvite": "Which invitation do you want to withdraw? <b>The player <u>will be informed</u> that you withdrew the invitation.</b>",
+    "switch_free": "🆓 Switch to free",
+    "switch_ticket": "🎟 Switch to ticket",
+    "mushroom": "{size_default} {color_default}",
+    "cmd_menu": "Command Menu",
+    "timezone": "Time Zone",
+    "asktimezone": "<b>Please enter your local time in 24 hour format</b> (e.g. 14:30 for 2:30pm or 0:20 for 12:20am).",
+    "tzset": "⌚️Your time is: <u><b>{local_time}</b></u>\n📅Your date is: <u><b>{local_date}</b></u>\n🌍Your time zone is: <u><b>{tz} ({abbrev})</b></u>",
+    "foundtz": "⌚ Found these matching time zones.\nPlease select your time zone:\n",
+    "notfoundtz": "❌ No matching time zones found. Please check your time and try again.\nYour input was: {input}.",
+    "notvalidtz": "⚠️ Please enter time in 24-hour format (e.g. 14:30 or 08:15)\nYour input was: {input}.",
+    "ask_dateft": "Your selected time zone is <u>{tz} ({abbrev})</u>.\n<b>What is your date format?</b>",
+    "ask_timeft": "This is your date format: <u>{local_date}</u>\n<b>What is your time format?</b>",
+    "ask_snooze": "Please enter the time when the mushroom alert shall be active again.\n\nExample: 6:45, 12 pm, 7:30 am (24- und 12-hour format is possible.)",
+    "snooze_error": "I could not understand that: <quote>{input}</quote>",
+    "snooze_active": "Mushroom alert is inactive until: {time}",
+    "snooze": "Alert deactive until tomorrow",
+    "snooze_desc": "Deactivate mushroom alerts until a time tomorrow.",
+    "set_snooze": "⏰ Set time",
+    "time_error": "<u>I could not understand the time.</u> Use the format <b>1d 2h 30m</b> für days, hours and minutes."
+  },
+  "misc": {
+    "unknown_user": "<b>Hello {name}!</b> You seem to be new here. Please start a chat with me and start the bot. Just click here:\n<code>     </code> 👉 @{botname} 👈 \nA new chat will appear and you can click START and register yourself with the bot.",
+    "since": "since",
+    "longtz": "{timezone_long}",
+    "uhr": "",
+    "donate": "<b>Support the development of the bot and help it getting better!</b>\nSupporters will get access to a few more functions. One way of supporting is a <a href=\"https://ko-fi.com/pikminbloompilzbot\">Ko-Fi donation</a>. But there are other ways. Ask around in the <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot Help Group</a> if you are interested.",
+    "welcome": "Welcome",
+    "newmessage": "Check the pinned messages for important information.",
+    "left": "left the group."
+  },
+  "mushroom_msg": {
+    "runs_active": "active until:",
+    "runs_inactive": "inactive since:",
+    "created": "You created a <a href=\"{link}\"><b>{size_default} {color_default} battle</b></a>.\n",
+    "created_inactive": "You created a <strike><a href=\"{link}\"><b>{size_default} {color_default} battle</b></a></strike>.\n",
+    "slots": "slots",
+    "slot": "slot",
+    "with_ticket": "<b>with ticket</b>\n",
+    "WITH_TICKET": "<b>W I T H   T I C K E T</b> 🎟\n",
+    "without_ticket": "free\n",
+    "comment": "Comment:",
+    "full": "<b>FULL!!</b>\n",
+    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{size_default} #{color_default}</b>",
+    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{size_default} {color_default}</b></strike>",
+    "by": "by:",
+    "slots_with_ticket": "• <i>{available_ticket} with ticket</i> 🎟\n",
+    "slots_without_ticket": "• <i>{available_free} free without ticket</i>\n",
+    "am_in": "👍 I joined the mushroom",
+    "is_in": "👍 They joined the mushroom",
+    "withdraw": "<b>{starter}</b> withdrew the invitation to the <a href=\"{link}\">{size_default} {color_default} battle</a>.\n<b>Reason: {reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> withdrew the invitation for {plusone} to the <a href=\"{link}\">{size_default} {color_default} battle</a>.\n<b>Reason: {reason}</b>",
+    "verify_withdraw": "Withdraw the invitation for {player}?",
+    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Link to mushroom 🔗</b></a>",
+    "reason_ticket": "Only ticket slots available.",
+    "reason_finalized": "Mushroom battle is done.",
+    "reason_global": "Rejected",
+    "fc_msg": "Friend code of {willing}: <code>{fc}</code>\n(click to copy)",
+    "fc_sent": "🤝 {player} sent you a friend request. Please confirm when you accepted the request in Pikmin Bloom",
+    "fc_recieved": "🤝 {player} accepted your friend request. Sometimes it takes a few minutes to show up in your game. Try to restart Pikmin Bloom if you have trouble seeing your new friend.",
+    "fc_notification1": "<b>{starter}</b> has requested your friend code. Keep an eye on Pikmin Bloom to accept the friend request.",
+    "fc_notification2": "<b>{starter}</b> requested to be your friend in Pikmin Bloom. Their friend code is <code>{fc}</code>\n(click to copy)",
+    "fc_notification3": "{willing} will get your friend code. Keep an eye on Pikmin Bloom to accept the friend request.",
+    "fc_notification4": "{willing} has no friend code saved in their profile. Ask {pikmin_name} personally to exchange friend codes.",
+    "message": "<b>📩MESSAGE</b> for the <b><a href=\"{url}\">{size_default} {color_default}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Link to the message</a></b>",
+    "ticket": "<b>WITH TICKET🎟</b> ",
+    "snooze": "😴mute until tomorrow"
+  },
+  "active_message": {
+    "autodelete": "<i>(This message will disappear in 5 minutes)</i>",
+    "active_headline": "<u>Active mushroom battles in your groups:</u>",
+    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_default} {color_default}</a>\n",
+    "no_mushrooms": "There are no active mushroom battles.",
+    "approximately": "(appr.) ",
+    "available_mushroom": "<b><a href=\"{link}\">{size_default} {color_default}</a>\nby {user} {estimated}{duration}</b>\nSlots: {slots}",
+    "with_ticket": " <b>with 🎟ticket🎟</b>\n",
+    "without_ticket": " w/o ticket\n",
+    "wish": "{count}×{color_emoji} {color_noun}\n",
+    "wishlist": "<u>Wish list:</u>\n",
+    "participant": "•  {status_emoji}{player} {via}{since} {duration}\n",
+    "showticket": "Show with ticket",
+    "showfree": "Show without tickets",
+    "players": "player overall"
+  },
+  "start": {
+    "hello": "<b>I think you are new to me.</b> Please use the command /register to register your Pikmin Bloom name!\n",
+    "description": "\nThis bot can help you with Pikmin Bloom mushroom battles.\n\nHead to the community support group if you have problems: https://t.me/+9iwESXvVPXYzYjIy",
+    "supergroup": "⚠️<b>This is NO Super Group!</b>\nThis bot only works with Super Groups. Go to group settings and switch the type to \"public\" and save the change. Optionally can switch it back to private afterwards.\n\nAdditionally, the bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages.",
+    "admin": "⚠️The bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages."
+  }
+}

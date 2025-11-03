@@ -1,0 +1,721 @@
+{
+  "version": "2025-11-03",
+  "grammar": {
+    "size": {
+      "small": {
+        "default": "kleine",
+        "comparative": "Kleinere",
+        "dative": "kleine",
+        "dative-preposition": "naar de",
+        "dative-article": "de",
+        "dative-indef-article": "een"
+      },
+      "normal": {
+        "default": "normale",
+        "comparative": "Normalere",
+        "dative": "normale",
+        "dative-preposition": "naar de",
+        "dative-article": "de",
+        "dative-indef-article": "een"
+      },
+      "large": {
+        "default": "grote",
+        "comparative": "Grotere",
+        "dative": "grote",
+        "dative-preposition": "naar de",
+        "dative-article": "de",
+        "dative-indef-article": "een"
+      },
+      "giant": {
+        "default": "reusachtige",
+        "comparative": "Reusachtigere",
+        "dative": "reusachtige",
+        "dative-preposition": "naar de",
+        "dative-article": "de",
+        "dative-indef-article": "een"
+      },
+      "weekly": {
+        "default": "weekuitdaging",
+        "comparative": "weekuitdaging",
+        "dative": "weekuitdaging",
+        "dative-preposition": "naar de",
+        "dative-article": "de",
+        "dative-indef-article": "een"
+      }
+    },
+    "color": {
+      "red": {
+        "default": "rode paddenstoelen",
+        "comparative": "rode paddenstoel",
+        "dative": "rode paddenstoel",
+        "event": "<u>rode</u> ",
+        "noun": "Rood",
+        "emoji": "🟥"
+      },
+      "yellow": {
+        "default": "gele paddenstoelen",
+        "comparative": "gele paddenstoel",
+        "dative": "gele paddenstoel",
+        "noun": "Geel",
+        "event": "<u>gele</u> ",
+        "emoji": "🟨"
+      },
+      "blue": {
+        "default": "blauwe paddenstoelen",
+        "comparative": "blauwe paddenstoel",
+        "dative": "blauwe paddenstoel",
+        "noun": "Blauw",
+        "event": "<u>blauwe</u> ",
+        "emoji": "🟦"
+      },
+      "purple": {
+        "default": "paarse paddenstoelen",
+        "comparative": "paarse paddenstoel",
+        "dative": "paarse paddenstoel",
+        "noun": "Paars",
+        "emoji": "🟪"
+      },
+      "white": {
+        "default": "witte paddenstoelen",
+        "comparative": "witte paddenstoel",
+        "dative": "witte paddenstoel",
+        "noun": "Wit",
+        "event": "<u>witte</u> ",
+        "emoji": "🔲"
+      },
+      "pink": {
+        "default": "roze paddenstoelen",
+        "comparative": "roze paddenstoel",
+        "dative": "roze paddenstoel",
+        "noun": "Roze",
+        "emoji": "🩷"
+      },
+      "grey": {
+        "default": "grijze paddenstoelen",
+        "comparative": "grijze paddenstoel",
+        "dative": "grijze paddenstoel",
+        "noun": "Grijs",
+        "emoji": "🪨"
+      },
+      "ice": {
+        "default": "Ijsblauwe paddenstoelen",
+        "dative": "Ijsblauwe paddenstoelen",
+        "comperative": "Ijsblauwe paddenstoelen",
+        "noun": "Ijsblauwe",
+        "emoji": "🥶"
+      },
+      "fire": {
+        "default": "vuur paddenstoelen",
+        "comparative": "vuur paddenstoel",
+        "dative": "vuur paddenstoel",
+        "noun": "Vuur",
+        "emoji": "🔥"
+      },
+      "water": {
+        "default": "water paddenstoelen",
+        "comparative": "water paddenstoel",
+        "dative": "water paddenstoel",
+        "noun": "Water",
+        "emoji": "💧"
+      },
+      "electro": {
+        "default": "elektrische paddenstoelen",
+        "comparative": "elektrische paddenstoel",
+        "dative": "elektrische paddenstoel",
+        "noun": "Elektrisch",
+        "emoji": "⚡️"
+      },
+      "crystal": {
+        "default": "kristal paddenstoelen",
+        "comparative": "kristal paddenstoel",
+        "dative": "kristal paddenstoel",
+        "noun": "Kristal",
+        "emoji": "💎"
+      },
+      "poison": {
+        "default": "giftige paddenstoelen",
+        "comparative": "giftige paddenstoel",
+        "dative": "giftige paddenstoel",
+        "noun": "Gif",
+        "emoji": "🤢"
+      },
+      "event": {
+        "default": "event paddenstoelen",
+        "comparative": "event paddenstoel",
+        "dative": "event paddenstoel",
+        "noun": "Event",
+        "emoji": "🎉"
+      },
+      "heart": {
+        "default": "speciale nectar",
+        "comparative": "speciale nectar",
+        "dative": "speciale nectar",
+        "noun": "Speciale nectar",
+        "emoji": "❤️"
+      },
+      "run": {
+        "default": "stappen",
+        "noun": "Stappen",
+        "comparative": "stappen",
+        "dative": "stappen",
+        "emoji": "📅🏃"
+      },
+      "plant": {
+        "default": "bloemen planten",
+        "noun": "Bloemen",
+        "comparative": "bloemen planten",
+        "dative": "bloemen planten",
+        "emoji": "📅🌼"
+      },
+      "all": {
+        "default": "alle",
+        "emoji": "✨",
+        "noun": "Alle paddenstoelen"
+      },
+      "any": {
+        "event": ""
+      },
+      "event08": {
+        "default": "Bizarre Mushroom",
+        "comparative": "Bizarre Mushroom",
+        "dative": "Bizarre Mushroom",
+        "noun": "Bizarre Mushroom",
+        "emoji": "🍧"
+      },
+      "event09": {
+        "default": "Magnificent Mushroom",
+        "comparative": "Magnificent Mushroom",
+        "dative": "Magnificent Mushroom",
+        "noun": "Magnificent Mushroom",
+        "emoji": "🥮"
+      },
+      "event2510": {
+        "default": "Colorful Mushroom",
+        "comparative": "Colorful Mushroom",
+        "dative": "Colorful Mushroom",
+        "noun": "Colorful Mushroom",
+        "emoji": "💀🌹"
+      },
+      "event2511": {
+        "default": "Brilliant Mushroom",
+        "comparative": "Brilliant Mushroom",
+        "dative": "Brilliant Mushroom",
+        "noun": "Brilliant Mushroom",
+        "emoji": "🎂🎉"
+      }
+    },
+    "status": {
+      "willing": {
+        "emoji": "❓"
+      },
+      "invited": {
+        "emoji": "📣"
+      },
+      "accepted": {
+        "emoji": "⚔️"
+      },
+      "starter": {
+        "emoji": "🍄"
+      }
+    }
+  },
+  "flowers": {
+    "flowers": {
+      "name": "bloemen",
+      "emoji": "🌼"
+    },
+    "bougainvilleas": {
+      "name": "bougainvilleas",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "calla lelies",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "camellias",
+      "emoji": "🏵️"
+    },
+    "cattleyas": {
+      "name": "cattleyas",
+      "emoji": "🌷"
+    },
+    "chrysanthemums": {
+      "name": "chrysanten",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "clematis",
+      "emoji": "✳️"
+    },
+    "cyclamens": {
+      "name": "cyclamen",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "narcissen",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "dahlia's",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "anjers",
+      "emoji": "⚜️"
+    },
+    "frangipanis": {
+      "name": "frangipani's",
+      "emoji": "📿"
+    },
+    "gentians": {
+      "name": "gentianen",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "kerstrozen",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "hibiscus",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "hyacinten",
+      "emoji": "🟣"
+    },
+    "morning glories": {
+      "name": "windes",
+      "emoji": "🌀"
+    },
+    "peonies": {
+      "name": "pioenen",
+      "emoji": "🌹"
+    },
+    "poinsettias": {
+      "name": "kerststerren",
+      "emoji": "🎀"
+    },
+    "plum blossoms": {
+      "name": "pruimenbloesems",
+      "emoji": "🪔"
+    },
+    "sweet peas": {
+      "name": "lathyrus",
+      "emoji": "🎐"
+    },
+    "water lilies": {
+      "name": "waterlelies",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "anemonen",
+      "emoji": "🌬️"
+    },
+    "hydrangeas": {
+      "name": "hortensia's",
+      "emoji": "🧩"
+    },
+    "cherry blossoms": {
+      "name": "kersenbloesems",
+      "emoji": "🌸"
+    },
+    "pansies": {
+      "name": "viooltjes",
+      "emoji": "🧿"
+    },
+    "lilies": {
+      "name": "lelies",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "lelietjes-van-dalen",
+      "emoji": "🔔"
+    },
+    "carnations": {
+      "name": "anjers",
+      "emoji": "🏐"
+    },
+    "tulips": {
+      "name": "tulpen",
+      "emoji": "🌷"
+    },
+    "spider lilies": {
+      "name": "spinnenlelies",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "zonnebloemen",
+      "emoji": "🌻"
+    },
+    "roses": {
+      "name": "rozen",
+      "emoji": "🌹"
+    },
+    "cosmoses": {
+      "name": "cosmea's",
+      "emoji": "☄️"
+    },
+    "snowdrops": {
+      "name": "sneeuwklokjes",
+      "emoji": "⛄"
+    },
+    "canola flowers": {
+      "name": "koolzaadbloemen",
+      "emoji": "🟡"
+    },
+    "freesias": {
+      "name": "freesia's",
+      "emoji": "🎆"
+    },
+    "anniversary roses": {
+      "name": "jubileumrozen",
+      "emoji": "🌹"
+    },
+    "irises": {
+      "name": "irissen",
+      "emoji": "⚜️"
+    },
+    "birds of paradise": {
+      "name": "paradijsvogelbloemen",
+      "emoji": "🌺"
+    },
+    "celosias": {
+      "name": "celosia's",
+      "emoji": "🌺"
+    },
+    "marigolds": {
+      "name": "goudsbloemen",
+      "emoji": "🌼"
+    },
+    "salvias": {
+      "name": "saliebloemen",
+      "emoji": "🌿"
+    }
+  },
+  "cmd": {
+    "active": "🚨 Huidige paddenstoelen",
+    "userconfig": "👤 Gebruikersinstellingen",
+    "timer": "⏰ Herinnering instellen",
+    "help": "❔ Lijst van commando's",
+    "divider": "🔽 Inactief 🔽",
+    "cancel": "❌ Sessie annuleren",
+    "bug": "🪲 Bug melden",
+    "event": "🗺 Event-info",
+    "kill": "☠️ Bot uitschakelen",
+    "pilz": "🍄 Nieuwe paddenstoel",
+    "alarm": "🚨 Paddenstoel alarm",
+    "profile": "👤 Gebruikersprofiel"
+  },
+  "button": {
+    "wish": "🚨 Paddenstoel alarm",
+    "creation": "🍄 Paddenstoel aanmaken",
+    "notifications": "✉️ Notificaties",
+    "profile": "👤 Profiel",
+    "config": "⚙️ configureren",
+    "comment": "💬 Opmerking",
+    "time_remain": "⏰ Resterende tijd",
+    "groups": "🗯 Chat groepen",
+    "in": "{ticket}👍 ik doe mee",
+    "out": "👎 ik doe niet mee",
+    "ignore": "🔇 Negeren",
+    "mute": "🔕 Alarmen dempen",
+    "okay": "✅ okay",
+    "done": "✅ Klaar",
+    "abort": "❌ Afbreken",
+    "back": "🔙 Terug",
+    "forth": "🔜 Volgende",
+    "save": "⚙️ opslaan",
+    "saved": "💾 Bijgewerkt",
+    "delete": "🗑 VERWIJDEREN",
+    "delete_offer": "❌ Aanbod verwijderen",
+    "delete_wish": "❌ Alarm verwijderen",
+    "withdraw_invite": "📣 Uitnodiging intrekken",
+    "deactivate": "deactiveren ❌",
+    "activate": "activeren ✅",
+    "adjust": "♻️ corrigeren",
+    "active": "ACTIEF",
+    "inactive": "UIT",
+    "without_comment": "❌💬 Klaar zonder opmerking",
+    "delete_comment": "❌ Opmerking verwijderen",
+    "reason_ticket": "🎟 Alleen met ticket",
+    "reason_finalized": "⏰ Paddenstoel is voorbij",
+    "reason_global": "🚫 afwijzen",
+    "invited": "📣 is uitgenodigd",
+    "reject": "❌ afwijzen",
+    "colorbutton": "{color_emoji} {color_noun}",
+    "friend_code": "🤝 Vriendencode"
+  },
+  "wish": {
+    "wishall": "Alle paddenstoelen",
+    "wishallsizes": "Alle formaten",
+    "wishbigsizes": "Alleen grote paddenstoelen",
+    "delete": "verwijderen",
+    "deleted": "Paddenstoel alarm is verwijderd.",
+    "no_tickets": "🆓 Ik heb geen tickets",
+    "yes_tickets": "🎟 Ik heb tickets",
+    "message": "😍 Een <b><a href=\"{link}\">{size_comparative} {color_comparative}</a>{ticket}</b> van {starter} past bij je {emoji} paddenstoel alarm!",
+    "instructions": "Je kunt maar één kleur tegelijk wensen.\n\n",
+    "instruction_color": "<b>Kies welk type nectar je momenteel zoekt.</b>\nMet <i>speciale nectar</i> vind je grote paddenstoelen en elementaire paddenstoelen.",
+    "instruction_size": "<b>Welk formaat moet de paddenstoel hebben?</b>\nAls je alleen grote paddenstoelen zoekt, word je niet op de hoogte gebracht over kleine en normale paddenstoelen.",
+    "instruction_ticket": "<b>Wil je een ticket gebruiken?</b>\nMet ticket krijg je alle uitnodigingen: vrije en ticket plaatsen. Met 'alleen vrije plaatsen' word je niet over paddenstoelen met ticket op de hoogte gebracht.",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> met <b>roze</b> en <b>vuur-paddenstoelen</b>\n",
+    "instr_yellow": "{color_emoji} <b>{color_noun}</b> met <b>elektrische paddenstoelen</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> met <b>paarse</b> en <b>water-paddenstoelen</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> met <b>grijze</b>, <b>kristal-</b> en <b>giftige paddenstoelen</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> met <b>vuur-, water-, elektrische-, kristal-</b> en <b>giftige paddenstoelen</b>\n",
+    "your_wish_big": "Je zoekt <b>{color_default} (Grote paddenstoelen)</b>.\n",
+    "your_wish_all": "Je zoekt <b>{color_default} (Alle formaten)</b>.\n",
+    "have_no_ticket": "Je hebt <u>geen</u> tickets.",
+    "have_ticket": "Je hebt 🎟 tickets.",
+    "wish_red": "Rode, roze paddenstoelen en vuur-paddenstoelen",
+    "wish_red_emoji": "🟥🩷🔥",
+    "wish_yellow": "Gele en elektrische paddenstoelen",
+    "wish_yellow_emoji": "🟨⚡️",
+    "wish_blue": "Blauwe, paarse, ijs- en water-paddenstoelen",
+    "wish_blue_emoji": "🟦🟪🥶💧",
+    "wish_white": "Witte, grijze, kristal- en giftige paddenstoelen",
+    "wish_white_emoji": "🔲🪨💎🤢",
+    "wish_fire": "Vuur-paddenstoelen",
+    "wish_fire_emoji": "🔥",
+    "wish_electro": "Elektrische paddenstoelen",
+    "wish_electro_emoji": "⚡️",
+    "wish_water": "Water-paddenstoelen",
+    "wish_water_emoji": "💧",
+    "wish_crystal": "Kristal- en giftige paddenstoelen",
+    "wish_crystal_emoji": "💎🤢",
+    "wish_event": "Event paddenstoelen",
+    "wish_heart": "Speciale nectar",
+    "wish_event_emoji": "🎉",
+    "wish_heart_emoji": "❤️",
+    "wish_all": "Alle paddenstoelen",
+    "wish_all_emoji": "✨",
+    "with_ticket": " met 🎟Ticket🎟",
+    "onlyfree": "alleen vrije plaatsen",
+    "withticket": "🆓 en 🎟 plaatsen",
+    "bigsize": "alleen grote paddenstoelen",
+    "allsize": "alle formaten",
+    "newalarm": "Nieuw paddenstoel alarm",
+    "introduction": "Het <b>Paddenstoel Alarm</b> informeert je zodra een geschikte paddenstoel beschikbaar is. In het overzicht van actieve paddenstoelen met <code>/active</code> kun je onderaan de paddenstoel-wensen zien. Je alarm wordt daar niet meer getoond als je langer dan drie dagen niet actief bent geweest. Als je 14 dagen niet actief was, word je niet meer over paddenstoelen geïnformeerd. Je bent actief wanneer je via de bot deelneemt aan een paddenstoelgevecht.",
+    "noalarm": "Je hebt nog geen paddenstoel alarm ingesteld.",
+    "saved": "Paddenstoel alarm opgeslagen"
+  },
+  "register": {
+    "not_registered": "Je kunt je alleen bij mij persoonlijk registreren. Stuur me een bericht onder @{bot_name}, druk op 'Start' en probeer het commando /register opnieuw.",
+    "registered": "Gebruik het commando /profile om je profiel aan te passen.",
+    "ask_name": "Hoe heet je in Pikmin Bloom?",
+    "ask_fc": "Wat is je vriendencode? De code is nodig wanneer iemand je wil uitnodigen voor een paddenstoel die nog niet met je bevriend is. Als je anoniem wilt blijven, voer \"0\" in.",
+    "fc_error": "De vriendencode is een 12-cijferig nummer. Je hebt ingevoerd: {friend_code}. Probeer het opnieuw. Als je anoniem wilt blijven, schrijf \"0\".",
+    "ask_level": "Welk level heb je in Pikmin Bloom? Om over te slaan, schrijf \"0\".",
+    "saved": "Je gegevens zijn opgeslagen!\nSpeler: {name}\nVriendencode: {fc}\nLevel: {level}",
+    "newhint": "Gebruik de commando's in het menu onderaan. Met /profile kun je tijdzone, taal en speler-informatie aanpassen.\n\nGebruik /active om actuele paddenstoelgevecht-aanbiedingen te zien. Daar kun je onderaan een knop zien voor paddenstoel-alarmen. Hiermee kun je automatisch op de hoogte worden gebracht wanneer er een paddenstoel-aanbod is.\n\nAls je een bevestigde speler bent, word je toegevoegd aan een chatgroep.\n\n<b>Voeg Mello Yellow toe in Pikmin Bloom aan je vrienden om geverifieerd te worden. De vriendencode is:</b>\n<code>499969789993</code>\n(tikken om te kopiëren)"
+  },
+  "notification": {
+    "invite": "<b>{player}</b> werd uitgenodigd voor een <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a>{ticket} van {starter}!",
+    "cancel": "Sessie afgebroken.",
+    "boosted": "De paddenstoel werd geboost en wordt <a href=\"{link}\">nu hier getoond.</a>",
+    "bug_thanks": "Bedankt voor het melden van een bug, het is doorgestuurd. Bericht nummer {number}.",
+    "willing": "{player} wil{ticket} meedoen met {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b>.",
+    "player_withdraw": "{player} heeft zich teruggetrokken uit {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b>.",
+    "confirmation_you": "Je bent aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket}.",
+    "confirmation_they": "{plusone} werd aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket}.",
+    "no_free_slots": "❌Fout bij aanmelding voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>!\n🎟 Alleen nog ticketplaatsen beschikbaar."
+  },
+  "start": {
+    "hello": "<b>Je lijkt nieuw voor mij.</b> Typ alsjeblieft /register en registreer je met de Pikmin Bloom spelersnaam!\n",
+    "description": "\nDeze bot helpt bij Pikmin Bloom paddenstoelgevechten.\n\nIn de hulpgroep kun je bugs en wensen melden: https://t.me/+9iwESXvVPXYzYjIy",
+    "supergroup": "⚠️<b>Deze groep is geen supergroep!</b>\nOm de bot volledig functioneel te maken, moet het een supergroep zijn. Verander in de groepinstellingen het type naar \"publiek\" en sla op. Optioneel kun je de groep daarna op privé zetten.\n\nDaarnaast <b>moet</b> de bot adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen.",
+    "admin": "⚠️De bot <b>moet</b> adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen."
+  },
+  "timer": {
+    "instructions": "Met het commando /timer kun je al je huidige timers bekijken en verwijderen. Wanneer je met het commando /timer antwoordt op een paddenstoelbericht, activeer je een timer voor deze paddenstoel. Met /timer 2u30m \"Expeditie\" start je een timer van 2 uur en 30 minuten met het commentaar \"Expeditie\". Commentaar is vrijwillig. Het commentaar wordt getoond wanneer de timer afgaat.",
+    "comment": "<b><a href=\"{link}\">{size_comparative} {color_comparative}</a></b>",
+    "set": "Timer ingesteld op {time} uur ({date})",
+    "headline": "<u>Je huidige timers:</u>\n\n",
+    "no_timer": "<b><i>Geen actieve timers</i></b>\n\n",
+    "message": "⏰Timer voor {time} uur",
+    "repeat": "(Herinnering)",
+    "active": "nog",
+    "inactive": "voor",
+    "and": " en ",
+    "day": "dag",
+    "days": "dagen",
+    "hour": "uur en ",
+    "hours": "uur en ",
+    "minute": "minuut",
+    "minutes": "minuten",
+    "delete": "verwijderen"
+  },
+  "event": {
+    "no_information": "Nog geen eventinformatie beschikbaar.",
+    "phase": "\n<u>Fase {phase_num}</u>\n",
+    "steps": "{number} 🏃 {amount} Stappen\n",
+    "grow": "{number} 🌱 {amount} Pikmin laten ontkiemen\n",
+    "expeditions": "{number} 🗺 {amount} Expedities\n",
+    "plant": "{number} {flower_emoji} {amount} {color_event}{flower_name}\n",
+    "headline": "{flower_emoji} {flower_name} "
+  },
+  "mushroom": {
+    "small": "Klein",
+    "normal": "Normaal",
+    "large": "Groot",
+    "giant": "Reusachtig",
+    "free": "vrij",
+    "slot": "Plaats ",
+    "slots": "Plaatsen ",
+    "with_ticket": " met ticket 🎟",
+    "without_ticket": "zonder 🆓ticket ",
+    "weekly": "Weekuitdaging",
+    "aborted": "Aanmaken afgebroken.",
+    "ask_size": "Welk formaat heeft je paddenstoel?",
+    "ask_weekly": "Welke weekuitdaging?",
+    "ask_color": "Welke kleur heeft de {size_default} paddenstoel?",
+    "ask_slots": "Hoeveel plaatsen zijn vrij?",
+    "ask_time": "⏰<b>Hoe lang is de resterende tijd?</b>\n<b>Het formaat voor dagen, uren en minuten: <u>1d 14u 38m</u>.</b>\n\nDruk op de knop met de schatting om deze over te nemen of voer de resterende tijd van het paddenstoelgevecht in en druk op de ⬆️Verzend-knop.\n",
+    "ask_comment": "\n\n💬<b>Heb je een opmerking voor je aanbod?</b>\n",
+    "your_comment": "Je opmerking",
+    "minutes": "minuten",
+    "estimation": "Huidige schatting:",
+    "summary": "Een {size_comparative} {color_comparative}, {slots} ",
+    "comment_desc": "Schrijf de opmerking hier per bericht in het tekstveld. Als je geen opmerking wilt schrijven, tik op \"Klaar zonder opmerking\".",
+    "eventchange": "<b>Beschrijf je eventpaddenstoel, bijvoorbeeld \"Mystery paddenstoel\" of \"Halloween paddenstoel\".</b>",
+    "unknown_error": "Er was een onvoorziene fout. Probeer het opnieuw. Het werd afgebroken.",
+    "status": " {status_emoji}\n"
+  },
+  "lang": {
+    "de": "🇩🇪 Deutsch",
+    "en": "🇬🇧 English",
+    "tr": "🇹🇷 Türkçe",
+    "nl": "🇳🇱 Nederlands",
+    "gsw-ZH": "🇨🇭 Züritüütsch",
+    "vi": "🇻🇳 Tiếng Việt",
+    "select": "Kies alsjeblieft je taal.\n"
+  },
+  "configure": {
+    "time_unchanged": "Resterende tijd is onveranderd. De paddenstoel ",
+    "remaining_time": "Resterende tijd: ",
+    "runtime": "De paddenstoel loopt tot <b>{time} uur ({date})</b>",
+    "unknown": "onbekend",
+    "name": "Spelersnaam",
+    "groups": "Je groepen",
+    "level": "Level",
+    "fc": "Vriendencode",
+    "language": "Taal",
+    "your_status": "Je status: ",
+    "profile_choice": "Welke waarde wil je veranderen?",
+    "menu": "Menu",
+    "ask_name": "Voer je spelersnaam uit Pikmin Bloom in:",
+    "ask_level": "Welk level heb je in Pikmin Bloom?",
+    "ask_fc": "Wat is je 12-cijferige vriendencode?",
+    "ask_correct": "Is je invoer correct?",
+    "ask_lang": "Welke taal wil je selecteren?",
+    "ask_group": "Kies je hoofdgroep:",
+    "hide_emoji": "Level emoji verbergen",
+    "show_emoji": "Level emoji tonen",
+    "hello": "Hallo",
+    "config_choice": "Welke instellingen wil je bewerken?",
+    "notifications": "Notificaties",
+    "mushroom_creation": "Paddenstoel aanmaken",
+    "wish": "Paddenstoel alarm instellen",
+    "profile": "Je profiel",
+    "news": "Nieuws",
+    "news_desc": "Je ontvangt een bericht wanneer er nieuws over de bot is\n",
+    "messages": "Mededelingen",
+    "messages_desc": "Men kan je via het paddenstoelbericht mededelingen sturen\n",
+    "comment": "Opmerking",
+    "comment_desc": "Wanneer je een paddenstoel aanmaakt, word je gevraagd om een opmerking.\n",
+    "alert": "Paddenstoel Alarm",
+    "alert_desc": "Je kunt je over gewenste paddenstoelen laten informeren.\n",
+    "alert_notification": "Je kunt het paddenstoel alarm in de <b>Notificaties</b> aan- en uitzetten.",
+    "remaining": "Resterende tijd",
+    "remaining_desc": "Wanneer je een paddenstoel aanmaakt, word je naar de resterende tijd gevraagd.\n",
+    "kick": "<b>{user}</b> heeft de uitnodiging voor de <a href=\"{link}\">{size_dative} {color_dative}</a> ingetrokken.",
+    "kick_plusone": "<b>{user}</b> heeft de uitnodiging voor de <a href=\"{link}\">{size_dative} {color_dative}</a> voor <b>{plusone}</b> ingetrokken.",
+    "confirm_delete": "<b>Wil je ECHT verwijderen? Je kunt het niet ongedaan maken!</b>",
+    "ask_comment": "<b>Wat is de opmerking?</b>",
+    "comment_deleted": "<b>Opmerking is verwijderd</b>",
+    "ask_uninvite": "Welke uitnodiging wil je intrekken? <b>De speler <u>wordt geïnformeerd</u> dat de uitnodiging is ingetrokken.</b>",
+    "switch_free": "🆓 ZONDER Ticket omschakelen",
+    "switch_ticket": "🎟 MET Ticket omschakelen",
+    "mushroom": "{size_comparative} {color_comparative}",
+    "cmd_menu": "Commando Menu",
+    "timezone": "Tijdzone",
+    "asktimezone": "<b>Voer je lokale tijd in 24-uurs formaat in.</b> Bijvoorbeeld '14:00' voor 2 uur 's middags of '0:00' voor middernacht.",
+    "tzset": "⌚️Je tijd: <u><b>{local_time}</b></u>\n📅Je datum: <u><b>{local_date}</b></u>\n🌍Je tijdzone: <u><b>{tz} ({abbrev})</b></u>",
+    "foundtz": "⌚ Deze tijdzones passen bij de tijd.\nKies alsjeblieft je tijdzone:\n",
+    "notfoundtz": "❌ Geen passende tijdzone gevonden. Controleer de tijd en probeer opnieuw.\nJe invoer was: {input}.",
+    "notvalidtz": "⚠️ Voer de tijd in 24-uurs formaat in, bijvoorbeeld 14:30 of 8:15.\nJe invoer was: {input}.",
+    "ask_dateft": "Geselecteerde tijdzone is <u>{tz} ({abbrev})</u>.\n<b>Welk datumformaat?</b>",
+    "ask_timeft": "Je datumformaat: <u>{local_date}</u>\n<b>Welk tijdformaat?</b>",
+    "ask_snooze": "Voer de gewenste tijd in waarop de paddenstoel-alarmen weer actief moeten worden.\n\nVoorbeeld: 6:45, 12 pm, 7:30 am (24- en 12-uurs formaat zijn mogelijk.)",
+    "snooze_error": "Dat kon ik helaas niet begrijpen: <quote>{input}</quote>",
+    "snooze_active": "Paddenstoel alarm gedempt tot: {time}",
+    "snooze": "Alarm dempen tot morgen",
+    "snooze_desc": "Paddenstoel-alarmen kunnen gedempt worden tot een tijdstip morgen.",
+    "set_snooze": "⏰ Tijd instellen",
+    "time_error": "<u>Helaas kon ik de resterende tijd niet begrijpen.</u> Gebruik het formaat <b>1d 2u 30m</b> voor dagen, uren en minuten."
+  },
+  "misc": {
+    "unknown_user": "<b>Hallo {name}!</b> Je lijkt nieuw te zijn. Stuur me alsjeblieft een bericht en start de bot in mijn chat. Daarvoor moet je hier klikken:\n<code>     </code> 👉 @{botname} 👈 \nEr opent zich dan een nieuw venster, daar kun je op START drukken en je aanmelden bij de bot.",
+    "since": "sinds",
+    "longtz": "{timezone_long}",
+    "uhr": " uur",
+    "donate": "<b>Ondersteun de ontwikkeling van de bot en help met verbeteren!</b>\nSupporters krijgen uitgebreide toegang tot enkele functies. Een mogelijkheid om supporter te worden is een <a href=\"https://ko-fi.com/pikminbloompilzbot\">donatie bij Ko-Fi</a>. Er zijn echter nog andere mogelijkheden. Meld je in de <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot hulpgroep</a> als je verdere vragen hebt.",
+    "welcome": "Welkom",
+    "newmessage": "Controleer de vastgezette berichten voor belangrijke informatie.",
+    "left": "verliet de groep"
+  },
+  "mushroom_msg": {
+    "runs_active": "loopt tot:",
+    "runs_inactive": "liep tot:",
+    "created": "Je hebt {size_dative-indef-article} <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a> aangemaakt.\n",
+    "created_inactive": "Je hebt {size_dative-indef-article} <strike><a href=\"{link}\"><b>{size_dative} {color_dative}</b></a></strike> aangemaakt.\n",
+    "slots": "Plaatsen",
+    "slot": "Plaats",
+    "with_ticket": "<b>met ticket</b>\n",
+    "WITH_TICKET": "<b>M E T   T I C K E T</b> 🎟\n",
+    "without_ticket": "vrij\n",
+    "comment": "Opmerking:",
+    "full": "<b>VOL!!</b>\n",
+    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{size_comparative} #{color_comparative}</b>",
+    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{size_comparative} {color_comparative}</b></strike>",
+    "by": "van:",
+    "slots_with_ticket": "• <i>{available_ticket} met ticket</i> 🎟\n",
+    "slots_without_ticket": "• <i>{available_free} vrij zonder ticket</i>\n",
+    "am_in": "👍 Ik doe nu mee",
+    "is_in": "👍 Doet nu mee",
+    "withdraw": "<b>{starter}</b> heeft de uitnodiging voor de <a href=\"{link}\">{size_dative} {color_dative}</a> ingetrokken.\n<b>Reden: {reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> heeft de uitnodiging voor de <a href=\"{link}\">{size_dative} {color_dative}</a> voor {plusone} ingetrokken.\n<b>Reden: {reason}</b>",
+    "verify_withdraw": "De uitnodiging voor {player} intrekken?",
+    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Link naar paddenstoel 🔗</b></a>",
+    "reason_ticket": "Alleen nog ticketplaatsen vrij.",
+    "reason_finalized": "Paddenstoel is reeds verlopen",
+    "reason_global": "Afgewezen",
+    "fc_msg": "Vriendencode van {willing}: <code>{fc}</code>\n(aanklikken en kopiëren)",
+    "fc_sent": "🤝 {player} heeft je een vriendschapsverzoek gestuurd. Bevestig hier alsjeblieft wanneer je het in het spel hebt geaccepteerd.",
+    "fc_recieved": "🤝 {player} heeft het vriendschapsverzoek geaccepteerd. Soms duurt het een paar minuten voordat het in het spel wordt getoond of moet je Pikmin Bloom opnieuw opstarten.",
+    "fc_notification1": "<b>{starter}</b> heeft je vriendencode opgevraagd. Kijk eens of je een vriendschapsverzoek krijgt.",
+    "fc_notification2": "<b>{starter}</b> wil met je bevriend zijn in Pikmin Bloom. De vriendencode is: <code>{fc}</code>\n(aanklikken en kopiëren)",
+    "fc_notification3": "{willing} krijgt je vriendencode. Kijk eens of je een vriendschapsverzoek in Pikmin Bloom krijgt.",
+    "fc_notification4": "{willing} heeft geen vriendencode achtergelaten. Vraag {pikmin_name} het best eens of je de vriendencode kunt krijgen.",
+    "message": "<b>📩BERICHT</b> voor de <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Link naar bericht</a></b>",
+    "ticket": "<b>MET TICKET🎟</b> ",
+    "snooze": "😴gedempt tot morgen"
+  },
+  "active_message": {
+    "autodelete": "<i>(Dit bericht verdwijnt over 5 minuten weer)</i>",
+    "active_headline": "<u>De actieve paddenstoelen in deze groepen:</u>",
+    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_comparative} {color_comparative}</a>\n",
+    "no_mushrooms": "Helaas is er momenteel geen actieve paddenstoel met vrije plaatsen.",
+    "approximately": "(ca.) ",
+    "available_mushroom": "<b><a href=\"{link}\">{size_comparative} {color_comparative}</a>\nvan {user} {estimated}{duration}</b>\nPlaatsen: {slots}",
+    "with_ticket": " <b>met 🎟Ticket🎟</b>\n",
+    "without_ticket": " zonder ticket\n",
+    "wish": "{count}×{color_emoji} {color_default}\n",
+    "wishlist": "<u>Wenslijst:</u>\n",
+    "participant": "•  {status_emoji}{player} {via}{since} {duration}\n",
+    "showticket": "Toon met tickets",
+    "showfree": "Toon zonder tickets",
+    "players": "Spelers totaal"
+  }
+}
