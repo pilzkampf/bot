@@ -17,4 +17,4 @@ Zolang je de bot gebruikt, worden de volgende gegevens permanent opgeslagen:
 
 De Pilzkampf Bot schrijft een logbestand en registreert voor de ontwikkelaar de activiteit van de bot. Aan de hand van het logbestand kunnen problemen en fouten van de bot worden geanalyseerd, waardoor de dienst regelmatig en permanent wordt verbeterd. Logbestanden worden na zeven dagen permanent verwijderd.
 
-Met het [commando `/logfile`](commands.md#beheerder-commando-s) hebben beheerders ook de mogelijkheid om problemen bij een enkel paddenstoelengevecht snel te herkennen. Deze gegevens zijn alleen beschikbaar voor beheerders en ontwikkelaars.
+Met het [commando `/logfile`](commands.md#beheerder-commandos) hebben beheerders ook de mogelijkheid om problemen bij een enkel paddenstoelengevecht snel te herkennen. Deze gegevens zijn alleen beschikbaar voor beheerders en ontwikkelaars.
