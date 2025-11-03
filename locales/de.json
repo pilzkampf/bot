@@ -1,0 +1,736 @@
+{
+  "version": "2025-11-03",
+  "grammar": {
+    "size": {
+      "small": {
+        "default": "kleine",
+        "comparative": "Kleiner",
+        "dative": "kleinen",
+        "dative-preposition": "zum",
+        "dative-article": "dem",
+        "dative-indef-article": "einen"
+      },
+      "normal": {
+        "default": "normale",
+        "comparative": "Normaler",
+        "dative": "normalen",
+        "dative-preposition": "zum",
+        "dative-article": "dem",
+        "dative-indef-article": "einen"
+      },
+      "large": {
+        "default": "große",
+        "comparative": "Großer",
+        "dative": "großen",
+        "dative-preposition": "zum",
+        "dative-article": "dem",
+        "dative-indef-article": "einen"
+      },
+      "giant": {
+        "default": "riesige",
+        "comparative": "Riesiger",
+        "dative": "riesigen",
+        "dative-preposition": "zum",
+        "dative-article": "dem",
+        "dative-indef-article": "einen"
+      },
+      "weekly": {
+        "default": "Wochenherausforderung",
+        "comparative": "Wochenherausforderung",
+        "dative": "Wochenherausforderung",
+        "dative-preposition": "zur",
+        "dative-article": "der",
+        "dative-indef-article": "eine"
+      }
+    },
+    "color": {
+      "red": {
+        "default": "rote Pilze",
+        "comparative": "roter Pilz",
+        "dative": "roten Pilz",
+        "event": "<u>rote</u> ",
+        "noun": "Rot",
+        "emoji": "🟥"
+      },
+      "yellow": {
+        "default": "gelbe Pilze",
+        "comparative": "gelber Pilz",
+        "dative": "gelben Pilz",
+        "noun": "Gelb",
+        "event": "<u>gelbe</u> ",
+        "emoji": "🟨"
+      },
+      "blue": {
+        "default": "blaue Pilze",
+        "comparative": "blauer Pilz",
+        "dative": "blauen Pilz",
+        "noun": "Blau",
+        "event": "<u>blaue</u> ",
+        "emoji": "🟦"
+      },
+      "purple": {
+        "default": "lila Pilze",
+        "comparative": "lilaner Pilz",
+        "dative": "lilanen Pilz",
+        "noun": "Lila",
+        "emoji": "🟪"
+      },
+      "white": {
+        "default": "weiße Pilze",
+        "comparative": "weißer Pilz",
+        "dative": "weißen Pilz",
+        "noun": "Weiß",
+        "event": "<u>weiße</u> ",
+        "emoji": "🔲"
+      },
+      "pink": {
+        "default": "rosa Pilze",
+        "comparative": "rosaner Pilz",
+        "dative": "rosanen Pilz",
+        "noun": "Rosa",
+        "emoji": "🩷"
+      },
+      "grey": {
+        "default": "graue Pilze",
+        "comparative": "grauer Pilz",
+        "dative": "grauen Pilz",
+        "noun": "Grau",
+        "emoji": "🪨"
+      },
+      "ice": {
+        "default": "Eisblaue Pilze",
+        "comparative": "Eisblauer Pilz",
+        "dative": "Eisblauen Pilz",
+        "noun": "Eisblau",
+        "emoji": "🥶"
+      },
+      "fire": {
+        "default": "Feuer Pilze",
+        "comparative": "Feuer Pilz",
+        "dative": "Feuer Pilz",
+        "noun": "Feuer",
+        "emoji": "🔥"
+      },
+      "water": {
+        "default": "Wasser Pilze",
+        "comparative": "Wasser Pilz",
+        "dative": "Wasser Pilz",
+        "noun": "Wasser",
+        "emoji": "💧"
+      },
+      "electro": {
+        "default": "Elektro Pilze",
+        "comparative": "Elektro Pilz",
+        "dative": "Elektro Pilz",
+        "noun": "Elektro",
+        "emoji": "⚡️"
+      },
+      "crystal": {
+        "default": "Kristall Pilze",
+        "comparative": "Kristall Pilz",
+        "dative": "Kristall Pilz",
+        "noun": "Kristall",
+        "emoji": "💎"
+      },
+      "poison": {
+        "default": "giftige Pilze",
+        "comparative": "giftiger Pilz",
+        "dative": "giftigen Pilz",
+        "noun": "Gift",
+        "emoji": "🤢"
+      },
+      "event": {
+        "default": "Event Pilze",
+        "comparative": "Event Pilz",
+        "dative": "Event Pilz",
+        "noun": "Event",
+        "emoji": "🎉",
+        "from": "2001-08-01T00:00:00.0000+00:00",
+        "to": "2022-08-01T00:00:00.0000+00:00",
+        "nectar": "99"
+      },
+      "heart": {
+        "default": "Spezialnektar",
+        "comparative": "Spezialnektar",
+        "dative": "Spezialnektar",
+        "noun": "Spezialnektar",
+        "emoji": "❤️"
+      },
+      "run": {
+        "default": "Laufen",
+        "noun": "Laufen",
+        "comparative": "Laufen",
+        "dative": "Laufen",
+        "emoji": "📅🏃"
+      },
+      "plant": {
+        "default": "Pflanzen",
+        "noun": "Pflanzen",
+        "comparative": "Pflanzen",
+        "dative": "Pflanzen",
+        "emoji": "📅🌼"
+      },
+      "all": {
+        "default": "alles",
+        "emoji": "✨",
+        "noun": "Alle Pilze"
+      },
+      "any": {
+        "event": ""
+      },
+      "event08": {
+        "default": "Bizarre Pilze",
+        "comparative": "Bizarrer Pilz",
+        "dative": "Bizarren Pilz",
+        "noun": "Bizarrer Pilz",
+        "emoji": "🍧",
+        "nectar": "99",
+        "from": "2025-08-01T00:00:00.0000+00:00",
+        "to": "2025-08-31T00:00:00.0000+00:00"
+      },
+      "event09": {
+        "default": "prächtige Pilze",
+        "comparative": "prächtiger Pilz",
+        "dative": "prächtigen Pilz",
+        "noun": "prächtiger Pilz",
+        "emoji": "🥮",
+        "from": "2025-09-01",
+        "to": "2025-09-30",
+        "nectar": "99"
+      },
+      "event2510": {
+        "default": "bunte Pilze",
+        "comparative": "bunter Pilz",
+        "dative": "bunten Pilz",
+        "noun": "bunter Pilz",
+        "emoji": "💀🌹",
+        "from": "2025-10-01",
+        "to": "2025-10-31",
+        "nectar": "99"
+      },
+      "event2511": {
+        "default": "geniale Pilze",
+        "comparative": "genialer Pilz",
+        "dative": "genialen Pilz",
+        "noun": "genialer Pilz",
+        "emoji": "🎂🎉",
+        "from": "2025-11-01",
+        "to": "2025-11-30",
+        "nectar": "99"
+      }
+    },
+    "status": {
+      "willing": {
+        "emoji": "❓"
+      },
+      "invited": {
+        "emoji": "📣"
+      },
+      "accepted": {
+        "emoji": "⚔️"
+      },
+      "starter": {
+        "emoji": "🍄"
+      }
+    }
+  },
+  "flowers": {
+    "flowers": {
+      "name": "Blumen",
+      "emoji": "🌼"
+    },
+    "bougainvilleas": {
+      "name": "Drillingsblumen",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "Callas",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "Kamelien",
+      "emoji": "🏵️"
+    },
+    "cattleyas": {
+      "name": "Cattleyen",
+      "emoji": "🌷"
+    },
+    "chrysanthemums": {
+      "name": "Chrysanthemen",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "Waldreben",
+      "emoji": "✳️"
+    },
+    "cyclamens": {
+      "name": "Alpenveilchen",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "Narzissen",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "Dahlien",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "Prachtnelken",
+      "emoji": "⚜️"
+    },
+    "frangipanis": {
+      "name": "Wachsblumen",
+      "emoji": "📿"
+    },
+    "gentians": {
+      "name": "Enziane",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "Christrosen",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "Hibisken",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "Hyazinthen",
+      "emoji": "🟣"
+    },
+    "morning glories": {
+      "name": "Prunkwinden",
+      "emoji": "🌀"
+    },
+    "peonies": {
+      "name": "Pfingstrosen",
+      "emoji": "🌹"
+    },
+    "poinsettias": {
+      "name": "Weihnachtssterne",
+      "emoji": "🎀"
+    },
+    "plum blossoms": {
+      "name": "Pflaumenblüten",
+      "emoji": "🪔"
+    },
+    "sweet peas": {
+      "name": "Duftwicken",
+      "emoji": "🎐"
+    },
+    "water lilies": {
+      "name": "Seerosen",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "Windröschen",
+      "emoji": "🌬️"
+    },
+    "hydrangeas": {
+      "name": "Hortensien",
+      "emoji": "🧩"
+    },
+    "cherry blossoms": {
+      "name": "Kirschblüten",
+      "emoji": "🌸"
+    },
+    "pansies": {
+      "name": "Stiefmütterchen",
+      "emoji": "🧿"
+    },
+    "lilies": {
+      "name": "Lilien",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "Maiglöckchen",
+      "emoji": "🔔"
+    },
+    "carnations": {
+      "name": "Nelken",
+      "emoji": "🏐"
+    },
+    "tulips": {
+      "name": "Tulpen",
+      "emoji": "🌷"
+    },
+    "spider lilies": {
+      "name": "Spinnenlilien",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "Sonnenblumen",
+      "emoji": "🌻"
+    },
+    "roses": {
+      "name": "Rosen",
+      "emoji": "🌹"
+    },
+    "cosmoses": {
+      "name": "Schmuckkörbchen",
+      "emoji": "☄️"
+    },
+    "snowdrops": {
+      "name": "Schneeglöckchen",
+      "emoji": "⛄"
+    },
+    "canola flowers": {
+      "name": "Rapsblüten",
+      "emoji": "🟡"
+    },
+    "freesias": {
+      "name": "Freesien",
+      "emoji": "🎆"
+    },
+    "anniversary roses": {
+      "name": "Jubiläumsrosen",
+      "emoji": "🌹"
+    },
+    "irises": {
+      "name": "Schwertlilien",
+      "emoji": "⚜️"
+    },
+    "birds of paradise": {
+      "name": "Paradiesvogelblumen",
+      "emoji": "🌺"
+    },
+    "celosias": {
+      "name": "Brandschöpfe",
+      "emoji": "🌺"
+    },
+    "marigolds": {
+      "name": "Ringelblumen",
+      "emoji": "🌼"
+    },
+    "salvias": {
+      "name": "Salbeiblumen",
+      "emoji": "🌿"
+    }
+  },
+  "cmd": {
+    "active": "🚨 Zeigt aktuelle Pilze",
+    "userconfig": "👤 Benutzereinstellungen",
+    "timer": "⏰ Erinnerung erstellen",
+    "help": "❔ Liste der Kommandos",
+    "divider": "🔽 Inaktiv 🔽",
+    "cancel": "❌ Beendet eine Session",
+    "bug": "🪲 Fehler melden",
+    "event": "🗺 Monatsevent-Info",
+    "kill": "☠️ Fährt den Bot herunter",
+    "pilz": "🍄 Neues Angebot",
+    "alarm": "🚨 Pilz-Alarm",
+    "profile": "👤 Nutzer-Profil"
+  },
+  "button": {
+    "wish": "🚨 Pilz-Alarm",
+    "creation": "🍄 Pilzerstellung",
+    "notifications": "✉️ Benachrichtigungen",
+    "profile": "👤 Profil",
+    "config": "⚙️ konfigurieren",
+    "comment": "💬 Kommentar",
+    "time_remain": "⏰ Restzeit",
+    "groups": "🗯 Chat Gruppen",
+    "in": "{ticket}👍 dabei",
+    "out": "👎 bin raus",
+    "ignore": "🔇 Ignorieren",
+    "mute": "🔕 Alarme stummstellen",
+    "okay": "✅ okay",
+    "done": "✅ Fertig",
+    "abort": "❌ Abbruch",
+    "back": "🔙 Zurück",
+    "forth": "🔜 Weiter",
+    "save": "⚙️ speichern",
+    "saved": "💾 Aktualisiert",
+    "delete": "🗑 LÖSCHEN",
+    "delete_offer": "❌ Angebot löschen",
+    "delete_wish": "❌ Alarm löschen",
+    "withdraw_invite": "📣 Einladung zurücknehmen",
+    "deactivate": "deaktivieren ❌",
+    "activate": "aktivieren ✅",
+    "adjust": "♻️ korrigieren",
+    "active": "AKTIV",
+    "inactive": "AUS",
+    "without_comment": "❌💬 Fertig ohne Kommentar",
+    "delete_comment": "❌ Kommentar löschen",
+    "reason_ticket": "🎟 Nur mit Ticket",
+    "reason_finalized": "⏰ Pilz ist vorbei",
+    "reason_global": "🚫 ablehnen",
+    "invited": "📣 ist eingeladen",
+    "reject": "❌ ablehnen",
+    "colorbutton": "{color_emoji} {color_noun}",
+    "friend_code": "🤝 Freundescode"
+  },
+  "wish": {
+    "wishall": "Alle Pilze",
+    "wishallsizes": "Alle Größen",
+    "wishbigsizes": "Nur große Pilze",
+    "delete": "löschen",
+    "deleted": "Pilz-Alarm wurde gelöscht.",
+    "no_tickets": "🆓 Ich habe keine Tickets",
+    "yes_tickets": "🎟 Ich habe Tickets",
+    "message": "😍 Ein <b><a href=\"{link}\">{size_comparative} {color_comparative}</a>{ticket}</b> von {starter} entspricht deinem {emoji} Pilz-Alarm!",
+    "instructions": "Du kannst dir immer nur eine Farbe wünschen.\n\n",
+    "instruction_color": "<b>Wähle aus, welche Art von Nektar du aktuell suchst.</b>\nMit <i>Spezialnektar</i> findest du große Pilze und elementare Pilze.",
+    "instruction_size": "<b>Welche Größe soll der Pilz haben?</b>\nWenn du nur große Pilze suchst, wirst du nicht benachrichtig über kleine und normale Pilze.",
+    "instruction_ticket": "<b>Möchtest du ein Ticket nutzen?</b>\nMit Ticket bekommst du alle Einladungen: freie und Ticket-Plätze. Mit 'nur freie Plätze' wirst du nicht über Pilze mit Ticket benachrichtigt.",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> mit <b>rosanen</b> und <b>Feuer-Pilze</b>\n",
+    "instr_yellow": "{color_emoji} <b>{color_noun}</b> mit <b>Elektro-Pilze</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> mit <b>lilanen</b> und <b>Wasser-Pilze</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> mit <b>grauen</b>, <b>Kristall-</b> und <b>Gift-Pilze</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> mit <b>Feuer-, Wasser-, Elektro-, Kristall-</b> und <b>Gift-Pilze</b>\n",
+    "your_wish_big": "Du suchst <b>{color_default} (Große Pilze)</b>.\n",
+    "your_wish_all": "Du suchst <b>{color_default} (Alle Größen)</b>.\n",
+    "have_no_ticket": "Du hast <u>keine</u> Tickets.",
+    "have_ticket": "Du hast 🎟 Tickets.",
+    "wish_red": "Rote, rosane Pilze und Feuer-Pilze",
+    "wish_red_emoji": "🟥🩷🔥",
+    "wish_yellow": "Gelbe und Elektro-Pilze",
+    "wish_yellow_emoji": "🟨⚡️",
+    "wish_blue": "Blaue, lilane, Eis- und Wasser-Pilze",
+    "wish_blue_emoji": "🟦🟪🥶💧",
+    "wish_white": "Weiße, graue, Kristall- und Gift-Pilze",
+    "wish_white_emoji": "🔲🪨💎🤢",
+    "wish_fire": "Feuer-Pilze",
+    "wish_fire_emoji": "🔥",
+    "wish_electro": "Elektro-Pilze",
+    "wish_electro_emoji": "⚡️",
+    "wish_water": "Wasser-Pilze",
+    "wish_water_emoji": "💧",
+    "wish_crystal": "Kristall- und Gift-Pilze",
+    "wish_crystal_emoji": "💎🤢",
+    "wish_event": "Event-Pilze",
+    "wish_heart": "Spezialnektar",
+    "wish_event_emoji": "🎉",
+    "wish_heart_emoji": "❤️",
+    "wish_all": "Alle Pilze",
+    "wish_all_emoji": "✨",
+    "with_ticket": " mit 🎟Ticket🎟",
+    "onlyfree": "nur freie Plätze",
+    "withticket": "🆓 und 🎟 Plätze",
+    "bigsize": "nur große Pilze",
+    "allsize": "alle Größen",
+    "newalarm": "Neuer Pilz-Alarm",
+    "introduction": "Der <b>Pilz-Alarm</b> informiert dich, sobald ein passender Pilz verfügbar ist. In der Ansicht der aktiven Pilze mit <code>/aktiv</code> kannst du unten die Pilz-Wünsche sehen. Dein Alarm wird dort nicht mehr angezeigt wenn du länger als drei Tage lang nicht aktiv warst. Wenn du 14 Tage nicht aktiv warst, wirst du nicht mehr über Pilze informiert. Du bist aktiv wenn du über den Bot bei einem Pilzkampf teilnimmst.",
+    "noalarm": "Du hast noch keinen Pilz-Alarm eingerichtet.",
+    "saved": "Pilz-Alarm gespeichert"
+  },
+  "register": {
+    "not_registered": "Du kannst dich nur bei mir persönlich registieren. Schreib mich unter @{bot_name} an, drücke 'Start' und versuche das Kommando /register nochmal. ",
+    "registered": "Verwende das Kommando /profil um dein Profil anzupassen.",
+    "ask_name": "Wie heißt du in Pikmin Bloom?",
+    "ask_fc": "Wie lautet dein Freundescode? Der Code wird gebraucht wenn dich jemand zum Pilz einladen möchte, der mit dir noch nicht befreundet ist. Wenn du anonym bleiben möchtest, gib eine \"0\" ein.",
+    "fc_error": "Der Freundescode ist eine 12stellige Zahl. Du hast eingegeben: {friend_code}. Versuche es nochmal. Wenn du anonym bleiben möchtest, schreibe \"0\".",
+    "ask_level": "Welches Level hast du in Pikmin Bloom? Zum überspringen, schreibe \"0\".",
+    "saved": "Deine Daten wurden gespeichert!\nSpieler: {name}\nFreundescode: {fc}\nLevel: {level}",
+    "newhint": "Verwende die Kommandos im Menü am unteren Rand. Mit /profile kannst du Zeitzone, Sprache und Spieler-Informationen anpassen.\n\nVerwende /active um aktuelle Pilzkampf-Angebote zu sehen. Dort kannst du unten einen Knopf sehen für Pilz-Alarme. Damit kannst du dich automatisch benachrichtigen lassen wenn es ein Pilz-Angebot gibt.\n\nWenn du ein bestätigter Spieler bist, wirst du einer Chat-Gruppe hinzugefügt.\n\n<b>Füge Mello Yellow in Pikmin Bloom zu deinen Freunden hinzu um verifiziert zu werden. Der Freundescode ist:</b>\n<code>499969789993</code>\n(antippen zum kopieren)"
+  },
+  "notification": {
+    "invite": "<b>{player}</b> wurde zu einem <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a>{ticket} von {starter} eingeladen!",
+    "cancel": "Session abgebrochen.",
+    "boosted": "Der Pilz wurde geboostet und wird <a href=\"{link}\">jetzt hier angezeigt.</a>",
+    "bug_thanks": "Danke für die Meldung eines Fehlers, es wurde weitergeleitet. Nachricht Nummer {number}.",
+    "willing": "{player} möchte{ticket} bei {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b> mitmachen.",
+    "player_withdraw": "{player} hat sich aus {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b> zurückgezogen.",
+    "confirmation_you": "Du wurdest {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket} angemeldet.",
+    "confirmation_they": "{plusone} wurde {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket} angemeldet.",
+    "no_free_slots": "❌Fehler bei der Anmeldung {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>!\n🎟 Nur noch Ticket-Plätze verfügbar."
+  },
+  "start": {
+    "hello": "<b>Du scheinst neu für mich zu sein.</b> Tippe bitte /register und registriere dich mit dem Pikmin Bloom Spielernamen!\n",
+    "description": "\nDieser Bot soll beim Pikmin Bloom Pilzkampf helfen. \n\nIn der Hilfe-Gruppe kannst du Fehler und Wünsche melden: https://t.me/+9iwESXvVPXYzYjIy",
+    "supergroup": "⚠️<b>Diese Gruppe ist keine Super-Gruppe!</b>\nDamit der Bot vollfunktionsfähig ist, muss es eine Super-Gruppe sein. Ändere in den Gruppen-Einstellungen den Typ auf \"öffentlich\" und speichere ab. Optional kannst du die Gruppe danach auf privat setzen.\n\nZudem <b>muss</b> der Bot Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können.",
+    "admin": "⚠️Der Bot <b>muss</b> Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können."
+  },
+  "timer": {
+    "instructions": "Mit dem Kommando /timer kannst du alle deine aktuellen Timer anschauen und löschen. Wenn du mit dem Kommando /timer auf eine Pilznachricht antwortest, aktivierst du einen Timer für diesen Pilz. Mit /timer 2h30m \"Expedition\" startest du einen Timer über 2 Stunden und 30 Minuten mit dem Kommentar \"Expedition\". Kommentare sind freiwillig. Der Kommentar wird dir beim Auslösen des Timers angezeigt.",
+    "comment": "<b><a href=\"{link}\">{size_comparative} {color_comparative}</a></b>",
+    "set": "Timer gestellt auf {time} Uhr ({date})",
+    "headline": "<u>Deine aktuellen Timer:</u>\n\n",
+    "no_timer": "<b><i>Keine aktiven Timer</i></b>\n\n",
+    "message": "⏰Timer für {time} Uhr",
+    "repeat": "(Erinnerung)",
+    "active": "noch",
+    "inactive": "vor",
+    "and": " und ",
+    "day": "Tag",
+    "days": "Tage",
+    "hour": "Stunde und ",
+    "hours": "Stunden und ",
+    "minute": "Minute",
+    "minutes": "Minuten",
+    "delete": "löschen"
+  },
+  "event": {
+    "no_information": "Noch keine Event-Informationen verfügbar.",
+    "phase": "\n<u>Phase {phase_num}</u>\n",
+    "steps": "{number} 🏃 {amount} Schritte\n",
+    "grow": "{number} 🌱 {amount} Pikmin keimen\n",
+    "expeditions": "{number} 🗺 {amount} Expeditionen\n",
+    "plant": "{number} {flower_emoji} {amount} {color_event}{flower_name}\n",
+    "headline": "{flower_emoji} {flower_name} "
+  },
+  "mushroom": {
+    "small": "Klein",
+    "normal": "Normal",
+    "large": "Groß",
+    "giant": "Riesig",
+    "free": "frei",
+    "slot": "Platz ",
+    "slots": "Plätze ",
+    "with_ticket": " mit Ticket 🎟",
+    "without_ticket": "ohne 🆓Ticket ",
+    "weekly": "Wochenherausforderung",
+    "aborted": "Erstellung abgebrochen.",
+    "ask_size": "Welche Größe hat dein Pilz?",
+    "ask_weekly": "Welche Wochenherausforderung?",
+    "ask_color": "Welche Farbe hat der {size_default} Pilz?",
+    "ask_slots": "Wie viele Plätze sind frei?",
+    "ask_time": "⏰<b>Wie lange ist die Restzeit?</b>\n<b>Das Format für Tage, Stunden und Minuten: <u>1d 14h 38m</u>.</b>\n\nDrücke den Knopf mit der Schätzung um sie zu übernehmen oder gib die Restzeit vom Pilzkampf ein und drücke den ⬆️Senden-Knopf.\n",
+    "ask_comment": "\n\n💬<b>Hast du einen Kommentar für dein Angebot?</b>\n",
+    "your_comment": "Dein Kommentar",
+    "minutes": "Minuten",
+    "estimation": "Aktuelle Schätzung:",
+    "summary": "Ein {size_comparative} {color_comparative}, {slots} ",
+    "comment_desc": "Schreibe den Kommentar hier per Nachricht ins Textfeld. Wenn du keinen Kommentar schreiben möchtest, tippe auf \"Fertig ohne Kommentar\".",
+    "eventchange": "<b>Beschreibe deinen Eventpilz, zum Beispiel \"Mystery Pilz\" oder \"Halloween Pilz\".</b>",
+    "unknown_error": "Es gab einen unvorhergesehenen Fehler. Bitte versuche es nochmal. Es wurde abgebrochen.",
+    "status": " {status_emoji}\n"
+  },
+  "lang": {
+    "de": "🇩🇪 Deutsch",
+    "en": "🇬🇧 English",
+    "tr": "🇹🇷 Türkçe",
+    "nl": "🇳🇱 Nederlands",
+    "gsw-ZH": "🇨🇭 Züritüütsch",
+    "vi": "🇻🇳 Tiếng Việt",
+    "select": "Bitte wähle deine Sprache.\n"
+  },
+  "configure": {
+    "time_unchanged": "Restzeit ist unverändert. Der Pilz ",
+    "remaining_time": "Verbleibende Zeit: ",
+    "runtime": "Der Pilz läuft bis <b>{time} Uhr ({date})</b>",
+    "unknown": "unbekannt",
+    "name": "Spielername",
+    "groups": "Deine Gruppen",
+    "level": "Level",
+    "fc": "Freundescode",
+    "language": "Sprache",
+    "your_status": "Dein Status: ",
+    "profile_choice": "Welchen Wert möchtest du ändern?",
+    "menu": "Menü",
+    "ask_name": "Gib deinen Spielernamen aus Pikmin Bloom ein:",
+    "ask_level": "Welches Level hast du in Pikmin Bloom?",
+    "ask_fc": "Wie ist dein 12stelliger Freundescode?",
+    "ask_correct": "Ist deine Eingabe korrekt?",
+    "ask_lang": "Welche Sprache möchtest du auswählen?",
+    "ask_group": "Wähle deine Hauptgruppe:",
+    "hide_emoji": "Level Emoji verstecken",
+    "show_emoji": "Level Emoji anzeigen",
+    "hello": "Hallo",
+    "config_choice": "Welche Einstellungen möchtest du bearbeiten?",
+    "notifications": "Benachrichtigungen",
+    "mushroom_creation": "Pilzerstellung",
+    "wish": "Pilz-Alarm einrichten",
+    "profile": "Dein Profil",
+    "news": "Neuigkeiten",
+    "news_desc": "Du erhältest eine Nachricht wenn es Neuigkeiten über den Bot gibt\n",
+    "messages": "Mitteilungen",
+    "messages_desc": "Man kann dir über die Pilznachricht Mitteilungen schicken\n",
+    "comment": "Kommentar",
+    "comment_desc": "Wenn du einen Pilz erstellst, wirst du nach einem Kommentar gefragt.\n",
+    "alert": "Pilz-Alarm",
+    "alert_desc": "Du kannst dich über gewünschte Pilze benachrichtigen lassen.\n",
+    "alert_notification": "Du kannst den Pilz-Alarm in den <b>Benachrichtigungen</b> ein- und ausschalten.",
+    "remaining": "Restzeit",
+    "remaining_desc": "Wenn du einen Pilz erstellst, wirst du nach der Restzeit gefragt.\n",
+    "kick": "<b>{user}</b> hat die Einladung {size_dative-preposition} <a href=\"{link}\">{size_dative} {color_dative}</a> zurückgenommen.",
+    "kick_plusone": "<b>{user}</b> hat die Einladung {size_dative-preposition} <a href=\"{link}\">{size_dative} {color_dative}</a> für <b>{plusone}</b> zurückgenommen.",
+    "confirm_delete": "<b>Möchtest du WIRKLICH löschen? Du kannst es nicht rückgängig machen!</b>",
+    "ask_comment": "<b>Wie lautet der Kommentar?</b>",
+    "comment_deleted": "<b>Kommentar wurde gelöscht</b>",
+    "ask_uninvite": "Welche Einladung möchtest du zurücknehmen? <b>Der/die Spieler(in) <u>wird informiert</u>, dass die Einladung zurückgenommen wurde.</b>",
+    "switch_free": "🆓 OHNE Ticket umschalten",
+    "switch_ticket": "🎟 MIT Ticket umschalten",
+    "mushroom": "{size_comparative} {color_comparative}",
+    "cmd_menu": "Kommando Menu",
+    "timezone": "Zeitzone",
+    "asktimezone": "<b>Bitte gib deine lokale Uhrzeit im 24-Stunden-Format ein.</b> Zum Beispiel '14:00' für 2 Uhr nachmittags oder '0:00' für Mitternacht.",
+    "tzset": "⌚️Deine Uhrzeit: <u><b>{local_time}</b></u>\n📅Dein Datum: <u><b>{local_date}</b></u>\n🌍Deine Zeitzone: <u><b>{tz} ({abbrev})</b></u>",
+    "foundtz": "⌚ Diese Zeitzonen passen zur Uhrzeit.\nWähle bitte deine Zeitzone:\n",
+    "notfoundtz": "❌ Keine passende Zeitzone gefunden. Prüfe die Uhrzeit und versuche es nochmal.\nDeine Eingabe war: {input}.",
+    "notvalidtz": "⚠️ Gibt die Uhrzeit im 24-Stunden-Format ein, zum Beipspiel 14:30 oder 8:15.\nDeine Eingabe war: {input}.",
+    "ask_dateft": "Ausgewählte Zeitzone ist <u>{tz} ({abbrev})</u>.\n<b>Welches Datumsformat?</b>",
+    "ask_timeft": "Dein Datumsformat: <u>{local_date}</u>\n<b>Welches Zeitformat?</b>",
+    "ask_snooze": "Bitte die gewünschte Zeit eingeben, zu der die Pilz-Alarme wieder aktiv werden sollen.\n\nBeispiel: 6:45, 12 pm, 7:30 am (24- und 12-Stunden-Format sind möglich.)",
+    "snooze_error": "Das konnte ich leider nicht verstehen: <quote>{input}</quote>",
+    "snooze_active": "Pilz-Alarm stumm gestellt bis: {time}",
+    "snooze": "Alarm stumm bis morgen",
+    "snooze_desc": "Pilz-Alarme können stumm gestellt werden bis zu einem Zeitpunkt morgen.",
+    "set_snooze": "⏰ Zeit einstellen",
+    "time_error": "<u>Leider konnte ich die Restzeit nicht verstehen.</u> Verwende das Format <b>1d 2h 30m</b> für Tage, Stunden und Minuten."
+  },
+  "misc": {
+    "unknown_user": "<b>Hallo {name}!</b> Du scheinst neu zu sein. Bitte schreibe mich an und starte den Bot in meinem Chat. Dafür musst du hier klicken:\n<code>     </code> 👉 @{botname} 👈 \nEs öffnet sich dann ein neues Fenster, dort kannst du auf START drücken und dich beim Bot anmelden.",
+    "since": "seit",
+    "longtz": "{timezone_long}",
+    "uhr": " Uhr",
+    "donate": "<b>Unterstütze die Entwicklung des Bots und hilf mit ihn zu verbessern!</b>\nSupporter erhalten erweiterten Zugang zu einigen Funktionen. Eine Möglichkeit Supporter zu werden ist eine <a href=\"https://ko-fi.com/pikminbloompilzbot\">Spende bei Ko-Fi</a>. Es gibt aber noch andere Möglichkeiten. Melde dich in der <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot Hilfegruppe</a> wenn du weitere Fragen hast.",
+    "welcome": "Willkommen",
+    "newmessage": "Schau dir die angepinnten Nachrichten an für wichtige Hinweise.",
+    "left": "hat die Gruppe verlassen."
+  },
+  "mushroom_msg": {
+    "runs_active": "läuft bis:",
+    "runs_inactive": "lief bis:",
+    "created": "Du hast {size_dative-indef-article} <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a> erstellt.\n",
+    "created_inactive": "Du hast {size_dative-indef-article} <strike><a href=\"{link}\"><b>{size_dative} {color_dative}</b></a></strike> erstellt.\n",
+    "slots": "Plätze",
+    "slot": "Platz",
+    "with_ticket": "<b>mit Ticket</b>\n",
+    "WITH_TICKET": "<b>M I T   T I C K E T</b> 🎟\n",
+    "without_ticket": "frei\n",
+    "comment": "Kommentar:",
+    "full": "<b>VOLL!!</b>\n",
+    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{size_comparative} #{color_comparative}</b>",
+    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{size_comparative} {color_comparative}</b></strike>",
+    "by": "von:",
+    "slots_with_ticket": "• <i>{available_ticket} mit Ticket</i> 🎟\n",
+    "slots_without_ticket": "• <i>{available_free} frei ohne Ticket</i>\n",
+    "am_in": "👍 Bin jetzt dabei",
+    "is_in": "👍 Ist jetzt dabei",
+    "withdraw": "<b>{starter}</b> hat die Einladung {size_dative-preposition} <a href=\"{link}\">{size_dative} {color_dative}</a> zurückgenommen.\n<b>Grund: {reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> hat die Einladung {size_dative-preposition} <a href=\"{link}\">{size_dative} {color_dative}</a> für {plusone} zurückgenommen.\n<b>Grund: {reason}</b>",
+    "verify_withdraw": "Die Einladung für {player} zurücknehmen?",
+    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Link zum Pilz 🔗</b></a>",
+    "reason_ticket": "Nur noch Ticket-Plätze frei.",
+    "reason_finalized": "Pilz ist bereits abgelaufen",
+    "reason_global": "Abgelehnt",
+    "fc_msg": "Freundescode von {willing}: <code>{fc}</code>\n(anklicken und kopieren)",
+    "fc_sent": "🤝 {player} hat dir eine Freundschaftsanfrage geschickt. Bitte bestätige hier wenn du sie im Spiel angenommen hast.",
+    "fc_recieved": "🤝 {player} hat die Freundschaftsanfrage angenommen. Manchmal dauert es ein paar Minuten bis es im Spiel angezeigt wird oder du musst Pikmin Bloom neu starten.",
+    "fc_notification1": "<b>{starter}</b> hat deinen Freundescode abgefragt. Schau mal nach, ob du eine Freundschaftsanfrage bekommst.",
+    "fc_notification2": "<b>{starter}</b> möchte mit dir in Pikmin Bloom befreundet sein. Der Freundescode lautet: <code>{fc}</code>\n(anklicken und kopieren)",
+    "fc_notification3": "{willing} bekommt Deinen Freundescode. Schau mal nach, ob du eine Freundschaftsanfrage in Pikmin Bloom bekommst.",
+    "fc_notification4": "{willing} hat keinen Freundescode hinterlegt. Frage {pikmin_name} am besten mal, ob du den Freundescode bekommen kannst.",
+    "message": "<b>📩NACHRICHT</b> für den <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Link zur Nachricht</a></b>",
+    "ticket": "<b>MIT TICKET🎟</b> ",
+    "snooze": "😴stumm bis morgen"
+  },
+  "active_message": {
+    "autodelete": "<i>(Diese Nachricht wird in 5 Minuten wieder verschwinden)</i>",
+    "active_headline": "<u>Die aktiven Pilze in diesen Gruppen:</u>",
+    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_comparative} {color_comparative}</a>\n",
+    "no_mushrooms": "Leider gibt es gerade keinen aktiven Pilze mit freien Plätzen.",
+    "approximately": "(ca.) ",
+    "available_mushroom": "<b><a href=\"{link}\">{size_comparative} {color_comparative}</a>\nvon {user} {estimated}{duration}</b>\nPlätze: {slots}",
+    "with_ticket": " <b>mit 🎟Ticket🎟</b>\n",
+    "without_ticket": " ohne Ticket\n",
+    "wish": "{count}×{color_emoji} {color_default}\n",
+    "wishlist": "<u>Wunschliste:</u>\n",
+    "participant": "•  {status_emoji}{player} {via}{since} {duration}\n",
+    "showticket": "Zeige mit Tickets",
+    "showfree": "Zeige ohne Tickets",
+    "players": "Spieler insgesamt"
+  }
+}
