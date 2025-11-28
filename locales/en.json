@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-03",
+  "version": "2025-11-19",
   "grammar": {
     "size": {
       "small": {
@@ -324,6 +324,30 @@
     "salvias": {
       "name": "salvias",
       "emoji": "🌿"
+    },
+    "forget me nots": {
+      "name": "forget-me-nots",
+      "emoji": "🔵"
+    },
+    "moth orchids": {
+      "name": "moth orchids",
+      "emoji": "🦋"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "poppies": {
+      "name": "poppies",
+      "emoji": "🌺"
+    },
+    "snapdragons": {
+      "name": "snapdragons",
+      "emoji": "🐲"
+    },
+    "primroses": {
+      "name": "primroses",
+      "emoji": "💐"
     }
   },
   "cmd": {
@@ -338,7 +362,8 @@
     "kill": "☠️ Bot Shut Down",
     "pilz": "🍄 New Mushroom Offer",
     "alarm": "🚨 Mushroom Alert",
-    "profile": "👤 User Profile"
+    "profile": "👤 User Profile",
+    "publish": "🌍 Cross-Post Mushrooms"
   },
   "button": {
     "colorbutton": "{color_emoji} {color_noun}",
@@ -512,6 +537,7 @@
   "lang": {
     "de": "🇩🇪 Deutsch",
     "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
@@ -587,7 +613,7 @@
     "since": "since",
     "longtz": "{timezone_long}",
     "uhr": "",
-    "donate": "<b>Support the development of the bot and help it getting better!</b>\nSupporters will get access to a few more functions. One way of supporting is a <a href=\"https://ko-fi.com/pikminbloompilzbot\">Ko-Fi donation</a>. But there are other ways. Ask around in the <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot Help Group</a> if you are interested.",
+    "donate": "<b>Support the development of the bot and help it getting better!</b>\nSupporters will get access to a few more functions. One way of supporting is a <a href=\"https://ko-fi.com/pikminbloompilzbot\">Ko-Fi donation</a>. But there are other ways. Ask around in the <a href=\"https://t.me/PilzkampfForum\">Bot Help Group</a> if you are interested.",
     "welcome": "Welcome",
     "newmessage": "Check the pinned messages for important information.",
     "left": "left the group."
@@ -647,7 +673,7 @@
   },
   "start": {
     "hello": "<b>I think you are new to me.</b> Please use the command /register to register your Pikmin Bloom name!\n",
-    "description": "\nThis bot can help you with Pikmin Bloom mushroom battles.\n\nHead to the community support group if you have problems: https://t.me/+9iwESXvVPXYzYjIy",
+    "description": "\nThis bot can help you with Pikmin Bloom mushroom battles.\n\nHead to the community support group if you have problems: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>This is NO Super Group!</b>\nThis bot only works with Super Groups. Go to group settings and switch the type to \"public\" and save the change. Optionally can switch it back to private afterwards.\n\nAdditionally, the bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages.",
     "admin": "⚠️The bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages."
   }

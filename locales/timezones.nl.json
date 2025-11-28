@@ -1,0 +1,526 @@
+{
+    "timezone": {
+      "ACDT": {
+        "long": "Australian Central Daylight Time"
+      },
+      "ACST": {
+        "long": "Australian Central Standard Time"
+      },
+      "ACWST": {
+        "long": "Australian Central Western Standard Time"
+      },
+      "ADT": {
+        "long": "Atlantic Daylight Time"
+      },
+      "AEDT": {
+        "long": "Australian Eastern Daylight Time"
+      },
+      "AEST": {
+        "long": "Australian Eastern Standard Time"
+      },
+      "AFT": {
+        "long": "Afghanistan Time"
+      },
+      "AKDT": {
+        "long": "Alaska Daylight Time"
+      },
+      "AKST": {
+        "long": "Alaska Standard Time"
+      },
+      "AMST": {
+        "long": "Amazon Summer Time"
+      },
+      "AMT": {
+        "long": "Amazon Time"
+      },
+      "ANAT": {
+        "long": "Anadyr Time"
+      },
+      "ART": {
+        "long": "Argentina Time"
+      },
+      "AST": {
+        "long": "Arabia Standard Time"
+      },
+      "AtST": {
+        "long": "Atlantic Standard Time"
+      },
+      "AWST": {
+        "long": "Australian Western Standard Time"
+      },
+      "AZT": {
+        "long": "Azerbaijan Time"
+      },
+      "BDT": {
+        "long": "Bangladesh Daylight Time"
+      },
+      "BAST": {
+        "long": "Bangladesh Standard Time"
+      },
+      "BNT": {
+        "long": "Brunei Time"
+      },
+      "BRT": {
+        "long": "Brasília Time"
+      },
+      "BST": {
+        "long": "British Summer Time"
+      },
+      "BTT": {
+        "long": "Bhutan Time"
+      },
+      "CAT": {
+        "long": "Central Africa Time"
+      },
+      "CDT": {
+        "long": "Central Daylight Time"
+      },
+      "CEST": {
+        "long": "Midden-Europese Zomertijd"
+      },
+      "CET": {
+        "long": "Midden-Europese Tijd"
+      },
+      "CHADT": {
+        "long": "Chatham Daylight Time"
+      },
+      "CHAST": {
+        "long": "Chatham Standard Time"
+      },
+      "ChST": {
+        "long": "Chamorro Standard Time"
+      },
+      "CLST": {
+        "long": "Chile Summer Time"
+      },
+      "CLT": {
+        "long": "Chile Standard Time"
+      },
+      "COT": {
+        "long": "Colombia Time"
+      },
+      "CST": {
+        "long": "Central Standard Time"
+      },
+      "CnST": {
+        "long": "China Standard Time"
+      },
+      "CVT": {
+        "long": "Cape Verde Time"
+      },
+      "CWST": {
+        "long": "Central Western Standard Time"
+      },
+      "EAT": {
+        "long": "East Africa Time"
+      },
+      "EDT": {
+        "long": "Eastern Daylight Time"
+      },
+      "EEST": {
+        "long": "Eastern European Summer Time"
+      },
+      "EET": {
+        "long": "Eastern European Time"
+      },
+      "EGST": {
+        "long": "Eastern Greenland Summer Time"
+      },
+      "EGT": {
+        "long": "Eastern Greenland Time"
+      },
+      "EST": {
+        "long": "Eastern Standard Time"
+      },
+      "FET": {
+        "long": "Further-Eastern European Time"
+      },
+      "FJT": {
+        "long": "Fiji Time"
+      },
+      "FKST": {
+        "long": "Falkland Islands Summer Time"
+      },
+      "FKT": {
+        "long": "Falkland Islands Time"
+      },
+      "FNT": {
+        "long": "Fernando de Noronha Time"
+      },
+      "GET": {
+        "long": "Georgia Standard Time"
+      },
+      "GFT": {
+        "long": "French Guiana Time"
+      },
+      "GILT": {
+        "long": "Gilbert Island Time"
+      },
+      "GIT": {
+        "long": "Gambier Island Time"
+      },
+      "GMT": {
+        "long": "Greenwich Mean Time"
+      },
+      "GST": {
+        "long": "Gulf Standard Time"
+      },
+      "HDT": {
+        "long": "Hawaii-Aleutian Daylight Time"
+      },
+      "HAST": {
+        "long": "Hawaii-Aleutian Standard Time"
+      },
+      "HKT": {
+        "long": "Hong Kong Time"
+      },
+      "HOVT": {
+        "long": "Hovd Time"
+      },
+      "HST": {
+        "long": "Hawaii Standard Time"
+      },
+      "ICT": {
+        "long": "Indochina Time"
+      },
+      "IDT": {
+        "long": "Israel Daylight Time"
+      },
+      "IRDT": {
+        "long": "Iran Daylight Time"
+      },
+      "IRKT": {
+        "long": "Irkutsk Time"
+      },
+      "IrST": {
+        "long": "Ireland Standard Time"
+      },
+      "IRST": {
+        "long": "Iran Standard Time"
+      },
+      "IST": {
+        "long": "Indian Standard Time"
+      },
+      "JST": {
+        "long": "Japan Standard Time"
+      },
+      "KGT": {
+        "long": "Kyrgyzstan Time"
+      },
+      "KRAT": {
+        "long": "Krasnoyarsk Time"
+      },
+      "KST": {
+        "long": "Korea Standard Time"
+      },
+      "LINT": {
+        "long": "Line Islands Time"
+      },
+      "MAGT": {
+        "long": "Magadan Time"
+      },
+      "MDT": {
+        "long": "Mountain Daylight Time"
+      },
+      "MEST": {
+        "long": "Midden-Europese Zomertijd"
+      },
+      "MET": {
+        "long": "Midden-Europese Tijd"
+      },
+      "MMT": {
+        "long": "Myanmar Time"
+      },
+      "MSK": {
+        "long": "Moscow Time"
+      },
+      "MST": {
+        "long": "Mountain Standard Time"
+      },
+      "MUT": {
+        "long": "Mauritius Time"
+      },
+      "MVT": {
+        "long": "Maldives Time"
+      },
+      "NDT": {
+        "long": "Newfoundland Daylight Time"
+      },
+      "NOVT": {
+        "long": "Novosibirsk Time"
+      },
+      "NPT": {
+        "long": "Nepal Time"
+      },
+      "NRT": {
+        "long": "Nauru Time"
+      },
+      "NST": {
+        "long": "Newfoundland Standard Time"
+      },
+      "NZDT": {
+        "long": "New Zealand Daylight Time"
+      },
+      "NZST": {
+        "long": "New Zealand Standard Time"
+      },
+      "OMST": {
+        "long": "Omsk Time"
+      },
+      "ORAT": {
+        "long": "Oral Time"
+      },
+      "PDT": {
+        "long": "Pacific Daylight Time"
+      },
+      "PET": {
+        "long": "Peru Time"
+      },
+      "PETT": {
+        "long": "Kamchatka Time"
+      },
+      "PGT": {
+        "long": "Papua New Guinea Time"
+      },
+      "PHT": {
+        "long": "Philippine Time"
+      },
+      "PHST": {
+        "long": "Philippine Time"
+      },
+      "PKT": {
+        "long": "Pakistan Time"
+      },
+      "PONT": {
+        "long": "Pohnpei Time"
+      },
+      "PST": {
+        "long": "Pacific Standard Time"
+      },
+      "PYST": {
+        "long": "Paraguay Summer Time"
+      },
+      "PYT": {
+        "long": "Paraguay Time"
+      },
+      "RET": {
+        "long": "Réunion Time"
+      },
+      "ROK": {
+        "long": "Republic of Korea"
+      },
+      "SAKT": {
+        "long": "Sakhalin Time"
+      },
+      "SAMT": {
+        "long": "Samara Time"
+      },
+      "SAST": {
+        "long": "South African Standard Time"
+      },
+      "SCT": {
+        "long": "Seychelles Time"
+      },
+      "SGT": {
+        "long": "Singapore Time"
+      },
+      "SLST": {
+        "long": "Sri Lanka Standard Time"
+      },
+      "SRET": {
+        "long": "Srednekolymsk Time"
+      },
+      "SRT": {
+        "long": "Suriname Time"
+      },
+      "SST": {
+        "long": "Samoa Standard Time"
+      },
+      "THA": {
+        "long": "Thailand Standard Time"
+      },
+      "TJT": {
+        "long": "Tajikistan Time"
+      },
+      "TKT": {
+        "long": "Tokelau Time"
+      },
+      "TLT": {
+        "long": "Timor Leste Time"
+      },
+      "TMT": {
+        "long": "Turkmenistan Time"
+      },
+      "TOT": {
+        "long": "Tonga Time"
+      },
+      "TVT": {
+        "long": "Tuvalu Time"
+      },
+      "UCT": {
+        "long": "Coordinated Universal Time"
+      },
+      "UTC": {
+        "long": "Coordinated Universal Time"
+      },
+      "UZT": {
+        "long": "Uzbekistan Time"
+      },
+      "VLAT": {
+        "long": "Vladivostok Time"
+      },
+      "VOLT": {
+        "long": "Volgograd Time"
+      },
+      "VOST": {
+        "long": "Vostok Time"
+      },
+      "VUT": {
+        "long": "Vanuatu Time"
+      },
+      "WAKT": {
+        "long": "Wake Island Time"
+      },
+      "WAST": {
+        "long": "West Africa Summer Time"
+      },
+      "WAT": {
+        "long": "West Africa Time"
+      },
+      "WEST": {
+        "long": "Western European Summer Time"
+      },
+      "WET": {
+        "long": "Western European Time"
+      },
+      "WGT": {
+        "long": "Western Greenland Time"
+      },
+      "WIB": {
+        "long": "Western Indonesian Time"
+      },
+      "WIT": {
+        "long": "Eastern Indonesian Time"
+      },
+      "WITA": {
+        "long": "Central Indonesian Time"
+      },
+      "WST": {
+        "long": "Western Standard Time"
+      },
+      "WSST": {
+        "long": "West Samoa Time"
+      },
+      "YAKT": {
+        "long": "Yakutsk Time"
+      },
+      "YEKT": {
+        "long": "Yekaterinburg Time"
+      },
+      "+00": {
+        "long": "UTC+00:00"
+      },
+      "+01": {
+        "long": "UTC+01:00"
+      },
+      "+02": {
+        "long": "UTC+02:00"
+      },
+      "+03": {
+        "long": "UTC+03:00"
+      },
+      "+0330": {
+        "long": "UTC+03:30"
+      },
+      "+04": {
+        "long": "UTC+04:00"
+      },
+      "+0430": {
+        "long": "UTC+04:30"
+      },
+      "+05": {
+        "long": "UTC+05:00"
+      },
+      "+0530": {
+        "long": "UTC+05:30"
+      },
+      "+0545": {
+        "long": "UTC+05:45"
+      },
+      "+06": {
+        "long": "UTC+06:00"
+      },
+      "+0630": {
+        "long": "UTC+06:30"
+      },
+      "+07": {
+        "long": "UTC+07:00"
+      },
+      "+08": {
+        "long": "UTC+08:00"
+      },
+      "+0845": {
+        "long": "UTC+08:45"
+      },
+      "+09": {
+        "long": "UTC+09:00"
+      },
+      "+10": {
+        "long": "UTC+10:00"
+      },
+      "+11": {
+        "long": "UTC+11:00"
+      },
+      "+12": {
+        "long": "UTC+12:00"
+      },
+      "+1245": {
+        "long": "UTC+12:45"
+      },
+      "+13": {
+        "long": "UTC+13:00"
+      },
+      "+14": {
+        "long": "UTC+14:00"
+      },
+      "-00": {
+        "long": "UTC-00:00"
+      },
+      "-01": {
+        "long": "UTC-01:00"
+      },
+      "-02": {
+        "long": "UTC-02:00"
+      },
+      "-03": {
+        "long": "UTC-03:00"
+      },
+      "-04": {
+        "long": "UTC-04:00"
+      },
+      "-05": {
+        "long": "UTC-05:00"
+      },
+      "-06": {
+        "long": "UTC-06:00"
+      },
+      "-07": {
+        "long": "UTC-07:00"
+      },
+      "-08": {
+        "long": "UTC-08:00"
+      },
+      "-09": {
+        "long": "UTC-09:00"
+      },
+      "-10": {
+        "long": "UTC-10:00"
+      },
+      "-11": {
+        "long": "UTC-11:00"
+      },
+      "-12": {
+        "long": "UTC-12:00"
+      }
+    }
+}

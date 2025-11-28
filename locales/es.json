@@ -1,206 +1,139 @@
 {
-  "version": "2025-11-03",
+  "version": "2025-11-28",
   "grammar": {
     "size": {
       "small": {
-        "default": "pequeño",
-        "comparative": "más pequeño",
-        "dative": "pequeño",
-        "dative-preposition": "al",
-        "dative-article": "el",
-        "dative-indef-article": "un"
+        "default": "Pequeño"
       },
       "normal": {
-        "default": "normal",
-        "comparative": "más normal",
-        "dative": "normal",
-        "dative-preposition": "al",
-        "dative-article": "el",
-        "dative-indef-article": "un"
+        "default": "Normal"
       },
       "large": {
-        "default": "grande",
-        "comparative": "más grande",
-        "dative": "grande",
-        "dative-preposition": "al",
-        "dative-article": "el",
-        "dative-indef-article": "un"
+        "default": "Grande"
       },
       "giant": {
-        "default": "gigante",
-        "comparative": "más gigante",
-        "dative": "gigante",
-        "dative-preposition": "al",
-        "dative-article": "el",
-        "dative-indef-article": "un"
+        "default": "Gigante"
       },
       "weekly": {
-        "default": "reto semanal",
-        "comparative": "reto semanal",
-        "dative": "reto semanal",
-        "dative-preposition": "al",
-        "dative-article": "el",
-        "dative-indef-article": "un"
+        "default": "Reto Semanal"
       }
     },
     "color": {
       "red": {
-        "default": "hongo rojo",
-        "comparative": "hongo rojo",
-        "dative": "hongo rojo",
-        "event": "<u>rojo</u> ",
+        "default": "Champiñón rojo",
         "noun": "Rojo",
+        "event": "<u>rojo</u> ",
         "emoji": "🟥"
       },
       "yellow": {
-        "default": "hongo amarillo",
-        "comparative": "hongo amarillo",
-        "dative": "hongo amarillo",
+        "default": "Champiñón amarillo",
         "noun": "Amarillo",
         "event": "<u>amarillo</u> ",
         "emoji": "🟨"
       },
       "blue": {
-        "default": "hongo azul",
-        "comparative": "hongo azul",
-        "dative": "hongo azul",
+        "default": "Champiñón azul",
         "noun": "Azul",
         "event": "<u>azul</u> ",
         "emoji": "🟦"
       },
       "purple": {
-        "default": "hongo morado",
-        "comparative": "hongo morado",
-        "dative": "hongo morado",
+        "default": "Champiñón morado",
         "noun": "Morado",
         "emoji": "🟪"
       },
       "white": {
-        "default": "hongo blanco",
-        "comparative": "hongo blanco",
-        "dative": "hongo blanco",
+        "default": "Champiñón blanco",
         "noun": "Blanco",
         "event": "<u>blanco</u> ",
         "emoji": "🔲"
       },
       "pink": {
-        "default": "hongo rosa",
-        "comparative": "hongo rosa",
-        "dative": "hongo rosa",
+        "default": "Champiñón rosa",
         "noun": "Rosa",
         "emoji": "🩷"
       },
       "grey": {
-        "default": "hongo gris",
-        "comparative": "hongo gris",
-        "dative": "hongo gris",
+        "default": "Champiñón gris",
         "noun": "Gris",
         "emoji": "🪨"
       },
       "ice": {
-        "default": "hongo hielo azul",
-        "comparative": "hongo hielo azul",
-        "dative": "hongo hielo azul",
-        "noun": "Hielo azul",
+        "default": "Champiñón de hielo",
+        "noun": "Hielo",
         "emoji": "🥶"
       },
       "fire": {
-        "default": "hongo fuego",
-        "comparative": "hongo fuego",
-        "dative": "hongo fuego",
+        "default": "Champiñón de fuego",
         "noun": "Fuego",
         "emoji": "🔥"
       },
       "water": {
-        "default": "hongo agua",
-        "comparative": "hongo agua",
-        "dative": "hongo agua",
+        "default": "Champiñón de agua",
         "noun": "Agua",
         "emoji": "💧"
       },
       "electro": {
-        "default": "hongo eléctrico",
-        "comparative": "hongo eléctrico",
-        "dative": "hongo eléctrico",
+        "default": "Champiñón eléctrico",
         "noun": "Eléctrico",
         "emoji": "⚡️"
       },
       "crystal": {
-        "default": "hongo cristal",
-        "comparative": "hongo cristal",
-        "dative": "hongo cristal",
+        "default": "Champiñón de cristal",
         "noun": "Cristal",
         "emoji": "💎"
       },
       "poison": {
-        "default": "hongo venenoso",
-        "comparative": "hongo venenoso",
-        "dative": "hongo venenoso",
+        "default": "Champiñón venenoso",
         "noun": "Venenoso",
         "emoji": "🤢"
       },
       "event": {
-        "default": "hongo evento",
-        "comparative": "hongo evento",
-        "dative": "hongo evento",
+        "default": "Champiñón de evento",
         "noun": "Evento",
         "emoji": "🎉"
       },
       "heart": {
-        "default": "néctar especial",
-        "comparative": "néctar especial",
-        "dative": "néctar especial",
+        "default": "Néctar especial",
         "noun": "Néctar especial",
         "emoji": "❤️"
       },
       "run": {
         "default": "pasos",
         "noun": "Pasos",
-        "comparative": "pasos",
-        "dative": "pasos",
         "emoji": "📅🏃"
       },
       "plant": {
         "default": "plantar flores",
         "noun": "Flores",
-        "comparative": "plantar flores",
-        "dative": "plantar flores",
         "emoji": "📅🌼"
       },
       "all": {
         "default": "todos",
-        "emoji": "✨",
-        "noun": "Todos los hongos"
+        "noun": "Todo el néctar",
+        "emoji": "✨"
       },
       "any": {
         "event": ""
       },
       "event08": {
-        "default": "Bizarre Mushroom",
-        "comparative": "Bizarre Mushroom",
-        "dative": "Bizarre Mushroom",
-        "noun": "Bizarre Mushroom",
+        "default": "Champiñón extraño",
+        "noun": "Champiñón extraño",
         "emoji": "🍧"
       },
       "event09": {
-        "default": "Magnificent Mushroom",
-        "comparative": "Magnificent Mushroom",
-        "dative": "Magnificent Mushroom",
-        "noun": "Magnificent Mushroom",
+        "default": "Champiñón magnífico",
+        "noun": "Champiñón magnífico",
         "emoji": "🥮"
       },
       "event2510": {
-        "default": "Colorful Mushroom",
-        "comparative": "Colorful Mushroom",
-        "dative": "Colorful Mushroom",
-        "noun": "Colorful Mushroom",
+        "default": "Champiñón colorido",
+        "noun": "Champiñón colorido",
         "emoji": "💀🌹"
       },
       "event2511": {
-        "default": "Brilliant Mushroom",
-        "comparative": "Brilliant Mushroom",
-        "dative": "Brilliant Mushroom",
-        "noun": "Brilliant Mushroom",
+        "default": "Champiñón brillante",
+        "noun": "Champiñón brillante",
         "emoji": "🎂🎉"
       }
     },
@@ -257,7 +190,7 @@
       "emoji": "🌟"
     },
     "dahlias": {
-      "name": "dalias",
+      "name": "dahlias",
       "emoji": "🔶"
     },
     "dianthuses": {
@@ -329,7 +262,7 @@
       "emoji": "⚪"
     },
     "lilies of the valley": {
-      "name": "lirios del valle",
+      "name": "lirios de los valles",
       "emoji": "🔔"
     },
     "carnations": {
@@ -361,7 +294,7 @@
       "emoji": "⛄"
     },
     "canola flowers": {
-      "name": "flores de canola",
+      "name": "flores de colza",
       "emoji": "🟡"
     },
     "freesias": {
@@ -369,7 +302,7 @@
       "emoji": "🎆"
     },
     "anniversary roses": {
-      "name": "rosas aniversario",
+      "name": "rosas de aniversario",
       "emoji": "🌹"
     },
     "irises": {
@@ -391,39 +324,64 @@
     "salvias": {
       "name": "salvias",
       "emoji": "🌿"
+    },
+    "forget me nots": {
+      "name": "nomeolvides",
+      "emoji": "🔵"
+    },
+    "moth orchids": {
+      "name": "orquídeas mariposa",
+      "emoji": "🦋"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "poppies": {
+      "name": "amapolas",
+      "emoji": "🌺"
+    },
+    "snapdragons": {
+      "name": "boca de dragón",
+      "emoji": "🐲"
+    },
+    "primroses": {
+      "name": "prímulas",
+      "emoji": "💐"
     }
   },
   "cmd": {
-    "active": "🚨 Hongos actuales",
+    "active": "🚨 Champiñones actuales",
     "userconfig": "👤 Configuración de usuario",
-    "timer": "⏰ Establecer recordatorio",
+    "timer": "⏰ Crear recordatorio",
     "help": "❔ Lista de comandos",
     "divider": "🔽 Inactivo 🔽",
     "cancel": "❌ Cancelar sesión",
     "bug": "🪲 Reportar error",
     "event": "🗺 Información del evento",
     "kill": "☠️ Apagar bot",
-    "pilz": "🍄 Nueva oferta de hongo",
-    "alarm": "🚨 Alerta de hongo",
-    "profile": "👤 Perfil de usuario"
+    "pilz": "🍄 Nueva oferta de champiñón",
+    "alarm": "🚨 Alerta de champiñón",
+    "profile": "👤 Perfil de usuario",
+    "publish": "🌍 Compartir champiñones"
   },
   "button": {
     "colorbutton": "{color_emoji} {color_noun}",
-    "wish": "🚨 Alerta de hongo",
-    "creation": "🍄 Crear hongo",
+    "wish": "🚨 Alerta de champiñón",
+    "creation": "🍄 Crear champiñón",
     "notifications": "✉️ Notificaciones",
     "profile": "👤 Perfil",
     "config": "⚙️ Configurar",
     "comment": "💬 Comentario",
     "groups": "🗯 Grupos de chat",
     "time_remain": "⏰ Tiempo restante",
-    "in": "{ticket}👍 Participo",
-    "out": "👎 No participo",
+    "in": "{ticket}👍 Estoy dentro",
+    "out": "👎 Me salgo",
     "ignore": "🔇 Ignorar",
     "mute": "🔕 Silenciar alertas",
-    "okay": "✅ De acuerdo",
+    "okay": "✅ Vale",
     "done": "✅ Hecho",
-    "abort": "❌ Abortar",
+    "abort": "❌ Cancelar",
     "back": "🔙 Atrás",
     "forth": "🔜 Siguiente",
     "save": "⚙️ Guardar",
@@ -434,95 +392,95 @@
     "withdraw_invite": "📣 Retirar invitación",
     "deactivate": "Desactivar ❌",
     "activate": "Activar ✅",
-    "adjust": "♻️ Ajustar",
+    "adjust": "♻️ Corregir",
     "active": "ACTIVO",
     "inactive": "APAGADO",
     "without_comment": "❌💬 Sin comentario",
     "delete_comment": "❌ Eliminar comentario",
     "reason_ticket": "🎟 Solo con ticket",
-    "reason_finalized": "⏰ Hongo terminado",
+    "reason_finalized": "⏰ Champiñón terminado",
     "reason_global": "🚫 Rechazar",
     "invited": "📣 está invitado",
     "reject": "❌ rechazar",
     "friend_code": "🤝 código de amigo"
   },
   "wish": {
-    "wishall": "Todos los hongos",
+    "wishall": "Todos los champiñones",
     "wishallsizes": "Todos los tamaños",
-    "wishbigsizes": "Solo hongos grandes",
-    "message": "😍 ¡Un <b><a href=\"{link}\">{size_default} {color_default}</a>{ticket}</b> de {starter} coincide con tu lista de alertas {emoji}!",
+    "wishbigsizes": "Solo champiñones grandes",
+    "message": "😍 Un <b><a href=\"{link}\">{size_default} {color_default}</a>{ticket}</b> de {starter} coincide con tu {emoji} lista de alertas!",
     "deleted": "La alerta fue eliminada.",
     "delete": "eliminar alerta",
     "no_tickets": "🆓 No tengo tickets",
     "yes_tickets": "🎟 Tengo tickets",
     "instructions": "Solo puedes tener una alerta a la vez.\n\n",
-    "instruction_color": "<b>Elige el color del néctar que buscas.</b>\nCon <i>néctar especial</i> encontrarás hongos grandes o elementales.",
-    "instruction_size": "<b>¿Qué tamaño buscas?</b>\nSi eliges solo hongos grandes, no recibirás notificaciones para hongos pequeños y normales.",
-    "instruction_ticket": "<b>¿Tienes un ticket?</b>\nSi buscas solo plazas libres, no recibirás notificaciones para plazas con ticket. Si eliges libres y con ticket, recibirás notificaciones para todas las invitaciones posibles.",
-    "instr_red": "{color_emoji} <b>{color_noun}</b> con <b>rosa</b> y <b>hongos fuego</b>\n",
-    "instr_yellow": "{color_emoji} <b>{color_noun}</b> con <b>hongos eléctricos</b>\n",
-    "instr_blue": "{color_emoji} <b>{color_noun}</b> con <b>morado</b>, <b>hielo azul</b> y <b>hongos agua</b>\n",
-    "instr_white": "{color_emoji} <b>{color_noun}</b> con <b>gris</b>, <b>cristal</b> y <b>hongos venenosos</b>\n",
-    "instr_heart": "{color_emoji} <b>{color_noun}</b> con <b>fuego, agua, eléctricos, cristal</b> y <b>hongos venenosos</b>\n",
-    "your_wish_big": "Estás buscando <b>{color_default} (hongos grandes)</b>.\n",
-    "your_wish_all": "Estás buscando <b>{color_default} (todos los tamaños)</b>.\n",
-    "have_no_ticket": "No tienes tickets.",
+    "instruction_color": "<b>Elige el color del néctar que buscas.</b>\nCon <i>néctar especial</i> encontrarás champiñones grandes o elementales.",
+    "instruction_size": "<b>¿Qué tamaño buscas?</b>\nSi eliges solo champiñones grandes, no recibirás notificaciones para champiñones pequeños y normales.",
+    "instruction_ticket": "<b>¿Tienes un ticket?</b>\nSi solo buscas plazas libres, no recibirás notificaciones para plazas con ticket. Si eliges libres y con ticket, recibirás notificaciones para todas las invitaciones posibles.",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> con <b>rosa</b> y <b>champiñones de fuego</b>\n",
+    "instr_yellow": "{color_emoji} <b>{color_noun}</b> con <b>champiñones eléctricos</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> con <b>morado</b> y <b>champiñones de agua</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> con <b>gris</b>, <b>cristal</b> y <b>champiñones venenosos</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> con <b>fuego, agua, eléctrico, cristal</b> y <b>champiñones venenosos</b>\n",
+    "your_wish_big": "Buscas <b>{color_default} (champiñones grandes)</b>.\n",
+    "your_wish_all": "Buscas <b>{color_default} (todos los tamaños)</b>.\n",
+    "have_no_ticket": "Tienes <u>NO</u> tickets.",
     "have_ticket": "Tienes 🎟 tickets.",
-    "wish_red": "hongos rojos, rosas y fuego",
+    "wish_red": "champiñones rojos, rosas y de fuego",
     "wish_red_emoji": "🟥🩷🔥",
-    "wish_yellow": "hongos amarillos y eléctricos",
+    "wish_yellow": "champiñones amarillos y eléctricos",
     "wish_yellow_emoji": "🟨⚡️",
-    "wish_blue": "hongos azules, morados, hielo azul y agua",
+    "wish_blue": "champiñones azules, morados, hielo y agua",
     "wish_blue_emoji": "🟦🟪🥶💧",
-    "wish_white": "hongos blancos, grises, cristal y venenosos",
+    "wish_white": "champiñones blancos, grises, cristal y venenosos",
     "wish_white_emoji": "🔲🪨💎🤢",
-    "wish_fire": "hongos fuego",
+    "wish_fire": "champiñones de fuego",
     "wish_fire_emoji": "🔥",
-    "wish_electro": "hongos eléctricos",
+    "wish_electro": "champiñones eléctricos",
     "wish_electro_emoji": "⚡️",
-    "wish_water": "hongos agua",
+    "wish_water": "champiñones de agua",
     "wish_water_emoji": "💧",
-    "wish_crystal": "hongos cristal y venenosos",
+    "wish_crystal": "champiñones de cristal y venenosos",
     "wish_crystal_emoji": "💎🤢",
-    "wish_event": "hongos evento",
+    "wish_event": "champiñones de evento",
     "wish_heart": "néctar especial",
     "wish_event_emoji": "🎉",
     "wish_heart_emoji": "❤️",
-    "wish_all": "Todos los hongos",
+    "wish_all": "Todos los champiñones",
     "wish_all_emoji": "✨",
     "with_ticket": " con 🎟ticket🎟",
     "onlyfree": "solo plazas libres",
     "withticket": "🆓 y 🎟 plazas",
-    "bigsize": "solo hongos grandes",
+    "bigsize": "solo champiñones grandes",
     "allsize": "todos los tamaños",
-    "newalarm": "Nueva alerta de hongo",
-    "introduction": "La <b>Alerta de Hongo</b> te notifica tan pronto como haya disponible una batalla de hongos adecuada. En la lista de batallas de hongos activas con <code>/active</code> hay una lista de alertas que otros han establecido. Después de tres días de inactividad, tu alerta ya no aparecerá en la lista. Después de 14 días de inactividad, no recibirás notificaciones de nuevos hongos. Te mantienes activo uniéndote o iniciando una batalla de hongos con el bot.",
-    "noalarm": "Aún no hay alertas de hongos establecidas.",
+    "newalarm": "Nueva alerta de champiñón",
+    "introduction": "La <b>Alerta de Champiñón</b> te notifica tan pronto como haya disponible un combate de champiñón adecuado. En la lista de combates de champiñón activos con <code>/active</code> hay una lista de alertas que otros han configurado. Después de tres días de inactividad, tu alerta dejará de aparecer en la lista. Después de 14 días de inactividad, no recibirás notificaciones para nuevos champiñones. Mantente activo uniéndote o iniciando un combate de champiñón con el bot.",
+    "noalarm": "Aún no hay alertas de champiñón configuradas.",
     "saved": "Alerta guardada"
   },
   "register": {
-    "not_registered": "Solo puedes registrarte conmigo en un chat privado. Inicia un chat con @{bot_name}, presiona 'INICIAR' e intenta el comando /register nuevamente.",
-    "registered": "Por favor usa el comando /profile para editar o completar tu perfil.",
-    "ask_name": "¿Cuál es tu nombre en el juego de Pikmin Bloom?",
-    "ask_fc": "¿Cuál es tu código de amigo? Este código es necesario para ser invitado a batallas de hongos en Pikmin Bloom. Si prefieres permanecer en el anonimato, ingresa \"0\".",
-    "fc_error": "El código de amigo debe ser un número de 12 dígitos. Ingresaste: {friend_code}. Inténtalo de nuevo. Ingresa \"0\" si prefieres permanecer en el anonimato.",
-    "ask_level": "¿Cuál es tu nivel en Pikmin Bloom? Para omitir, ingresa \"0\".",
+    "not_registered": "Solo puedes registrarte conmigo en un chat privado. Inicia un chat con @{bot_name}, pulsa 'INICIAR' e intenta el comando /register de nuevo.",
+    "registered": "Por favor, usa el comando /profile para editar o completar tu perfil.",
+    "ask_name": "¿Cuál es tu nombre en Pikmin Bloom?",
+    "ask_fc": "¿Cuál es tu código de amigo? Este código es necesario para ser invitado a combates de champiñón en Pikmin Bloom. Si prefieres permanecer anónimo, introduce \"0\".",
+    "fc_error": "El código de amigo debe ser un número de 12 dígitos. Introdujiste: {friend_code}. Inténtalo de nuevo. Introduce \"0\" si prefieres permanecer anónimo.",
+    "ask_level": "¿Cuál es tu nivel en Pikmin Bloom? Para omitir, introduce \"0\".",
     "saved": "¡Tus datos han sido guardados!\nNombre: {name}\nCódigo de amigo: {fc}\nNivel: {level}",
-    "newhint": "Puedes usar comandos que están en el menú en la parte inferior. Con /profile puedes establecer tu idioma y zona horaria, así como tu información de jugador.\n\nPrueba /active para ver ofertas de hongos activas. En la parte inferior hay un botón para alertas de hongos. Con las alertas de hongos serás informado cuando haya un hongo al que puedas unirte.\n\nSerás agregado a un grupo de chat una vez que seas un jugador verificado.\n\n<b>Por favor agrega a Mello Yellow a tu lista de amigos para ser verificado. Su código de amigo es</b>\n<code>499969789993</code>\n(haz clic para copiar)"
+    "newhint": "Puedes usar comandos que están en el menú de abajo. Con /profile puedes establecer tu idioma y zona horaria, así como tu información de jugador.\n\nPrueba /active para ver ofertas de champiñón activas. Al final hay un botón para alertas de champiñón. Con las alertas de champiñón serás informado cuando haya un champiñón al que puedas unirte.\n\nSerás añadido a un grupo de chat una vez que seas un jugador verificado.\n\n<b>Por favor, añade a Mello Yellow a tu lista de amigos para ser verificado. Su código de amigo es</b>\n<code>499969789993</code>\n(haz clic para copiar)"
   },
   "notification": {
-    "invite": "¡<b>{player}</b> fue invitado a una <a href=\"{link}\"><b>batalla de {size_default} {color_default}</b></a>{ticket} por {starter}!",
+    "invite": "¡<b>{player}</b> fue invitado a un <a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a>{ticket} por {starter}!",
     "cancel": "Sesión cancelada.",
-    "boosted": "Este hongo fue potenciado. <a href=\"{link}\">Fue movido aquí.</a>",
+    "boosted": "Este champiñón fue potenciado. <a href=\"{link}\">Fue movido aquí.</a>",
     "bug_thanks": "Gracias por reportar un error. Tu mensaje fue reenviado. Este es el mensaje número {number}.",
-    "willing": "{player} quiere unirse a tu <b><a href=\"{link}\">batalla de {size_default} {color_default}</a></b>{ticket}.",
-    "player_withdraw": "{player} se retiró de tu <b><a href=\"{link}\">batalla de {size_default} {color_default}</a></b>.",
-    "confirmation_you": "Te postulaste para una <b><a href=\"{url}\">batalla de {size_default} {color_default}</a></b>{ticket}.",
-    "confirmation_they": "{plusone} se postuló para una <b><a href=\"{url}\">batalla de {size_default} {color_default}</a></b>{ticket}.",
-    "no_free_slots": "❌Error durante el registro para <b><a href=\"{url}\">batalla de {size_default} {color_default}</a></b>!\n🎟 Solo hay plazas con ticket disponibles."
+    "willing": "{player} quiere unirse a tu <b><a href=\"{link}\">combate de {size_default} {color_default}</a></b>{ticket}.",
+    "player_withdraw": "{player} se retiró de tu <b><a href=\"{link}\">combate de {size_default} {color_default}</a></b>.",
+    "confirmation_you": "Te has apuntado a un <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>{ticket}.",
+    "confirmation_they": "{plusone} se ha apuntado a un <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>{ticket}.",
+    "no_free_slots": "❌Error durante el registro para <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>!\n🎟 Solo hay plazas con ticket disponibles."
   },
   "timer": {
-    "instructions": "Con el comando /timer, puedes ver y eliminar tus temporizadores activos.\n- Si <i>respondes</i> a un mensaje de hongo, puedes activar un temporizador con el tiempo restante de ese hongo.\n- Con /timer 2h30m \"expedición\" inicias un temporizador por 2 horas y 30 minutos con el comentario \"expedición\".\n- Los comentarios son opcionales. El comentario se mostrará cuando suene el temporizador.",
+    "instructions": "Con el comando /timer, puedes ver y eliminar tus temporizadores activos.\n- Si <i>respondes</i> a un mensaje de champiñón, puedes activar un temporizador con el tiempo restante de ese champiñón.\n- Con /timer 2h30m \"expedición\" inicias un temporizador de 2 horas y 30 minutos con el comentario \"expedición\".\n- Los comentarios son opcionales. El comentario se mostrará cuando suene el temporizador.",
     "comment": "<b><a href=\"{link}\">{size_default} {color_default}</a></b>",
     "set": "Temporizador establecido para {time} ({date})",
     "headline": "<u>Tus temporizadores activos:</u>\n\n",
@@ -530,7 +488,7 @@
     "message": "⏰Temporizador para {time}",
     "repeat": "(Recordatorio)",
     "active": "en",
-    "inactive": "desde",
+    "inactive": "hace",
     "and": " y ",
     "day": "día",
     "days": "días",
@@ -542,9 +500,9 @@
   },
   "event": {
     "no_information": "Aún no hay información del evento disponible.",
-    "phase": "\n<u>Etapa {phase_num}</u>\n",
+    "phase": "\n<u>Fase {phase_num}</u>\n",
     "steps": "{number} 🏃 {amount} Pasos\n",
-    "grow": "{number} 🌱 hacer crecer {amount} Pikmin\n",
+    "grow": "{number} 🌱 hacer germinar {amount} Pikmin\n",
     "expeditions": "{number} 🗺 {amount} expediciones\n",
     "plant": "{number} {flower_emoji} {amount} {color_event}{flower_name}\n",
     "headline": "{flower_emoji} {flower_name} "
@@ -559,36 +517,37 @@
     "slots": "Plazas ",
     "with_ticket": " con ticket 🎟",
     "without_ticket": "sin 🆓ticket ",
-    "weekly": "Reto semanal",
-    "aborted": "Creación abortada.",
-    "ask_size": "¿Qué tamaño tiene tu hongo?",
-    "ask_weekly": "¿Qué reto semanal?",
-    "ask_color": "¿Qué color tiene tu hongo {size_default}?",
-    "ask_slots": "¿Cuántas plazas están disponibles?",
-    "ask_time": "⏰<b>¿Cuánto tiempo queda?</b>\n<b>Usa este formato: <u>1d 14h 38m</u> para días, horas y minutos.</b>\n\nPuedes tomar la estimación haciendo clic en el botón de abajo o ingresar tu tiempo real y enviar el texto con ⬆️.\n",
+    "weekly": "Reto Semanal",
+    "aborted": "Creación cancelada.",
+    "ask_size": "¿Qué tamaño tiene tu champiñón?",
+    "ask_weekly": "¿Qué Reto Semanal?",
+    "ask_color": "¿De qué color es tu champiñón {size_default}?",
+    "ask_slots": "¿Cuántas plazas hay disponibles?",
+    "ask_time": "⏰<b>¿Cuánto tiempo queda?</b>\n<b>Usa este formato: <u>1d 14h 38m</u> para días, horas y minutos.</b>\n\nPuedes tomar la estimación haciendo clic en el botón de abajo o introducir el tiempo real y enviar el texto con ⬆️.\n",
     "ask_comment": "\n\n💬<b>¿Tienes un comentario para tu oferta?</b>\n",
     "your_comment": "Tu comentario",
     "minutes": "minutos",
     "estimation": "Estimación actual:",
     "summary": "Un {size_default} {color_default}, {slots} ",
-    "comment_desc": "Envía el comentario con un mensaje aquí. Si no tienes un comentario, haz clic en el botón \"Sin comentario\".",
-    "eventchange": "<b>Describe tu hongo de evento, por ejemplo \"hongo misterioso\" o \"hongo de Halloween\".</b>",
-    "unknown_error": "Hubo un error desconocido. Por favor inténtalo de nuevo. La creación fue abortada.",
+    "comment_desc": "Envía el comentario con un mensaje aquí. Si no tienes comentario, haz clic en el botón \"Sin comentario\".",
+    "eventchange": "<b>Describe tu champiñón de evento, por ejemplo \"champiñón misterioso\" o \"champiñón de Halloween\".</b>",
+    "unknown_error": "Hay un error desconocido. Por favor, inténtalo de nuevo. La creación fue cancelada.",
     "status": " {status_emoji}\n"
   },
   "lang": {
     "de": "🇩🇪 Deutsch",
     "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
     "vi": "🇻🇳 Tiếng Việt",
-    "select": "Por favor elige tu idioma.\n"
+    "select": "Por favor, elige tu idioma.\n"
   },
   "configure": {
-    "time_unchanged": "El tiempo restante no ha cambiado. El hongo ",
+    "time_unchanged": "El tiempo restante no ha cambiado. El champiñón ",
     "remaining_time": "Tiempo restante: ",
-    "runtime": "La batalla de hongos se ejecuta hasta <b>{time} ({date})</b>",
+    "runtime": "El combate de champiñón dura hasta <b>{time} ({date})</b>",
     "unknown": "desconocido",
     "name": "Nombre del jugador",
     "groups": "Tus grupos",
@@ -598,7 +557,7 @@
     "your_status": "Tu estado: ",
     "profile_choice": "¿Qué quieres cambiar?",
     "menu": "Menú",
-    "ask_name": "Ingresa tu nombre de jugador de Pikmin Bloom:",
+    "ask_name": "Introduce tu nombre de jugador de Pikmin Bloom:",
     "ask_level": "¿Qué nivel tienes en Pikmin Bloom?",
     "ask_fc": "¿Cuál es tu código de amigo de 12 dígitos?",
     "ask_correct": "¿Es correcto?",
@@ -609,23 +568,23 @@
     "hello": "Hola",
     "config_choice": "¿Qué quieres configurar?",
     "notifications": "Notificaciones",
-    "mushroom_creation": "Creación de hongos",
-    "wish": "Alerta de hongo",
+    "mushroom_creation": "Creación de champiñón",
+    "wish": "Alerta de champiñón",
     "profile": "Tu perfil",
     "news": "Noticias",
     "news_desc": "Recibes mensajes cuando hay noticias sobre el Bot de Pilzkampf.\n",
     "messages": "Mensajes",
-    "messages_desc": "Puedes recibir mensajes a través del mensaje de batalla de hongos en el grupo.\n",
+    "messages_desc": "Puedes recibir mensajes a través del mensaje de combate de champiñón en el grupo.\n",
     "comment": "Comentario",
-    "comment_desc": "Se te pedirá un comentario cuando crees una oferta de hongo.\n",
-    "alert": "Alerta de Hongo",
-    "alert_desc": "Serás notificado sobre los hongos que necesitas.\n",
-    "alert_notification": "Ve a <b>Notificaciones</b> para activar la alerta de hongos.",
+    "comment_desc": "Se te pedirá un comentario cuando crees una oferta de champiñón.\n",
+    "alert": "Alerta de Champiñón",
+    "alert_desc": "Serás notificado sobre los champiñones que necesitas.\n",
+    "alert_notification": "Ve a <b>Notificaciones</b> para activar la alerta de champiñón.",
     "remaining": "Tiempo Restante",
-    "remaining_desc": "Se te pedirá el tiempo restante cuando crees una oferta de hongo.\n",
-    "kick": "<b>{user}</b> retiró la invitación para la <a href=\"{link}\">batalla de {size_default} {color_default}</a>.",
-    "kick_plusone": "<b>{user}</b> retiró la invitación para la <a href=\"{link}\">batalla de {size_default} {color_default}</a> para {plusone}.",
-    "confirm_delete": "<b>¿REALMENTE quieres eliminar? ¡Esto no se puede deshacer!</b>",
+    "remaining_desc": "Se te pedirá el tiempo restante cuando crees una oferta de champiñón.\n",
+    "kick": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {size_default} {color_default}</a>.",
+    "kick_plusone": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {size_default} {color_default}</a> para {plusone}.",
+    "confirm_delete": "<b>¿De VERDAD quieres eliminar? Esto no se puede deshacer.</b>",
     "ask_comment": "<b>¿Cuál es tu comentario?</b>",
     "comment_deleted": "<b>Comentario eliminado</b>",
     "ask_uninvite": "¿Qué invitación quieres retirar? <b>El jugador <u>será informado</u> de que retiraste la invitación.</b>",
@@ -634,36 +593,36 @@
     "mushroom": "{size_default} {color_default}",
     "cmd_menu": "Menú de Comandos",
     "timezone": "Zona Horaria",
-    "asktimezone": "<b>Por favor ingresa tu hora local en formato de 24 horas</b> (ej. 14:30 para 2:30pm o 0:20 para 12:20am).",
+    "asktimezone": "<b>Por favor, introduce tu hora local en formato de 24 horas</b> (ej. 14:30 para 2:30pm o 0:20 para 12:20am).",
     "tzset": "⌚️Tu hora es: <u><b>{local_time}</b></u>\n📅Tu fecha es: <u><b>{local_date}</b></u>\n🌍Tu zona horaria es: <u><b>{tz} ({abbrev})</b></u>",
-    "foundtz": "⌚ Se encontraron estas zonas horarias coincidentes.\nPor favor selecciona tu zona horaria:\n",
-    "notfoundtz": "❌ No se encontraron zonas horarias coincidentes. Por favor verifica tu hora e inténtalo de nuevo.\nTu entrada fue: {input}.",
-    "notvalidtz": "⚠️ Por favor ingresa la hora en formato de 24 horas (ej. 14:30 o 08:15)\nTu entrada fue: {input}.",
+    "foundtz": "⌚ Se encontraron estas zonas horarias coincidentes.\nPor favor, selecciona tu zona horaria:\n",
+    "notfoundtz": "❌ No se encontraron zonas horarias coincidentes. Por favor, comprueba tu hora e inténtalo de nuevo.\nTu entrada fue: {input}.",
+    "notvalidtz": "⚠️ Por favor, introduce la hora en formato de 24 horas (ej. 14:30 o 08:15)\nTu entrada fue: {input}.",
     "ask_dateft": "Tu zona horaria seleccionada es <u>{tz} ({abbrev})</u>.\n<b>¿Cuál es tu formato de fecha?</b>",
     "ask_timeft": "Este es tu formato de fecha: <u>{local_date}</u>\n<b>¿Cuál es tu formato de hora?</b>",
-    "ask_snooze": "Por favor ingresa la hora en la que la alerta de hongos debe estar activa nuevamente.\n\nEjemplo: 6:45, 12 pm, 7:30 am (es posible el formato de 24 y 12 horas).",
+    "ask_snooze": "Por favor, introduce la hora a la que la alerta de champiñón debe estar activa de nuevo.\n\nEjemplo: 6:45, 12 pm, 7:30 am (es posible el formato de 24 y 12 horas).",
     "snooze_error": "No pude entender eso: <quote>{input}</quote>",
-    "snooze_active": "La alerta de hongos está inactiva hasta: {time}",
+    "snooze_active": "La alerta de champiñón está inactiva hasta: {time}",
     "snooze": "Alerta desactivada hasta mañana",
-    "snooze_desc": "Desactiva las alertas de hongos hasta una hora mañana.",
+    "snooze_desc": "Desactiva las alertas de champiñón hasta una hora de mañana.",
     "set_snooze": "⏰ Establecer hora",
     "time_error": "<u>No pude entender la hora.</u> Usa el formato <b>1d 2h 30m</b> para días, horas y minutos."
   },
   "misc": {
-    "unknown_user": "<b>¡Hola {name}!</b> Pareces ser nuevo aquí. Por favor inicia un chat conmigo y inicia el bot. Solo haz clic aquí:\n<code>     </code> 👉 @{botname} 👈 \nAparecerá un nuevo chat y puedes hacer clic en INICIAR y registrarte con el bot.",
+    "unknown_user": "<b>¡Hola {name}!</b> Parece que eres nuevo aquí. Por favor, inicia un chat conmigo y arranca el bot. Solo haz clic aquí:\n<code>     </code> 👉 @{botname} 👈 \nAparecerá un nuevo chat y podrás hacer clic en INICIAR y registrarte con el bot.",
     "since": "desde",
     "longtz": "{timezone_long}",
     "uhr": "",
-    "donate": "<b>¡Apoya el desarrollo del bot y ayuda a mejorarlo!</b>\nLos partidarios obtendrán acceso a algunas funciones más. Una forma de apoyar es una <a href=\"https://ko-fi.com/pikminbloompilzbot\">donación en Ko-Fi</a>. Pero hay otras formas. Pregunta en el <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Grupo de Ayuda del Bot</a> si estás interesado.",
+    "donate": "<b>¡Apoya el desarrollo del bot y ayuda a mejorarlo!</b>\nLos seguidores obtendrán acceso a algunas funciones más. Una forma de apoyar es una <a href=\"https://ko-fi.com/pikminbloompilzbot\">donación en Ko-Fi</a>. Pero hay otras formas. Pregunta en el <a href=\"https://t.me/PilzkampfForum\">Grupo de Ayuda del Bot</a> si estás interesado.",
     "welcome": "Bienvenido",
-    "newmessage": "Revisa los mensajes fijados para información importante.",
+    "newmessage": "Revisa los mensajes fijados para obtener información importante.",
     "left": "dejó el grupo."
   },
   "mushroom_msg": {
     "runs_active": "activo hasta:",
     "runs_inactive": "inactivo desde:",
-    "created": "Creaste una <a href=\"{link}\"><b>batalla de {size_default} {color_default}</b></a>.\n",
-    "created_inactive": "Creaste una <strike><a href=\"{link}\"><b>batalla de {size_default} {color_default}</b></a></strike>.\n",
+    "created": "Creaste un <a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a>.\n",
+    "created_inactive": "Creaste un <strike><a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a></strike>.\n",
     "slots": "plazas",
     "slot": "plaza",
     "with_ticket": "<b>con ticket</b>\n",
@@ -676,31 +635,31 @@
     "by": "por:",
     "slots_with_ticket": "• <i>{available_ticket} con ticket</i> 🎟\n",
     "slots_without_ticket": "• <i>{available_free} libre sin ticket</i>\n",
-    "am_in": "👍 Me uní al hongo",
-    "is_in": "👍 Se unió al hongo",
-    "withdraw": "<b>{starter}</b> retiró la invitación a la <a href=\"{link}\">batalla de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
-    "withdraw_plusone": "<b>{starter}</b> retiró la invitación para {plusone} a la <a href=\"{link}\">batalla de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
+    "am_in": "👍 Me uní al champiñón",
+    "is_in": "👍 Se unió al champiñón",
+    "withdraw": "<b>{starter}</b> retiró la invitación al <a href=\"{link}\">combate de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> retiró la invitación para {plusone} al <a href=\"{link}\">combate de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
     "verify_withdraw": "¿Retirar la invitación para {player}?",
-    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Enlace al hongo 🔗</b></a>",
+    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Enlace al champiñón 🔗</b></a>",
     "reason_ticket": "Solo hay plazas con ticket disponibles.",
-    "reason_finalized": "La batalla de hongos ha terminado.",
+    "reason_finalized": "El combate de champiñón ha terminado.",
     "reason_global": "Rechazado",
     "fc_msg": "Código de amigo de {willing}: <code>{fc}</code>\n(haz clic para copiar)",
-    "fc_sent": "🤝 {player} te envió una solicitud de amistad. Por favor confirma cuando hayas aceptado la solicitud en Pikmin Bloom",
+    "fc_sent": "🤝 {player} te envió una solicitud de amistad. Por favor, confirma cuando hayas aceptado la solicitud en Pikmin Bloom",
     "fc_recieved": "🤝 {player} aceptó tu solicitud de amistad. A veces tarda unos minutos en aparecer en tu juego. Intenta reiniciar Pikmin Bloom si tienes problemas para ver a tu nuevo amigo.",
-    "fc_notification1": "<b>{starter}</b> ha solicitado tu código de amigo. Mantente atento a Pikmin Bloom para aceptar la solicitud de amistad.",
+    "fc_notification1": "<b>{starter}</b> ha solicitado tu código de amigo. Estate atento a Pikmin Bloom para aceptar la solicitud de amistad.",
     "fc_notification2": "<b>{starter}</b> solicitó ser tu amigo en Pikmin Bloom. Su código de amigo es <code>{fc}</code>\n(haz clic para copiar)",
-    "fc_notification3": "{willing} obtendrá tu código de amigo. Mantente atento a Pikmin Bloom para aceptar la solicitud de amistad.",
-    "fc_notification4": "{willing} no tiene un código de amigo guardado en su perfil. Pregunta a {pikmin_name} personalmente para intercambiar códigos de amigo.",
-    "message": "<b>📩MENSAJE</b> para el <b><a href=\"{url}\">{size_default} {color_default}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Enlace al mensaje</a></b>",
+    "fc_notification3": "{willing} obtendrá tu código de amigo. Estate atento a Pikmin Bloom para aceptar la solicitud de amistad.",
+    "fc_notification4": "{willing} no tiene código de amigo guardado en su perfil. Pregunta a {pikmin_name} personalmente para intercambiar códigos de amigo.",
+    "message": "<b>📩MENSAJE</b> para el <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Enlace al mensaje</a></b>",
     "ticket": "<b>CON TICKET🎟</b> ",
     "snooze": "😴silenciado hasta mañana"
   },
   "active_message": {
     "autodelete": "<i>(Este mensaje desaparecerá en 5 minutos)</i>",
-    "active_headline": "<u>Batallas de hongos activas en tus grupos:</u>",
+    "active_headline": "<u>Combates de champiñón activos en tus grupos:</u>",
     "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_default} {color_default}</a>\n",
-    "no_mushrooms": "No hay batallas de hongos activas.",
+    "no_mushrooms": "No hay combates de champiñón activos.",
     "approximately": "(aprox.) ",
     "available_mushroom": "<b><a href=\"{link}\">{size_default} {color_default}</a>\npor {user} {estimated}{duration}</b>\nPlazas: {slots}",
     "with_ticket": " <b>con 🎟ticket🎟</b>\n",
@@ -713,9 +672,9 @@
     "players": "jugadores en total"
   },
   "start": {
-    "hello": "<b>Creo que eres nuevo para mí.</b> ¡Por favor usa el comando /register para registrar tu nombre de Pikmin Bloom!\n",
-    "description": "\nEste bot puede ayudarte con las batallas de hongos de Pikmin Bloom.\n\nDirígete al grupo de soporte comunitario si tienes problemas: https://t.me/+9iwESXvVPXYzYjIy",
-    "supergroup": "⚠️<b>¡Este NO es un Super Grupo!</b>\nEste bot solo funciona con Super Grupos. Ve a la configuración del grupo y cambia el tipo a \"público\" y guarda el cambio. Opcionalmente puedes volver a cambiarlo a privado después.\n\nAdemás, el bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes.",
+    "hello": "<b>Creo que eres nuevo para mí.</b> ¡Por favor, usa el comando /register para registrar tu nombre de Pikmin Bloom!\n",
+    "description": "\nEste bot puede ayudarte con los combates de champiñón de Pikmin Bloom.\n\nDirígete al grupo de soporte comunitario si tienes problemas: https://t.me/PilzkampfForum",
+    "supergroup": "⚠️<b>¡Este NO es un Super Grupo!</b>\nEste bot solo funciona con Super Grupos. Ve a la configuración del grupo y cambia el tipo a \"público\" y guarda el cambio. Opcionalmente, puedes volver a cambiarlo a privado después.\n\nAdemás, el bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes.",
     "admin": "⚠️El bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes."
   }
 }

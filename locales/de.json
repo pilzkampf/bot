@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-03",
+  "version": "2025-11-28",
   "grammar": {
     "size": {
       "small": {
@@ -406,6 +406,30 @@
     "salvias": {
       "name": "Salbeiblumen",
       "emoji": "🌿"
+    },
+    "forget me nots": {
+      "name": "Vergissmeinnicht",
+      "emoji": "🔵"
+    },
+    "moth orchids": {
+      "name": "Nachtfalterorchideen",
+      "emoji": "🦋"
+    },
+    "petunias": {
+      "name": "Petunien",
+      "emoji": "🌺"
+    },
+    "poppies": {
+      "name": "Mohnblumen",
+      "emoji": "🌺"
+    },
+    "snapdragons": {
+      "name": "Löwenmäulchen",
+      "emoji": "🐲"
+    },
+    "primroses": {
+      "name": "Primeln",
+      "emoji": "💐"
     }
   },
   "cmd": {
@@ -420,7 +444,8 @@
     "kill": "☠️ Fährt den Bot herunter",
     "pilz": "🍄 Neues Angebot",
     "alarm": "🚨 Pilz-Alarm",
-    "profile": "👤 Nutzer-Profil"
+    "profile": "👤 Nutzer-Profil",
+    "publish": "🌍 Föderiere Pilze"
   },
   "button": {
     "wish": "🚨 Pilz-Alarm",
@@ -538,7 +563,7 @@
   },
   "start": {
     "hello": "<b>Du scheinst neu für mich zu sein.</b> Tippe bitte /register und registriere dich mit dem Pikmin Bloom Spielernamen!\n",
-    "description": "\nDieser Bot soll beim Pikmin Bloom Pilzkampf helfen. \n\nIn der Hilfe-Gruppe kannst du Fehler und Wünsche melden: https://t.me/+9iwESXvVPXYzYjIy",
+    "description": "\nDieser Bot soll beim Pikmin Bloom Pilzkampf helfen. \n\nIn der Hilfe-Gruppe kannst du Fehler und Wünsche melden: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>Diese Gruppe ist keine Super-Gruppe!</b>\nDamit der Bot vollfunktionsfähig ist, muss es eine Super-Gruppe sein. Ändere in den Gruppen-Einstellungen den Typ auf \"öffentlich\" und speichere ab. Optional kannst du die Gruppe danach auf privat setzen.\n\nZudem <b>muss</b> der Bot Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können.",
     "admin": "⚠️Der Bot <b>muss</b> Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können."
   },
@@ -600,6 +625,7 @@
   "lang": {
     "de": "🇩🇪 Deutsch",
     "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
@@ -675,7 +701,7 @@
     "since": "seit",
     "longtz": "{timezone_long}",
     "uhr": " Uhr",
-    "donate": "<b>Unterstütze die Entwicklung des Bots und hilf mit ihn zu verbessern!</b>\nSupporter erhalten erweiterten Zugang zu einigen Funktionen. Eine Möglichkeit Supporter zu werden ist eine <a href=\"https://ko-fi.com/pikminbloompilzbot\">Spende bei Ko-Fi</a>. Es gibt aber noch andere Möglichkeiten. Melde dich in der <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot Hilfegruppe</a> wenn du weitere Fragen hast.",
+    "donate": "<b>Unterstütze die Entwicklung des Bots und hilf mit ihn zu verbessern!</b>\nSupporter erhalten erweiterten Zugang zu einigen Funktionen. Eine Möglichkeit Supporter zu werden ist eine <a href=\"https://ko-fi.com/pikminbloompilzbot\">Spende bei Ko-Fi</a>. Es gibt aber noch andere Möglichkeiten. Melde dich in der <a href=\"https://t.me/PilzkampfForum\">Bot Hilfegruppe</a> wenn du weitere Fragen hast.",
     "welcome": "Willkommen",
     "newmessage": "Schau dir die angepinnten Nachrichten an für wichtige Hinweise.",
     "left": "hat die Gruppe verlassen."

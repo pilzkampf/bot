@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-03",
+  "version": "2025-11-19",
   "grammar": {
     "size": {
       "small": {
@@ -100,7 +100,7 @@
       "ice": {
         "default": "Ijsblauwe paddenstoelen",
         "dative": "Ijsblauwe paddenstoelen",
-        "comperative": "Ijsblauwe paddenstoelen",
+        "comparative": "Ijsblauwe paddenstoelen",
         "noun": "Ijsblauwe",
         "emoji": "🥶"
       },
@@ -391,6 +391,30 @@
     "salvias": {
       "name": "saliebloemen",
       "emoji": "🌿"
+    },
+    "forget me nots": {
+      "name": "vergeet-mij-nietjes",
+      "emoji": "🔵"
+    },
+    "moth orchids": {
+      "name": "vlinderorchideeën",
+      "emoji": "🦋"
+    },
+    "petunias": {
+      "name": "petunia's",
+      "emoji": "🌺"
+    },
+    "poppies": {
+      "name": "papaverbloemen",
+      "emoji": "🌺"
+    },
+    "snapdragons": {
+      "name": "leeuwenbekken",
+      "emoji": "🐲"
+    },
+    "primroses": {
+      "name": "sleutelbloemen",
+      "emoji": "💐"
     }
   },
   "cmd": {
@@ -405,7 +429,8 @@
     "kill": "☠️ Bot uitschakelen",
     "pilz": "🍄 Nieuwe paddenstoel",
     "alarm": "🚨 Paddenstoel alarm",
-    "profile": "👤 Gebruikersprofiel"
+    "profile": "👤 Gebruikersprofiel",
+    "publish": "🌍 Cross-post paddenstoelen"
   },
   "button": {
     "wish": "🚨 Paddenstoel alarm",
@@ -523,7 +548,7 @@
   },
   "start": {
     "hello": "<b>Je lijkt nieuw voor mij.</b> Typ alsjeblieft /register en registreer je met de Pikmin Bloom spelersnaam!\n",
-    "description": "\nDeze bot helpt bij Pikmin Bloom paddenstoelgevechten.\n\nIn de hulpgroep kun je bugs en wensen melden: https://t.me/+9iwESXvVPXYzYjIy",
+    "description": "\nDeze bot helpt bij Pikmin Bloom paddenstoelgevechten.\n\nIn de hulpgroep kun je bugs en wensen melden: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>Deze groep is geen supergroep!</b>\nOm de bot volledig functioneel te maken, moet het een supergroep zijn. Verander in de groepinstellingen het type naar \"publiek\" en sla op. Optioneel kun je de groep daarna op privé zetten.\n\nDaarnaast <b>moet</b> de bot adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen.",
     "admin": "⚠️De bot <b>moet</b> adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen."
   },
@@ -585,6 +610,7 @@
   "lang": {
     "de": "🇩🇪 Deutsch",
     "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
@@ -660,7 +686,7 @@
     "since": "sinds",
     "longtz": "{timezone_long}",
     "uhr": " uur",
-    "donate": "<b>Ondersteun de ontwikkeling van de bot en help met verbeteren!</b>\nSupporters krijgen uitgebreide toegang tot enkele functies. Een mogelijkheid om supporter te worden is een <a href=\"https://ko-fi.com/pikminbloompilzbot\">donatie bij Ko-Fi</a>. Er zijn echter nog andere mogelijkheden. Meld je in de <a href=\"https://t.me/+9iwESXvVPXYzYjIy\">Bot hulpgroep</a> als je verdere vragen hebt.",
+    "donate": "<b>Ondersteun de ontwikkeling van de bot en help met verbeteren!</b>\nSupporters krijgen uitgebreide toegang tot enkele functies. Een mogelijkheid om supporter te worden is een <a href=\"https://ko-fi.com/pikminbloompilzbot\">donatie bij Ko-Fi</a>. Er zijn echter nog andere mogelijkheden. Meld je in de <a href=\"https://t.me/PilzkampfForum\">Bot hulpgroep</a> als je verdere vragen hebt.",
     "welcome": "Welkom",
     "newmessage": "Controleer de vastgezette berichten voor belangrijke informatie.",
     "left": "verliet de groep"
