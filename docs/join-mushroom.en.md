@@ -28,7 +28,7 @@ If you write the command `/mit (playername)` _**as a reply to a mushroom message
 
 In this example, *Mello Yellow* registered the player *Lit'l Mello* for the mushroom. Please note that exchanging friend codes is now your responsibility, since the bot cannot know the external player’s code. This function can be useful if your partner also plays Pikmin Bloom but does not have a Telegram account, or if you want to register your second account for a mushroom.
 
-To undo the registration, use **as a reply to the mushroom message** `/mit (playername)`. Make sure to use the same player name.
+To undo the registration, use **as a reply to the mushroom message** `/ohne (playername)`. Make sure to use the same player name.
 
 ## Mushroom Alert
 

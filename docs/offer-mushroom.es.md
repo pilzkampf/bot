@@ -1,110 +1,110 @@
-# Crear una Batalla de Hongos
+# Crear un combate de champiñón
 
-Con el comando `/pilz`, puedes crear una nueva batalla de hongos o un desafío semanal (caminar o plantar). Se te pedirá la siguiente información:
+Con el comando `/pilz`, puedes crear un nuevo combate de champiñón o un reto semanal (caminar o plantar). Se te preguntará por la siguiente información:
 
 * Tamaño
 * Color
 * Número de plazas
 
-El tiempo restante del hongo se estima en base a su tamaño, color y tu nivel. Puedes establecer tu nivel en el [perfil de usuario](profile.md). En la [configuración](userconfig.md), también puedes habilitar preguntas adicionales para:
+El tiempo restante del champiñón se estima basándose en tu nivel, el tamaño y el color. Puedes establecer tu nivel en el [perfil de usuario](profile.md). En la [configuración](userconfig.md), también puedes configurar si se te pregunta adicionalmente por:
 
-* Tiempo restante
+* Tiempo restante del champiñón
 * Comentario
 
-??? tip "Consejo profesional"
+??? tip "Consejo para expertos"
 
-    Puedes crear una batalla de hongos incluso más rápido agregando toda la información necesaria directamente después del comando `/pilz`. Si quieres especificar el tiempo restante, ponlo entre dos símbolos :fontawesome-solid-dollar:. Los comentarios van entre comillas. Ejemplos:
+    Puedes crear un champiñón incluso más rápido escribiendo toda la información directamente después del comando `/pilz`. Si quieres especificar un tiempo restante, ponlo entre dos símbolos :fontawesome-solid-dollar:. Un comentario lo pones entre comillas. Ejemplos:
 
-    * `/pilz hongo de evento normal con cuatro plazas libres`
-    * `/pilz hongo de agua grande con ticket $1h30m$`
-    * `/pilz evento gigante 1 plaza libre $2h12m$ "Por favor usa equipo A y sé rápido"`
+    * `/pilz champiñón de evento normal con cuatro plazas libres`
+    * `/pilz champiñón de agua grande con ticket $1h30m$`
+    * `/pilz evento gigante 1 plaza libre $2h12m$ "Por favor usar equipo A y ser rápido"`
 
-    Si el bot no puede entender claramente lo que quieres decir, te pedirá los detalles en un diálogo.
+    Si el bot no entiende claramente la información, te preguntará en el diálogo.
 
-## Mensaje de Hongo
+## Mensaje de champiñón
 
-Después de crear una batalla de hongos, se publica un mensaje en el grupo. También recibirás un mensaje de hongo ligeramente más corto en tu chat del bot, mostrando los participantes actuales. Diferentes emojis aparecen junto a los nombres de los jugadores.  
-[Más sobre los emojis](battle.md#emoji).
+Después de crear un champiñón, se publica un mensaje en el grupo. Adicionalmente, aparece en tu chat del bot un mensaje de champiñón un poco más corto con los participantes actuales. Detrás de los nombres de los jugadores se muestran diferentes emoji.  
+[Más información sobre los emoji](battle.md#emoji).
 
-![Mensaje de hongo en el chat del bot](assets/screenshot/chatmessage.png){ width="50%" style="display: block; margin: 0 auto" }
-<p align="center"><em>Mensaje de hongo en el chat del bot</em></p>
+![Mensaje de combate de champiñón en el chat del bot](assets/screenshot/chatmessage.png){ width="50%" style="display: block; margin: 0 auto" }
+<p align="center"><em>Mensaje de combate de champiñón en el chat del bot</em></p>
 
 --8<-- "emoji.es.md:message"
 
 --8<-- "emoji.es.md:medal"
 
-## Aceptar Solicitudes de Jugadores
+## Aceptar solicitudes de jugadores
 
-Cuando un jugador quiere unirse a tu hongo, recibirás una notificación. Puedes responder con tres botones:
+Cuando los jugadores muestran interés en tu champiñón, recibes una notificación. Puedes entonces responder con tres botones:
 
-### 📣 Invitación enviada
+### 📣 está invitado
 
-Si ya son amigos en Pikmin Bloom, puedes enviar una invitación en el juego. Después, presiona el botón en el bot. El jugador también será notificado por el bot.
+Si ya eres amigo del jugador en Pikmin Bloom, puedes invitarlo. Después, presiona el botón en el bot. El jugador también será informado sobre la invitación.
 
-### ❌ Rechazar
+### ❌ rechazar
 
-A veces es necesario rechazar una solicitud. Puedes elegir entre:
+A veces es necesario rechazar una solicitud. Hay tres razones para esto:
 
-* Solo quedan plazas con ticket
-* El hongo ya ha sido completado
-* Otras razones
+* Solo hay plazas con ticket disponibles
+* El champiñón ya ha sido combatido
+* Otros motivos
 
-Por favor informa brevemente al jugador para evitar malentendidos. Si solo quedan plazas con ticket, cualquier plaza libre no asignada se elimina automáticamente. Si el hongo ya fue completado, se marca como terminado.
+Por favor, informa brevemente al jugador para evitar malentendidos. Si solo quedan plazas con ticket, las plazas libres se eliminan automáticamente. Si el champiñón ya fue combatido, se marca como terminado.
 
 ### 🤝 Código de amigo
 
-Si aún no son amigos en Pikmin Bloom, puedes intercambiar códigos de amigo usando este botón. Mientras tú o el otro jugador tengan un código de amigo guardado, se compartirá automáticamente. Serás notificado una vez que se haya enviado la solicitud de amistad.
+Si aún no sois amigos en Pikmin Bloom, puedes intercambiar códigos de amigo con este botón. Siempre que uno de vosotros tenga un código de amigo guardado, se transmitirá automáticamente. Recibirás un mensaje cuando se haya enviado la solicitud de amistad.
 
-## Configurar Hongo
+## Configurar champiñón
 
-En la configuración del hongo, puedes ajustar tu oferta posteriormente – por ejemplo, si las plazas disponibles o el tiempo restante han cambiado.
+En la configuración del champiñón puedes editar tu oferta posteriormente – por ejemplo, si las plazas libres o el tiempo restante han cambiado.
 
-![Configurar hongo](assets/screenshot/mushroom-config.png){ width="50%" style="display: block; margin: 0 auto" }
-<p align="center"><em>Configurar hongo</em></p>
+![Configurar champiñón](assets/screenshot/mushroom-config.png){ width="50%" style="display: block; margin: 0 auto" }
+<p align="center"><em>Configurar champiñón</em></p>
 
 ### Eliminar oferta
 
-Si notas que el hongo que creaste es incorrecto o ya no es válido, puedes eliminarlo dentro de los primeros 30 minutos.
+Si has creado un champiñón incorrecto o inapropiado, puedes eliminarlo dentro de los primeros 30 minutos.
 
 ### Retirar invitación
 
-Si alguien solicitó unirse a tu hongo pero no se unió, puedes retirar la invitación y liberar la plaza nuevamente.
+Si alguien se ha apuntado a tu champiñón pero no se ha unido, puedes retirar la invitación y liberar la plaza nuevamente.
 
-### Agregar o eliminar plazas
+### Añadir o eliminar plazas
 
-Si las plazas fueron tomadas inesperadamente por jugadores externos, puedes eliminarlas o agregar más plazas. Una vez que se eliminan todas las plazas libres, el hongo se establece automáticamente en "solo ticket". El bot tiene en cuenta que puedes enviar como máximo 10 invitaciones y calcula las plazas en base a las solicitudes e invitaciones existentes.
+Si las plazas fueron ocupadas por jugadores externos, puedes eliminarlas o añadir plazas adicionales. Una vez que no quedan plazas libres, el champiñón se cambia automáticamente a "solo con ticket". El bot tiene en cuenta que puedes enviar un máximo de 10 invitaciones.
 
-### Cambiar a ticket / cambiar a sin ticket
+### Cambiar a con ticket / Cambiar a sin ticket
 
-Si activas "con ticket", se eliminan todas las plazas libres y solo quedan plazas con ticket. Si ya está configurado como solo ticket, puedes cambiar a "sin ticket". En este caso, se agrega una plaza libre y puedes agregar más.
+Si haces clic en "Cambiar a con ticket", se eliminan todas las plazas libres y solo quedan plazas con ticket. Si el champiñón ya está en modo ticket, puedes cambiar a "Sin ticket". Entonces se crea una plaza libre y puedes añadir más.
 
 ### Comentario
 
-Puedes agregar o actualizar un comentario para tu mensaje de hongo en cualquier momento. Por ejemplo, puedes advertir que podrían unirse jugadores locales, o pedir a otros que usen sus equipos más fuertes.
+Puedes añadir un comentario a tu mensaje de champiñón en cualquier momento. Aquí puedes mencionar, por ejemplo, que esperas jugadores locales o que deseas equipos particularmente fuertes.
 
 ### Tiempo restante
 
-Si no se especificó un tiempo restante, el bot lo estimará. Esta estimación siempre es ligeramente más larga que el tiempo real, para asegurar que la oferta no expire demasiado pronto. Si estableces manualmente un tiempo restante, la estimación se vuelve más precisa.
+Si no has especificado un tiempo restante, el bot calculará un tiempo restante estimado – siempre un poco más largo que el tiempo real, para asegurar que la oferta no termine demasiado pronto. Si introduces un tiempo restante manualmente, la estimación se vuelve más precisa.
 
-Puedes ingresar el tiempo restante usando abreviaturas para días (d), horas (h) y minutos (m), o con dos puntos `:`:
+Puedes especificar el tiempo restante con abreviaturas para días (d), horas (h) y minutos (m) o en formato con dos puntos `:`:
 
-| Entrada  | Tiempo restante |
-| ------:| :-------------- |
-| 1h 30m | 90 minutos |
-| 20     | 20 minutos |
-| 1:0:20 | 1 día y 20 minutos |
-| 1d 30m | 1 día y 30 minutos |
+| Entrada | Tiempo restante |
+| ------: | :------- |
+| 1h 30m  | 90 minutos |
+| 20      | 20 minutos |
+| 1:0:20  | Un día y 20 minutos |
+| 1d 30m  | Un día y 30 minutos |
 
 !!! warning ""
 
-    Asegúrate de mantener siempre el orden **d, h, m**. De lo contrario, la entrada no puede interpretarse correctamente.
+    ¡El orden de **d, h, m** debe mantenerse siempre – de lo contrario, la indicación de tiempo no puede ser reconocida correctamente!
 
-??? info "Cómo se calcula el tiempo restante"
+??? info "Cálculo del tiempo restante"
 
-    Cuando creas un nuevo hongo, el tiempo restante se estima en base al tipo de hongo, tamaño y tu nivel. Para hongos de evento, el bot asume que tu fuerza aumenta durante el evento. Por cada jugador que invites, se deduce una porción de tiempo – incluso si el jugador aún no se ha unido en el juego. Si se elimina un jugador, el tiempo restante se agrega nuevamente en consecuencia.
+    Para un champiñón nuevo, el tiempo restante se estima en base a tu nivel, el tamaño y el tipo. Para los champiñones de evento, el bot asume que tu fuerza aumenta durante el evento. Por cada jugador invitado, se deduce tiempo proporcionalmente – incluso si el jugador aún no participa activamente en el combate. Si se elimina un jugador, el tiempo restante se aumenta proporcionalmente nuevamente.
 
-    Si quieres que el tiempo restante se muestre **exactamente**, debes establecerlo manualmente en la configuración. Esto también es útil si quieres usar `/timer` [para ser notificado](timer.md) cuando el hongo expire.
+    Si quieres que el tiempo restante se muestre **exactamente**, debes introducirlo manualmente. Esto también es útil si usas un `/timer` [para que te recuerde](timer.md) cuando el champiñón expire.
 
-### Listo
+### Hecho
 
-Esto cierra el diálogo. Todos los cambios que hiciste anteriormente ya fueron guardados y surten efecto inmediatamente. "Listo" solo cierra la ventana de configuración.
+Con esto terminas el diálogo. Sin embargo, todos los cambios que hayas hecho antes ya se han guardado y surten efecto inmediatamente. "Hecho" solo cierra el diálogo.

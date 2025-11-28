@@ -1,41 +1,41 @@
 # Comandos
 
-## Comandos en el Menú
+## Comandos en el menú
 
 | Comando | Efecto |
 |----------|---------|
-| `/pilz`  | Crea una [nueva batalla de hongos](offer-mushroom.md) |
-| `/userconfig` | Allí puedes realizar varias configuraciones, consulta [Configuración de Usuario](userconfig.md) |
-| `/timer` | Con esto puedes crear una notificación para recordatorios, consulta [Temporizador](timer.md) |
-| `/active` | Te muestra la [lista de hongos activos](active.md) y las alertas de hongos actuales de otros jugadores |
+| `/pilz`  | Crea un [nuevo combate de champiñón](offer-mushroom.md) |
+| `/userconfig` | Allí puedes realizar diversas configuraciones, ver [Configuración de usuario](userconfig.md) |
+| `/timer` | Con esto puedes crear una notificación para recordatorios, ver [Temporizador](timer.md) |
+| `/active` | Te muestra la [lista de champiñones activos](active.md) y las alertas de champiñón actuales de otros jugadores |
 | `/help` | **¡Ya no se mantiene!** Muestra la lista de todos los comandos |
-| `/alarm` | Configura una alerta de hongos. Consulta [Alerta de Hongos](alarm.md) |
+| `/alarm` | Configura una alerta de champiñón. Ver [Alerta de champiñón](alarm.md) |
 
-## Comandos Adicionales del Menú
+## Comandos adicionales del menú
 
-Puedes agregar estos comandos al menú en tu [perfil de usuario](profile.md).
+Puedes añadir estos comandos al menú en tu [perfil de usuario](profile.md).
 
 | Comando | Efecto |
 |----------|---------|
 | `/profile`  | Configuración del [perfil de usuario](profile.md), incluyendo tu nivel, código de amigo, idioma y zona horaria |
 | `/cancel`  | Este comando puede ayudarte si el bot tiene problemas con tu entrada de texto |
 | `/bug`  | Con este comando puedes enviar un mensaje a los desarrolladores y reportar un error |
-| `/event`  | Te muestra las tareas en el evento mensual |
+| `/event`  | Te muestra las tareas del evento mensual |
 
-## Respuesta a un Mensaje de Hongo
+## Respuesta a un mensaje de champiñón
 
 | Comando | Efecto |
 |----------|---------|
 | `/mit` y `/ohne` | Puedes [registrar y anular el registro de jugadores externos](join-mushroom.md#registrar-jugadores-externos) |
-| `/boost` | Puedes usar este comando **como respuesta a tu hongo** para mostrar el mensaje del hongo nuevamente en la parte inferior del grupo, por ejemplo si el hongo ha estado activo por algún tiempo y quieres mostrarlo fresco |
+| `/boost` | Puedes usar este comando **como respuesta a tu champiñón** para mostrar el mensaje del champiñón de nuevo al final del grupo, por ejemplo si el champiñón ha estado activo durante algún tiempo y quieres mostrarlo de nuevo |
 
-## Comandos de Administrador
+## Comandos de administradores
 
 | Comando | Efecto |
 |----------|---------|
-| `/news`  | Se envía un boletín a todos los usuarios activos (Se puede desactivar en la [Configuración de Usuario](userconfig.md)) |
-| `/logfile` | Como respuesta a un mensaje de hongo, crea un extracto del archivo de registro y muestra todas las interacciones con el hongo para analizar errores |
+| `/news`  | Se envía un boletín a todos los usuarios activos (se puede desactivar en la [Configuración de usuario](userconfig.md)) |
+| `/logfile` | Como respuesta a un mensaje de champiñón, crea un extracto del archivo de registro y muestra todas las interacciones con el champiñón para analizar errores |
 | `/zip`   | Crea una copia de seguridad del bot, con `/zip lang` solo se cargan los archivos para multilingüismo como copia de seguridad |
 | `/upload` | Esto se puede usar para actualizar archivos para multilingüismo o datos para un evento mensual |
-| `/inactive` | Muestra jugadores que no han estado activos por más de 6 meses |
-| `/whois` | Muestra información sobre un usuario: nombres, nombre de jugador, configuraciones de idioma y zona horaria, fecha de registro y fecha de la última batalla de hongos |
+| `/inactive` | Muestra jugadores que no han estado activos durante más de 6 meses |
+| `/whois` | Muestra información sobre un usuario: nombres, nombre de jugador, configuración de idioma y zona horaria, fecha de registro y fecha del último combate de champiñón |
