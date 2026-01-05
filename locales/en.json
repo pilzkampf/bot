@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-19",
+  "version": "2026-01-02",
   "grammar": {
     "size": {
       "small": {
@@ -19,122 +19,130 @@
       }
     },
     "color": {
-      "red": {
-        "default": "Red Mushroom",
-        "noun": "Red",
-        "event": "<u>red</u> ",
-        "emoji": "🟥"
+      "all": {
+        "default": "all",
+        "emoji": "✨",
+        "noun": "Every nectar"
       },
-      "yellow": {
-        "default": "Yellow Mushroom",
-        "noun": "Yellow",
-        "event": "<u>yellow</u> ",
-        "emoji": "🟨"
+      "any": {
+        "default": null,
+        "emoji": null,
+        "noun": null,
+        "event": ""
       },
       "blue": {
         "default": "Blue Mushroom",
+        "emoji": "🟦",
         "noun": "Blue",
-        "event": "<u>blue</u> ",
-        "emoji": "🟦"
-      },
-      "purple": {
-        "default": "Purple Mushroom",
-        "noun": "Purple",
-        "emoji": "🟪"
-      },
-      "white": {
-        "default": "White Mushroom",
-        "noun": "White",
-        "event": "<u>white</u> ",
-        "emoji": "🔲"
-      },
-      "pink": {
-        "default": "Pink Mushroom",
-        "noun": "Pink",
-        "emoji": "🩷"
-      },
-      "grey": {
-        "default": "Gray Mushroom",
-        "noun": "Gray",
-        "emoji": "🪨"
-      },
-      "ice": {
-        "default": "Iceblue Mushroom",
-        "noun": "Iceblue",
-        "emoji": "🥶"
-      },
-      "fire": {
-        "default": "Fire Mushroom",
-        "noun": "Fire",
-        "emoji": "🔥"
-      },
-      "water": {
-        "default": "Water Mushroom",
-        "noun": "Water",
-        "emoji": "💧"
-      },
-      "electro": {
-        "default": "Electric Mushroom",
-        "noun": "Electric",
-        "emoji": "⚡️"
+        "event": "<u>blue</u> "
       },
       "crystal": {
         "default": "Crystal Mushroom",
-        "noun": "Crystal",
-        "emoji": "💎"
+        "emoji": "💎",
+        "noun": "Crystal"
       },
-      "poison": {
-        "default": "Poisonous Mushroom",
-        "noun": "Poisonous",
-        "emoji": "🤢"
+      "electro": {
+        "default": "Electric Mushroom",
+        "emoji": "⚡️",
+        "noun": "Electric"
       },
       "event": {
         "default": "Event Mushroom",
-        "noun": "Event",
-        "emoji": "🎉"
-      },
-      "heart": {
-        "default": "Special Nectar",
-        "noun": "Special Nectar",
-        "emoji": "❤️"
-      },
-      "run": {
-        "default": "steps",
-        "noun": "Steps",
-        "emoji": "📅🏃"
-      },
-      "plant": {
-        "default": "flower planting",
-        "noun": "Flowers",
-        "emoji": "📅🌼"
-      },
-      "all": {
-        "default": "all",
-        "noun": "Every nectar",
-        "emoji": "✨"
-      },
-      "any": {
-        "event": ""
+        "emoji": "🎉",
+        "noun": "Event"
       },
       "event08": {
         "default": "Bizarre Mushroom",
-        "noun": "Bizarre Mushroom",
-        "emoji": "🍧"
-      },
-      "event09": {
-        "default": "Magnificent Mushroom",
-        "noun": "Magnificent Mushroom",
-        "emoji": "🥮"
+        "emoji": "🍧",
+        "noun": "Bizarre Mushroom"
       },
       "event2510": {
         "default": "Colorful Mushroom",
-        "noun": "Colorful Mushroom",
-        "emoji": "💀🌹"
+        "emoji": "💀🌹",
+        "noun": "Colorful Mushroom"
       },
       "event2511": {
         "default": "Brilliant Mushroom",
-        "noun": "Brilliant Mushroom",
-        "emoji": "🎂🎉"
+        "emoji": "🎂🎉",
+        "noun": "Brilliant Mushroom"
+      },
+      "event2512": {
+        "default": "Bizarre Mushroom",
+        "emoji": "🎁🎄",
+        "noun": "Bizarre Mushroom"
+      },
+      "event2601": {
+        "default": "Magnificent Mushroom",
+        "emoji": "🍱",
+        "noun": "Magnificent Mushroom"
+      },
+      "fire": {
+        "default": "Fire Mushroom",
+        "emoji": "🔥",
+        "noun": "Fire"
+      },
+      "grey": {
+        "default": "Gray Mushroom",
+        "emoji": "🪨",
+        "noun": "Gray"
+      },
+      "heart": {
+        "default": "Special Nectar",
+        "emoji": "❤️",
+        "noun": "Special Nectar"
+      },
+      "ice": {
+        "default": "Iceblue Mushroom",
+        "emoji": "🥶",
+        "noun": "Iceblue"
+      },
+      "pink": {
+        "default": "Pink Mushroom",
+        "emoji": "🩷",
+        "noun": "Pink"
+      },
+      "plant": {
+        "default": "flower planting",
+        "emoji": "📅🌼",
+        "noun": "Flowers"
+      },
+      "poison": {
+        "default": "Poisonous Mushroom",
+        "emoji": "🤢",
+        "noun": "Poisonous"
+      },
+      "purple": {
+        "default": "Purple Mushroom",
+        "emoji": "🟪",
+        "noun": "Purple"
+      },
+      "red": {
+        "default": "Red Mushroom",
+        "emoji": "🟥",
+        "noun": "Red",
+        "event": "<u>red</u> "
+      },
+      "run": {
+        "default": "steps",
+        "emoji": "📅🏃",
+        "noun": "Steps"
+      },
+      "water": {
+        "default": "Water Mushroom",
+        "emoji": "💧",
+        "noun": "Water"
+      },
+      "white": {
+        "default": "White Mushroom",
+        "emoji": "🔲",
+        "noun": "White",
+        "event": "<u>white</u> "
+      },
+      "yellow": {
+        "default": "Yellow Mushroom",
+        "emoji": "🟨",
+        "noun": "Yellow",
+        "event": "<u>yellow</u> "
       }
     },
     "status": {
@@ -153,9 +161,13 @@
     }
   },
   "flowers": {
-    "flowers": {
-      "name": "flowers",
-      "emoji": "🌼"
+    "anniversary roses": {
+      "name": "anniversary roses",
+      "emoji": "🌹"
+    },
+    "birds of paradise": {
+      "name": "birds of paradise",
+      "emoji": "🌺"
     },
     "bougainvilleas": {
       "name": "bougainvilleas",
@@ -169,9 +181,25 @@
       "name": "camellias",
       "emoji": "🏵️"
     },
+    "canola flowers": {
+      "name": "canola flowers",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "carnations",
+      "emoji": "🏐"
+    },
     "cattleyas": {
       "name": "cattleyas",
       "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "celosias",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "cherry blossoms",
+      "emoji": "🌸"
     },
     "chrysanthemums": {
       "name": "chrysanthemums",
@@ -180,6 +208,10 @@
     "clematis": {
       "name": "clematis",
       "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "cosmoses",
+      "emoji": "☄️"
     },
     "cyclamens": {
       "name": "cyclamens",
@@ -197,9 +229,21 @@
       "name": "dianthuses",
       "emoji": "⚜️"
     },
+    "flowers": {
+      "name": "flowers",
+      "emoji": "🌼"
+    },
+    "forget me nots": {
+      "name": "forget-me-nots",
+      "emoji": "🔵"
+    },
     "frangipanis": {
       "name": "frangipanis",
       "emoji": "📿"
+    },
+    "freesias": {
+      "name": "freesias",
+      "emoji": "🎆"
     },
     "gentians": {
       "name": "gentians",
@@ -217,45 +261,13 @@
       "name": "hyacinths",
       "emoji": "🟣"
     },
-    "morning glories": {
-      "name": "morning glories",
-      "emoji": "🌀"
-    },
-    "peonies": {
-      "name": "peonies",
-      "emoji": "🌹"
-    },
-    "poinsettias": {
-      "name": "poinsettias",
-      "emoji": "🎀"
-    },
-    "plum blossoms": {
-      "name": "plum blossoms",
-      "emoji": "🪔"
-    },
-    "sweet peas": {
-      "name": "sweet peas",
-      "emoji": "🎐"
-    },
-    "water lilies": {
-      "name": "water lilies",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "windflowers",
-      "emoji": "🌬️"
-    },
     "hydrangeas": {
       "name": "hydrangeas",
       "emoji": "🧩"
     },
-    "cherry blossoms": {
-      "name": "cherry blossoms",
-      "emoji": "🌸"
-    },
-    "pansies": {
-      "name": "pansies",
-      "emoji": "🧿"
+    "irises": {
+      "name": "irises",
+      "emoji": "⚜️"
     },
     "lilies": {
       "name": "lilies",
@@ -265,13 +277,61 @@
       "name": "lilies of the valley",
       "emoji": "🔔"
     },
-    "carnations": {
-      "name": "carnations",
-      "emoji": "🏐"
+    "marigolds": {
+      "name": "marigolds",
+      "emoji": "🌼"
     },
-    "tulips": {
-      "name": "tulips",
-      "emoji": "🌷"
+    "morning glories": {
+      "name": "morning glories",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "moth orchids",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "pansies",
+      "emoji": "🧿"
+    },
+    "peonies": {
+      "name": "peonies",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "plum blossoms",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "poinsettias",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "poppies",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "primroses",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "roses",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "salvias",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "snapdragons",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "snowdrops",
+      "emoji": "⛄"
     },
     "spider lilies": {
       "name": "spider lilies",
@@ -281,73 +341,21 @@
       "name": "sun flowers",
       "emoji": "🌻"
     },
-    "roses": {
-      "name": "roses",
-      "emoji": "🌹"
+    "sweet peas": {
+      "name": "sweet peas",
+      "emoji": "🎐"
     },
-    "cosmoses": {
-      "name": "cosmoses",
-      "emoji": "☄️"
+    "tulips": {
+      "name": "tulips",
+      "emoji": "🌷"
     },
-    "snowdrops": {
-      "name": "snowdrops",
-      "emoji": "⛄"
+    "water lilies": {
+      "name": "water lilies",
+      "emoji": "🪷"
     },
-    "canola flowers": {
-      "name": "canola flowers",
-      "emoji": "🟡"
-    },
-    "freesias": {
-      "name": "freesias",
-      "emoji": "🎆"
-    },
-    "anniversary roses": {
-      "name": "anniversary roses",
-      "emoji": "🌹"
-    },
-    "irises": {
-      "name": "irises",
-      "emoji": "⚜️"
-    },
-    "birds of paradise": {
-      "name": "birds of paradise",
-      "emoji": "🌺"
-    },
-    "celosias": {
-      "name": "celosias",
-      "emoji": "🌺"
-    },
-    "marigolds": {
-      "name": "marigolds",
-      "emoji": "🌼"
-    },
-    "salvias": {
-      "name": "salvias",
-      "emoji": "🌿"
-    },
-    "forget me nots": {
-      "name": "forget-me-nots",
-      "emoji": "🔵"
-    },
-    "moth orchids": {
-      "name": "moth orchids",
-      "emoji": "🦋"
-    },
-    "petunias": {
-      "name": "petunias",
-      "emoji": "🌺"
-    },
-    "poppies": {
-      "name": "poppies",
-      "emoji": "🌺"
-    },
-    "snapdragons": {
-      "name": "snapdragons",
-      "emoji": "🐲"
-    },
-    "primroses": {
-      "name": "primroses",
-      "emoji": "💐"
+    "windflowers": {
+      "name": "windflowers",
+      "emoji": "🌬️"
     }
   },
   "cmd": {

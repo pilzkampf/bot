@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-28",
+  "version": "2026-01-02",
   "grammar": {
     "size": {
       "small": {
@@ -44,179 +44,192 @@
       }
     },
     "color": {
-      "red": {
-        "default": "rote Pilze",
-        "comparative": "roter Pilz",
-        "dative": "roten Pilz",
-        "event": "<u>rote</u> ",
-        "noun": "Rot",
-        "emoji": "🟥"
-      },
-      "yellow": {
-        "default": "gelbe Pilze",
-        "comparative": "gelber Pilz",
-        "dative": "gelben Pilz",
-        "noun": "Gelb",
-        "event": "<u>gelbe</u> ",
-        "emoji": "🟨"
-      },
-      "blue": {
-        "default": "blaue Pilze",
-        "comparative": "blauer Pilz",
-        "dative": "blauen Pilz",
-        "noun": "Blau",
-        "event": "<u>blaue</u> ",
-        "emoji": "🟦"
-      },
-      "purple": {
-        "default": "lila Pilze",
-        "comparative": "lilaner Pilz",
-        "dative": "lilanen Pilz",
-        "noun": "Lila",
-        "emoji": "🟪"
-      },
-      "white": {
-        "default": "weiße Pilze",
-        "comparative": "weißer Pilz",
-        "dative": "weißen Pilz",
-        "noun": "Weiß",
-        "event": "<u>weiße</u> ",
-        "emoji": "🔲"
-      },
-      "pink": {
-        "default": "rosa Pilze",
-        "comparative": "rosaner Pilz",
-        "dative": "rosanen Pilz",
-        "noun": "Rosa",
-        "emoji": "🩷"
-      },
-      "grey": {
-        "default": "graue Pilze",
-        "comparative": "grauer Pilz",
-        "dative": "grauen Pilz",
-        "noun": "Grau",
-        "emoji": "🪨"
-      },
-      "ice": {
-        "default": "Eisblaue Pilze",
-        "comparative": "Eisblauer Pilz",
-        "dative": "Eisblauen Pilz",
-        "noun": "Eisblau",
-        "emoji": "🥶"
-      },
-      "fire": {
-        "default": "Feuer Pilze",
-        "comparative": "Feuer Pilz",
-        "dative": "Feuer Pilz",
-        "noun": "Feuer",
-        "emoji": "🔥"
-      },
-      "water": {
-        "default": "Wasser Pilze",
-        "comparative": "Wasser Pilz",
-        "dative": "Wasser Pilz",
-        "noun": "Wasser",
-        "emoji": "💧"
-      },
-      "electro": {
-        "default": "Elektro Pilze",
-        "comparative": "Elektro Pilz",
-        "dative": "Elektro Pilz",
-        "noun": "Elektro",
-        "emoji": "⚡️"
-      },
-      "crystal": {
-        "default": "Kristall Pilze",
-        "comparative": "Kristall Pilz",
-        "dative": "Kristall Pilz",
-        "noun": "Kristall",
-        "emoji": "💎"
-      },
-      "poison": {
-        "default": "giftige Pilze",
-        "comparative": "giftiger Pilz",
-        "dative": "giftigen Pilz",
-        "noun": "Gift",
-        "emoji": "🤢"
-      },
-      "event": {
-        "default": "Event Pilze",
-        "comparative": "Event Pilz",
-        "dative": "Event Pilz",
-        "noun": "Event",
-        "emoji": "🎉",
-        "from": "2001-08-01T00:00:00.0000+00:00",
-        "to": "2022-08-01T00:00:00.0000+00:00",
-        "nectar": "99"
-      },
-      "heart": {
-        "default": "Spezialnektar",
-        "comparative": "Spezialnektar",
-        "dative": "Spezialnektar",
-        "noun": "Spezialnektar",
-        "emoji": "❤️"
-      },
-      "run": {
-        "default": "Laufen",
-        "noun": "Laufen",
-        "comparative": "Laufen",
-        "dative": "Laufen",
-        "emoji": "📅🏃"
-      },
-      "plant": {
-        "default": "Pflanzen",
-        "noun": "Pflanzen",
-        "comparative": "Pflanzen",
-        "dative": "Pflanzen",
-        "emoji": "📅🌼"
-      },
       "all": {
         "default": "alles",
         "emoji": "✨",
         "noun": "Alle Pilze"
       },
       "any": {
+        "default": null,
+        "emoji": null,
+        "noun": null,
         "event": ""
+      },
+      "blue": {
+        "default": "blaue Pilze",
+        "emoji": "🟦",
+        "noun": "Blau",
+        "comparative": "blauer Pilz",
+        "dative": "blauen Pilz",
+        "event": "<u>blaue</u> "
+      },
+      "crystal": {
+        "default": "Kristall Pilze",
+        "emoji": "💎",
+        "noun": "Kristall",
+        "comparative": "Kristall Pilz",
+        "dative": "Kristall Pilz"
+      },
+      "electro": {
+        "default": "Elektro Pilze",
+        "emoji": "⚡️",
+        "noun": "Elektro",
+        "comparative": "Elektro Pilz",
+        "dative": "Elektro Pilz"
+      },
+      "event": {
+        "default": "Event Pilze",
+        "emoji": "🎉",
+        "noun": "Event",
+        "comparative": "Event Pilz",
+        "dative": "Event Pilz",
+        "from": "2001-08-01T02:00:00+02:00",
+        "to": "2022-08-01T02:00:00+02:00",
+        "nectar": ""
       },
       "event08": {
         "default": "Bizarre Pilze",
+        "emoji": "🍧",
+        "noun": "Bizarrer Pilz",
         "comparative": "Bizarrer Pilz",
         "dative": "Bizarren Pilz",
-        "noun": "Bizarrer Pilz",
-        "emoji": "🍧",
-        "nectar": "99",
-        "from": "2025-08-01T00:00:00.0000+00:00",
-        "to": "2025-08-31T00:00:00.0000+00:00"
-      },
-      "event09": {
-        "default": "prächtige Pilze",
-        "comparative": "prächtiger Pilz",
-        "dative": "prächtigen Pilz",
-        "noun": "prächtiger Pilz",
-        "emoji": "🥮",
-        "from": "2025-09-01",
-        "to": "2025-09-30",
-        "nectar": "99"
+        "nectar": "",
+        "from": "2025-08-01T02:00:00+02:00",
+        "to": "2025-08-31T02:00:00+02:00"
       },
       "event2510": {
         "default": "bunte Pilze",
+        "emoji": "💀🌹",
+        "noun": "bunter Pilz",
         "comparative": "bunter Pilz",
         "dative": "bunten Pilz",
-        "noun": "bunter Pilz",
-        "emoji": "💀🌹",
         "from": "2025-10-01",
         "to": "2025-10-31",
-        "nectar": "99"
+        "nectar": ""
       },
       "event2511": {
         "default": "geniale Pilze",
+        "emoji": "🎂🎉",
+        "noun": "genialer Pilz",
         "comparative": "genialer Pilz",
         "dative": "genialen Pilz",
-        "noun": "genialer Pilz",
-        "emoji": "🎂🎉",
         "from": "2025-11-01",
         "to": "2025-11-30",
+        "nectar": ""
+      },
+      "event2512": {
+        "default": "Bizarre Pilze",
+        "emoji": "🎁🎄",
+        "noun": "Bizarrer Pilz",
+        "comparative": "Bizarrer Pilz",
+        "dative": "Bizarren Pilz",
+        "nectar": "",
+        "from": "2025-12-01T01:00:00+01:00",
+        "to": "2025-12-31T01:00:00+01:00"
+      },
+      "event2601": {
+        "default": "prächtige Pilze",
+        "emoji": "🍱",
+        "noun": "prächtiger Pilz",
+        "comparative": "prächtiger Pilz",
+        "dative": "prächtigen Pilz",
+        "from": "2026-01-01",
+        "to": "2026-01-31",
         "nectar": "99"
+      },
+      "fire": {
+        "default": "Feuer Pilze",
+        "emoji": "🔥",
+        "noun": "Feuer",
+        "comparative": "Feuer Pilz",
+        "dative": "Feuer Pilz"
+      },
+      "grey": {
+        "default": "graue Pilze",
+        "emoji": "🪨",
+        "noun": "Grau",
+        "comparative": "grauer Pilz",
+        "dative": "grauen Pilz"
+      },
+      "heart": {
+        "default": "Spezialnektar",
+        "emoji": "❤️",
+        "noun": "Spezialnektar",
+        "comparative": "Spezialnektar",
+        "dative": "Spezialnektar"
+      },
+      "ice": {
+        "default": "Eisblaue Pilze",
+        "emoji": "🥶",
+        "noun": "Eisblau",
+        "comparative": "Eisblauer Pilz",
+        "dative": "Eisblauen Pilz"
+      },
+      "pink": {
+        "default": "rosa Pilze",
+        "emoji": "🩷",
+        "noun": "Rosa",
+        "comparative": "rosaner Pilz",
+        "dative": "rosanen Pilz"
+      },
+      "plant": {
+        "default": "Pflanzen",
+        "emoji": "📅🌼",
+        "noun": "Pflanzen",
+        "comparative": "Pflanzen",
+        "dative": "Pflanzen"
+      },
+      "poison": {
+        "default": "giftige Pilze",
+        "emoji": "🤢",
+        "noun": "Gift",
+        "comparative": "giftiger Pilz",
+        "dative": "giftigen Pilz"
+      },
+      "purple": {
+        "default": "lila Pilze",
+        "emoji": "🟪",
+        "noun": "Lila",
+        "comparative": "lilaner Pilz",
+        "dative": "lilanen Pilz"
+      },
+      "red": {
+        "default": "rote Pilze",
+        "emoji": "🟥",
+        "noun": "Rot",
+        "comparative": "roter Pilz",
+        "dative": "roten Pilz",
+        "event": "<u>rote</u> "
+      },
+      "run": {
+        "default": "Laufen",
+        "emoji": "📅🏃",
+        "noun": "Laufen",
+        "comparative": "Laufen",
+        "dative": "Laufen"
+      },
+      "water": {
+        "default": "Wasser Pilze",
+        "emoji": "💧",
+        "noun": "Wasser",
+        "comparative": "Wasser Pilz",
+        "dative": "Wasser Pilz"
+      },
+      "white": {
+        "default": "weiße Pilze",
+        "emoji": "🔲",
+        "noun": "Weiß",
+        "comparative": "weißer Pilz",
+        "dative": "weißen Pilz",
+        "event": "<u>weiße</u> "
+      },
+      "yellow": {
+        "default": "gelbe Pilze",
+        "emoji": "🟨",
+        "noun": "Gelb",
+        "comparative": "gelber Pilz",
+        "dative": "gelben Pilz",
+        "event": "<u>gelbe</u> "
       }
     },
     "status": {
@@ -235,9 +248,13 @@
     }
   },
   "flowers": {
-    "flowers": {
-      "name": "Blumen",
-      "emoji": "🌼"
+    "anniversary roses": {
+      "name": "Jubiläumsrosen",
+      "emoji": "🌹"
+    },
+    "birds of paradise": {
+      "name": "Paradiesvogelblumen",
+      "emoji": "🌺"
     },
     "bougainvilleas": {
       "name": "Drillingsblumen",
@@ -251,9 +268,25 @@
       "name": "Kamelien",
       "emoji": "🏵️"
     },
+    "canola flowers": {
+      "name": "Rapsblüten",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "Nelken",
+      "emoji": "🏐"
+    },
     "cattleyas": {
       "name": "Cattleyen",
       "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "Brandschöpfe",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "Kirschblüten",
+      "emoji": "🌸"
     },
     "chrysanthemums": {
       "name": "Chrysanthemen",
@@ -262,6 +295,10 @@
     "clematis": {
       "name": "Waldreben",
       "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "Schmuckkörbchen",
+      "emoji": "☄️"
     },
     "cyclamens": {
       "name": "Alpenveilchen",
@@ -279,9 +316,21 @@
       "name": "Prachtnelken",
       "emoji": "⚜️"
     },
+    "flowers": {
+      "name": "Blumen",
+      "emoji": "🌼"
+    },
+    "forget me nots": {
+      "name": "Vergissmeinnicht",
+      "emoji": "🔵"
+    },
     "frangipanis": {
       "name": "Wachsblumen",
       "emoji": "📿"
+    },
+    "freesias": {
+      "name": "Freesien",
+      "emoji": "🎆"
     },
     "gentians": {
       "name": "Enziane",
@@ -299,45 +348,13 @@
       "name": "Hyazinthen",
       "emoji": "🟣"
     },
-    "morning glories": {
-      "name": "Prunkwinden",
-      "emoji": "🌀"
-    },
-    "peonies": {
-      "name": "Pfingstrosen",
-      "emoji": "🌹"
-    },
-    "poinsettias": {
-      "name": "Weihnachtssterne",
-      "emoji": "🎀"
-    },
-    "plum blossoms": {
-      "name": "Pflaumenblüten",
-      "emoji": "🪔"
-    },
-    "sweet peas": {
-      "name": "Duftwicken",
-      "emoji": "🎐"
-    },
-    "water lilies": {
-      "name": "Seerosen",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "Windröschen",
-      "emoji": "🌬️"
-    },
     "hydrangeas": {
       "name": "Hortensien",
       "emoji": "🧩"
     },
-    "cherry blossoms": {
-      "name": "Kirschblüten",
-      "emoji": "🌸"
-    },
-    "pansies": {
-      "name": "Stiefmütterchen",
-      "emoji": "🧿"
+    "irises": {
+      "name": "Schwertlilien",
+      "emoji": "⚜️"
     },
     "lilies": {
       "name": "Lilien",
@@ -347,13 +364,61 @@
       "name": "Maiglöckchen",
       "emoji": "🔔"
     },
-    "carnations": {
-      "name": "Nelken",
-      "emoji": "🏐"
+    "marigolds": {
+      "name": "Ringelblumen",
+      "emoji": "🌼"
     },
-    "tulips": {
-      "name": "Tulpen",
-      "emoji": "🌷"
+    "morning glories": {
+      "name": "Prunkwinden",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "Mondorchideen",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "Stiefmütterchen",
+      "emoji": "🧿"
+    },
+    "peonies": {
+      "name": "Pfingstrosen",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "Petunien",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "Pflaumenblüten",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "Weihnachtssterne",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "Mohnblumen",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "Primeln",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "Rosen",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "Salbeiblumen",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "Löwenmäulchen",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "Schneeglöckchen",
+      "emoji": "⛄"
     },
     "spider lilies": {
       "name": "Spinnenlilien",
@@ -363,73 +428,21 @@
       "name": "Sonnenblumen",
       "emoji": "🌻"
     },
-    "roses": {
-      "name": "Rosen",
-      "emoji": "🌹"
+    "sweet peas": {
+      "name": "Duftwicken",
+      "emoji": "🎐"
     },
-    "cosmoses": {
-      "name": "Schmuckkörbchen",
-      "emoji": "☄️"
+    "tulips": {
+      "name": "Tulpen",
+      "emoji": "🌷"
     },
-    "snowdrops": {
-      "name": "Schneeglöckchen",
-      "emoji": "⛄"
+    "water lilies": {
+      "name": "Seerosen",
+      "emoji": "🪷"
     },
-    "canola flowers": {
-      "name": "Rapsblüten",
-      "emoji": "🟡"
-    },
-    "freesias": {
-      "name": "Freesien",
-      "emoji": "🎆"
-    },
-    "anniversary roses": {
-      "name": "Jubiläumsrosen",
-      "emoji": "🌹"
-    },
-    "irises": {
-      "name": "Schwertlilien",
-      "emoji": "⚜️"
-    },
-    "birds of paradise": {
-      "name": "Paradiesvogelblumen",
-      "emoji": "🌺"
-    },
-    "celosias": {
-      "name": "Brandschöpfe",
-      "emoji": "🌺"
-    },
-    "marigolds": {
-      "name": "Ringelblumen",
-      "emoji": "🌼"
-    },
-    "salvias": {
-      "name": "Salbeiblumen",
-      "emoji": "🌿"
-    },
-    "forget me nots": {
-      "name": "Vergissmeinnicht",
-      "emoji": "🔵"
-    },
-    "moth orchids": {
-      "name": "Nachtfalterorchideen",
-      "emoji": "🦋"
-    },
-    "petunias": {
-      "name": "Petunien",
-      "emoji": "🌺"
-    },
-    "poppies": {
-      "name": "Mohnblumen",
-      "emoji": "🌺"
-    },
-    "snapdragons": {
-      "name": "Löwenmäulchen",
-      "emoji": "🐲"
-    },
-    "primroses": {
-      "name": "Primeln",
-      "emoji": "💐"
+    "windflowers": {
+      "name": "Windröschen",
+      "emoji": "🌬️"
     }
   },
   "cmd": {

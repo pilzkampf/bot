@@ -1,10 +1,10 @@
 {
-  "version": "2025-11-19",
+  "version": "2026-01-02",
   "grammar": {
     "size": {
       "small": {
         "default": "kleine",
-        "comparative": "Kleinere",
+        "comparative": "kleinere",
         "dative": "kleine",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -12,7 +12,7 @@
       },
       "normal": {
         "default": "normale",
-        "comparative": "Normalere",
+        "comparative": "normalere",
         "dative": "normale",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -20,7 +20,7 @@
       },
       "large": {
         "default": "grote",
-        "comparative": "Grotere",
+        "comparative": "grotere",
         "dative": "grote",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -28,180 +28,190 @@
       },
       "giant": {
         "default": "reusachtige",
-        "comparative": "Reusachtigere",
+        "comparative": "reusachtigere",
         "dative": "reusachtige",
         "dative-preposition": "naar de",
         "dative-article": "de",
         "dative-indef-article": "een"
       },
       "weekly": {
-        "default": "weekuitdaging",
-        "comparative": "weekuitdaging",
-        "dative": "weekuitdaging",
-        "dative-preposition": "naar de",
+        "default": "wekelijks",
+        "comparative": "wekelijks",
+        "dative": "wekelijkse",
+        "dative-preposition": "voor de",
         "dative-article": "de",
         "dative-indef-article": "een"
       }
     },
     "color": {
-      "red": {
-        "default": "rode paddenstoelen",
-        "comparative": "rode paddenstoel",
-        "dative": "rode paddenstoel",
-        "event": "<u>rode</u> ",
-        "noun": "Rood",
-        "emoji": "🟥"
-      },
-      "yellow": {
-        "default": "gele paddenstoelen",
-        "comparative": "gele paddenstoel",
-        "dative": "gele paddenstoel",
-        "noun": "Geel",
-        "event": "<u>gele</u> ",
-        "emoji": "🟨"
-      },
-      "blue": {
-        "default": "blauwe paddenstoelen",
-        "comparative": "blauwe paddenstoel",
-        "dative": "blauwe paddenstoel",
-        "noun": "Blauw",
-        "event": "<u>blauwe</u> ",
-        "emoji": "🟦"
-      },
-      "purple": {
-        "default": "paarse paddenstoelen",
-        "comparative": "paarse paddenstoel",
-        "dative": "paarse paddenstoel",
-        "noun": "Paars",
-        "emoji": "🟪"
-      },
-      "white": {
-        "default": "witte paddenstoelen",
-        "comparative": "witte paddenstoel",
-        "dative": "witte paddenstoel",
-        "noun": "Wit",
-        "event": "<u>witte</u> ",
-        "emoji": "🔲"
-      },
-      "pink": {
-        "default": "roze paddenstoelen",
-        "comparative": "roze paddenstoel",
-        "dative": "roze paddenstoel",
-        "noun": "Roze",
-        "emoji": "🩷"
-      },
-      "grey": {
-        "default": "grijze paddenstoelen",
-        "comparative": "grijze paddenstoel",
-        "dative": "grijze paddenstoel",
-        "noun": "Grijs",
-        "emoji": "🪨"
-      },
-      "ice": {
-        "default": "Ijsblauwe paddenstoelen",
-        "dative": "Ijsblauwe paddenstoelen",
-        "comparative": "Ijsblauwe paddenstoelen",
-        "noun": "Ijsblauwe",
-        "emoji": "🥶"
-      },
-      "fire": {
-        "default": "vuur paddenstoelen",
-        "comparative": "vuur paddenstoel",
-        "dative": "vuur paddenstoel",
-        "noun": "Vuur",
-        "emoji": "🔥"
-      },
-      "water": {
-        "default": "water paddenstoelen",
-        "comparative": "water paddenstoel",
-        "dative": "water paddenstoel",
-        "noun": "Water",
-        "emoji": "💧"
-      },
-      "electro": {
-        "default": "elektrische paddenstoelen",
-        "comparative": "elektrische paddenstoel",
-        "dative": "elektrische paddenstoel",
-        "noun": "Elektrisch",
-        "emoji": "⚡️"
-      },
-      "crystal": {
-        "default": "kristal paddenstoelen",
-        "comparative": "kristal paddenstoel",
-        "dative": "kristal paddenstoel",
-        "noun": "Kristal",
-        "emoji": "💎"
-      },
-      "poison": {
-        "default": "giftige paddenstoelen",
-        "comparative": "giftige paddenstoel",
-        "dative": "giftige paddenstoel",
-        "noun": "Gif",
-        "emoji": "🤢"
-      },
-      "event": {
-        "default": "event paddenstoelen",
-        "comparative": "event paddenstoel",
-        "dative": "event paddenstoel",
-        "noun": "Event",
-        "emoji": "🎉"
-      },
-      "heart": {
-        "default": "speciale nectar",
-        "comparative": "speciale nectar",
-        "dative": "speciale nectar",
-        "noun": "Speciale nectar",
-        "emoji": "❤️"
-      },
-      "run": {
-        "default": "stappen",
-        "noun": "Stappen",
-        "comparative": "stappen",
-        "dative": "stappen",
-        "emoji": "📅🏃"
-      },
-      "plant": {
-        "default": "bloemen planten",
-        "noun": "Bloemen",
-        "comparative": "bloemen planten",
-        "dative": "bloemen planten",
-        "emoji": "📅🌼"
-      },
       "all": {
         "default": "alle",
         "emoji": "✨",
         "noun": "Alle paddenstoelen"
       },
       "any": {
+        "default": null,
+        "emoji": null,
+        "noun": null,
         "event": ""
       },
-      "event08": {
-        "default": "Bizarre Mushroom",
-        "comparative": "Bizarre Mushroom",
-        "dative": "Bizarre Mushroom",
-        "noun": "Bizarre Mushroom",
-        "emoji": "🍧"
+      "blue": {
+        "default": "blauwe paddenstoelen",
+        "emoji": "🟦",
+        "noun": "Blauw",
+        "comparative": "blauwe paddenstoel",
+        "dative": "blauwe paddenstoel",
+        "event": "<u>blauwe</u> "
       },
-      "event09": {
-        "default": "Magnificent Mushroom",
-        "comparative": "Magnificent Mushroom",
-        "dative": "Magnificent Mushroom",
-        "noun": "Magnificent Mushroom",
-        "emoji": "🥮"
+      "crystal": {
+        "default": "kristallen paddenstoelen",
+        "emoji": "💎",
+        "noun": "Kristal",
+        "comparative": "kristallen paddenstoel",
+        "dative": "kristallen paddenstoel"
+      },
+      "electro": {
+        "default": "elektrische paddenstoelen",
+        "emoji": "⚡️",
+        "noun": "Elektrisch",
+        "comparative": "elektrische paddenstoel",
+        "dative": "elektrische paddenstoel"
+      },
+      "event": {
+        "default": "eventpaddenstoelen",
+        "emoji": "🎉",
+        "noun": "Event",
+        "comparative": "eventpaddenstoel",
+        "dative": "eventpaddenstoel"
+      },
+      "event08": {
+        "default": "Bizarre paddenstoel",
+        "emoji": "🍧",
+        "noun": "Bizarre paddenstoel",
+        "comparative": "Bizarre paddenstoel",
+        "dative": "Bizarre paddenstoel"
       },
       "event2510": {
-        "default": "Colorful Mushroom",
-        "comparative": "Colorful Mushroom",
-        "dative": "Colorful Mushroom",
-        "noun": "Colorful Mushroom",
-        "emoji": "💀🌹"
+        "default": "Kleurrijke paddenstoel",
+        "emoji": "💀🌹",
+        "noun": "Kleurrijke paddenstoel",
+        "comparative": "Kleurrijke paddenstoel",
+        "dative": "Kleurrijke paddenstoel"
       },
       "event2511": {
-        "default": "Brilliant Mushroom",
-        "comparative": "Brilliant Mushroom",
-        "dative": "Brilliant Mushroom",
-        "noun": "Brilliant Mushroom",
-        "emoji": "🎂🎉"
+        "default": "Briljante paddenstoel",
+        "emoji": "🎂🎉",
+        "noun": "Briljante paddenstoel",
+        "comparative": "Briljante paddenstoel",
+        "dative": "Briljante paddenstoel"
+      },
+      "event2512": {
+        "default": "Bizarre paddenstoel",
+        "emoji": "🎁🎄",
+        "noun": "Bizarre paddenstoel",
+        "comparative": "Bizarre paddenstoel",
+        "dative": "Bizarre paddenstoel"
+      },
+      "event2601": {
+        "default": "Magnifieke paddenstoel",
+        "emoji": "🍱",
+        "noun": "Magnifieke paddenstoel",
+        "comparative": "Magnifieke paddenstoel",
+        "dative": "Magnifieke paddenstoel"
+      },
+      "fire": {
+        "default": "vuurpaddenstoelen",
+        "emoji": "🔥",
+        "noun": "Vuur",
+        "comparative": "vuurpaddenstoel",
+        "dative": "vuurpaddenstoel"
+      },
+      "grey": {
+        "default": "grijze paddenstoelen",
+        "emoji": "🪨",
+        "noun": "Grijs",
+        "comparative": "grijze paddenstoel",
+        "dative": "grijze paddenstoel"
+      },
+      "heart": {
+        "default": "speciale nectar",
+        "emoji": "❤️",
+        "noun": "Speciale nectar",
+        "comparative": "speciale nectar",
+        "dative": "speciale nectar"
+      },
+      "ice": {
+        "default": "ijsblauwe paddenstoelen",
+        "emoji": "🥶",
+        "noun": "Ijsblauw",
+        "comparative": "ijsblauwe paddenstoelen",
+        "dative": "ijsblauwe paddenstoelen"
+      },
+      "pink": {
+        "default": "roze paddenstoelen",
+        "emoji": "🩷",
+        "noun": "Roze",
+        "comparative": "roze paddenstoel",
+        "dative": "roze paddenstoel"
+      },
+      "plant": {
+        "default": "bloemen planten",
+        "emoji": "📅🌼",
+        "noun": "Bloemen",
+        "comparative": "bloemen planten",
+        "dative": "bloemen planten"
+      },
+      "poison": {
+        "default": "giftige paddenstoelen",
+        "emoji": "🤢",
+        "noun": "Gif",
+        "comparative": "giftige paddenstoel",
+        "dative": "giftige paddenstoel"
+      },
+      "purple": {
+        "default": "paarse paddenstoelen",
+        "emoji": "🟪",
+        "noun": "Paars",
+        "comparative": "paarse paddenstoel",
+        "dative": "paarse paddenstoel"
+      },
+      "red": {
+        "default": "rode paddenstoelen",
+        "emoji": "🟥",
+        "noun": "Rood",
+        "comparative": "rode paddenstoel",
+        "dative": "rode paddenstoel",
+        "event": "<u>rode</u> "
+      },
+      "run": {
+        "default": "stappen",
+        "emoji": "📅🏃",
+        "noun": "Stappen",
+        "comparative": "stappen",
+        "dative": "stappen"
+      },
+      "water": {
+        "default": "waterpaddenstoelen",
+        "emoji": "💧",
+        "noun": "Water",
+        "comparative": "waterpaddenstoel",
+        "dative": "waterpaddenstoel"
+      },
+      "white": {
+        "default": "witte paddenstoelen",
+        "emoji": "🔲",
+        "noun": "Wit",
+        "comparative": "witte paddenstoel",
+        "dative": "witte paddenstoel",
+        "event": "<u>witte</u> "
+      },
+      "yellow": {
+        "default": "gele paddenstoelen",
+        "emoji": "🟨",
+        "noun": "Geel",
+        "comparative": "gele paddenstoel",
+        "dative": "gele paddenstoel",
+        "event": "<u>gele</u> "
       }
     },
     "status": {
@@ -220,12 +230,16 @@
     }
   },
   "flowers": {
-    "flowers": {
-      "name": "bloemen",
-      "emoji": "🌼"
+    "anniversary roses": {
+      "name": "jubileumrozen",
+      "emoji": "🌹"
+    },
+    "birds of paradise": {
+      "name": "paradijsvogelbloemen",
+      "emoji": "🌺"
     },
     "bougainvilleas": {
-      "name": "bougainvilleas",
+      "name": "bougainvillea's",
       "emoji": "🏵️"
     },
     "calla lily": {
@@ -233,12 +247,28 @@
       "emoji": "🤍"
     },
     "camellias": {
-      "name": "camellias",
+      "name": "camellia's",
       "emoji": "🏵️"
     },
+    "canola flowers": {
+      "name": "koolzaadbloemen",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "anjers",
+      "emoji": "🏐"
+    },
     "cattleyas": {
-      "name": "cattleyas",
+      "name": "cattleya's",
       "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "celosia's",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "kersenbloesems",
+      "emoji": "🌸"
     },
     "chrysanthemums": {
       "name": "chrysanten",
@@ -247,6 +277,10 @@
     "clematis": {
       "name": "clematis",
       "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "cosmea's",
+      "emoji": "☄️"
     },
     "cyclamens": {
       "name": "cyclamen",
@@ -264,9 +298,21 @@
       "name": "anjers",
       "emoji": "⚜️"
     },
+    "flowers": {
+      "name": "bloemen",
+      "emoji": "🌼"
+    },
+    "forget me nots": {
+      "name": "vergeet-mij-nietjes",
+      "emoji": "🔵"
+    },
     "frangipanis": {
       "name": "frangipani's",
       "emoji": "📿"
+    },
+    "freesias": {
+      "name": "freesia's",
+      "emoji": "🎆"
     },
     "gentians": {
       "name": "gentianen",
@@ -284,45 +330,13 @@
       "name": "hyacinten",
       "emoji": "🟣"
     },
-    "morning glories": {
-      "name": "windes",
-      "emoji": "🌀"
-    },
-    "peonies": {
-      "name": "pioenen",
-      "emoji": "🌹"
-    },
-    "poinsettias": {
-      "name": "kerststerren",
-      "emoji": "🎀"
-    },
-    "plum blossoms": {
-      "name": "pruimenbloesems",
-      "emoji": "🪔"
-    },
-    "sweet peas": {
-      "name": "lathyrus",
-      "emoji": "🎐"
-    },
-    "water lilies": {
-      "name": "waterlelies",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "anemonen",
-      "emoji": "🌬️"
-    },
     "hydrangeas": {
       "name": "hortensia's",
       "emoji": "🧩"
     },
-    "cherry blossoms": {
-      "name": "kersenbloesems",
-      "emoji": "🌸"
-    },
-    "pansies": {
-      "name": "viooltjes",
-      "emoji": "🧿"
+    "irises": {
+      "name": "irissen",
+      "emoji": "⚜️"
     },
     "lilies": {
       "name": "lelies",
@@ -332,13 +346,61 @@
       "name": "lelietjes-van-dalen",
       "emoji": "🔔"
     },
-    "carnations": {
-      "name": "anjers",
-      "emoji": "🏐"
+    "marigolds": {
+      "name": "goudsbloemen",
+      "emoji": "🌼"
     },
-    "tulips": {
-      "name": "tulpen",
-      "emoji": "🌷"
+    "morning glories": {
+      "name": "windes",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "vlinderorchideeën",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "viooltjes",
+      "emoji": "🧿"
+    },
+    "peonies": {
+      "name": "pioenen",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "petunia's",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "pruimenbloesems",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "kerststerren",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "papaverbloemen",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "sleutelbloemen",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "rozen",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "saliebloemen",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "leeuwenbekken",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "sneeuwklokjes",
+      "emoji": "⛄"
     },
     "spider lilies": {
       "name": "spinnenlelies",
@@ -348,73 +410,21 @@
       "name": "zonnebloemen",
       "emoji": "🌻"
     },
-    "roses": {
-      "name": "rozen",
-      "emoji": "🌹"
+    "sweet peas": {
+      "name": "lathyrus",
+      "emoji": "🎐"
     },
-    "cosmoses": {
-      "name": "cosmea's",
-      "emoji": "☄️"
+    "tulips": {
+      "name": "tulpen",
+      "emoji": "🌷"
     },
-    "snowdrops": {
-      "name": "sneeuwklokjes",
-      "emoji": "⛄"
+    "water lilies": {
+      "name": "waterlelies",
+      "emoji": "🪷"
     },
-    "canola flowers": {
-      "name": "koolzaadbloemen",
-      "emoji": "🟡"
-    },
-    "freesias": {
-      "name": "freesia's",
-      "emoji": "🎆"
-    },
-    "anniversary roses": {
-      "name": "jubileumrozen",
-      "emoji": "🌹"
-    },
-    "irises": {
-      "name": "irissen",
-      "emoji": "⚜️"
-    },
-    "birds of paradise": {
-      "name": "paradijsvogelbloemen",
-      "emoji": "🌺"
-    },
-    "celosias": {
-      "name": "celosia's",
-      "emoji": "🌺"
-    },
-    "marigolds": {
-      "name": "goudsbloemen",
-      "emoji": "🌼"
-    },
-    "salvias": {
-      "name": "saliebloemen",
-      "emoji": "🌿"
-    },
-    "forget me nots": {
-      "name": "vergeet-mij-nietjes",
-      "emoji": "🔵"
-    },
-    "moth orchids": {
-      "name": "vlinderorchideeën",
-      "emoji": "🦋"
-    },
-    "petunias": {
-      "name": "petunia's",
-      "emoji": "🌺"
-    },
-    "poppies": {
-      "name": "papaverbloemen",
-      "emoji": "🌺"
-    },
-    "snapdragons": {
-      "name": "leeuwenbekken",
-      "emoji": "🐲"
-    },
-    "primroses": {
-      "name": "sleutelbloemen",
-      "emoji": "💐"
+    "windflowers": {
+      "name": "anemonen",
+      "emoji": "🌬️"
     }
   },
   "cmd": {
@@ -484,32 +494,32 @@
     "instruction_color": "<b>Kies welk type nectar je momenteel zoekt.</b>\nMet <i>speciale nectar</i> vind je grote paddenstoelen en elementaire paddenstoelen.",
     "instruction_size": "<b>Welk formaat moet de paddenstoel hebben?</b>\nAls je alleen grote paddenstoelen zoekt, word je niet op de hoogte gebracht over kleine en normale paddenstoelen.",
     "instruction_ticket": "<b>Wil je een ticket gebruiken?</b>\nMet ticket krijg je alle uitnodigingen: vrije en ticket plaatsen. Met 'alleen vrije plaatsen' word je niet over paddenstoelen met ticket op de hoogte gebracht.",
-    "instr_red": "{color_emoji} <b>{color_noun}</b> met <b>roze</b> en <b>vuur-paddenstoelen</b>\n",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> met <b>roze</b> en <b>vuurpaddenstoelen</b>\n",
     "instr_yellow": "{color_emoji} <b>{color_noun}</b> met <b>elektrische paddenstoelen</b>\n",
-    "instr_blue": "{color_emoji} <b>{color_noun}</b> met <b>paarse</b> en <b>water-paddenstoelen</b>\n",
-    "instr_white": "{color_emoji} <b>{color_noun}</b> met <b>grijze</b>, <b>kristal-</b> en <b>giftige paddenstoelen</b>\n",
-    "instr_heart": "{color_emoji} <b>{color_noun}</b> met <b>vuur-, water-, elektrische-, kristal-</b> en <b>giftige paddenstoelen</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> met <b>paarse</b> en <b>waterpaddenstoelen</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> met <b>grijze</b>, <b>kristallen</b> en <b>giftige paddenstoelen</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> met <b>vuur-, water-, elektrische-, kristallen-</b> en <b>giftige paddenstoelen</b>\n",
     "your_wish_big": "Je zoekt <b>{color_default} (Grote paddenstoelen)</b>.\n",
     "your_wish_all": "Je zoekt <b>{color_default} (Alle formaten)</b>.\n",
     "have_no_ticket": "Je hebt <u>geen</u> tickets.",
     "have_ticket": "Je hebt 🎟 tickets.",
-    "wish_red": "Rode, roze paddenstoelen en vuur-paddenstoelen",
+    "wish_red": "Rode, roze paddenstoelen en vuurpaddenstoelen",
     "wish_red_emoji": "🟥🩷🔥",
     "wish_yellow": "Gele en elektrische paddenstoelen",
     "wish_yellow_emoji": "🟨⚡️",
-    "wish_blue": "Blauwe, paarse, ijs- en water-paddenstoelen",
+    "wish_blue": "Blauwe, paarse, ijsblauwe en waterpaddenstoelen",
     "wish_blue_emoji": "🟦🟪🥶💧",
-    "wish_white": "Witte, grijze, kristal- en giftige paddenstoelen",
+    "wish_white": "Witte, grijze, kristallen en giftige paddenstoelen",
     "wish_white_emoji": "🔲🪨💎🤢",
-    "wish_fire": "Vuur-paddenstoelen",
+    "wish_fire": "Vuurpaddenstoelen",
     "wish_fire_emoji": "🔥",
     "wish_electro": "Elektrische paddenstoelen",
     "wish_electro_emoji": "⚡️",
-    "wish_water": "Water-paddenstoelen",
+    "wish_water": "Waterpaddenstoelen",
     "wish_water_emoji": "💧",
-    "wish_crystal": "Kristal- en giftige paddenstoelen",
+    "wish_crystal": "Kristallen en giftige paddenstoelen",
     "wish_crystal_emoji": "💎🤢",
-    "wish_event": "Event paddenstoelen",
+    "wish_event": "Eventpaddenstoelen",
     "wish_heart": "Speciale nectar",
     "wish_event_emoji": "🎉",
     "wish_heart_emoji": "❤️",
@@ -533,7 +543,7 @@
     "fc_error": "De vriendencode is een 12-cijferig nummer. Je hebt ingevoerd: {friend_code}. Probeer het opnieuw. Als je anoniem wilt blijven, schrijf \"0\".",
     "ask_level": "Welk level heb je in Pikmin Bloom? Om over te slaan, schrijf \"0\".",
     "saved": "Je gegevens zijn opgeslagen!\nSpeler: {name}\nVriendencode: {fc}\nLevel: {level}",
-    "newhint": "Gebruik de commando's in het menu onderaan. Met /profile kun je tijdzone, taal en speler-informatie aanpassen.\n\nGebruik /active om actuele paddenstoelgevecht-aanbiedingen te zien. Daar kun je onderaan een knop zien voor paddenstoel-alarmen. Hiermee kun je automatisch op de hoogte worden gebracht wanneer er een paddenstoel-aanbod is.\n\nAls je een bevestigde speler bent, word je toegevoegd aan een chatgroep.\n\n<b>Voeg Mello Yellow toe in Pikmin Bloom aan je vrienden om geverifieerd te worden. De vriendencode is:</b>\n<code>499969789993</code>\n(tikken om te kopiëren)"
+    "newhint": "Gebruik de commando's in het menu onderaan. Met /profile kun je tijdzone, taal en speler-informatie aanpassen.\n\nGebruik /active om actuele paddenstoelgevecht-aanbiedingen te zien. Daar kun je onderaan een knop zien voor paddenstoel-alarmen. Hiermee kun je automatisch op de hoogte worden gebracht wanneer er een paddenstoel-aanbod is.\n\nAls je een bevestigde speler is, word je toegevoegd aan een chatgroep.\n\n<b>Voeg Mello Yellow toe in Pikmin Bloom aan je vrienden om geverifieerd te worden. De vriendencode is:</b>\n<code>499969789993</code>\n(tikken om te kopiëren)"
   },
   "notification": {
     "invite": "<b>{player}</b> werd uitgenodigd voor een <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a>{ticket} van {starter}!",
@@ -581,28 +591,28 @@
     "headline": "{flower_emoji} {flower_name} "
   },
   "mushroom": {
-    "small": "Klein",
-    "normal": "Normaal",
-    "large": "Groot",
-    "giant": "Reusachtig",
+    "small": "Small",
+    "normal": "Normal",
+    "large": "Large",
+    "giant": "Giant",
+    "weekly": "Wekelijkse uitdaging",
     "free": "vrij",
-    "slot": "Plaats ",
-    "slots": "Plaatsen ",
-    "with_ticket": " met ticket 🎟",
+    "slot": "plaats ",
+    "slots": "plekken ",
+    "with_ticket": "met ticket 🎟",
     "without_ticket": "zonder 🆓ticket ",
-    "weekly": "Weekuitdaging",
     "aborted": "Aanmaken afgebroken.",
     "ask_size": "Welk formaat heeft je paddenstoel?",
     "ask_weekly": "Welke weekuitdaging?",
     "ask_color": "Welke kleur heeft de {size_default} paddenstoel?",
-    "ask_slots": "Hoeveel plaatsen zijn vrij?",
+    "ask_slots": "Hoeveel plekken zijn vrij?",
     "ask_time": "⏰<b>Hoe lang is de resterende tijd?</b>\n<b>Het formaat voor dagen, uren en minuten: <u>1d 14u 38m</u>.</b>\n\nDruk op de knop met de schatting om deze over te nemen of voer de resterende tijd van het paddenstoelgevecht in en druk op de ⬆️Verzend-knop.\n",
     "ask_comment": "\n\n💬<b>Heb je een opmerking voor je aanbod?</b>\n",
     "your_comment": "Je opmerking",
     "minutes": "minuten",
     "estimation": "Huidige schatting:",
     "summary": "Een {size_comparative} {color_comparative}, {slots} ",
-    "comment_desc": "Schrijf de opmerking hier per bericht in het tekstveld. Als je geen opmerking wilt schrijven, tik op \"Klaar zonder opmerking\".",
+    "comment_desc": "Schrijf de opmerking hier in het tekstveld. Als je geen opmerking wilt schrijven, tik op \"Klaar zonder opmerking\".",
     "eventchange": "<b>Beschrijf je eventpaddenstoel, bijvoorbeeld \"Mystery paddenstoel\" of \"Halloween paddenstoel\".</b>",
     "unknown_error": "Er was een onvoorziene fout. Probeer het opnieuw. Het werd afgebroken.",
     "status": " {status_emoji}\n"
@@ -696,8 +706,8 @@
     "runs_inactive": "liep tot:",
     "created": "Je hebt {size_dative-indef-article} <a href=\"{link}\"><b>{size_dative} {color_dative}</b></a> aangemaakt.\n",
     "created_inactive": "Je hebt {size_dative-indef-article} <strike><a href=\"{link}\"><b>{size_dative} {color_dative}</b></a></strike> aangemaakt.\n",
-    "slots": "Plaatsen",
-    "slot": "Plaats",
+    "slots": "plekken",
+    "slot": "plaats",
     "with_ticket": "<b>met ticket</b>\n",
     "WITH_TICKET": "<b>M E T   T I C K E T</b> 🎟\n",
     "without_ticket": "vrij\n",

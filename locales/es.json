@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-28",
+  "version": "2026-01-02",
   "grammar": {
     "size": {
       "small": {
@@ -19,122 +19,130 @@
       }
     },
     "color": {
-      "red": {
-        "default": "Champiñón rojo",
-        "noun": "Rojo",
-        "event": "<u>rojo</u> ",
-        "emoji": "🟥"
+      "all": {
+        "default": "todos",
+        "emoji": "✨",
+        "noun": "Todo el néctar"
       },
-      "yellow": {
-        "default": "Champiñón amarillo",
-        "noun": "Amarillo",
-        "event": "<u>amarillo</u> ",
-        "emoji": "🟨"
+      "any": {
+        "default": null,
+        "emoji": null,
+        "noun": null,
+        "event": ""
       },
       "blue": {
         "default": "Champiñón azul",
+        "emoji": "🟦",
         "noun": "Azul",
-        "event": "<u>azul</u> ",
-        "emoji": "🟦"
-      },
-      "purple": {
-        "default": "Champiñón morado",
-        "noun": "Morado",
-        "emoji": "🟪"
-      },
-      "white": {
-        "default": "Champiñón blanco",
-        "noun": "Blanco",
-        "event": "<u>blanco</u> ",
-        "emoji": "🔲"
-      },
-      "pink": {
-        "default": "Champiñón rosa",
-        "noun": "Rosa",
-        "emoji": "🩷"
-      },
-      "grey": {
-        "default": "Champiñón gris",
-        "noun": "Gris",
-        "emoji": "🪨"
-      },
-      "ice": {
-        "default": "Champiñón de hielo",
-        "noun": "Hielo",
-        "emoji": "🥶"
-      },
-      "fire": {
-        "default": "Champiñón de fuego",
-        "noun": "Fuego",
-        "emoji": "🔥"
-      },
-      "water": {
-        "default": "Champiñón de agua",
-        "noun": "Agua",
-        "emoji": "💧"
-      },
-      "electro": {
-        "default": "Champiñón eléctrico",
-        "noun": "Eléctrico",
-        "emoji": "⚡️"
+        "event": "<u>azul</u> "
       },
       "crystal": {
         "default": "Champiñón de cristal",
-        "noun": "Cristal",
-        "emoji": "💎"
+        "emoji": "💎",
+        "noun": "Cristal"
       },
-      "poison": {
-        "default": "Champiñón venenoso",
-        "noun": "Venenoso",
-        "emoji": "🤢"
+      "electro": {
+        "default": "Champiñón eléctrico",
+        "emoji": "⚡️",
+        "noun": "Eléctrico"
       },
       "event": {
         "default": "Champiñón de evento",
-        "noun": "Evento",
-        "emoji": "🎉"
-      },
-      "heart": {
-        "default": "Néctar especial",
-        "noun": "Néctar especial",
-        "emoji": "❤️"
-      },
-      "run": {
-        "default": "pasos",
-        "noun": "Pasos",
-        "emoji": "📅🏃"
-      },
-      "plant": {
-        "default": "plantar flores",
-        "noun": "Flores",
-        "emoji": "📅🌼"
-      },
-      "all": {
-        "default": "todos",
-        "noun": "Todo el néctar",
-        "emoji": "✨"
-      },
-      "any": {
-        "event": ""
+        "emoji": "🎉",
+        "noun": "Evento"
       },
       "event08": {
         "default": "Champiñón extraño",
-        "noun": "Champiñón extraño",
-        "emoji": "🍧"
-      },
-      "event09": {
-        "default": "Champiñón magnífico",
-        "noun": "Champiñón magnífico",
-        "emoji": "🥮"
+        "emoji": "🍧",
+        "noun": "Champiñón extraño"
       },
       "event2510": {
         "default": "Champiñón colorido",
-        "noun": "Champiñón colorido",
-        "emoji": "💀🌹"
+        "emoji": "💀🌹",
+        "noun": "Champiñón colorido"
       },
       "event2511": {
         "default": "Champiñón brillante",
-        "noun": "Champiñón brillante",
-        "emoji": "🎂🎉"
+        "emoji": "🎂🎉",
+        "noun": "Champiñón brillante"
+      },
+      "event2512": {
+        "default": "Champiñón extraño",
+        "emoji": "🎁🎄",
+        "noun": "Champiñón extraño"
+      },
+      "event2601": {
+        "default": "Champiñón magnífico",
+        "emoji": "🍱",
+        "noun": "Champiñón magnífico"
+      },
+      "fire": {
+        "default": "Champiñón de fuego",
+        "emoji": "🔥",
+        "noun": "Fuego"
+      },
+      "grey": {
+        "default": "Champiñón gris",
+        "emoji": "🪨",
+        "noun": "Gris"
+      },
+      "heart": {
+        "default": "Néctar especial",
+        "emoji": "❤️",
+        "noun": "Néctar especial"
+      },
+      "ice": {
+        "default": "Champiñón de hielo",
+        "emoji": "🥶",
+        "noun": "Hielo"
+      },
+      "pink": {
+        "default": "Champiñón rosa",
+        "emoji": "🩷",
+        "noun": "Rosa"
+      },
+      "plant": {
+        "default": "plantar flores",
+        "emoji": "📅🌼",
+        "noun": "Flores"
+      },
+      "poison": {
+        "default": "Champiñón venenoso",
+        "emoji": "🤢",
+        "noun": "Venenoso"
+      },
+      "purple": {
+        "default": "Champiñón morado",
+        "emoji": "🟪",
+        "noun": "Morado"
+      },
+      "red": {
+        "default": "Champiñón rojo",
+        "emoji": "🟥",
+        "noun": "Rojo",
+        "event": "<u>rojo</u> "
+      },
+      "run": {
+        "default": "pasos",
+        "emoji": "📅🏃",
+        "noun": "Pasos"
+      },
+      "water": {
+        "default": "Champiñón de agua",
+        "emoji": "💧",
+        "noun": "Agua"
+      },
+      "white": {
+        "default": "Champiñón blanco",
+        "emoji": "🔲",
+        "noun": "Blanco",
+        "event": "<u>blanco</u> "
+      },
+      "yellow": {
+        "default": "Champiñón amarillo",
+        "emoji": "🟨",
+        "noun": "Amarillo",
+        "event": "<u>amarillo</u> "
       }
     },
     "status": {
@@ -153,9 +161,13 @@
     }
   },
   "flowers": {
-    "flowers": {
-      "name": "flores",
-      "emoji": "🌼"
+    "anniversary roses": {
+      "name": "rosas de aniversario",
+      "emoji": "🌹"
+    },
+    "birds of paradise": {
+      "name": "aves del paraíso",
+      "emoji": "🌺"
     },
     "bougainvilleas": {
       "name": "buganvillas",
@@ -169,9 +181,25 @@
       "name": "camelias",
       "emoji": "🏵️"
     },
+    "canola flowers": {
+      "name": "flores de colza",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "claveles",
+      "emoji": "🏐"
+    },
     "cattleyas": {
       "name": "cattleyas",
       "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "celosías",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "flores de cerezo",
+      "emoji": "🌸"
     },
     "chrysanthemums": {
       "name": "crisantemos",
@@ -180,6 +208,10 @@
     "clematis": {
       "name": "clemátide",
       "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "cosmos",
+      "emoji": "☄️"
     },
     "cyclamens": {
       "name": "ciclámenes",
@@ -197,9 +229,21 @@
       "name": "claveles",
       "emoji": "⚜️"
     },
+    "flowers": {
+      "name": "flores",
+      "emoji": "🌼"
+    },
+    "forget me nots": {
+      "name": "nomeolvides",
+      "emoji": "🔵"
+    },
     "frangipanis": {
       "name": "frangipanis",
       "emoji": "📿"
+    },
+    "freesias": {
+      "name": "fresias",
+      "emoji": "🎆"
     },
     "gentians": {
       "name": "gencianas",
@@ -217,45 +261,13 @@
       "name": "jacintos",
       "emoji": "🟣"
     },
-    "morning glories": {
-      "name": "dondiegos",
-      "emoji": "🌀"
-    },
-    "peonies": {
-      "name": "peonías",
-      "emoji": "🌹"
-    },
-    "poinsettias": {
-      "name": "poinsetias",
-      "emoji": "🎀"
-    },
-    "plum blossoms": {
-      "name": "flores de ciruelo",
-      "emoji": "🪔"
-    },
-    "sweet peas": {
-      "name": "guisantes de olor",
-      "emoji": "🎐"
-    },
-    "water lilies": {
-      "name": "nenúfares",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "anémonas",
-      "emoji": "🌬️"
-    },
     "hydrangeas": {
       "name": "hortensias",
       "emoji": "🧩"
     },
-    "cherry blossoms": {
-      "name": "flores de cerezo",
-      "emoji": "🌸"
-    },
-    "pansies": {
-      "name": "pensamientos",
-      "emoji": "🧿"
+    "irises": {
+      "name": "lirios",
+      "emoji": "⚜️"
     },
     "lilies": {
       "name": "lirios",
@@ -265,13 +277,61 @@
       "name": "lirios de los valles",
       "emoji": "🔔"
     },
-    "carnations": {
-      "name": "claveles",
-      "emoji": "🏐"
+    "marigolds": {
+      "name": "caléndulas",
+      "emoji": "🌼"
     },
-    "tulips": {
-      "name": "tulipanes",
-      "emoji": "🌷"
+    "morning glories": {
+      "name": "dondiegos",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "orquídeas mariposa",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "pensamientos",
+      "emoji": "🧿"
+    },
+    "peonies": {
+      "name": "peonías",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "flores de ciruelo",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "poinsetias",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "amapolas",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "prímulas",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "rosas",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "salvias",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "boca de dragón",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "campanillas de invierno",
+      "emoji": "⛄"
     },
     "spider lilies": {
       "name": "lirios araña",
@@ -281,73 +341,21 @@
       "name": "girasoles",
       "emoji": "🌻"
     },
-    "roses": {
-      "name": "rosas",
-      "emoji": "🌹"
+    "sweet peas": {
+      "name": "guisantes de olor",
+      "emoji": "🎐"
     },
-    "cosmoses": {
-      "name": "cosmos",
-      "emoji": "☄️"
+    "tulips": {
+      "name": "tulipanes",
+      "emoji": "🌷"
     },
-    "snowdrops": {
-      "name": "campanillas de invierno",
-      "emoji": "⛄"
+    "water lilies": {
+      "name": "nenúfares",
+      "emoji": "🪷"
     },
-    "canola flowers": {
-      "name": "flores de colza",
-      "emoji": "🟡"
-    },
-    "freesias": {
-      "name": "fresias",
-      "emoji": "🎆"
-    },
-    "anniversary roses": {
-      "name": "rosas de aniversario",
-      "emoji": "🌹"
-    },
-    "irises": {
-      "name": "lirios",
-      "emoji": "⚜️"
-    },
-    "birds of paradise": {
-      "name": "aves del paraíso",
-      "emoji": "🌺"
-    },
-    "celosias": {
-      "name": "celosías",
-      "emoji": "🌺"
-    },
-    "marigolds": {
-      "name": "caléndulas",
-      "emoji": "🌼"
-    },
-    "salvias": {
-      "name": "salvias",
-      "emoji": "🌿"
-    },
-    "forget me nots": {
-      "name": "nomeolvides",
-      "emoji": "🔵"
-    },
-    "moth orchids": {
-      "name": "orquídeas mariposa",
-      "emoji": "🦋"
-    },
-    "petunias": {
-      "name": "petunias",
-      "emoji": "🌺"
-    },
-    "poppies": {
-      "name": "amapolas",
-      "emoji": "🌺"
-    },
-    "snapdragons": {
-      "name": "boca de dragón",
-      "emoji": "🐲"
-    },
-    "primroses": {
-      "name": "prímulas",
-      "emoji": "💐"
+    "windflowers": {
+      "name": "anémonas",
+      "emoji": "🌬️"
     }
   },
   "cmd": {
