@@ -23,7 +23,7 @@ Wenn jemand dir eine Antwort auf deine Pilznachricht in der Gruppe schreibt, wir
 
 ### Pilz-Alarm
 
-Du kannst dich mit der [Funktion Pilz-Alarm](alarm.md) über gewünschte Pilze informieren lassen. Hier kannst du den Pilz-Alarm aktivieren und deaktivieren. Du kannst den Pilz-Alarm auch direkt in der Benachrichtigung zum Pilz deaktivieren. Dies ist der richtige Ort, wenn du ihn wieder aktivieren möchtest.
+Du kannst dich mit der [Funktion Pilz-Alarm](alarm.md) über gewünschte Pilze informieren lassen. Hier kannst du den Pilz-Alarm aktivieren und deaktivieren. Du kannst den Pilz-Alarm auch direkt in der Benachrichtigung zum Pilz deaktivieren. Dies ist der richtige Ort, wenn du ihn wieder aktivieren möchtest. Zusätzlich kannst du mit dem Kommando `/alarm an` und `/alarm aus` die Benachrichtigung für einen Pilz-Alarm ein- und ausschalten. Beachte bitte, dass sich das Kommando NICHT auf den [Schlaftimer](userconfig.de.md#alarm-stumm-bis-morgen) auswirkt.
 
 !!! info ""
     

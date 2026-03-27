@@ -23,7 +23,7 @@ Als iemand een antwoord op je paddenstoelbericht in de groep schrijft, word je o
 
 ### Paddenstoelwaarschuwing
 
-Je kunt je met de [functie Paddenstoelwaarschuwing](alarm.md) laten informeren over gewenste paddenstoelen. Hier kun je de paddenstoelwaarschuwing activeren en deactiveren. Je kunt de paddenstoelwaarschuwing ook direct in de melding over de paddenstoel uitschakelen. Dit is de juiste plek als je hem weer wilt activeren.
+Je kunt je met de [functie Paddenstoelwaarschuwing](alarm.md) laten informeren over gewenste paddenstoelen. Hier kun je de paddenstoelwaarschuwing activeren en deactiveren. Je kunt de paddenstoelwaarschuwing ook direct in de melding over de paddenstoel uitschakelen. Dit is de juiste plek als je hem weer wilt activeren. Je kunt de paddenstoelwaarschuwing in- of uitschakelen met de commando's `/alert on` of `/alert off`. Houd er rekening mee dat dit GEEN invloed heeft op de [slaaptimer](userconfig.nl.md#waarschuwing-dempen-tot-morgen).
 
 !!! info ""
     

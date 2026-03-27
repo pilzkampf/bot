@@ -2,7 +2,7 @@
 
 Der Pilz-Alarm ist für dich *die einfachste Möglichkeit* einen Pilzkampf zu finden. Statt in der Gruppe zu warten, kannst du dich einfach vom Bot darüber informieren lassen wenn ein geeigneter Pilzkampf eingestellt wurde. So kannst du schnell und direkt reagieren und bist einer der ersten.
 
-Mit dem Kommando `/alarm` setzt du einen neuen Pilz-Alarm, kannst die Liste deiner Pilz-Alarme bearbeiten oder die [Benachrichtigungen](userconfig.md#pilz-alarm) ein- und ausschalten.
+Mit dem Kommando `/alarm` setzt du einen neuen Pilz-Alarm, kannst die Liste deiner Pilz-Alarme bearbeiten oder die [Benachrichtigungen](userconfig.md#pilz-alarm) ein- und ausschalten. Zusätzlich kannst du mit dem Kommando `/alarm an` und `/alarm aus` die Benachrichtigung für einen Pilz-Alarm ein- und ausschalten. Beachte bitte, dass sich das Kommando NICHT auf den [Schlaftimer](userconfig.de.md#alarm-stumm-bis-morgen) auswirkt.
 
 !!! warning ""
 

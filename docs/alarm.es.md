@@ -2,7 +2,7 @@
 
 La alerta de champiñón es para ti *la forma más fácil* de encontrar un combate de champiñón. En lugar de esperar en el grupo, puedes simplemente hacer que el bot te informe cuando se haya publicado un combate de champiñón adecuado. De esta manera puedes reaccionar rápida y directamente y ser uno de los primeros.
 
-Con el comando `/alarm` estableces una nueva alerta de champiñón, puedes editar la lista de tus alertas de champiñón o activar y desactivar las [notificaciones](userconfig.md#alerta-de-champinon).
+Con el comando `/alarm` estableces una nueva alerta de champiñón, puedes editar la lista de tus alertas de champiñón o activar y desactivar las [notificaciones](userconfig.md#alerta-de-champinon). Puedes activar o desactivar la alerta de champiñón con los comandos `/alarm` on o `/alarm off`. Ten en cuenta que esto NO afecta al [temporizador de reposo](userconfig.es.md#alerta-silenciada-hasta-mañana).
 
 !!! warning ""
 

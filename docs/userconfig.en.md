@@ -23,7 +23,7 @@ If someone writes a reply to your mushroom message in the group, you will be imm
 
 ### Mushroom Alert
 
-You can use the [Mushroom Alert feature](alarm.md) to get informed about desired mushrooms. Here you can activate and deactivate the Mushroom Alert. You can also disable the Mushroom Alert directly in the mushroom notification; this is the right place to re-enable it if you wish.
+You can use the [Mushroom Alert feature](alarm.md) to get informed about desired mushrooms. Here you can activate and deactivate the Mushroom Alert. You can also disable the Mushroom Alert directly in the mushroom notification; this is the right place to re-enable it if you wish. Additionaly, you can switch the mushroom altert on or off with the comments `/alert on` or `/alert off`. Please note that this does NOT affect the [sleeptimer](userconfig.md#mute-alert-until-tomorrow).
 
 !!! info ""
     

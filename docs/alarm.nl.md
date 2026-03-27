@@ -2,7 +2,7 @@
 
 De paddenstoelwaarschuwing is voor jou *de eenvoudigste manier* om een paddenstoelengevecht te vinden. In plaats van in de groep te wachten, kun je eenvoudig door de bot op de hoogte worden gebracht wanneer een geschikt paddenstoelengevecht is geplaatst. Zo kun je snel en direct reageren en ben je een van de eersten.
 
-Met het commando `/alarm` stel je een nieuwe paddenstoelwaarschuwing in, kun je de lijst van je paddenstoelwaarschuwingen bewerken of de [meldingen](userconfig.md#paddenstoelwaarschuwing) in- en uitschakelen.
+Met het commando `/alarm` stel je een nieuwe paddenstoelwaarschuwing in, kun je de lijst van je paddenstoelwaarschuwingen bewerken of de [meldingen](userconfig.md#paddenstoelwaarschuwing) in- en uitschakelen. Je kunt de paddenstoelwaarschuwing in- of uitschakelen met de commando's `/alert on` of `/alert off`. Houd er rekening mee dat dit GEEN invloed heeft op de [slaaptimer](userconfig.nl.md#waarschuwing-dempen-tot-morgen).
 
 !!! warning ""
 

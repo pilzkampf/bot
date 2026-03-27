@@ -23,7 +23,7 @@ Si alguien escribe una respuesta a tu mensaje de champiñón en el grupo, serás
 
 ### Alerta de champiñón
 
-Puedes usar la [función Alerta de champiñón](alarm.md) para recibir información sobre champiñones deseados. Aquí puedes activar y desactivar la Alerta de champiñón. También puedes desactivar la Alerta de champiñón directamente en la notificación del champiñón; este es el lugar correcto para reactivarla si lo deseas.
+Puedes usar la [función Alerta de champiñón](alarm.md) para recibir información sobre champiñones deseados. Aquí puedes activar y desactivar la Alerta de champiñón. También puedes desactivar la Alerta de champiñón directamente en la notificación del champiñón; este es el lugar correcto para reactivarla si lo deseas. Puedes activar o desactivar la alerta de champiñón con los comandos `/alarm` on o `/alarm off`. Ten en cuenta que esto NO afecta al [temporizador de reposo](userconfig.es.md#alerta-silenciada-hasta-mañana).
 
 !!! info ""
     
