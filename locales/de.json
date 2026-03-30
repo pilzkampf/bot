@@ -1,5 +1,5 @@
 {
-  "version": "2026-01-02",
+  "version": "2026-02-27",
   "grammar": {
     "size": {
       "small": {
@@ -50,9 +50,9 @@
         "noun": "Alle Pilze"
       },
       "any": {
-        "default": null,
-        "emoji": null,
-        "noun": null,
+        "default": "",
+        "emoji": "",
+        "noun": "",
         "event": ""
       },
       "blue": {
@@ -97,16 +97,6 @@
         "from": "2025-08-01T02:00:00+02:00",
         "to": "2025-08-31T02:00:00+02:00"
       },
-      "event2510": {
-        "default": "bunte Pilze",
-        "emoji": "💀🌹",
-        "noun": "bunter Pilz",
-        "comparative": "bunter Pilz",
-        "dative": "bunten Pilz",
-        "from": "2025-10-01",
-        "to": "2025-10-31",
-        "nectar": ""
-      },
       "event2511": {
         "default": "geniale Pilze",
         "emoji": "🎂🎉",
@@ -135,7 +125,27 @@
         "dative": "prächtigen Pilz",
         "from": "2026-01-01",
         "to": "2026-01-31",
-        "nectar": "99"
+        "nectar": ""
+      },
+      "event2602": {
+        "default": "bunte Pilze",
+        "emoji": "🍫💝",
+        "noun": "bunter Pilz",
+        "comparative": "bunter Pilz",
+        "dative": "bunten Pilz",
+        "from": "2026-02-01",
+        "to": "2026-02-28",
+        "nectar": ""
+      },
+      "event2603": {
+        "default": "grünende Pilze",
+        "emoji": "🌈🫖",
+        "noun": "grünender Pilz",
+        "comparative": "grünender Pilz",
+        "dative": "grünenden Pilz",
+        "from": "2026-03-01",
+        "nectar": "99",
+        "to": "2026-03-31"
       },
       "fire": {
         "default": "Feuer Pilze",
@@ -241,6 +251,9 @@
       },
       "accepted": {
         "emoji": "⚔️"
+      },
+      "friendrequest": {
+        "emoji": "🤝"
       },
       "starter": {
         "emoji": "🍄"
@@ -578,7 +591,8 @@
     "hello": "<b>Du scheinst neu für mich zu sein.</b> Tippe bitte /register und registriere dich mit dem Pikmin Bloom Spielernamen!\n",
     "description": "\nDieser Bot soll beim Pikmin Bloom Pilzkampf helfen. \n\nIn der Hilfe-Gruppe kannst du Fehler und Wünsche melden: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>Diese Gruppe ist keine Super-Gruppe!</b>\nDamit der Bot vollfunktionsfähig ist, muss es eine Super-Gruppe sein. Ändere in den Gruppen-Einstellungen den Typ auf \"öffentlich\" und speichere ab. Optional kannst du die Gruppe danach auf privat setzen.\n\nZudem <b>muss</b> der Bot Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können.",
-    "admin": "⚠️Der Bot <b>muss</b> Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können."
+    "admin": "⚠️Der Bot <b>muss</b> Adminrechte haben. Empfohlen werden die Standard-Einstellungen für Admins, mindestens muss der Bot Einladungslinks erstellen dürfen und Nachrichten löschen können.",
+    "recommendation": "Da du noch in keiner Gruppe mit dem Bot bist, möchte ich dir <a href=\"https://t.me/+6xMUSm769nhhMGZi\">diese Gruppe empfehlen</a>."
   },
   "timer": {
     "instructions": "Mit dem Kommando /timer kannst du alle deine aktuellen Timer anschauen und löschen. Wenn du mit dem Kommando /timer auf eine Pilznachricht antwortest, aktivierst du einen Timer für diesen Pilz. Mit /timer 2h30m \"Expedition\" startest du einen Timer über 2 Stunden und 30 Minuten mit dem Kommentar \"Expedition\". Kommentare sind freiwillig. Der Kommentar wird dir beim Auslösen des Timers angezeigt.",
@@ -717,7 +731,11 @@
     "donate": "<b>Unterstütze die Entwicklung des Bots und hilf mit ihn zu verbessern!</b>\nSupporter erhalten erweiterten Zugang zu einigen Funktionen. Eine Möglichkeit Supporter zu werden ist eine <a href=\"https://ko-fi.com/pikminbloompilzbot\">Spende bei Ko-Fi</a>. Es gibt aber noch andere Möglichkeiten. Melde dich in der <a href=\"https://t.me/PilzkampfForum\">Bot Hilfegruppe</a> wenn du weitere Fragen hast.",
     "welcome": "Willkommen",
     "newmessage": "Schau dir die angepinnten Nachrichten an für wichtige Hinweise.",
-    "left": "hat die Gruppe verlassen."
+    "left": "hat die Gruppe verlassen.",
+    "timeout_pilz": "⏰ <b>Die Session für die Pilzerstellung ist nach {seconds} Sekunden abgelaufen.</b>\n\nBitte versuche es nochmal mit dem Kommando /pilz.",
+    "timeout_config": "⏰ <b>Die Session für die Konfiguration ist nach {seconds} Sekunden abgelaufen.</b>\n\nVerwende den ⚙️konfigurieren Knopf um es neu zu starten.",
+    "timeout_register": "⏰ <b>Die Session für die Registrierung ist nach {seconds} Sekunden abgelaufen.</b>\n\nBitte versuche es nochmal mit dem Kommando /register.",
+    "help": "Die komplette Anleitung findet ihr auf <a href=\"https://pilzkampf.github.io/bot/\">GitHub.io</a>. Das mehrsprachige Pilzkampf-Forum ist auf Telegram: https://t.me/PilzkampfForum"
   },
   "mushroom_msg": {
     "runs_active": "läuft bis:",
@@ -760,7 +778,7 @@
     "autodelete": "<i>(Diese Nachricht wird in 5 Minuten wieder verschwinden)</i>",
     "active_headline": "<u>Die aktiven Pilze in diesen Gruppen:</u>",
     "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_comparative} {color_comparative}</a>\n",
-    "no_mushrooms": "Leider gibt es gerade keinen aktiven Pilze mit freien Plätzen.",
+    "no_mushrooms": "Leider gibt es gerade keine aktiven Pilze mit freien Plätzen.",
     "approximately": "(ca.) ",
     "available_mushroom": "<b><a href=\"{link}\">{size_comparative} {color_comparative}</a>\nvon {user} {estimated}{duration}</b>\nPlätze: {slots}",
     "with_ticket": " <b>mit 🎟Ticket🎟</b>\n",

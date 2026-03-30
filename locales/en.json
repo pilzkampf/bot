@@ -1,5 +1,5 @@
 {
-  "version": "2026-01-02",
+  "version": "2026-02-27",
   "grammar": {
     "size": {
       "small": {
@@ -25,9 +25,9 @@
         "noun": "Every nectar"
       },
       "any": {
-        "default": null,
-        "emoji": null,
-        "noun": null,
+        "default": "",
+        "emoji": "",
+        "noun": "",
         "event": ""
       },
       "blue": {
@@ -56,11 +56,6 @@
         "emoji": "🍧",
         "noun": "Bizarre Mushroom"
       },
-      "event2510": {
-        "default": "Colorful Mushroom",
-        "emoji": "💀🌹",
-        "noun": "Colorful Mushroom"
-      },
       "event2511": {
         "default": "Brilliant Mushroom",
         "emoji": "🎂🎉",
@@ -75,6 +70,16 @@
         "default": "Magnificent Mushroom",
         "emoji": "🍱",
         "noun": "Magnificent Mushroom"
+      },
+      "event2602": {
+        "default": "Colorful Mushroom",
+        "emoji": "🍫💝",
+        "noun": "Colorful Mushroom"
+      },
+      "event2603": {
+        "default": "Verdant Mushroom",
+        "emoji": "🌈🫖",
+        "noun": "Verdant Mushroom"
       },
       "fire": {
         "default": "Fire Mushroom",
@@ -154,6 +159,9 @@
       },
       "accepted": {
         "emoji": "⚔️"
+      },
+      "friendrequest": {
+        "emoji": "🤝"
       },
       "starter": {
         "emoji": "🍄"
@@ -624,7 +632,11 @@
     "donate": "<b>Support the development of the bot and help it getting better!</b>\nSupporters will get access to a few more functions. One way of supporting is a <a href=\"https://ko-fi.com/pikminbloompilzbot\">Ko-Fi donation</a>. But there are other ways. Ask around in the <a href=\"https://t.me/PilzkampfForum\">Bot Help Group</a> if you are interested.",
     "welcome": "Welcome",
     "newmessage": "Check the pinned messages for important information.",
-    "left": "left the group."
+    "left": "left the group.",
+    "timeout_pilz": "⏰ <b>The session for mushroom creation has expired after {seconds} seconds.</b>\n\nPlease try again with the command /pilz.",
+    "timeout_config": "⏰ <b>The configuration session has expired after {seconds} seconds.</b>\n\nUse the ⚙️configure button to restart it.",
+    "timeout_register": "⏰ <b>The registration session has expired after {seconds} seconds.</b>\n\nPlease try again with the command /register.",
+    "help": "The complete manual is on <a href=\"https://pilzkampf.github.io/bot/en/\">GitHub.io</a>. The multilingual Pilzkampf Forum is on Telegram: https://t.me/PilzkampfForum"
   },
   "mushroom_msg": {
     "runs_active": "active until:",
@@ -683,6 +695,7 @@
     "hello": "<b>I think you are new to me.</b> Please use the command /register to register your Pikmin Bloom name!\n",
     "description": "\nThis bot can help you with Pikmin Bloom mushroom battles.\n\nHead to the community support group if you have problems: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>This is NO Super Group!</b>\nThis bot only works with Super Groups. Go to group settings and switch the type to \"public\" and save the change. Optionally can switch it back to private afterwards.\n\nAdditionally, the bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages.",
-    "admin": "⚠️The bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages."
+    "admin": "⚠️The bot <b>must have</b> admin priviledges. It is recommended to use the standard admin priviledges. At least the bot needs to create invite links and delete messages.",
+    "recommendation": "It seems that you're not yet in a Telegram group with the Pilzkampf bot. <a href=\"https://t.me/+d5WxLkvwTag4NzIy\">I recommend this one.</a>"
   }
 }

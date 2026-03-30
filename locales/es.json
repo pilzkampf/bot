@@ -1,5 +1,5 @@
 {
-  "version": "2026-01-02",
+  "version": "2026-02-27",
   "grammar": {
     "size": {
       "small": {
@@ -25,9 +25,9 @@
         "noun": "Todo el néctar"
       },
       "any": {
-        "default": null,
-        "emoji": null,
-        "noun": null,
+        "default": "",
+        "emoji": "",
+        "noun": "",
         "event": ""
       },
       "blue": {
@@ -56,11 +56,6 @@
         "emoji": "🍧",
         "noun": "Champiñón extraño"
       },
-      "event2510": {
-        "default": "Champiñón colorido",
-        "emoji": "💀🌹",
-        "noun": "Champiñón colorido"
-      },
       "event2511": {
         "default": "Champiñón brillante",
         "emoji": "🎂🎉",
@@ -75,6 +70,16 @@
         "default": "Champiñón magnífico",
         "emoji": "🍱",
         "noun": "Champiñón magnífico"
+      },
+      "event2602": {
+        "default": "Champiñón colorido",
+        "emoji": "🍫💝",
+        "noun": "Champiñón colorido"
+      },
+      "event2603": {
+        "default": "Champiñón verdoso",
+        "emoji": "🌈🫖",
+        "noun": "Champiñón verdoso"
       },
       "fire": {
         "default": "Champiñón de fuego",
@@ -154,6 +159,9 @@
       },
       "accepted": {
         "emoji": "⚔️"
+      },
+      "friendrequest": {
+        "emoji": "🤝"
       },
       "starter": {
         "emoji": "🍄"
@@ -330,7 +338,7 @@
       "emoji": "🐲"
     },
     "snowdrops": {
-      "name": "campanillas de invierno",
+      "name": "galantos",
       "emoji": "⛄"
     },
     "spider lilies": {
@@ -624,7 +632,11 @@
     "donate": "<b>¡Apoya el desarrollo del bot y ayuda a mejorarlo!</b>\nLos seguidores obtendrán acceso a algunas funciones más. Una forma de apoyar es una <a href=\"https://ko-fi.com/pikminbloompilzbot\">donación en Ko-Fi</a>. Pero hay otras formas. Pregunta en el <a href=\"https://t.me/PilzkampfForum\">Grupo de Ayuda del Bot</a> si estás interesado.",
     "welcome": "Bienvenido",
     "newmessage": "Revisa los mensajes fijados para obtener información importante.",
-    "left": "dejó el grupo."
+    "left": "dejó el grupo.",
+    "timeout_pilz": "⏰ <b>La sesión para la creación del champiñón ha expirado tras {seconds} segundos.</b>\n\nPor favor, inténtalo de nuevo con el comando /pilz.",
+    "timeout_config": "⏰ <b>La sesión de configuración ha expirado tras {seconds} segundos.</b>\n\nUsa el botón ⚙️configurar para reiniciarla.",
+    "timeout_register": "⏰ <b>La sesión de registro ha expirado tras {seconds} segundos.</b>\n\nPor favor, inténtalo de nuevo con el comando /register.",
+    "help": "El manual completo está en <a href=\"https://pilzkampf.github.io/bot/es/\">GitHub.io</a>. El foro multilingüe de Pilzkampf está en Telegram: https://t.me/PilzkampfForum"
   },
   "mushroom_msg": {
     "runs_active": "activo hasta:",
@@ -683,6 +695,7 @@
     "hello": "<b>Creo que eres nuevo para mí.</b> ¡Por favor, usa el comando /register para registrar tu nombre de Pikmin Bloom!\n",
     "description": "\nEste bot puede ayudarte con los combates de champiñón de Pikmin Bloom.\n\nDirígete al grupo de soporte comunitario si tienes problemas: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>¡Este NO es un Super Grupo!</b>\nEste bot solo funciona con Super Grupos. Ve a la configuración del grupo y cambia el tipo a \"público\" y guarda el cambio. Opcionalmente, puedes volver a cambiarlo a privado después.\n\nAdemás, el bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes.",
-    "admin": "⚠️El bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes."
+    "admin": "⚠️El bot <b>debe tener</b> privilegios de administrador. Se recomienda usar los privilegios de administrador estándar. Al menos el bot necesita crear enlaces de invitación y eliminar mensajes.",
+    "recommendation": "Parece que aún no estás en un grupo de Telegram con el bot Pilzkampf. <a href=\"https://t.me/+d5WxLkvwTag4NzIy\">Te recomiendo este.</a>"
   }
 }

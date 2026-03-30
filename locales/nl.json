@@ -1,5 +1,5 @@
 {
-  "version": "2026-01-02",
+  "version": "2026-02-27",
   "grammar": {
     "size": {
       "small": {
@@ -50,32 +50,32 @@
         "noun": "Alle paddenstoelen"
       },
       "any": {
-        "default": null,
-        "emoji": null,
-        "noun": null,
+        "default": "",
+        "emoji": "",
+        "noun": "",
         "event": ""
       },
       "blue": {
-        "default": "blauwe paddenstoelen",
+        "default": "blue paddenstoelen",
         "emoji": "🟦",
         "noun": "Blauw",
-        "comparative": "blauwe paddenstoel",
-        "dative": "blauwe paddenstoel",
-        "event": "<u>blauwe</u> "
+        "comparative": "blue paddenstoel",
+        "dative": "blue paddenstoel",
+        "event": "<u>blue</u> "
       },
       "crystal": {
-        "default": "kristallen paddenstoelen",
+        "default": "Crystal paddenstoelen",
         "emoji": "💎",
-        "noun": "Kristal",
-        "comparative": "kristallen paddenstoel",
-        "dative": "kristallen paddenstoel"
+        "noun": "Crystal",
+        "comparative": "Crystal paddenstoel",
+        "dative": "Crystal paddenstoel"
       },
       "electro": {
-        "default": "elektrische paddenstoelen",
+        "default": "Electric paddenstoelen",
         "emoji": "⚡️",
-        "noun": "Elektrisch",
-        "comparative": "elektrische paddenstoel",
-        "dative": "elektrische paddenstoel"
+        "noun": "Electric",
+        "comparative": "Electric paddenstoel",
+        "dative": "Electric paddenstoel"
       },
       "event": {
         "default": "eventpaddenstoelen",
@@ -90,13 +90,6 @@
         "noun": "Bizarre paddenstoel",
         "comparative": "Bizarre paddenstoel",
         "dative": "Bizarre paddenstoel"
-      },
-      "event2510": {
-        "default": "Kleurrijke paddenstoel",
-        "emoji": "💀🌹",
-        "noun": "Kleurrijke paddenstoel",
-        "comparative": "Kleurrijke paddenstoel",
-        "dative": "Kleurrijke paddenstoel"
       },
       "event2511": {
         "default": "Briljante paddenstoel",
@@ -119,19 +112,33 @@
         "comparative": "Magnifieke paddenstoel",
         "dative": "Magnifieke paddenstoel"
       },
+      "event2602": {
+        "default": "Kleurrijke paddenstoel",
+        "emoji": "🍫💝",
+        "noun": "Kleurrijke paddenstoel",
+        "comparative": "Kleurrijke paddenstoel",
+        "dative": "Kleurrijke paddenstoel"
+      },
+      "event2603": {
+        "default": "Verdant paddenstoel",
+        "emoji": "🌈🫖",
+        "comparative": "Verdant paddenstoel",
+        "dative": "Verdant paddenstoel",
+        "noun": "Verdant paddenstoel"
+      },
       "fire": {
-        "default": "vuurpaddenstoelen",
+        "default": "Fire paddenstoel",
         "emoji": "🔥",
-        "noun": "Vuur",
-        "comparative": "vuurpaddenstoel",
-        "dative": "vuurpaddenstoel"
+        "noun": "Fire",
+        "comparative": "Fire paddenstoel",
+        "dative": "Fire paddenstoel"
       },
       "grey": {
-        "default": "grijze paddenstoelen",
+        "default": "Gray paddenstoelen",
         "emoji": "🪨",
-        "noun": "Grijs",
-        "comparative": "grijze paddenstoel",
-        "dative": "grijze paddenstoel"
+        "noun": "Gray",
+        "comparative": "Gray paddenstoel",
+        "dative": "Gray paddenstoel"
       },
       "heart": {
         "default": "speciale nectar",
@@ -141,18 +148,18 @@
         "dative": "speciale nectar"
       },
       "ice": {
-        "default": "ijsblauwe paddenstoelen",
+        "default": "Iceblue paddenstoelen",
         "emoji": "🥶",
-        "noun": "Ijsblauw",
-        "comparative": "ijsblauwe paddenstoelen",
-        "dative": "ijsblauwe paddenstoelen"
+        "noun": "Iceblue",
+        "comparative": "Iceblue paddenstoelen",
+        "dative": "Iceblue paddenstoelen"
       },
       "pink": {
-        "default": "roze paddenstoelen",
+        "default": "Pink paddenstoelen",
         "emoji": "🩷",
-        "noun": "Roze",
-        "comparative": "roze paddenstoel",
-        "dative": "roze paddenstoel"
+        "noun": "Pink",
+        "comparative": "Pink paddenstoel",
+        "dative": "Pink paddenstoel"
       },
       "plant": {
         "default": "bloemen planten",
@@ -162,26 +169,26 @@
         "dative": "bloemen planten"
       },
       "poison": {
-        "default": "giftige paddenstoelen",
+        "default": "Poisonous paddenstoelen",
         "emoji": "🤢",
-        "noun": "Gif",
-        "comparative": "giftige paddenstoel",
-        "dative": "giftige paddenstoel"
+        "noun": "Poisonous",
+        "comparative": "Poisonous paddenstoel",
+        "dative": "Poisonous paddenstoel"
       },
       "purple": {
-        "default": "paarse paddenstoelen",
+        "default": "Purple paddenstoelen",
         "emoji": "🟪",
-        "noun": "Paars",
-        "comparative": "paarse paddenstoel",
-        "dative": "paarse paddenstoel"
+        "noun": "Purple",
+        "comparative": "Purple paddenstoel",
+        "dative": "Purple paddenstoel"
       },
       "red": {
-        "default": "rode paddenstoelen",
+        "default": "Red paddenstoelen",
         "emoji": "🟥",
-        "noun": "Rood",
-        "comparative": "rode paddenstoel",
-        "dative": "rode paddenstoel",
-        "event": "<u>rode</u> "
+        "noun": "Red",
+        "comparative": "Red paddenstoel",
+        "dative": "Red paddenstoel",
+        "event": "<u>red</u> "
       },
       "run": {
         "default": "stappen",
@@ -191,27 +198,27 @@
         "dative": "stappen"
       },
       "water": {
-        "default": "waterpaddenstoelen",
+        "default": "water paddenstoelen",
         "emoji": "💧",
         "noun": "Water",
-        "comparative": "waterpaddenstoel",
-        "dative": "waterpaddenstoel"
+        "comparative": "water paddenstoel",
+        "dative": "water paddenstoel"
       },
       "white": {
-        "default": "witte paddenstoelen",
+        "default": "White paddenstoelen",
         "emoji": "🔲",
-        "noun": "Wit",
-        "comparative": "witte paddenstoel",
-        "dative": "witte paddenstoel",
-        "event": "<u>witte</u> "
+        "noun": "White",
+        "comparative": "White paddenstoel",
+        "dative": "White paddenstoel",
+        "event": "<u>White</u> "
       },
       "yellow": {
-        "default": "gele paddenstoelen",
+        "default": "Yellow paddenstoelen",
         "emoji": "🟨",
-        "noun": "Geel",
-        "comparative": "gele paddenstoel",
-        "dative": "gele paddenstoel",
-        "event": "<u>gele</u> "
+        "noun": "Yellow",
+        "comparative": "Yellow paddenstoel",
+        "dative": "Yellow paddenstoel",
+        "event": "<u>yellow</u> "
       }
     },
     "status": {
@@ -223,6 +230,9 @@
       },
       "accepted": {
         "emoji": "⚔️"
+      },
+      "friendrequest": {
+        "emoji": "🤝"
       },
       "starter": {
         "emoji": "🍄"
@@ -267,7 +277,7 @@
       "emoji": "🌺"
     },
     "cherry blossoms": {
-      "name": "kersenbloesems",
+      "name": "cherry blossoms",
       "emoji": "🌸"
     },
     "chrysanthemums": {
@@ -311,7 +321,7 @@
       "emoji": "📿"
     },
     "freesias": {
-      "name": "freesia's",
+      "name": "freesias",
       "emoji": "🎆"
     },
     "gentians": {
@@ -327,7 +337,7 @@
       "emoji": "🌺"
     },
     "hyacinths": {
-      "name": "hyacinten",
+      "name": "hyacinths",
       "emoji": "🟣"
     },
     "hydrangeas": {
@@ -367,7 +377,7 @@
       "emoji": "🌹"
     },
     "petunias": {
-      "name": "petunia's",
+      "name": "petunias",
       "emoji": "🌺"
     },
     "plum blossoms": {
@@ -395,11 +405,11 @@
       "emoji": "🌿"
     },
     "snapdragons": {
-      "name": "leeuwenbekken",
+      "name": "snapdragons",
       "emoji": "🐲"
     },
     "snowdrops": {
-      "name": "sneeuwklokjes",
+      "name": "snowdrops",
       "emoji": "⛄"
     },
     "spider lilies": {
@@ -560,7 +570,8 @@
     "hello": "<b>Je lijkt nieuw voor mij.</b> Typ alsjeblieft /register en registreer je met de Pikmin Bloom spelersnaam!\n",
     "description": "\nDeze bot helpt bij Pikmin Bloom paddenstoelgevechten.\n\nIn de hulpgroep kun je bugs en wensen melden: https://t.me/PilzkampfForum",
     "supergroup": "⚠️<b>Deze groep is geen supergroep!</b>\nOm de bot volledig functioneel te maken, moet het een supergroep zijn. Verander in de groepinstellingen het type naar \"publiek\" en sla op. Optioneel kun je de groep daarna op privé zetten.\n\nDaarnaast <b>moet</b> de bot adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen.",
-    "admin": "⚠️De bot <b>moet</b> adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen."
+    "admin": "⚠️De bot <b>moet</b> adminrechten hebben. Aanbevolen worden de standaardinstellingen voor admins, minimaal moet de bot uitnodigingslinks kunnen aanmaken en berichten kunnen verwijderen.",
+    "recommendation": "Aangezien je nog in geen enkele groep met de bot zit, wil ik je <a href=\"https://t.me/+d5WxLkvwTag4NzIy\">deze groep aanbevelen</a>"
   },
   "timer": {
     "instructions": "Met het commando /timer kun je al je huidige timers bekijken en verwijderen. Wanneer je met het commando /timer antwoordt op een paddenstoelbericht, activeer je een timer voor deze paddenstoel. Met /timer 2u30m \"Expeditie\" start je een timer van 2 uur en 30 minuten met het commentaar \"Expeditie\". Commentaar is vrijwillig. Het commentaar wordt getoond wanneer de timer afgaat.",
@@ -625,7 +636,7 @@
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
     "vi": "🇻🇳 Tiếng Việt",
-    "select": "Kies alsjeblieft je taal.\n"
+    "select": "Kies je taal alsjeblieft.\n"
   },
   "configure": {
     "time_unchanged": "Resterende tijd is onveranderd. De paddenstoel ",
@@ -699,7 +710,11 @@
     "donate": "<b>Ondersteun de ontwikkeling van de bot en help met verbeteren!</b>\nSupporters krijgen uitgebreide toegang tot enkele functies. Een mogelijkheid om supporter te worden is een <a href=\"https://ko-fi.com/pikminbloompilzbot\">donatie bij Ko-Fi</a>. Er zijn echter nog andere mogelijkheden. Meld je in de <a href=\"https://t.me/PilzkampfForum\">Bot hulpgroep</a> als je verdere vragen hebt.",
     "welcome": "Welkom",
     "newmessage": "Controleer de vastgezette berichten voor belangrijke informatie.",
-    "left": "verliet de groep"
+    "left": "verliet de groep",
+    "timeout_pilz": "⏰ <b>De sessie voor het aanmaken van een paddenstoel is na {seconds} seconden verlopen.</b>\n\nProbeer het opnieuw met het commando /pilz.",
+    "timeout_config": "⏰ <b>De sessie voor de configuratie is na {seconds} seconden verlopen.</b>\n\nGebruik de ⚙️configureren-knop om deze opnieuw te starten.",
+    "timeout_register": "⏰ <b>De sessie voor de registratie is na {seconds} seconden verlopen.</b>\n\nProbeer het opnieuw met het commando /register.",
+    "help": "De complete handleiding staat op <a href=\"https://pilzkampf.github.io/bot/nl/\">GitHub.io</a>. Het meertalige Pilzkampf-forum staat op Telegram: https://t.me/PilzkampfForum"
   },
   "mushroom_msg": {
     "runs_active": "loopt tot:",
