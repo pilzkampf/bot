@@ -1,0 +1,208 @@
+{
+  "flowers": {
+    "anniversary roses": {
+      "name": "jubileumrozen",
+      "emoji": "🌹"
+    },
+    "bellflowers": {
+      "name": "bellflowers",
+      "emoji": "🔔"
+    },
+    "birds of paradise": {
+      "name": "paradijsvogelbloemen",
+      "emoji": "🌺"
+    },
+    "bougainvilleas": {
+      "name": "bougainvillea's",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "calla lelies",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "camellia's",
+      "emoji": "🏵️"
+    },
+    "canola flowers": {
+      "name": "koolzaadbloemen",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "anjers",
+      "emoji": "🏐"
+    },
+    "cattleyas": {
+      "name": "cattleya's",
+      "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "celosia's",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "cherry blossoms",
+      "emoji": "🌸"
+    },
+    "chrysanthemums": {
+      "name": "chrysanten",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "clematis",
+      "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "cosmea's",
+      "emoji": "☄️"
+    },
+    "cyclamens": {
+      "name": "cyclamen",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "narcissen",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "dahlia's",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "anjers",
+      "emoji": "⚜️"
+    },
+    "flowers": {
+      "name": "bloemen",
+      "emoji": "🌼"
+    },
+    "forget-me-nots": {
+      "name": "vergeet-mij-nietjes",
+      "emoji": "🔵"
+    },
+    "frangipanis": {
+      "name": "frangipani's",
+      "emoji": "📿"
+    },
+    "freesias": {
+      "name": "freesias",
+      "emoji": "🎆"
+    },
+    "gentians": {
+      "name": "gentianen",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "kerstrozen",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "hibiscus",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "hyacinths",
+      "emoji": "🟣"
+    },
+    "hydrangeas": {
+      "name": "hortensia's",
+      "emoji": "🧩"
+    },
+    "irises": {
+      "name": "irissen",
+      "emoji": "⚜️"
+    },
+    "lilies": {
+      "name": "lelies",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "lelietjes-van-dalen",
+      "emoji": "🔔"
+    },
+    "marigolds": {
+      "name": "goudsbloemen",
+      "emoji": "🌼"
+    },
+    "morning glories": {
+      "name": "windes",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "vlinderorchideeën",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "viooltjes",
+      "emoji": "🧿"
+    },
+    "parrot tulips": {
+      "name": "parrot tulips",
+      "emoji": "🦜"
+    },
+    "peonies": {
+      "name": "pioenen",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "pruimenbloesems",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "kerststerren",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "papaverbloemen",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "sleutelbloemen",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "rozen",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "saliebloemen",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "snapdragons",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "snowdrops",
+      "emoji": "⛄"
+    },
+    "spider lilies": {
+      "name": "spinnenlelies",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "zonnebloemen",
+      "emoji": "🌻"
+    },
+    "sweet peas": {
+      "name": "lathyrus",
+      "emoji": "🎐"
+    },
+    "tulips": {
+      "name": "tulpen",
+      "emoji": "🌷"
+    },
+    "water lilies": {
+      "name": "waterlelies",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "anemonen",
+      "emoji": "🌬️"
+    }
+  }
+}

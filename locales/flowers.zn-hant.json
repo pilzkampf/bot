@@ -1,0 +1,208 @@
+{
+  "flowers": {
+    "anniversary roses": {
+      "name": "週年紀念玫瑰",
+      "emoji": "🌹"
+    },
+    "bellflowers": {
+      "name": "風鈴草",
+      "emoji": "🔔"
+    },
+    "birds of paradise": {
+      "name": "天堂鳥",
+      "emoji": "🌺"
+    },
+    "bougainvilleas": {
+      "name": "九重葛",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "馬蹄蓮",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "山茶花",
+      "emoji": "🏵️"
+    },
+    "canola flowers": {
+      "name": "油菜花",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "康乃馨",
+      "emoji": "🏐"
+    },
+    "cattleyas": {
+      "name": "嘉德麗雅蘭",
+      "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "雞冠花",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "櫻花",
+      "emoji": "🌸"
+    },
+    "chrysanthemums": {
+      "name": "菊花",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "鐵線蓮",
+      "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "大波斯菊",
+      "emoji": "☄️"
+    },
+    "cyclamens": {
+      "name": "仙客來",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "水仙花",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "大麗花",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "石竹",
+      "emoji": "⚜️"
+    },
+    "flowers": {
+      "name": "花朵",
+      "emoji": "🌼"
+    },
+    "forget-me-nots": {
+      "name": "勿忘我",
+      "emoji": "🔵"
+    },
+    "frangipanis": {
+      "name": "雞蛋花",
+      "emoji": "📿"
+    },
+    "freesias": {
+      "name": "小蒼蘭",
+      "emoji": "🎆"
+    },
+    "gentians": {
+      "name": "龍膽",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "聖誕玫瑰",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "扶桑花",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "風信子",
+      "emoji": "🟣"
+    },
+    "hydrangeas": {
+      "name": "繡球花",
+      "emoji": "🧩"
+    },
+    "irises": {
+      "name": "鳶尾花",
+      "emoji": "⚜️"
+    },
+    "lilies": {
+      "name": "百合",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "鈴蘭",
+      "emoji": "🔔"
+    },
+    "marigolds": {
+      "name": "萬壽菊",
+      "emoji": "🌼"
+    },
+    "morning glories": {
+      "name": "牽牛花",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "蝴蝶蘭",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "三色堇",
+      "emoji": "🧿"
+    },
+    "parrot tulips": {
+      "name": "鸚鵡鬱金香",
+      "emoji": "🦜"
+    },
+    "peonies": {
+      "name": "牡丹",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "矮牽牛",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "梅花",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "聖誕紅",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "罌粟花",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "報春花",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "玫瑰",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "鼠尾草",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "金魚草",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "雪花蓮",
+      "emoji": "⛄"
+    },
+    "spider lilies": {
+      "name": "彼岸花",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "向日葵",
+      "emoji": "🌻"
+    },
+    "sweet peas": {
+      "name": "香豌豆",
+      "emoji": "🎐"
+    },
+    "tulips": {
+      "name": "鬱金香",
+      "emoji": "🌷"
+    },
+    "water lilies": {
+      "name": "睡蓮",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "銀蓮花",
+      "emoji": "🌬️"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "version": "2026-02-27",
+  "version": "2026-05-21",
   "grammar": {
     "size": {
       "small": {
@@ -91,13 +91,6 @@
         "comparative": "Bizarre paddenstoel",
         "dative": "Bizarre paddenstoel"
       },
-      "event2511": {
-        "default": "Briljante paddenstoel",
-        "emoji": "🎂🎉",
-        "noun": "Briljante paddenstoel",
-        "comparative": "Briljante paddenstoel",
-        "dative": "Briljante paddenstoel"
-      },
       "event2512": {
         "default": "Bizarre paddenstoel",
         "emoji": "🎁🎄",
@@ -122,9 +115,23 @@
       "event2603": {
         "default": "Verdant paddenstoel",
         "emoji": "🌈🫖",
+        "noun": "Verdant paddenstoel",
         "comparative": "Verdant paddenstoel",
-        "dative": "Verdant paddenstoel",
-        "noun": "Verdant paddenstoel"
+        "dative": "Verdant paddenstoel"
+      },
+      "event2604": {
+        "default": "Lavish Mushroom",
+        "emoji": "🌷",
+        "noun": "Lavish Mushroom",
+        "comparative": "Lavish Mushroom",
+        "dative": "Lavish Mushroom"
+      },
+      "event2605": {
+        "default": "Briljante paddenstoel",
+        "emoji": "🎮",
+        "noun": "Briljante paddenstoel",
+        "comparative": "Briljante paddenstoel",
+        "dative": "Briljante paddenstoel"
       },
       "fire": {
         "default": "Fire paddenstoel",
@@ -239,204 +246,6 @@
       }
     }
   },
-  "flowers": {
-    "anniversary roses": {
-      "name": "jubileumrozen",
-      "emoji": "🌹"
-    },
-    "birds of paradise": {
-      "name": "paradijsvogelbloemen",
-      "emoji": "🌺"
-    },
-    "bougainvilleas": {
-      "name": "bougainvillea's",
-      "emoji": "🏵️"
-    },
-    "calla lily": {
-      "name": "calla lelies",
-      "emoji": "🤍"
-    },
-    "camellias": {
-      "name": "camellia's",
-      "emoji": "🏵️"
-    },
-    "canola flowers": {
-      "name": "koolzaadbloemen",
-      "emoji": "🟡"
-    },
-    "carnations": {
-      "name": "anjers",
-      "emoji": "🏐"
-    },
-    "cattleyas": {
-      "name": "cattleya's",
-      "emoji": "🌷"
-    },
-    "celosias": {
-      "name": "celosia's",
-      "emoji": "🌺"
-    },
-    "cherry blossoms": {
-      "name": "cherry blossoms",
-      "emoji": "🌸"
-    },
-    "chrysanthemums": {
-      "name": "chrysanten",
-      "emoji": "❇️"
-    },
-    "clematis": {
-      "name": "clematis",
-      "emoji": "✳️"
-    },
-    "cosmoses": {
-      "name": "cosmea's",
-      "emoji": "☄️"
-    },
-    "cyclamens": {
-      "name": "cyclamen",
-      "emoji": "🔮"
-    },
-    "daffodils": {
-      "name": "narcissen",
-      "emoji": "🌟"
-    },
-    "dahlias": {
-      "name": "dahlia's",
-      "emoji": "🔶"
-    },
-    "dianthuses": {
-      "name": "anjers",
-      "emoji": "⚜️"
-    },
-    "flowers": {
-      "name": "bloemen",
-      "emoji": "🌼"
-    },
-    "forget me nots": {
-      "name": "vergeet-mij-nietjes",
-      "emoji": "🔵"
-    },
-    "frangipanis": {
-      "name": "frangipani's",
-      "emoji": "📿"
-    },
-    "freesias": {
-      "name": "freesias",
-      "emoji": "🎆"
-    },
-    "gentians": {
-      "name": "gentianen",
-      "emoji": "🔷"
-    },
-    "helleborus": {
-      "name": "kerstrozen",
-      "emoji": "❄️"
-    },
-    "hibiscuses": {
-      "name": "hibiscus",
-      "emoji": "🌺"
-    },
-    "hyacinths": {
-      "name": "hyacinths",
-      "emoji": "🟣"
-    },
-    "hydrangeas": {
-      "name": "hortensia's",
-      "emoji": "🧩"
-    },
-    "irises": {
-      "name": "irissen",
-      "emoji": "⚜️"
-    },
-    "lilies": {
-      "name": "lelies",
-      "emoji": "⚪"
-    },
-    "lilies of the valley": {
-      "name": "lelietjes-van-dalen",
-      "emoji": "🔔"
-    },
-    "marigolds": {
-      "name": "goudsbloemen",
-      "emoji": "🌼"
-    },
-    "morning glories": {
-      "name": "windes",
-      "emoji": "🌀"
-    },
-    "moth orchids": {
-      "name": "vlinderorchideeën",
-      "emoji": "🦋"
-    },
-    "pansies": {
-      "name": "viooltjes",
-      "emoji": "🧿"
-    },
-    "peonies": {
-      "name": "pioenen",
-      "emoji": "🌹"
-    },
-    "petunias": {
-      "name": "petunias",
-      "emoji": "🌺"
-    },
-    "plum blossoms": {
-      "name": "pruimenbloesems",
-      "emoji": "🪔"
-    },
-    "poinsettias": {
-      "name": "kerststerren",
-      "emoji": "🎀"
-    },
-    "poppies": {
-      "name": "papaverbloemen",
-      "emoji": "🌺"
-    },
-    "primroses": {
-      "name": "sleutelbloemen",
-      "emoji": "💐"
-    },
-    "roses": {
-      "name": "rozen",
-      "emoji": "🌹"
-    },
-    "salvias": {
-      "name": "saliebloemen",
-      "emoji": "🌿"
-    },
-    "snapdragons": {
-      "name": "snapdragons",
-      "emoji": "🐲"
-    },
-    "snowdrops": {
-      "name": "snowdrops",
-      "emoji": "⛄"
-    },
-    "spider lilies": {
-      "name": "spinnenlelies",
-      "emoji": "🕸️"
-    },
-    "sun flowers": {
-      "name": "zonnebloemen",
-      "emoji": "🌻"
-    },
-    "sweet peas": {
-      "name": "lathyrus",
-      "emoji": "🎐"
-    },
-    "tulips": {
-      "name": "tulpen",
-      "emoji": "🌷"
-    },
-    "water lilies": {
-      "name": "waterlelies",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "anemonen",
-      "emoji": "🌬️"
-    }
-  },
   "cmd": {
     "active": "🚨 Huidige paddenstoelen",
     "userconfig": "👤 Gebruikersinstellingen",
@@ -489,7 +298,9 @@
     "invited": "📣 is uitgenodigd",
     "reject": "❌ afwijzen",
     "colorbutton": "{color_emoji} {color_noun}",
-    "friend_code": "🤝 Vriendencode"
+    "friend_code": "🤝 Vriendencode",
+    "template": "🪧 Sjabloon",
+    "strength": "💪 Kracht"
   },
   "wish": {
     "wishall": "Alle paddenstoelen",
@@ -562,8 +373,8 @@
     "bug_thanks": "Bedankt voor het melden van een bug, het is doorgestuurd. Bericht nummer {number}.",
     "willing": "{player} wil{ticket} meedoen met {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b>.",
     "player_withdraw": "{player} heeft zich teruggetrokken uit {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b>.",
-    "confirmation_you": "Je bent aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket}.",
-    "confirmation_they": "{plusone} werd aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket}.",
+    "confirmation_you": "Je bent aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b> door {starter}{ticket}.",
+    "confirmation_they": "{plusone} werd aangemeld voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b> door {starter}{ticket}.",
     "no_free_slots": "❌Fout bij aanmelding voor {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>!\n🎟 Alleen nog ticketplaatsen beschikbaar."
   },
   "start": {
@@ -620,13 +431,15 @@
     "ask_time": "⏰<b>Hoe lang is de resterende tijd?</b>\n<b>Het formaat voor dagen, uren en minuten: <u>1d 14u 38m</u>.</b>\n\nDruk op de knop met de schatting om deze over te nemen of voer de resterende tijd van het paddenstoelgevecht in en druk op de ⬆️Verzend-knop.\n",
     "ask_comment": "\n\n💬<b>Heb je een opmerking voor je aanbod?</b>\n",
     "your_comment": "Je opmerking",
+    "custom_comment": "Eigen opmerking",
     "minutes": "minuten",
     "estimation": "Huidige schatting:",
     "summary": "Een {size_comparative} {color_comparative}, {slots} ",
     "comment_desc": "Schrijf de opmerking hier in het tekstveld. Als je geen opmerking wilt schrijven, tik op \"Klaar zonder opmerking\".",
     "eventchange": "<b>Beschrijf je eventpaddenstoel, bijvoorbeeld \"Mystery paddenstoel\" of \"Halloween paddenstoel\".</b>",
     "unknown_error": "Er was een onvoorziene fout. Probeer het opnieuw. Het werd afgebroken.",
-    "status": " {status_emoji}\n"
+    "status": " {status_emoji}\n",
+    "template_info": "ℹ️ Je kunt verschillende sjablonen selecteren met de knoppen. Actieve sjablonen zijn onderstreept. De parameter 'strength' wordt automatisch vervangen door de waarde <b>{strength}</b>. Je kunt deze waarde aanpassen in de paddenstoelconfiguratie."
   },
   "lang": {
     "de": "🇩🇪 Deutsch",
@@ -635,6 +448,7 @@
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
+    "zn-hant": "繁體中文",
     "vi": "🇻🇳 Tiếng Việt",
     "select": "Kies je taal alsjeblieft.\n"
   },
@@ -695,12 +509,14 @@
     "ask_dateft": "Geselecteerde tijdzone is <u>{tz} ({abbrev})</u>.\n<b>Welk datumformaat?</b>",
     "ask_timeft": "Je datumformaat: <u>{local_date}</u>\n<b>Welk tijdformaat?</b>",
     "ask_snooze": "Voer de gewenste tijd in waarop de paddenstoel-alarmen weer actief moeten worden.\n\nVoorbeeld: 6:45, 12 pm, 7:30 am (24- en 12-uurs formaat zijn mogelijk.)",
-    "snooze_error": "Dat kon ik helaas niet begrijpen: <quote>{input}</quote>",
+    "snooze_error": "Dat kon ik helaas niet begrijpen: <blockquote>{input}</blockquote>",
     "snooze_active": "Paddenstoel alarm gedempt tot: {time}",
     "snooze": "Alarm dempen tot morgen",
     "snooze_desc": "Paddenstoel-alarmen kunnen gedempt worden tot een tijdstip morgen.",
     "set_snooze": "⏰ Tijd instellen",
-    "time_error": "<u>Helaas kon ik de resterende tijd niet begrijpen.</u> Gebruik het formaat <b>1d 2u 30m</b> voor dagen, uren en minuten."
+    "time_error": "<u>Helaas kon ik de resterende tijd niet begrijpen.</u> Gebruik het formaat <b>1d 2u 30m</b> voor dagen, uren en minuten.",
+    "current_strength": "Huidige kracht",
+    "strength_desc": "Voer alleen hele getallen in."
   },
   "misc": {
     "unknown_user": "<b>Hallo {name}!</b> Je lijkt nieuw te zijn. Stuur me alsjeblieft een bericht en start de bot in mijn chat. Daarvoor moet je hier klikken:\n<code>     </code> 👉 @{botname} 👈 \nEr opent zich dan een nieuw venster, daar kun je op START drukken en je aanmelden bij de bot.",
@@ -714,7 +530,13 @@
     "timeout_pilz": "⏰ <b>De sessie voor het aanmaken van een paddenstoel is na {seconds} seconden verlopen.</b>\n\nProbeer het opnieuw met het commando /pilz.",
     "timeout_config": "⏰ <b>De sessie voor de configuratie is na {seconds} seconden verlopen.</b>\n\nGebruik de ⚙️configureren-knop om deze opnieuw te starten.",
     "timeout_register": "⏰ <b>De sessie voor de registratie is na {seconds} seconden verlopen.</b>\n\nProbeer het opnieuw met het commando /register.",
-    "help": "De complete handleiding staat op <a href=\"https://pilzkampf.github.io/bot/nl/\">GitHub.io</a>. Het meertalige Pilzkampf-forum staat op Telegram: https://t.me/PilzkampfForum"
+    "help": "De complete handleiding staat op <a href=\"https://pilzkampf.github.io/bot/nl/\">GitHub.io</a>. Het meertalige Pilzkampf-forum staat op Telegram: https://t.me/PilzkampfForum",
+    "stat_best": "Van alle spelers van de afgelopen 14 dagen ben jij de beste. Dat is fantastisch! ",
+    "stat_top": "Je staat in de top {rank} van alle spelers van de afgelopen 14 dagen. Dat is fantastisch! ",
+    "stat_mushrooms": "Je hebt meegedaan aan {total} paddenstoelengevechten en er zelfs {created} zelf aangemaakt. Heel erg bedankt!",
+    "stat_kofi": "Je hebt de community echt geholpen. Als je de bot wilt steunen, kun je hem <a href=\"https://ko-fi.com/pikminbloompilzbot\">een ​​kopje koffie aanbieden</a> via ko-fi.com.\n\nGa zo door!",
+    "stat_paypal": "Je bent zelfs een supporter! Heel erg bedankt voor je bijdrage! Wist je dat je rechtstreeks <a href=\"https://www.paypal.me/AnkeK81\">via PayPal kunt doneren zonder kosten</a> als je 'Vrienden/Familie' selecteert?\n\nVeel plezier met onze bot!",
+    "stat_group": "📈<b>Statistics</b>📊\nTogether, we've battled {count} mushrooms over the last 14 days.\n\nIf you'd like to become a supporter, you can buy us a coffee at <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com</a>"
   },
   "mushroom_msg": {
     "runs_active": "loopt tot:",

@@ -1,0 +1,208 @@
+{
+  "flowers": {
+    "anniversary roses": {
+      "name": "anniversary roses",
+      "emoji": "🌹"
+    },
+    "bellflowers": {
+      "name": "bellflowers",
+      "emoji": "🔔"
+    },
+    "birds of paradise": {
+      "name": "birds of paradise",
+      "emoji": "🌺"
+    },
+    "bougainvilleas": {
+      "name": "bougainvilleas",
+      "emoji": "🏵️"
+    },
+    "calla lily": {
+      "name": "calla lily",
+      "emoji": "🤍"
+    },
+    "camellias": {
+      "name": "camellias",
+      "emoji": "🏵️"
+    },
+    "canola flowers": {
+      "name": "canola flowers",
+      "emoji": "🟡"
+    },
+    "carnations": {
+      "name": "carnations",
+      "emoji": "🏐"
+    },
+    "cattleyas": {
+      "name": "cattleyas",
+      "emoji": "🌷"
+    },
+    "celosias": {
+      "name": "celosias",
+      "emoji": "🌺"
+    },
+    "cherry blossoms": {
+      "name": "cherry blossoms",
+      "emoji": "🌸"
+    },
+    "chrysanthemums": {
+      "name": "chrysanthemums",
+      "emoji": "❇️"
+    },
+    "clematis": {
+      "name": "clematis",
+      "emoji": "✳️"
+    },
+    "cosmoses": {
+      "name": "cosmoses",
+      "emoji": "☄️"
+    },
+    "cyclamens": {
+      "name": "cyclamens",
+      "emoji": "🔮"
+    },
+    "daffodils": {
+      "name": "daffodils",
+      "emoji": "🌟"
+    },
+    "dahlias": {
+      "name": "dahlias",
+      "emoji": "🔶"
+    },
+    "dianthuses": {
+      "name": "dianthuses",
+      "emoji": "⚜️"
+    },
+    "flowers": {
+      "name": "flowers",
+      "emoji": "🌼"
+    },
+    "forget-me-nots": {
+      "name": "forget me nots",
+      "emoji": "🔵"
+    },
+    "frangipanis": {
+      "name": "frangipanis",
+      "emoji": "📿"
+    },
+    "freesias": {
+      "name": "freesias",
+      "emoji": "🎆"
+    },
+    "gentians": {
+      "name": "gentians",
+      "emoji": "🔷"
+    },
+    "helleborus": {
+      "name": "helleborus",
+      "emoji": "❄️"
+    },
+    "hibiscuses": {
+      "name": "hibiscuses",
+      "emoji": "🌺"
+    },
+    "hyacinths": {
+      "name": "hyacinths",
+      "emoji": "🟣"
+    },
+    "hydrangeas": {
+      "name": "hydrangeas",
+      "emoji": "🧩"
+    },
+    "irises": {
+      "name": "irises",
+      "emoji": "⚜️"
+    },
+    "lilies": {
+      "name": "lilies",
+      "emoji": "⚪"
+    },
+    "lilies of the valley": {
+      "name": "lilies of the valley",
+      "emoji": "🔔"
+    },
+    "marigolds": {
+      "name": "marigolds",
+      "emoji": "🌼"
+    },
+    "morning glories": {
+      "name": "morning glories",
+      "emoji": "🌀"
+    },
+    "moth orchids": {
+      "name": "moth orchids",
+      "emoji": "🦋"
+    },
+    "pansies": {
+      "name": "pansies",
+      "emoji": "🧿"
+    },
+    "parrot tulips": {
+      "name": "parrot tulips",
+      "emoji": "🦜"
+    },
+    "peonies": {
+      "name": "peonies",
+      "emoji": "🌹"
+    },
+    "petunias": {
+      "name": "petunias",
+      "emoji": "🌺"
+    },
+    "plum blossoms": {
+      "name": "plum blossoms",
+      "emoji": "🪔"
+    },
+    "poinsettias": {
+      "name": "poinsettias",
+      "emoji": "🎀"
+    },
+    "poppies": {
+      "name": "poppies",
+      "emoji": "🌺"
+    },
+    "primroses": {
+      "name": "primroses",
+      "emoji": "💐"
+    },
+    "roses": {
+      "name": "roses",
+      "emoji": "🌹"
+    },
+    "salvias": {
+      "name": "salvias",
+      "emoji": "🌿"
+    },
+    "snapdragons": {
+      "name": "snapdragons",
+      "emoji": "🐲"
+    },
+    "snowdrops": {
+      "name": "snowdrops",
+      "emoji": "⛄"
+    },
+    "spider lilies": {
+      "name": "spider lilies",
+      "emoji": "🕸️"
+    },
+    "sun flowers": {
+      "name": "sun flowers",
+      "emoji": "🌻"
+    },
+    "sweet peas": {
+      "name": "sweet peas",
+      "emoji": "🎐"
+    },
+    "tulips": {
+      "name": "tulips",
+      "emoji": "🌷"
+    },
+    "water lilies": {
+      "name": "water lilies",
+      "emoji": "🪷"
+    },
+    "windflowers": {
+      "name": "windflowers",
+      "emoji": "🌬️"
+    }
+  }
+}

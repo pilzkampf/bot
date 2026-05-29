@@ -1,5 +1,5 @@
 {
-  "version": "2026-02-27",
+  "version": "2026-05-21",
   "grammar": {
     "size": {
       "small": {
@@ -97,16 +97,6 @@
         "from": "2025-08-01T02:00:00+02:00",
         "to": "2025-08-31T02:00:00+02:00"
       },
-      "event2511": {
-        "default": "geniale Pilze",
-        "emoji": "🎂🎉",
-        "noun": "genialer Pilz",
-        "comparative": "genialer Pilz",
-        "dative": "genialen Pilz",
-        "from": "2025-11-01",
-        "to": "2025-11-30",
-        "nectar": ""
-      },
       "event2512": {
         "default": "Bizarre Pilze",
         "emoji": "🎁🎄",
@@ -114,8 +104,8 @@
         "comparative": "Bizarrer Pilz",
         "dative": "Bizarren Pilz",
         "nectar": "",
-        "from": "2025-12-01T01:00:00+01:00",
-        "to": "2025-12-31T01:00:00+01:00"
+        "from": "",
+        "to": ""
       },
       "event2601": {
         "default": "prächtige Pilze",
@@ -144,8 +134,28 @@
         "comparative": "grünender Pilz",
         "dative": "grünenden Pilz",
         "from": "2026-03-01",
-        "nectar": "99",
+        "nectar": "",
         "to": "2026-03-31"
+      },
+      "event2604": {
+        "default": "aufwändige Pilze",
+        "emoji": "🌷",
+        "noun": "aufwändiger Pilz",
+        "comparative": "aufwändiger Pilz",
+        "dative": "aufwändigen Pilz",
+        "from": "2026-04-01",
+        "nectar": "99",
+        "to": "2026-04-30"
+      },
+      "event2605": {
+        "default": "geniale Pilze",
+        "emoji": "🎮",
+        "noun": "genialer Pilz",
+        "comparative": "genialer Pilz",
+        "dative": "genialen Pilz",
+        "from": "2026-05-01",
+        "to": "2026-05-31",
+        "nectar": "99"
       },
       "fire": {
         "default": "Feuer Pilze",
@@ -260,204 +270,6 @@
       }
     }
   },
-  "flowers": {
-    "anniversary roses": {
-      "name": "Jubiläumsrosen",
-      "emoji": "🌹"
-    },
-    "birds of paradise": {
-      "name": "Paradiesvogelblumen",
-      "emoji": "🌺"
-    },
-    "bougainvilleas": {
-      "name": "Drillingsblumen",
-      "emoji": "🏵️"
-    },
-    "calla lily": {
-      "name": "Callas",
-      "emoji": "🤍"
-    },
-    "camellias": {
-      "name": "Kamelien",
-      "emoji": "🏵️"
-    },
-    "canola flowers": {
-      "name": "Rapsblüten",
-      "emoji": "🟡"
-    },
-    "carnations": {
-      "name": "Nelken",
-      "emoji": "🏐"
-    },
-    "cattleyas": {
-      "name": "Cattleyen",
-      "emoji": "🌷"
-    },
-    "celosias": {
-      "name": "Brandschöpfe",
-      "emoji": "🌺"
-    },
-    "cherry blossoms": {
-      "name": "Kirschblüten",
-      "emoji": "🌸"
-    },
-    "chrysanthemums": {
-      "name": "Chrysanthemen",
-      "emoji": "❇️"
-    },
-    "clematis": {
-      "name": "Waldreben",
-      "emoji": "✳️"
-    },
-    "cosmoses": {
-      "name": "Schmuckkörbchen",
-      "emoji": "☄️"
-    },
-    "cyclamens": {
-      "name": "Alpenveilchen",
-      "emoji": "🔮"
-    },
-    "daffodils": {
-      "name": "Narzissen",
-      "emoji": "🌟"
-    },
-    "dahlias": {
-      "name": "Dahlien",
-      "emoji": "🔶"
-    },
-    "dianthuses": {
-      "name": "Prachtnelken",
-      "emoji": "⚜️"
-    },
-    "flowers": {
-      "name": "Blumen",
-      "emoji": "🌼"
-    },
-    "forget me nots": {
-      "name": "Vergissmeinnicht",
-      "emoji": "🔵"
-    },
-    "frangipanis": {
-      "name": "Wachsblumen",
-      "emoji": "📿"
-    },
-    "freesias": {
-      "name": "Freesien",
-      "emoji": "🎆"
-    },
-    "gentians": {
-      "name": "Enziane",
-      "emoji": "🔷"
-    },
-    "helleborus": {
-      "name": "Christrosen",
-      "emoji": "❄️"
-    },
-    "hibiscuses": {
-      "name": "Hibisken",
-      "emoji": "🌺"
-    },
-    "hyacinths": {
-      "name": "Hyazinthen",
-      "emoji": "🟣"
-    },
-    "hydrangeas": {
-      "name": "Hortensien",
-      "emoji": "🧩"
-    },
-    "irises": {
-      "name": "Schwertlilien",
-      "emoji": "⚜️"
-    },
-    "lilies": {
-      "name": "Lilien",
-      "emoji": "⚪"
-    },
-    "lilies of the valley": {
-      "name": "Maiglöckchen",
-      "emoji": "🔔"
-    },
-    "marigolds": {
-      "name": "Ringelblumen",
-      "emoji": "🌼"
-    },
-    "morning glories": {
-      "name": "Prunkwinden",
-      "emoji": "🌀"
-    },
-    "moth orchids": {
-      "name": "Mondorchideen",
-      "emoji": "🦋"
-    },
-    "pansies": {
-      "name": "Stiefmütterchen",
-      "emoji": "🧿"
-    },
-    "peonies": {
-      "name": "Pfingstrosen",
-      "emoji": "🌹"
-    },
-    "petunias": {
-      "name": "Petunien",
-      "emoji": "🌺"
-    },
-    "plum blossoms": {
-      "name": "Pflaumenblüten",
-      "emoji": "🪔"
-    },
-    "poinsettias": {
-      "name": "Weihnachtssterne",
-      "emoji": "🎀"
-    },
-    "poppies": {
-      "name": "Mohnblumen",
-      "emoji": "🌺"
-    },
-    "primroses": {
-      "name": "Primeln",
-      "emoji": "💐"
-    },
-    "roses": {
-      "name": "Rosen",
-      "emoji": "🌹"
-    },
-    "salvias": {
-      "name": "Salbeiblumen",
-      "emoji": "🌿"
-    },
-    "snapdragons": {
-      "name": "Löwenmäulchen",
-      "emoji": "🐲"
-    },
-    "snowdrops": {
-      "name": "Schneeglöckchen",
-      "emoji": "⛄"
-    },
-    "spider lilies": {
-      "name": "Spinnenlilien",
-      "emoji": "🕸️"
-    },
-    "sun flowers": {
-      "name": "Sonnenblumen",
-      "emoji": "🌻"
-    },
-    "sweet peas": {
-      "name": "Duftwicken",
-      "emoji": "🎐"
-    },
-    "tulips": {
-      "name": "Tulpen",
-      "emoji": "🌷"
-    },
-    "water lilies": {
-      "name": "Seerosen",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "Windröschen",
-      "emoji": "🌬️"
-    }
-  },
   "cmd": {
     "active": "🚨 Zeigt aktuelle Pilze",
     "userconfig": "👤 Benutzereinstellungen",
@@ -510,7 +322,9 @@
     "invited": "📣 ist eingeladen",
     "reject": "❌ ablehnen",
     "colorbutton": "{color_emoji} {color_noun}",
-    "friend_code": "🤝 Freundescode"
+    "friend_code": "🤝 Freundescode",
+    "template": "🪧 Vorlagen",
+    "strength": "💪 Stärke"
   },
   "wish": {
     "wishall": "Alle Pilze",
@@ -583,8 +397,8 @@
     "bug_thanks": "Danke für die Meldung eines Fehlers, es wurde weitergeleitet. Nachricht Nummer {number}.",
     "willing": "{player} möchte{ticket} bei {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b> mitmachen.",
     "player_withdraw": "{player} hat sich aus {size_dative-article} <b><a href=\"{link}\">{size_dative} {color_dative}</a></b> zurückgezogen.",
-    "confirmation_you": "Du wurdest {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket} angemeldet.",
-    "confirmation_they": "{plusone} wurde {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>{ticket} angemeldet.",
+    "confirmation_you": "Du wurdest {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b> von {starter}{ticket} angemeldet.",
+    "confirmation_they": "{plusone} wurde {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b> von {starter}{ticket} angemeldet.",
     "no_free_slots": "❌Fehler bei der Anmeldung {size_dative-preposition} <b><a href=\"{url}\">{size_dative} {color_dative}</a></b>!\n🎟 Nur noch Ticket-Plätze verfügbar."
   },
   "start": {
@@ -641,13 +455,15 @@
     "ask_time": "⏰<b>Wie lange ist die Restzeit?</b>\n<b>Das Format für Tage, Stunden und Minuten: <u>1d 14h 38m</u>.</b>\n\nDrücke den Knopf mit der Schätzung um sie zu übernehmen oder gib die Restzeit vom Pilzkampf ein und drücke den ⬆️Senden-Knopf.\n",
     "ask_comment": "\n\n💬<b>Hast du einen Kommentar für dein Angebot?</b>\n",
     "your_comment": "Dein Kommentar",
+    "custom_comment": "Eigener Kommentar",
     "minutes": "Minuten",
     "estimation": "Aktuelle Schätzung:",
     "summary": "Ein {size_comparative} {color_comparative}, {slots} ",
     "comment_desc": "Schreibe den Kommentar hier per Nachricht ins Textfeld. Wenn du keinen Kommentar schreiben möchtest, tippe auf \"Fertig ohne Kommentar\".",
     "eventchange": "<b>Beschreibe deinen Eventpilz, zum Beispiel \"Mystery Pilz\" oder \"Halloween Pilz\".</b>",
     "unknown_error": "Es gab einen unvorhergesehenen Fehler. Bitte versuche es nochmal. Es wurde abgebrochen.",
-    "status": " {status_emoji}\n"
+    "status": " {status_emoji}\n",
+    "template_info": "ℹ️ Du kannst mit den Buttons verschiedene Vorlagen auswählen. <u>Aktive Vorlagen</u> sind unterstrichen. Der Parameter 'strength' wird automatisch mit dem Wert <b>{strength}</b> ersetzt. Diesen Wert kannst du in der Pilzkonfiguration anpassen."
   },
   "lang": {
     "de": "🇩🇪 Deutsch",
@@ -656,6 +472,7 @@
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
+    "zn-hant": "繁體中文",
     "vi": "🇻🇳 Tiếng Việt",
     "select": "Bitte wähle deine Sprache.\n"
   },
@@ -716,12 +533,14 @@
     "ask_dateft": "Ausgewählte Zeitzone ist <u>{tz} ({abbrev})</u>.\n<b>Welches Datumsformat?</b>",
     "ask_timeft": "Dein Datumsformat: <u>{local_date}</u>\n<b>Welches Zeitformat?</b>",
     "ask_snooze": "Bitte die gewünschte Zeit eingeben, zu der die Pilz-Alarme wieder aktiv werden sollen.\n\nBeispiel: 6:45, 12 pm, 7:30 am (24- und 12-Stunden-Format sind möglich.)",
-    "snooze_error": "Das konnte ich leider nicht verstehen: <quote>{input}</quote>",
+    "snooze_error": "Das konnte ich leider nicht verstehen: <blockquote>{input}</blockquote>",
     "snooze_active": "Pilz-Alarm stumm gestellt bis: {time}",
     "snooze": "Alarm stumm bis morgen",
     "snooze_desc": "Pilz-Alarme können stumm gestellt werden bis zu einem Zeitpunkt morgen.",
     "set_snooze": "⏰ Zeit einstellen",
-    "time_error": "<u>Leider konnte ich die Restzeit nicht verstehen.</u> Verwende das Format <b>1d 2h 30m</b> für Tage, Stunden und Minuten."
+    "time_error": "<u>Leider konnte ich die Restzeit nicht verstehen.</u> Verwende das Format <b>1d 2h 30m</b> für Tage, Stunden und Minuten.",
+    "current_strength": "Aktuelle Stärke",
+    "strength_desc": "Bitte nur ganze Zahlen eingeben."
   },
   "misc": {
     "unknown_user": "<b>Hallo {name}!</b> Du scheinst neu zu sein. Bitte schreibe mich an und starte den Bot in meinem Chat. Dafür musst du hier klicken:\n<code>     </code> 👉 @{botname} 👈 \nEs öffnet sich dann ein neues Fenster, dort kannst du auf START drücken und dich beim Bot anmelden.",
@@ -735,7 +554,13 @@
     "timeout_pilz": "⏰ <b>Die Session für die Pilzerstellung ist nach {seconds} Sekunden abgelaufen.</b>\n\nBitte versuche es nochmal mit dem Kommando /pilz.",
     "timeout_config": "⏰ <b>Die Session für die Konfiguration ist nach {seconds} Sekunden abgelaufen.</b>\n\nVerwende den ⚙️konfigurieren Knopf um es neu zu starten.",
     "timeout_register": "⏰ <b>Die Session für die Registrierung ist nach {seconds} Sekunden abgelaufen.</b>\n\nBitte versuche es nochmal mit dem Kommando /register.",
-    "help": "Die komplette Anleitung findet ihr auf <a href=\"https://pilzkampf.github.io/bot/\">GitHub.io</a>. Das mehrsprachige Pilzkampf-Forum ist auf Telegram: https://t.me/PilzkampfForum"
+    "help": "Die komplette Anleitung findet ihr auf <a href=\"https://pilzkampf.github.io/bot/\">GitHub.io</a>. Das mehrsprachige Pilzkampf-Forum ist auf Telegram: https://t.me/PilzkampfForum",
+    "stat_best": "Du bist der Beste aller Spieler der letzten 14 Tage. Fantastisch! ",
+    "stat_top": "Du gehörst zu den Top {rank} aller Spieler der letzten 14 Tagen. Fantastisch! ",
+    "stat_mushrooms": "Du hast an {total} Pilzkämpfen teilgenommen und sogar {created} selbst erstellt. Vielen Dank!",
+    "stat_kofi": "Du hast der Community wirklich sehr geholfen. Wenn du den Bot unterstützen möchtest, kannst du ihm auf <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com einen Kaffee spendieren</a>.\n\nWeiter so!",
+    "stat_paypal": "Du bist sogar ein Supporter. Vielen Dank für Deinen Beitrag! Wusstest du, dass du direkt und <a href=\"https://www.paypal.me/AnkeK81\">ohne Abzüge über Paypal spenden</a> kannst wenn du \"Freunde/Familie\" auswählst?\n\nViel Spaß mit unserem Bot!",
+    "stat_group": "📈<b>Statistik</b>📊\nWir haben zusammen in den letzten 14 Tagen an {count} Pilzen gekämpft.\n\nWenn du Supporter werden möchtest, du kannst uns auf <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com einen Kaffee spendieren</a>"
   },
   "mushroom_msg": {
     "runs_active": "läuft bis:",

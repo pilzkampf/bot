@@ -1,0 +1,521 @@
+{
+  "version": "2026-05-21",
+  "grammar": {
+    "size": {
+      "small": {
+        "default": "小"
+      },
+      "normal": {
+        "default": "一般"
+      },
+      "large": {
+        "default": "大"
+      },
+      "giant": {
+        "default": "巨大"
+      },
+      "weekly": {
+        "default": "每週挑戰"
+      }
+    },
+    "color": {
+      "all": {
+        "default": "全部",
+        "emoji": "✨",
+        "noun": "所有精華"
+      },
+      "any": {
+        "default": "",
+        "emoji": "",
+        "noun": "",
+        "event": ""
+      },
+      "blue": {
+        "default": "藍色蘑菇",
+        "emoji": "🟦",
+        "noun": "藍色",
+        "event": "<u>藍色</u> "
+      },
+      "crystal": {
+        "default": "水晶蘑菇",
+        "emoji": "💎",
+        "noun": "水晶"
+      },
+      "electro": {
+        "default": "电蘑菇",
+        "emoji": "⚡️",
+        "noun": "电"
+      },
+      "event": {
+        "default": "活動蘑菇",
+        "emoji": "🎉",
+        "noun": "活動"
+      },
+      "event08": {
+        "default": "奇異蘑菇",
+        "emoji": "🍧",
+        "noun": "奇異蘑菇"
+      },
+      "event2512": {
+        "default": "奇異蘑菇",
+        "emoji": "🎁🎄",
+        "noun": "奇異蘑菇"
+      },
+      "event2601": {
+        "default": "華麗蘑菇",
+        "emoji": "🍱",
+        "noun": "華麗蘑菇"
+      },
+      "event2602": {
+        "default": "繽紛蘑菇",
+        "emoji": "🍫💝",
+        "noun": "繽紛蘑菇"
+      },
+      "event2603": {
+        "default": "翠綠蘑菇",
+        "emoji": "🌈🫖",
+        "noun": "翠綠蘑菇"
+      },
+      "event2604": {
+        "default": "奢華蘑菇",
+        "emoji": "🌷",
+        "noun": "奢華蘑菇"
+      },
+      "event2605": {
+        "default": "輝煌蘑菇",
+        "emoji": "🎮",
+        "noun": "輝煌蘑菇"
+      },
+      "fire": {
+        "default": "火蘑菇",
+        "emoji": "🔥",
+        "noun": "火"
+      },
+      "grey": {
+        "default": "灰色蘑菇",
+        "emoji": "🪨",
+        "noun": "灰色"
+      },
+      "heart": {
+        "default": "特殊精華",
+        "emoji": "❤️",
+        "noun": "特殊精華"
+      },
+      "ice": {
+        "default": "冰蘑菇",
+        "emoji": "🥶",
+        "noun": "冰"
+      },
+      "pink": {
+        "default": "粉紅色蘑菇",
+        "emoji": "🩷",
+        "noun": "粉紅色"
+      },
+      "plant": {
+        "default": "種植花卉",
+        "emoji": "📅🌼",
+        "noun": "花卉"
+      },
+      "poison": {
+        "default": "毒蘑菇",
+        "emoji": "🤢",
+        "noun": "毒"
+      },
+      "purple": {
+        "default": "紫色蘑菇",
+        "emoji": "🟪",
+        "noun": "紫色"
+      },
+      "red": {
+        "default": "紅色蘑菇",
+        "emoji": "🟥",
+        "noun": "紅色",
+        "event": "<u>紅色</u> "
+      },
+      "run": {
+        "default": "累積步數",
+        "emoji": "📅🏃",
+        "noun": "步數"
+      },
+      "water": {
+        "default": "水蘑菇",
+        "emoji": "💧",
+        "noun": "水"
+      },
+      "white": {
+        "default": "白色蘑菇",
+        "emoji": "🔲",
+        "noun": "白色",
+        "event": "<u>白色</u> "
+      },
+      "yellow": {
+        "default": "黃色蘑菇",
+        "emoji": "🟨",
+        "noun": "黃色",
+        "event": "<u>黃色</u> "
+      }
+    },
+    "status": {
+      "willing": {
+        "emoji": "❓"
+      },
+      "invited": {
+        "emoji": "📣"
+      },
+      "accepted": {
+        "emoji": "⚔️"
+      },
+      "friendrequest": {
+        "emoji": "🤝"
+      },
+      "starter": {
+        "emoji": "蘑菇"
+      }
+    }
+  },
+  "cmd": {
+    "active": "🚨 目前的蘑菇",
+    "userconfig": "👤 使用者設定",
+    "timer": "⏰ 設定提醒",
+    "help": "❔ 指令列表",
+    "divider": "🔽 未啟用 🔽",
+    "cancel": "❌ 取消本次挑戰",
+    "bug": "🪲 問題回報",
+    "event": "🗺 每月活動資訊",
+    "kill": "☠️ 關閉機器人",
+    "pilz": "🍄 新蘑菇開放",
+    "alarm": "🚨 蘑菇提醒",
+    "profile": "👤 使用者個人資料",
+    "publish": "🌍 跨群組發佈蘑菇"
+  },
+  "button": {
+    "colorbutton": "{color_emoji} {color_noun}",
+    "wish": "🚨 蘑菇警報",
+    "creation": "🍄 建立蘑菇",
+    "notifications": "✉️ 通知設定",
+    "profile": "👤 個人資料",
+    "config": "⚙️ 設定",
+    "comment": "💬 留言",
+    "groups": "🗯 聊天群組",
+    "time_remain": "⏰ 剩餘時間",
+    "in": "{ticket}👍 需券",
+    "out": "👎 我退出",
+    "ignore": "🔇 忽略",
+    "mute": "🔕 靜音警報",
+    "okay": "✅ 確認",
+    "done": "✅ 完成",
+    "abort": "❌ 取消",
+    "back": "🔙 返回",
+    "forth": "🔜 下一步",
+    "save": "⚙️ 儲存",
+    "saved": "💾 已更新",
+    "delete": "🗑 刪除",
+    "delete_offer": "❌ 刪除提議",
+    "delete_wish": "❌ 刪除警報",
+    "withdraw_invite": "📣 撤回邀請",
+    "deactivate": "停用 ❌",
+    "activate": "啟用 ✅",
+    "adjust": "♻️ 調整",
+    "active": "启用",
+    "inactive": "關閉",
+    "without_comment": "❌💬 直接完成",
+    "delete_comment": "❌ 刪除留言",
+    "reason_ticket": "🎟 僅限提票位",
+    "reason_finalized": "⏰ 蘑菇已結束",
+    "reason_global": "🚫 拒絕",
+    "invited": "📣 已受邀",
+    "reject": "❌ 拒絕",
+    "friend_code": "🤝 好友代碼",
+    "template": "🪧 範本",
+    "strength": "💪 力量"
+  },
+  "wish": {
+    "wishall": "所有蘑菇",
+    "wishallsizes": "所有大小",
+    "wishbigsizes": "僅限大型以上蘑菇",
+    "message": "😍 一場由 {starter} 發起的 <b><a href=\"{link}\">{size_default} {color_default}</a>{ticket}</b> 符合您的 {emoji} 警報列表！",
+    "deleted": "警報已刪除。",
+    "delete": "刪除警報",
+    "no_tickets": "🆓 我沒有補給券",
+    "yes_tickets": "🎟 我有補給券",
+    "instructions": "您一次只能設定一個警報。\n\n",
+    "instruction_color": "<b>請選擇您正在尋找的精華顏色。</b>\n選擇 <i>特殊精華</i> 會包含大型或元素蘑菇。",
+    "instruction_size": "<b>您想找哪種大小？</b>\n若僅選擇大型蘑菇，將不會收到小型與普通蘑菇的通知。",
+    "instruction_ticket": "<b>您是否願意使用補給券？</b>\n若僅選擇免費位，您將不會收到需要補給券的通知。若兩者皆選，則會收到所有可能的邀請通知。",
+    "instr_red": "{color_emoji} <b>{color_noun}</b> 包含 <b>粉紅色</b> 與 <b>火蘑菇</b>\n",
+    "instr_yellow": "{color_emoji} <b>{color_noun}</b> 包含 <b>電子蘑菇</b>\n",
+    "instr_blue": "{color_emoji} <b>{color_noun}</b> 包含 <b>紫色</b> 與 <b>水蘑菇</b>\n",
+    "instr_white": "{color_emoji} <b>{color_noun}</b> 包含 <b>灰色</b>、<b>水晶</b> 與 <b>毒蘑菇</b>\n",
+    "instr_heart": "{color_emoji} <b>{color_noun}</b> 包含 <b>火、水、電子、水晶</b> 與 <b>毒蘑菇</b>\n",
+    "your_wish_big": "您正在尋找 <b>{color_default} (僅限大型)</b>。\n",
+    "your_wish_all": "您正在尋找 <b>{color_default} (所有大小)</b>。\n",
+    "have_no_ticket": "您目前<u>沒有</u>使用補給券。",
+    "have_ticket": "您目前使用 🎟 補給券。",
+    "wish_red": "紅色、粉紅色及火蘑菇",
+    "wish_red_emoji": "🟥🩷🔥",
+    "wish_yellow": "黃色及電子蘑菇",
+    "wish_yellow_emoji": "🟨⚡️",
+    "wish_blue": "藍色、紫色、冰及水蘑菇",
+    "wish_blue_emoji": "🟦🟪🥶💧",
+    "wish_white": "白色、灰色、水晶及毒蘑菇",
+    "wish_white_emoji": "🔲🪨💎🤢",
+    "wish_fire": "火蘑菇",
+    "wish_fire_emoji": "🔥",
+    "wish_electro": "電子蘑菇",
+    "wish_electro_emoji": "⚡️",
+    "wish_water": "水蘑菇",
+    "wish_water_emoji": "💧",
+    "wish_crystal": "水晶及毒蘑菇",
+    "wish_crystal_emoji": "💎🤢",
+    "wish_event": "活動蘑菇",
+    "wish_heart": "特殊精華",
+    "wish_event_emoji": "🎉",
+    "wish_heart_emoji": "❤️",
+    "wish_all": "所有蘑菇",
+    "wish_all_emoji": "✨",
+    "with_ticket": " 使用 🎟補給券🎟",
+    "onlyfree": "僅限免費位",
+    "withticket": "🆓 與 🎟 位置",
+    "bigsize": "僅限大型蘑菇",
+    "allsize": "所有大小",
+    "newalarm": "新蘑菇警報",
+    "introduction": "<b>蘑菇警報</b> 會在有適合的蘑菇戰鬥時通知您。在 <code>/active</code> 顯示的活動蘑菇列表中，可以看到其他人設定的警報。若您超過三天未活動，您的警報將不再列出；若超過 14 天未活動，則會停止通知。透過機器人參加或發起戰鬥即可保持活動狀態。",
+    "noalarm": "目前尚未設定任何警報。",
+    "saved": "警報已儲存"
+  },
+  "register": {
+    "not_registered": "您必須在私訊中向我註冊。請私訊 @{bot_name}，按下「開始」後再次嘗試 /register 指令。",
+    "registered": "請使用 /profile 指令來編輯或完善您的個人資料。",
+    "ask_name": "您在 Pikmin Bloom 中的遊戲名稱是什麼？",
+    "ask_fc": "您的好友代碼是多少？這是在邀請您參加戰鬥時必須的資訊。如果您希望保持匿名，請輸入「0」。",
+    "fc_error": "好友代碼必須是 12 位數字。您輸入了：{friend_code}。請再試一次，或輸入「0」保持匿名。",
+    "ask_level": "您在 Pikmin Bloom 中的等級是多少？輸入「0」可跳過。",
+    "saved": "您的資料已儲存！\n名稱：{name}\n好友代碼：{fc}\n等級：{level}",
+    "newhint": "您可以使用底部選單中的指令。透過 /profile 可以設定語言、時區及玩家資訊。\n\n輸入 /active 查看目前的蘑菇提議，底部有蘑菇警報按鈕，設定後可在有適合的蘑菇時收到通知。\n\n通過驗證後，您將被加入聊天群組。\n\n<b>請在遊戲中添加 Mello Yellow 為好友以通過驗證。其好友代碼為：</b>\n<code>499969789993</code>\n(點擊代碼即可複製)"
+  },
+  "notification": {
+    "invite": "<b>{player}</b> 受 {starter} 邀請參加 <a href=\"{link}\"><b>{size_default} {color_default} 戰鬥</b></a>{ticket}！",
+    "cancel": "工作階段已取消。",
+    "boosted": "此蘑菇已被強化。<a href=\"{link}\">它已移動至此。</a>",
+    "bug_thanks": "感謝回報錯誤。您的訊息已轉發，編號為 {number}。",
+    "willing": "{player} 想要參加您的 <b><a href=\"{link}\">{size_default} {color_default} 戰鬥</a></b>{ticket}。",
+    "player_withdraw": "{player} 已退出您的 <b><a href=\"{link}\">{size_default} {color_default} 戰鬥</a></b>。",
+    "confirmation_you": "您已由 {starter} 申請參加 <b><a href=\"{url}\">{size_default} {color_default} 戰鬥</a></b>{ticket}。",
+    "confirmation_they": "{plusone} 已由 {starter} 申請參加 <b><a href=\"{url}\">{size_default} {color_default} 戰鬥</a></b>{ticket}。",
+    "no_free_slots": "❌註冊 <b><a href=\"{url}\">{size_default} {color_default} 戰鬥</a></b> 時發生錯誤！\n🎟 目前僅剩補給券位。"
+  },
+  "timer": {
+    "instructions": "使用 /timer 指令，您可以查看並刪除活動中的計時器。\n- 透過<i>回覆</i>蘑菇訊息，您可以根據該蘑菇的剩餘時間設定計時器。\n- 輸入 /timer 2h30m \"遠征\" 可設定一個 2 小時 30 分鐘且備註為「遠征」的計時器。\n- 備註為選填，將在計時結束時顯示。",
+    "comment": "<b><a href=\"{link}\">{size_default} {color_default}</a></b>",
+    "set": "計時器已設定於 {time} ({date})",
+    "headline": "<u>您的活動計時器：</u>\n\n",
+    "no_timer": "<b><i>目前沒有計時器。</i></b>\n\n",
+    "message": "⏰{time} 的計時提醒",
+    "repeat": "(提醒)",
+    "active": "於",
+    "inactive": "已過",
+    "and": " 又 ",
+    "day": "天",
+    "days": "天",
+    "hour": "小時",
+    "hours": "小時",
+    "minute": "分鐘",
+    "minutes": "分鐘",
+    "delete": "刪除"
+  },
+  "event": {
+    "no_information": "目前尚無活動資訊。",
+    "phase": "\n<u>第 {phase_num} 階段</u>\n",
+    "steps": "{number} 🏃 {amount} 步\n",
+    "grow": "{number} 🌱 培育 {amount} 隻皮克敏\n",
+    "expeditions": "{number} 🗺 {amount} 次遠征\n",
+    "plant": "{number} {flower_emoji} 種植 {amount} 朵{color_event}{flower_name}\n",
+    "headline": "{flower_emoji} {flower_name} "
+  },
+  "mushroom": {
+    "small": "小型",
+    "normal": "普通",
+    "large": "大型",
+    "giant": "巨型",
+    "free": "免費",
+    "slot": "位置 ",
+    "slots": "位置 ",
+    "with_ticket": " 使用補給券 🎟",
+    "without_ticket": "不使用 🆓補給券 ",
+    "weekly": "每週挑戰",
+    "aborted": "已取消建立。",
+    "ask_size": "您的蘑菇是什麼大小？",
+    "ask_weekly": "哪一項每週挑戰？",
+    "ask_color": "您的 {size_default} 蘑菇是什麼顏色？",
+    "ask_slots": "目前有多少空位？",
+    "ask_time": "⏰<b>剩餘時間還有多久？</b>\n<b>請使用此格式：<u>1d 14h 38m</u>（天、小時、分鐘）。</b>\n\n點擊下方按鈕使用預估時間，或直接輸入實際時間並發送 ⬆️。\n",
+    "ask_comment": "\n\n💬<b>您想為此提議添加留言嗎？</b>\n",
+    "your_comment": "您的留言",
+    "custom_comment": "自訂留言",
+    "minutes": "分鐘",
+    "estimation": "目前預估：",
+    "summary": "{size_default} {color_default}，{slots} ",
+    "comment_desc": "在此發送訊息作為留言。若不需要留言，請點擊「不加留言」按鈕。",
+    "eventchange": "<b>請描述您的活動蘑菇，例如「華麗蘑菇」或「萬聖節蘑菇」。</b>",
+    "unknown_error": "發生未知錯誤。請再試一次。已取消建立。",
+    "status": " {status_emoji}\n",
+    "template_info": "ℹ️ You can select different templates using the buttons. Active templates are underlined. The parameter 'strength' is automatically replaced with the value <b>{strength}</b>. You can adjust this value in the mushroom configuration."
+  },
+  "lang": {
+    "de": "🇩🇪 Deutsch",
+    "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
+    "tr": "🇹🇷 Türkçe",
+    "nl": "🇳🇱 Nederlands",
+    "gsw-ZH": "🇨🇭 Züritüütsch",
+    "vi": "🇻🇳 Tiếng Việt",
+    "zn-hant": "繁體中文",
+    "select": "請選擇您的語言。\n"
+  },
+  "configure": {
+    "time_unchanged": "剩餘時間未變。此蘑菇 ",
+    "remaining_time": "剩餘時間： ",
+    "runtime": "蘑菇戰鬥將持續到 <b>{time} ({date})</b>",
+    "unknown": "未知",
+    "name": "玩家名稱",
+    "groups": "您的群組",
+    "level": "等級",
+    "fc": "好友代碼",
+    "language": "語言",
+    "your_status": "您的狀態： ",
+    "profile_choice": "您想要更改什麼？",
+    "menu": "選單",
+    "ask_name": "請輸入您的 Pikmin Bloom 玩家名稱：",
+    "ask_level": "您在 Pikmin Bloom 中是多少等級？",
+    "ask_fc": "您的 12 位數好友代碼是多少？",
+    "ask_correct": "這正確嗎？",
+    "ask_lang": "您選擇哪種語言？",
+    "ask_group": "選擇您的主要聊天群組：",
+    "hide_emoji": "隱藏等級圖示",
+    "show_emoji": "顯示等級圖示",
+    "hello": "您好",
+    "config_choice": "您想要設定什麼？",
+    "notifications": "通知",
+    "mushroom_creation": "建立蘑菇",
+    "wish": "蘑菇警報",
+    "profile": "您的個人資料",
+    "news": "最新消息",
+    "news_desc": "當有關於 Pilzkampf 機器人的消息時，您會收到通知。\n",
+    "messages": "訊息",
+    "messages_desc": "您可以透過群組中的蘑菇戰鬥訊息接收訊息。\n",
+    "comment": "留言",
+    "comment_desc": "當您建立蘑菇邀請時，系統會詢問您是否要留言。\n",
+    "alert": "蘑菇警報",
+    "alert_desc": "當出現您需要的蘑菇時，您會收到通知。\n",
+    "alert_notification": "前往<b>通知</b>來啟用蘑菇警報。",
+    "remaining": "剩餘時間",
+    "remaining_desc": "當您建立蘑菇邀請時，系統會詢問您剩餘時間。\n",
+    "kick": "<b>{user}</b> 撤回了 <a href=\"{link}\">{size_default} {color_default} 戰鬥</a> 的邀請。",
+    "kick_plusone": "<b>{user}</b> 撤回了 {plusone} 參加 <a href=\"{link}\">{size_default} {color_default} 戰鬥</a> 的邀請。",
+    "confirm_delete": "<b>您確定要刪除嗎？此操作無法還原。</b>",
+    "ask_comment": "<b>您的留言內容是什麼？</b>",
+    "comment_deleted": "<b>留言已刪除</b>",
+    "ask_uninvite": "您想要撤回哪項邀請？<b>該玩家<u>將會收到</u>您撤回邀請的通知。</b>",
+    "switch_free": "🆓 切換為免費位",
+    "switch_ticket": "🎟 切換為補給券位",
+    "mushroom": "{size_default} {color_default}",
+    "cmd_menu": "指令選單",
+    "timezone": "時區",
+    "asktimezone": "<b>請以 24 小時格式輸入您的當地時間</b>（例如 14:30 表示下午 2:30，或 0:20 表示凌晨 12:20）。",
+    "tzset": "⌚️您的時間是：<u><b>{local_time}</b></u>\n📅您的日期是：<u><b>{local_date}</b></u>\n🌍您的時區是：<u><b>{tz} ({abbrev})</b></u>",
+    "foundtz": "⌚ 找到以下符合的時區。\n請選擇您的時區：\n",
+    "notfoundtz": "❌ 找不到符合的時區。請檢查時間並再試一次。\n您輸入的是：{input}。",
+    "notvalidtz": "⚠️ 請以 24 小時格式輸入時間（例如 14:30 或 08:15）\n您輸入的是：{input}。",
+    "ask_dateft": "您選擇的時區是 <u>{tz} ({abbrev})</u>。\n<b>您的日期格式是什麼？</b>",
+    "ask_timeft": "這是您的日期格式：<u>{local_date}</u>\n<b>您的時間格式是什麼？</b>",
+    "ask_snooze": "請輸入蘑菇警報重新啟用的時間。\n\n例如：6:45, 12 pm, 7:30 am（支援 24 小時及 12 小時格式）。",
+    "snooze_error": "我不明白這個輸入：<blockquote>{input}</blockquote>",
+    "snooze_active": "蘑菇警報暫停至：{time}",
+    "snooze": "警報暫停至明天",
+    "snooze_desc": "停用蘑菇警報直到明天的某個時間。",
+    "set_snooze": "⏰ 設定時間",
+    "time_error": "<u>我不明白這個時間。</u>請使用 <b>1d 2h 30m</b> 格式表示天、小時及分鐘。",
+    "current_strength": "當前強度",
+    "strength_desc": "請只輸入整數。"
+  },
+  "misc": {
+    "unknown_user": "<b>{name} 您好！</b>您似乎是新來的。請與我開啟對話並啟動機器人。只需點擊這裡：\n<code>      </code> 👉 @{botname} 👈 \n將會出現新的聊天視窗，您可以點擊「開始」並向機器人註冊。",
+    "since": "自",
+    "longtz": "{timezone_long}",
+    "uhr": "",
+    "donate": "<b>支持機器人的開發，幫助它變得更好！</b>\n支持者將可以使用更多功能。支持方式之一是透過 <a href=\"https://ko-fi.com/pikminbloompilzbot\">Ko-Fi 贊助</a>。還有其他方式，如果您有興趣，請在 <a href=\"https://t.me/PilzkampfForum\">機器人幫助群組</a> 中詢問。",
+    "welcome": "歡迎",
+    "newmessage": "請查看置頂訊息以獲取重要資訊。",
+    "left": "離開了群組。",
+    "timeout_pilz": "⏰ <b>建立蘑菇的工作階段已在 {seconds} 秒後過期。</b>\n\n請重新使用 /pilz 指令嘗試。",
+    "timeout_config": "⏰ <b>設定工作階段已在 {seconds} 秒後過期。</b>\n\n請使用 ⚙️設定按鈕重新啟動。",
+    "timeout_register": "⏰ <b>註冊工作階段已在 {seconds} 秒後過期。</b>\n\n請重新使用 /register 指令嘗試。",
+    "help": "完整的說明手冊位於 <a href=\"https://pilzkampf.github.io/bot/en/\">GitHub.io</a>。多語言的 Pilzkampf 論壇位於 Telegram：https://t.me/PilzkampfForum",
+    "stat_best": "在過去14天的所有玩家中，你是最優秀的，真的很棒！ ",
+    "stat_top": "在過去14天的所有玩家中，你排名前 {rank}，真的很棒！ ",
+    "stat_mushrooms": "你參與了 {total} 場蘑菇挑戰，其中 {created} 場是你親自建立的，非常感谢！",
+    "stat_kofi": "你對社群貢獻良多。如果你想支持這個機器人，可以考慮在<a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com 上請它喝杯咖啡</a>。\n\n繼續加油！",
+    "stat_paypal": "",
+    "stat_group": "📈<b>Statistics</b>📊\nTogether, we've battled {count} mushrooms over the last 14 days.\n\nIf you'd like to become a supporter, you can buy us a coffee at <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com</a>"
+  },
+  "mushroom_msg": {
+    "runs_active": "有效至：",
+    "runs_inactive": "已失效自：",
+    "created": "您建立了一場 <a href=\"{link}\"><b>{size_default} {color_default} 戰鬥</b></a>。\n",
+    "created_inactive": "您建立了一場 <strike><a href=\"{link}\"><b>{size_default} {color_default} 戰鬥</b></a></strike>。\n",
+    "slots": "個空位",
+    "slot": "個空位",
+    "with_ticket": "<b>需券</b>\n",
+    "WITH_TICKET": "<b>需券</b> 🎟\n",
+    "without_ticket": "免費位\n",
+    "comment": "留言：",
+    "full": "<b>已滿！！</b>\n",
+    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{size_default} #{color_default}</b>",
+    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{size_default} {color_default}</b></strike>",
+    "by": "發起者：",
+    "slots_with_ticket": "• <i>{available_ticket} 個補給券位</i> 🎟\n",
+    "slots_without_ticket": "• <i>{available_free} 個不需券的免費位</i>\n",
+    "am_in": "👍 我參加了蘑菇戰鬥",
+    "is_in": "👍 他們參加了蘑菇戰鬥",
+    "withdraw": "<b>{starter}</b> 撤回了 <a href=\"{link}\">{size_default} {color_default} 戰鬥</a> 的邀請。\n<b>原因：{reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> 撤回了 {plusone} 參加 <a href=\"{link}\">{size_default} {color_default} 戰鬥</a> 的邀請。\n<b>原因：{reason}</b>",
+    "verify_withdraw": "要撤回對 {player} 的邀請嗎？",
+    "mushroom_link": "\n<a href=\"{link}\"><b>🔗 蘑菇戰鬥連結 🔗</b></a>",
+    "reason_ticket": "僅剩補給券位。",
+    "reason_finalized": "蘑菇戰鬥已結束。",
+    "reason_global": "已拒絕",
+    "fc_msg": "{willing} 的好友代碼：<code>{fc}</code>\n（點擊即可複製）",
+    "fc_sent": "🤝 {player} 已向您發送好友請求。當您在 Pikmin Bloom 中接受請求後，請進行確認",
+    "fc_recieved": "🤝 {player} 已接受您的好友請求。有時需要幾分鐘才會在遊戲中顯示。如果您沒看到新朋友，請嘗試重新啟動 Pikmin Bloom。",
+    "fc_notification1": "<b>{starter}</b> 已請求您的好友代碼。請留意 Pikmin Bloom 並接受好友請求。",
+    "fc_notification2": "<b>{starter}</b> 請求在 Pikmin Bloom 中加您為好友。他們的好友代碼是 <code>{fc}</code>\n（點擊即可複製）",
+    "fc_notification3": "{willing} 將獲得您的好友代碼。請留意 Pikmin Bloom 並接受好友請求。",
+    "fc_notification4": "{willing} 的個人資料中未儲存好友代碼。請親自詢問 {pikmin_name} 以交換好友代碼。",
+    "message": "給 <b><a href=\"{url}\">{size_default} {color_default}</a></b> 的<b>📩訊息</b>：\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">訊息連結</a></b>",
+    "ticket": "<b>需補給券🎟</b> ",
+    "snooze": "😴靜音至明天"
+  },
+  "active_message": {
+    "autodelete": "<i>(此訊息將在 5 分鐘後消失)</i>",
+    "active_headline": "<u>您群組中的活動蘑菇戰鬥：</u>",
+    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_default} {color_default}</a>\n",
+    "no_mushrooms": "目前沒有活動中的蘑菇戰鬥。",
+    "approximately": "(約) ",
+    "available_mushroom": "<b><a href=\"{link}\">{size_default} {color_default}</a>\n由 {user} 發起 {estimated}{duration}</b>\n空位：{slots}",
+    "with_ticket": " <b>需 🎟補給券🎟</b>\n",
+    "without_ticket": " 不需補給券\n",
+    "wish": "{count}×{color_emoji} {color_noun}\n",
+    "wishlist": "<u>警報清單：</u>\n",
+    "participant": "•  {status_emoji}{player} {via}{since} {duration}\n",
+    "showticket": "顯示補給券位",
+    "showfree": "顯示不需補給券的位子",
+    "players": "總參與人數"
+  },
+  "start": {
+    "hello": "<b>我猜您是新朋友。</b>請使用 /register 指令來註冊您的 Pikmin Bloom 名稱！\n",
+    "description": "\n此機器人可以協助您進行 Pikmin Bloom 蘑菇戰鬥。\n\n如果您遇到問題，請前往社群支持群組：https://t.me/PilzkampfForum",
+    "supergroup": "⚠️<b>這不是超級群組 (Super Group)！</b>\n此機器人僅適用於超級群組。請前往群組設定將類型切換為「公開」並儲存變更。之後您可以視需要將其改回私密。\n\n此外，機器人<b>必須擁有</b>管理員權限。建議使用標準管理員權限。機器人至少需要擁有建立邀請連結與刪除訊息的權限。",
+    "admin": "⚠️機器人<b>必須擁有</b>管理員權限。建議使用標準管理員權限。機器人至少需要擁有建立邀請連結與刪除訊息的權限。",
+    "recommendation": "看來您尚未加入任何有 Pilzkampf 機器人的 Telegram 群組。<a href=\"https://t.me/+d5WxLkvwTag4NzIy\">我推薦這一個。</a>"
+  }
+}

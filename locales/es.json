@@ -1,5 +1,5 @@
 {
-  "version": "2026-02-27",
+  "version": "2026-05-21",
   "grammar": {
     "size": {
       "small": {
@@ -56,11 +56,6 @@
         "emoji": "🍧",
         "noun": "Champiñón extraño"
       },
-      "event2511": {
-        "default": "Champiñón brillante",
-        "emoji": "🎂🎉",
-        "noun": "Champiñón brillante"
-      },
       "event2512": {
         "default": "Champiñón extraño",
         "emoji": "🎁🎄",
@@ -80,6 +75,16 @@
         "default": "Champiñón verdoso",
         "emoji": "🌈🫖",
         "noun": "Champiñón verdoso"
+      },
+      "event2604": {
+        "default": "Champiñon lujoso",
+        "emoji": "🌷",
+        "noun": "Champiñon lujoso"
+      },
+      "event2605": {
+        "default": "Champiñón brillante",
+        "emoji": "🎮",
+        "noun": "Champiñón brillante"
       },
       "fire": {
         "default": "Champiñón de fuego",
@@ -168,204 +173,6 @@
       }
     }
   },
-  "flowers": {
-    "anniversary roses": {
-      "name": "rosas de aniversario",
-      "emoji": "🌹"
-    },
-    "birds of paradise": {
-      "name": "aves del paraíso",
-      "emoji": "🌺"
-    },
-    "bougainvilleas": {
-      "name": "buganvillas",
-      "emoji": "🏵️"
-    },
-    "calla lily": {
-      "name": "cala",
-      "emoji": "🤍"
-    },
-    "camellias": {
-      "name": "camelias",
-      "emoji": "🏵️"
-    },
-    "canola flowers": {
-      "name": "flores de colza",
-      "emoji": "🟡"
-    },
-    "carnations": {
-      "name": "claveles",
-      "emoji": "🏐"
-    },
-    "cattleyas": {
-      "name": "cattleyas",
-      "emoji": "🌷"
-    },
-    "celosias": {
-      "name": "celosías",
-      "emoji": "🌺"
-    },
-    "cherry blossoms": {
-      "name": "flores de cerezo",
-      "emoji": "🌸"
-    },
-    "chrysanthemums": {
-      "name": "crisantemos",
-      "emoji": "❇️"
-    },
-    "clematis": {
-      "name": "clemátide",
-      "emoji": "✳️"
-    },
-    "cosmoses": {
-      "name": "cosmos",
-      "emoji": "☄️"
-    },
-    "cyclamens": {
-      "name": "ciclámenes",
-      "emoji": "🔮"
-    },
-    "daffodils": {
-      "name": "narcisos",
-      "emoji": "🌟"
-    },
-    "dahlias": {
-      "name": "dahlias",
-      "emoji": "🔶"
-    },
-    "dianthuses": {
-      "name": "claveles",
-      "emoji": "⚜️"
-    },
-    "flowers": {
-      "name": "flores",
-      "emoji": "🌼"
-    },
-    "forget me nots": {
-      "name": "nomeolvides",
-      "emoji": "🔵"
-    },
-    "frangipanis": {
-      "name": "frangipanis",
-      "emoji": "📿"
-    },
-    "freesias": {
-      "name": "fresias",
-      "emoji": "🎆"
-    },
-    "gentians": {
-      "name": "gencianas",
-      "emoji": "🔷"
-    },
-    "helleborus": {
-      "name": "eléboros",
-      "emoji": "❄️"
-    },
-    "hibiscuses": {
-      "name": "hibiscos",
-      "emoji": "🌺"
-    },
-    "hyacinths": {
-      "name": "jacintos",
-      "emoji": "🟣"
-    },
-    "hydrangeas": {
-      "name": "hortensias",
-      "emoji": "🧩"
-    },
-    "irises": {
-      "name": "lirios",
-      "emoji": "⚜️"
-    },
-    "lilies": {
-      "name": "lirios",
-      "emoji": "⚪"
-    },
-    "lilies of the valley": {
-      "name": "lirios de los valles",
-      "emoji": "🔔"
-    },
-    "marigolds": {
-      "name": "caléndulas",
-      "emoji": "🌼"
-    },
-    "morning glories": {
-      "name": "dondiegos",
-      "emoji": "🌀"
-    },
-    "moth orchids": {
-      "name": "orquídeas mariposa",
-      "emoji": "🦋"
-    },
-    "pansies": {
-      "name": "pensamientos",
-      "emoji": "🧿"
-    },
-    "peonies": {
-      "name": "peonías",
-      "emoji": "🌹"
-    },
-    "petunias": {
-      "name": "petunias",
-      "emoji": "🌺"
-    },
-    "plum blossoms": {
-      "name": "flores de ciruelo",
-      "emoji": "🪔"
-    },
-    "poinsettias": {
-      "name": "poinsetias",
-      "emoji": "🎀"
-    },
-    "poppies": {
-      "name": "amapolas",
-      "emoji": "🌺"
-    },
-    "primroses": {
-      "name": "prímulas",
-      "emoji": "💐"
-    },
-    "roses": {
-      "name": "rosas",
-      "emoji": "🌹"
-    },
-    "salvias": {
-      "name": "salvias",
-      "emoji": "🌿"
-    },
-    "snapdragons": {
-      "name": "boca de dragón",
-      "emoji": "🐲"
-    },
-    "snowdrops": {
-      "name": "galantos",
-      "emoji": "⛄"
-    },
-    "spider lilies": {
-      "name": "lirios araña",
-      "emoji": "🕸️"
-    },
-    "sun flowers": {
-      "name": "girasoles",
-      "emoji": "🌻"
-    },
-    "sweet peas": {
-      "name": "guisantes de olor",
-      "emoji": "🎐"
-    },
-    "tulips": {
-      "name": "tulipanes",
-      "emoji": "🌷"
-    },
-    "water lilies": {
-      "name": "nenúfares",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "anémonas",
-      "emoji": "🌬️"
-    }
-  },
   "cmd": {
     "active": "🚨 Champiñones actuales",
     "userconfig": "👤 Configuración de usuario",
@@ -418,13 +225,15 @@
     "reason_global": "🚫 Rechazar",
     "invited": "📣 está invitado",
     "reject": "❌ rechazar",
-    "friend_code": "🤝 código de amigo"
+    "friend_code": "🤝 código de amigo",
+    "template": "🪧 Plantilla",
+    "strength": "💪 Fortaleza"
   },
   "wish": {
     "wishall": "Todos los champiñones",
     "wishallsizes": "Todos los tamaños",
     "wishbigsizes": "Solo champiñones grandes",
-    "message": "😍 Un <b><a href=\"{link}\">{size_default} {color_default}</a>{ticket}</b> de {starter} coincide con tu {emoji} lista de alertas!",
+    "message": "😍 Un <b><a href=\"{link}\">{color_default} {size_default}</a>{ticket}</b> de {starter} coincide con tu {emoji} lista de alertas!",
     "deleted": "La alerta fue eliminada.",
     "delete": "eliminar alerta",
     "no_tickets": "🆓 No tengo tickets",
@@ -485,19 +294,19 @@
     "newhint": "Puedes usar comandos que están en el menú de abajo. Con /profile puedes establecer tu idioma y zona horaria, así como tu información de jugador.\n\nPrueba /active para ver ofertas de champiñón activas. Al final hay un botón para alertas de champiñón. Con las alertas de champiñón serás informado cuando haya un champiñón al que puedas unirte.\n\nSerás añadido a un grupo de chat una vez que seas un jugador verificado.\n\n<b>Por favor, añade a Mello Yellow a tu lista de amigos para ser verificado. Su código de amigo es</b>\n<code>499969789993</code>\n(haz clic para copiar)"
   },
   "notification": {
-    "invite": "¡<b>{player}</b> fue invitado a un <a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a>{ticket} por {starter}!",
+    "invite": "¡<b>{player}</b> fue invitado a un <a href=\"{link}\"><b>combate de {color_default} {size_default}</b></a>{ticket} por {starter}!",
     "cancel": "Sesión cancelada.",
     "boosted": "Este champiñón fue potenciado. <a href=\"{link}\">Fue movido aquí.</a>",
     "bug_thanks": "Gracias por reportar un error. Tu mensaje fue reenviado. Este es el mensaje número {number}.",
-    "willing": "{player} quiere unirse a tu <b><a href=\"{link}\">combate de {size_default} {color_default}</a></b>{ticket}.",
-    "player_withdraw": "{player} se retiró de tu <b><a href=\"{link}\">combate de {size_default} {color_default}</a></b>.",
-    "confirmation_you": "Te has apuntado a un <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>{ticket}.",
-    "confirmation_they": "{plusone} se ha apuntado a un <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>{ticket}.",
-    "no_free_slots": "❌Error durante el registro para <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>!\n🎟 Solo hay plazas con ticket disponibles."
+    "willing": "{player} quiere unirse a tu <b><a href=\"{link}\">combate de {color_default} {size_default}</a></b>{ticket}.",
+    "player_withdraw": "{player} se retiró de tu <b><a href=\"{link}\">combate de {color_default} {size_default}</a></b>.",
+    "confirmation_you": "Te has apuntado a un <b><a href=\"{url}\">combate de {color_default} {size_default}</a></b> por {starter}{ticket}.",
+    "confirmation_they": "{plusone} se ha apuntado a un <b><a href=\"{url}\">combate de {color_default} {size_default}</a></b> por {starter}{ticket}.",
+    "no_free_slots": "❌Error durante el registro para <b><a href=\"{url}\">combate de {color_default} {size_default}</a></b>!\n🎟 Solo hay plazas con ticket disponibles."
   },
   "timer": {
     "instructions": "Con el comando /timer, puedes ver y eliminar tus temporizadores activos.\n- Si <i>respondes</i> a un mensaje de champiñón, puedes activar un temporizador con el tiempo restante de ese champiñón.\n- Con /timer 2h30m \"expedición\" inicias un temporizador de 2 horas y 30 minutos con el comentario \"expedición\".\n- Los comentarios son opcionales. El comentario se mostrará cuando suene el temporizador.",
-    "comment": "<b><a href=\"{link}\">{size_default} {color_default}</a></b>",
+    "comment": "<b><a href=\"{link}\">{color_default} {size_default}</a></b>",
     "set": "Temporizador establecido para {time} ({date})",
     "headline": "<u>Tus temporizadores activos:</u>\n\n",
     "no_timer": "<b><i>No hay temporizadores activos.</i></b>\n\n",
@@ -542,13 +351,15 @@
     "ask_time": "⏰<b>¿Cuánto tiempo queda?</b>\n<b>Usa este formato: <u>1d 14h 38m</u> para días, horas y minutos.</b>\n\nPuedes tomar la estimación haciendo clic en el botón de abajo o introducir el tiempo real y enviar el texto con ⬆️.\n",
     "ask_comment": "\n\n💬<b>¿Tienes un comentario para tu oferta?</b>\n",
     "your_comment": "Tu comentario",
+    "custom_comment": "Comentario propio",
     "minutes": "minutos",
     "estimation": "Estimación actual:",
     "summary": "Un {size_default} {color_default}, {slots} ",
     "comment_desc": "Envía el comentario con un mensaje aquí. Si no tienes comentario, haz clic en el botón \"Sin comentario\".",
     "eventchange": "<b>Describe tu champiñón de evento, por ejemplo \"champiñón misterioso\" o \"champiñón de Halloween\".</b>",
     "unknown_error": "Hay un error desconocido. Por favor, inténtalo de nuevo. La creación fue cancelada.",
-    "status": " {status_emoji}\n"
+    "status": " {status_emoji}\n",
+    "template_info": "ℹ️ Puedes seleccionar diferentes plantillas usando los botones. Las plantillas activas están subrayadas. El parámetro 'strength' se reemplaza automáticamente con el valor <b>{strength}</b>. Puedes ajustar este valor en la configuración del champiñón."
   },
   "lang": {
     "de": "🇩🇪 Deutsch",
@@ -557,6 +368,7 @@
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
+    "zn-hant": "繁體中文",
     "vi": "🇻🇳 Tiếng Việt",
     "select": "Por favor, elige tu idioma.\n"
   },
@@ -598,15 +410,15 @@
     "alert_notification": "Ve a <b>Notificaciones</b> para activar la alerta de champiñón.",
     "remaining": "Tiempo Restante",
     "remaining_desc": "Se te pedirá el tiempo restante cuando crees una oferta de champiñón.\n",
-    "kick": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {size_default} {color_default}</a>.",
-    "kick_plusone": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {size_default} {color_default}</a> para {plusone}.",
+    "kick": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {color_default} {size_default}</a>.",
+    "kick_plusone": "<b>{user}</b> retiró la invitación para el <a href=\"{link}\">combate de {color_default} {size_default}</a> para {plusone}.",
     "confirm_delete": "<b>¿De VERDAD quieres eliminar? Esto no se puede deshacer.</b>",
     "ask_comment": "<b>¿Cuál es tu comentario?</b>",
     "comment_deleted": "<b>Comentario eliminado</b>",
     "ask_uninvite": "¿Qué invitación quieres retirar? <b>El jugador <u>será informado</u> de que retiraste la invitación.</b>",
     "switch_free": "🆓 Cambiar a libre",
     "switch_ticket": "🎟 Cambiar a ticket",
-    "mushroom": "{size_default} {color_default}",
+    "mushroom": "{color_default} {size_default}",
     "cmd_menu": "Menú de Comandos",
     "timezone": "Zona Horaria",
     "asktimezone": "<b>Por favor, introduce tu hora local en formato de 24 horas</b> (ej. 14:30 para 2:30pm o 0:20 para 12:20am).",
@@ -617,12 +429,14 @@
     "ask_dateft": "Tu zona horaria seleccionada es <u>{tz} ({abbrev})</u>.\n<b>¿Cuál es tu formato de fecha?</b>",
     "ask_timeft": "Este es tu formato de fecha: <u>{local_date}</u>\n<b>¿Cuál es tu formato de hora?</b>",
     "ask_snooze": "Por favor, introduce la hora a la que la alerta de champiñón debe estar activa de nuevo.\n\nEjemplo: 6:45, 12 pm, 7:30 am (es posible el formato de 24 y 12 horas).",
-    "snooze_error": "No pude entender eso: <quote>{input}</quote>",
+    "snooze_error": "No pude entender eso: <blockquote>{input}</blockquote>",
     "snooze_active": "La alerta de champiñón está inactiva hasta: {time}",
     "snooze": "Alerta desactivada hasta mañana",
     "snooze_desc": "Desactiva las alertas de champiñón hasta una hora de mañana.",
     "set_snooze": "⏰ Establecer hora",
-    "time_error": "<u>No pude entender la hora.</u> Usa el formato <b>1d 2h 30m</b> para días, horas y minutos."
+    "time_error": "<u>No pude entender la hora.</u> Usa el formato <b>1d 2h 30m</b> para días, horas y minutos.",
+    "current_strength": "Fuerza actual",
+    "strength_desc": "Por favor, introduzca solo números enteros."
   },
   "misc": {
     "unknown_user": "<b>¡Hola {name}!</b> Parece que eres nuevo aquí. Por favor, inicia un chat conmigo y arranca el bot. Solo haz clic aquí:\n<code>     </code> 👉 @{botname} 👈 \nAparecerá un nuevo chat y podrás hacer clic en INICIAR y registrarte con el bot.",
@@ -636,13 +450,19 @@
     "timeout_pilz": "⏰ <b>La sesión para la creación del champiñón ha expirado tras {seconds} segundos.</b>\n\nPor favor, inténtalo de nuevo con el comando /pilz.",
     "timeout_config": "⏰ <b>La sesión de configuración ha expirado tras {seconds} segundos.</b>\n\nUsa el botón ⚙️configurar para reiniciarla.",
     "timeout_register": "⏰ <b>La sesión de registro ha expirado tras {seconds} segundos.</b>\n\nPor favor, inténtalo de nuevo con el comando /register.",
-    "help": "El manual completo está en <a href=\"https://pilzkampf.github.io/bot/es/\">GitHub.io</a>. El foro multilingüe de Pilzkampf está en Telegram: https://t.me/PilzkampfForum"
+    "help": "El manual completo está en <a href=\"https://pilzkampf.github.io/bot/es/\">GitHub.io</a>. El foro multilingüe de Pilzkampf está en Telegram: https://t.me/PilzkampfForum",
+    "stat_best": "De todos los jugadores de los últimos 14 días, eres el mejor. ¡Es fantástico! ",
+    "stat_top": "Estás entre los {rank} mejores. ¡Es fantástico! ",
+    "stat_mushrooms": "Has participado en {total} Batallas de Hongos e incluso has creado {created}. ¡Muchísimas gracias!",
+    "stat_kofi": "Has ayudado muchísimo a la comunidad. Si quieres apoyar al bot, puedes <a href=\"https://ko-fi.com/pikminbloompilzbot\">invitarle a un café</a> en ko-fi.com.\n\n¡Sigue así!",
+    "stat_paypal": "¡Incluso eres un colaborador! ¡Muchísimas gracias por tu contribución! ¿Sabías que puedes donar directamente a <a href=\"https://www.paypal.me/AnkeK81\">través de PayPal sin comisiones</a> si seleccionas \"Amigos/Familiares\"?\n\n¡Diviértete con nuestro bot!",
+    "stat_group": "📈<b>Statistics</b>📊\nTogether, we've battled {count} mushrooms over the last 14 days.\n\nIf you'd like to become a supporter, you can buy us a coffee at <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com</a>"
   },
   "mushroom_msg": {
     "runs_active": "activo hasta:",
     "runs_inactive": "inactivo desde:",
-    "created": "Creaste un <a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a>.\n",
-    "created_inactive": "Creaste un <strike><a href=\"{link}\"><b>combate de {size_default} {color_default}</b></a></strike>.\n",
+    "created": "Creaste un <a href=\"{link}\"><b>combate de {color_default} {size_default}</b></a>.\n",
+    "created_inactive": "Creaste un <strike><a href=\"{link}\"><b>combate de {color_default} {size_default}</b></a></strike>.\n",
     "slots": "plazas",
     "slot": "plaza",
     "with_ticket": "<b>con ticket</b>\n",
@@ -650,15 +470,15 @@
     "without_ticket": "libre\n",
     "comment": "Comentario:",
     "full": "<b>¡¡LLENO!!</b>\n",
-    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{size_default} #{color_default}</b>",
-    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{size_default} {color_default}</b></strike>",
+    "mushroom_title": "{color_emoji}{msg_emoji} <b>#{color_default} # {size_default}</b>",
+    "mushroom_title_inactive": "{color_emoji}{msg_emoji} <strike><b>{color_default} {size_default}</b></strike>",
     "by": "por:",
     "slots_with_ticket": "• <i>{available_ticket} con ticket</i> 🎟\n",
     "slots_without_ticket": "• <i>{available_free} libre sin ticket</i>\n",
     "am_in": "👍 Me uní al champiñón",
     "is_in": "👍 Se unió al champiñón",
-    "withdraw": "<b>{starter}</b> retiró la invitación al <a href=\"{link}\">combate de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
-    "withdraw_plusone": "<b>{starter}</b> retiró la invitación para {plusone} al <a href=\"{link}\">combate de {size_default} {color_default}</a>.\n<b>Razón: {reason}</b>",
+    "withdraw": "<b>{starter}</b> retiró la invitación al <a href=\"{link}\">combate de {color_default} {size_default}</a>.\n<b>Razón: {reason}</b>",
+    "withdraw_plusone": "<b>{starter}</b> retiró la invitación para {plusone} al <a href=\"{link}\">combate de {color_default} {size_default}</a>.\n<b>Razón: {reason}</b>",
     "verify_withdraw": "¿Retirar la invitación para {player}?",
     "mushroom_link": "\n<a href=\"{link}\"><b>🔗 Enlace al champiñón 🔗</b></a>",
     "reason_ticket": "Solo hay plazas con ticket disponibles.",
@@ -671,17 +491,17 @@
     "fc_notification2": "<b>{starter}</b> solicitó ser tu amigo en Pikmin Bloom. Su código de amigo es <code>{fc}</code>\n(haz clic para copiar)",
     "fc_notification3": "{willing} obtendrá tu código de amigo. Estate atento a Pikmin Bloom para aceptar la solicitud de amistad.",
     "fc_notification4": "{willing} no tiene código de amigo guardado en su perfil. Pregunta a {pikmin_name} personalmente para intercambiar códigos de amigo.",
-    "message": "<b>📩MENSAJE</b> para el <b><a href=\"{url}\">combate de {size_default} {color_default}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Enlace al mensaje</a></b>",
+    "message": "<b>📩MENSAJE</b> para el <b><a href=\"{url}\">combate de {color_default} {size_default}</a></b>:\n<blockquote>»{text}«</blockquote>\n{userinfo}\n<b>🔗<a href=\"{reply_url}\">Enlace al mensaje</a></b>",
     "ticket": "<b>CON TICKET🎟</b> ",
     "snooze": "😴silenciado hasta mañana"
   },
   "active_message": {
     "autodelete": "<i>(Este mensaje desaparecerá en 5 minutos)</i>",
     "active_headline": "<u>Combates de champiñón activos en tus grupos:</u>",
-    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{size_default} {color_default}</a>\n",
+    "active_mushrooms": "{status_emoji}<a href=\"{link}\">{color_default} {size_default}</a>\n",
     "no_mushrooms": "No hay combates de champiñón activos.",
     "approximately": "(aprox.) ",
-    "available_mushroom": "<b><a href=\"{link}\">{size_default} {color_default}</a>\npor {user} {estimated}{duration}</b>\nPlazas: {slots}",
+    "available_mushroom": "<b><a href=\"{link}\">{color_default} {size_default}</a>\npor {user} {estimated}{duration}</b>\nPlazas: {slots}",
     "with_ticket": " <b>con 🎟ticket🎟</b>\n",
     "without_ticket": " sin ticket\n",
     "wish": "{count}×{color_emoji} {color_noun}\n",

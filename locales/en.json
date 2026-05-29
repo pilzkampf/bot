@@ -1,5 +1,5 @@
 {
-  "version": "2026-02-27",
+  "version": "2026-05-21",
   "grammar": {
     "size": {
       "small": {
@@ -56,11 +56,6 @@
         "emoji": "🍧",
         "noun": "Bizarre Mushroom"
       },
-      "event2511": {
-        "default": "Brilliant Mushroom",
-        "emoji": "🎂🎉",
-        "noun": "Brilliant Mushroom"
-      },
       "event2512": {
         "default": "Bizarre Mushroom",
         "emoji": "🎁🎄",
@@ -80,6 +75,16 @@
         "default": "Verdant Mushroom",
         "emoji": "🌈🫖",
         "noun": "Verdant Mushroom"
+      },
+      "event2604": {
+        "default": "Lavish Mushroom",
+        "emoji": "🌷",
+        "noun": "Lavish Mushroom"
+      },
+      "event2605": {
+        "default": "Brilliant Mushroom",
+        "emoji": "🎮",
+        "noun": "Brilliant Mushroom"
       },
       "fire": {
         "default": "Fire Mushroom",
@@ -168,204 +173,6 @@
       }
     }
   },
-  "flowers": {
-    "anniversary roses": {
-      "name": "anniversary roses",
-      "emoji": "🌹"
-    },
-    "birds of paradise": {
-      "name": "birds of paradise",
-      "emoji": "🌺"
-    },
-    "bougainvilleas": {
-      "name": "bougainvilleas",
-      "emoji": "🏵️"
-    },
-    "calla lily": {
-      "name": "calla lily",
-      "emoji": "🤍"
-    },
-    "camellias": {
-      "name": "camellias",
-      "emoji": "🏵️"
-    },
-    "canola flowers": {
-      "name": "canola flowers",
-      "emoji": "🟡"
-    },
-    "carnations": {
-      "name": "carnations",
-      "emoji": "🏐"
-    },
-    "cattleyas": {
-      "name": "cattleyas",
-      "emoji": "🌷"
-    },
-    "celosias": {
-      "name": "celosias",
-      "emoji": "🌺"
-    },
-    "cherry blossoms": {
-      "name": "cherry blossoms",
-      "emoji": "🌸"
-    },
-    "chrysanthemums": {
-      "name": "chrysanthemums",
-      "emoji": "❇️"
-    },
-    "clematis": {
-      "name": "clematis",
-      "emoji": "✳️"
-    },
-    "cosmoses": {
-      "name": "cosmoses",
-      "emoji": "☄️"
-    },
-    "cyclamens": {
-      "name": "cyclamens",
-      "emoji": "🔮"
-    },
-    "daffodils": {
-      "name": "daffodils",
-      "emoji": "🌟"
-    },
-    "dahlias": {
-      "name": "dahlias",
-      "emoji": "🔶"
-    },
-    "dianthuses": {
-      "name": "dianthuses",
-      "emoji": "⚜️"
-    },
-    "flowers": {
-      "name": "flowers",
-      "emoji": "🌼"
-    },
-    "forget me nots": {
-      "name": "forget-me-nots",
-      "emoji": "🔵"
-    },
-    "frangipanis": {
-      "name": "frangipanis",
-      "emoji": "📿"
-    },
-    "freesias": {
-      "name": "freesias",
-      "emoji": "🎆"
-    },
-    "gentians": {
-      "name": "gentians",
-      "emoji": "🔷"
-    },
-    "helleborus": {
-      "name": "helleborus",
-      "emoji": "❄️"
-    },
-    "hibiscuses": {
-      "name": "hibiscuses",
-      "emoji": "🌺"
-    },
-    "hyacinths": {
-      "name": "hyacinths",
-      "emoji": "🟣"
-    },
-    "hydrangeas": {
-      "name": "hydrangeas",
-      "emoji": "🧩"
-    },
-    "irises": {
-      "name": "irises",
-      "emoji": "⚜️"
-    },
-    "lilies": {
-      "name": "lilies",
-      "emoji": "⚪"
-    },
-    "lilies of the valley": {
-      "name": "lilies of the valley",
-      "emoji": "🔔"
-    },
-    "marigolds": {
-      "name": "marigolds",
-      "emoji": "🌼"
-    },
-    "morning glories": {
-      "name": "morning glories",
-      "emoji": "🌀"
-    },
-    "moth orchids": {
-      "name": "moth orchids",
-      "emoji": "🦋"
-    },
-    "pansies": {
-      "name": "pansies",
-      "emoji": "🧿"
-    },
-    "peonies": {
-      "name": "peonies",
-      "emoji": "🌹"
-    },
-    "petunias": {
-      "name": "petunias",
-      "emoji": "🌺"
-    },
-    "plum blossoms": {
-      "name": "plum blossoms",
-      "emoji": "🪔"
-    },
-    "poinsettias": {
-      "name": "poinsettias",
-      "emoji": "🎀"
-    },
-    "poppies": {
-      "name": "poppies",
-      "emoji": "🌺"
-    },
-    "primroses": {
-      "name": "primroses",
-      "emoji": "💐"
-    },
-    "roses": {
-      "name": "roses",
-      "emoji": "🌹"
-    },
-    "salvias": {
-      "name": "salvias",
-      "emoji": "🌿"
-    },
-    "snapdragons": {
-      "name": "snapdragons",
-      "emoji": "🐲"
-    },
-    "snowdrops": {
-      "name": "snowdrops",
-      "emoji": "⛄"
-    },
-    "spider lilies": {
-      "name": "spider lilies",
-      "emoji": "🕸️"
-    },
-    "sun flowers": {
-      "name": "sun flowers",
-      "emoji": "🌻"
-    },
-    "sweet peas": {
-      "name": "sweet peas",
-      "emoji": "🎐"
-    },
-    "tulips": {
-      "name": "tulips",
-      "emoji": "🌷"
-    },
-    "water lilies": {
-      "name": "water lilies",
-      "emoji": "🪷"
-    },
-    "windflowers": {
-      "name": "windflowers",
-      "emoji": "🌬️"
-    }
-  },
   "cmd": {
     "active": "🚨 Current mushrooms",
     "userconfig": "👤 User Configuration",
@@ -418,7 +225,9 @@
     "reason_global": "🚫 Reject",
     "invited": "📣 is invited",
     "reject": "❌ reject",
-    "friend_code": "🤝 friend code"
+    "friend_code": "🤝 friend code",
+    "template": "🪧 Templates",
+    "strength": "💪 Strength"
   },
   "wish": {
     "wishall": "All mushrooms",
@@ -491,8 +300,8 @@
     "bug_thanks": "Thank you for reporting a bug. Your message was forwarded. This is message number {number}.",
     "willing": "{player} wants to join your <b><a href=\"{link}\">{size_default} {color_default} battle</a></b>{ticket}.",
     "player_withdraw": "{player} withdrew from your <b><a href=\"{link}\">{size_default} {color_default} battle</a></b>.",
-    "confirmation_you": "You applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>{ticket}.",
-    "confirmation_they": "{plusone} applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>{ticket}.",
+    "confirmation_you": "You applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b> by {starter}{ticket}.",
+    "confirmation_they": "{plusone} applied for a <b><a href=\"{url}\">{size_default} {color_default} battle</a></b> by {starter}{ticket}.",
     "no_free_slots": "❌Error during registration for <b><a href=\"{url}\">{size_default} {color_default} battle</a></b>!\n🎟 Only ticket slots available."
   },
   "timer": {
@@ -542,13 +351,15 @@
     "ask_time": "⏰<b>How long is the remaining time?</b>\n<b>Use this format: <u>1d 14h 38m</u> for days, hours and minutes.</b>\n\nEither take the estimation by clicking the button below or enter your actual time and send the text with ⬆️.\n",
     "ask_comment": "\n\n💬<b>Do you have a comment for your offering?</b>\n",
     "your_comment": "Your comment",
+    "custom_comment": "Custom comment",
     "minutes": "minutes",
     "estimation": "Current estimation:",
     "summary": "A {size_default} {color_default}, {slots} ",
     "comment_desc": "Send the comment with a message here. If you don't have a comment, click the button \"No Comment\".",
     "eventchange": "<b>Describe your event mushroom, i.e. \"lavish mushroom\" oder \"Halloween mushroom\".</b>",
     "unknown_error": "There is an unknown error. Please try again. The creation was aborted.",
-    "status": " {status_emoji}\n"
+    "status": " {status_emoji}\n",
+    "template_info": "ℹ️ You can select different templates using the buttons. Active templates are underlined. The parameter 'strength' is automatically replaced with the value <b>{strength}</b>. You can adjust this value in the mushroom configuration."
   },
   "lang": {
     "de": "🇩🇪 Deutsch",
@@ -557,6 +368,7 @@
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
+    "cn-hant": "繁體中文",
     "vi": "🇻🇳 Tiếng Việt",
     "select": "Please choose your language.\n"
   },
@@ -617,12 +429,14 @@
     "ask_dateft": "Your selected time zone is <u>{tz} ({abbrev})</u>.\n<b>What is your date format?</b>",
     "ask_timeft": "This is your date format: <u>{local_date}</u>\n<b>What is your time format?</b>",
     "ask_snooze": "Please enter the time when the mushroom alert shall be active again.\n\nExample: 6:45, 12 pm, 7:30 am (24- und 12-hour format is possible.)",
-    "snooze_error": "I could not understand that: <quote>{input}</quote>",
+    "snooze_error": "I could not understand that: <blockquote>{input}</blockquote>",
     "snooze_active": "Mushroom alert is inactive until: {time}",
     "snooze": "Alert deactive until tomorrow",
     "snooze_desc": "Deactivate mushroom alerts until a time tomorrow.",
     "set_snooze": "⏰ Set time",
-    "time_error": "<u>I could not understand the time.</u> Use the format <b>1d 2h 30m</b> für days, hours and minutes."
+    "time_error": "<u>I could not understand the time.</u> Use the format <b>1d 2h 30m</b> für days, hours and minutes.",
+    "current_strength": "Current strength",
+    "strength_desc": "Please enter only whole numbers."
   },
   "misc": {
     "unknown_user": "<b>Hello {name}!</b> You seem to be new here. Please start a chat with me and start the bot. Just click here:\n<code>     </code> 👉 @{botname} 👈 \nA new chat will appear and you can click START and register yourself with the bot.",
@@ -636,7 +450,13 @@
     "timeout_pilz": "⏰ <b>The session for mushroom creation has expired after {seconds} seconds.</b>\n\nPlease try again with the command /pilz.",
     "timeout_config": "⏰ <b>The configuration session has expired after {seconds} seconds.</b>\n\nUse the ⚙️configure button to restart it.",
     "timeout_register": "⏰ <b>The registration session has expired after {seconds} seconds.</b>\n\nPlease try again with the command /register.",
-    "help": "The complete manual is on <a href=\"https://pilzkampf.github.io/bot/en/\">GitHub.io</a>. The multilingual Pilzkampf Forum is on Telegram: https://t.me/PilzkampfForum"
+    "help": "The complete manual is on <a href=\"https://pilzkampf.github.io/bot/en/\">GitHub.io</a>. The multilingual Pilzkampf Forum is on Telegram: https://t.me/PilzkampfForum",
+    "stat_best": "Of all the players in the last 14 days, you're the best. That's fantastic! ",
+    "stat_top": "You're in the top {rank} of all players in the last 14 days. That's fantastic! ",
+    "stat_mushrooms": "You've participated in {total} Mushroom Battles, and even created {created} of them yourself. Thank you so much!",
+    "stat_kofi": "You've really helped the community. If you'd like to support the bot, consider buying it <a href=\"https://ko-fi.com/pikminbloompilzbot\">a coffee on ko-fi.com</a>.\n\nKeep it up!",
+    "stat_paypal": "You're even a supporter! Thank you so much for your contribution! Did you know that you can <a href=\"https://www.paypal.me/AnkeK81\">donate directly via PayPal</a> without any deductions if you select \"Friends/Family\"?\n\nHave fun with our bot!",
+    "stat_group": "📈<b>Statistics</b>📊\nTogether, we've battled {count} mushrooms over the last 14 days.\n\nIf you'd like to become a supporter, you can buy us a coffee at <a href=\"https://ko-fi.com/pikminbloompilzbot\">ko-fi.com</a>"
   },
   "mushroom_msg": {
     "runs_active": "active until:",
