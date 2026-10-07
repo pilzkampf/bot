@@ -10,7 +10,7 @@
     },
     "birds of paradise": {
       "name": "天堂鳥",
-      "emoji": "🌺"
+      "emoji": "💐"
     },
     "bougainvilleas": {
       "name": "九重葛",
@@ -23,6 +23,10 @@
     "camellias": {
       "name": "山茶花",
       "emoji": "🏵️"
+    },
+    "canna lilies": {
+      "name": "カンナ",
+      "emoji": "🥀"
     },
     "canola flowers": {
       "name": "油菜花",
@@ -132,6 +136,10 @@
       "name": "蝴蝶蘭",
       "emoji": "🦋"
     },
+    "orchid cactuses": {
+      "name": "orchid cactuses",
+      "emoji": "🌵"
+    },
     "pansies": {
       "name": "三色堇",
       "emoji": "🧿"
@@ -159,6 +167,10 @@
     "poppies": {
       "name": "罌粟花",
       "emoji": "🌺"
+    },
+    "prairie gentians": {
+      "name": "洋桔梗",
+      "emoji": "🪻"
     },
     "primroses": {
       "name": "報春花",
@@ -191,6 +203,10 @@
     "sweet peas": {
       "name": "香豌豆",
       "emoji": "🎐"
+    },
+    "thistles": {
+      "name": "薊花",
+      "emoji": "🌱"
     },
     "tulips": {
       "name": "鬱金香",

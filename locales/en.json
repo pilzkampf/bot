@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-21",
+  "version": "2026-09-28",
   "grammar": {
     "size": {
       "small": {
@@ -56,16 +56,6 @@
         "emoji": "🍧",
         "noun": "Bizarre Mushroom"
       },
-      "event2512": {
-        "default": "Bizarre Mushroom",
-        "emoji": "🎁🎄",
-        "noun": "Bizarre Mushroom"
-      },
-      "event2601": {
-        "default": "Magnificent Mushroom",
-        "emoji": "🍱",
-        "noun": "Magnificent Mushroom"
-      },
       "event2602": {
         "default": "Colorful Mushroom",
         "emoji": "🍫💝",
@@ -85,6 +75,31 @@
         "default": "Brilliant Mushroom",
         "emoji": "🎮",
         "noun": "Brilliant Mushroom"
+      },
+      "event2606": {
+        "default": "Mysterious Mushroom",
+        "emoji": "☀️",
+        "noun": "Mysterious Mushroom"
+      },
+      "event2607": {
+        "default": "Bizarre Mushroom",
+        "emoji": "🎻",
+        "noun": "Bizarre Mushroom"
+      },
+      "event2608": {
+        "default": "Seafoam Mushroom",
+        "emoji": "🌴",
+        "noun": "Seafoam Mushroom"
+      },
+      "event2609": {
+        "default": "Magnificent Mushroom",
+        "emoji": "🥨🌭",
+        "noun": "Magnificent Mushroom"
+      },
+      "event2610": {
+        "default": "Halloween",
+        "emoji": "🎃",
+        "noun": "Halloween"
       },
       "fire": {
         "default": "Fire Mushroom",
@@ -368,7 +383,7 @@
     "tr": "🇹🇷 Türkçe",
     "nl": "🇳🇱 Nederlands",
     "gsw-ZH": "🇨🇭 Züritüütsch",
-    "cn-hant": "繁體中文",
+    "zn-hant": "繁體中文",
     "vi": "🇻🇳 Tiếng Việt",
     "select": "Please choose your language.\n"
   },

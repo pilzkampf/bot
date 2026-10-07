@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-21",
+  "version": "2026-09-28",
   "grammar": {
     "size": {
       "small": {
         "default": "kleine",
-        "comparative": "kleinere",
+        "comparative": "kleine",
         "dative": "kleine",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -12,7 +12,7 @@
       },
       "normal": {
         "default": "normale",
-        "comparative": "normalere",
+        "comparative": "normale",
         "dative": "normale",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -20,7 +20,7 @@
       },
       "large": {
         "default": "grote",
-        "comparative": "grotere",
+        "comparative": "grote",
         "dative": "grote",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -28,7 +28,7 @@
       },
       "giant": {
         "default": "reusachtige",
-        "comparative": "reusachtigere",
+        "comparative": "reusachtige",
         "dative": "reusachtige",
         "dative-preposition": "naar de",
         "dative-article": "de",
@@ -91,20 +91,6 @@
         "comparative": "Bizarre paddenstoel",
         "dative": "Bizarre paddenstoel"
       },
-      "event2512": {
-        "default": "Bizarre paddenstoel",
-        "emoji": "🎁🎄",
-        "noun": "Bizarre paddenstoel",
-        "comparative": "Bizarre paddenstoel",
-        "dative": "Bizarre paddenstoel"
-      },
-      "event2601": {
-        "default": "Magnifieke paddenstoel",
-        "emoji": "🍱",
-        "noun": "Magnifieke paddenstoel",
-        "comparative": "Magnifieke paddenstoel",
-        "dative": "Magnifieke paddenstoel"
-      },
       "event2602": {
         "default": "Kleurrijke paddenstoel",
         "emoji": "🍫💝",
@@ -132,6 +118,41 @@
         "noun": "Briljante paddenstoel",
         "comparative": "Briljante paddenstoel",
         "dative": "Briljante paddenstoel"
+      },
+      "event2606": {
+        "default": "Mysterious paddenstoel",
+        "emoji": "☀️",
+        "noun": "Mysterious paddenstoel",
+        "comparative": "Mysterious paddenstoel",
+        "dative": "Mysterious paddenstoel"
+      },
+      "event2607": {
+        "default": "Bizarre paddenstoel",
+        "emoji": "🎻",
+        "noun": "Bizarre paddenstoel",
+        "comparative": "Bizarre paddenstoel",
+        "dative": "Bizarre paddenstoel"
+      },
+      "event2608": {
+        "default": "Seafoam Mushroom",
+        "emoji": "🌴",
+        "noun": "Seafoam Mushroom",
+        "comparative": "Seafoam Mushroom",
+        "dative": "Seafoam Mushroom"
+      },
+      "event2609": {
+        "default": "Magnifieke paddenstoel",
+        "emoji": "🥨🌭",
+        "noun": "Magnifieke paddenstoel",
+        "comparative": "Magnifieke paddenstoel",
+        "dative": "Magnifieke paddenstoel"
+      },
+      "event2610": {
+        "default": "Halloween",
+        "emoji": "🎃",
+        "noun": "Halloween",
+        "dative": "Halloween",
+        "comparative": "Halloween"
       },
       "fire": {
         "default": "Fire paddenstoel",

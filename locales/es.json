@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-21",
+  "version": "2026-09-28",
   "grammar": {
     "size": {
       "small": {
@@ -56,16 +56,6 @@
         "emoji": "🍧",
         "noun": "Champiñón extraño"
       },
-      "event2512": {
-        "default": "Champiñón extraño",
-        "emoji": "🎁🎄",
-        "noun": "Champiñón extraño"
-      },
-      "event2601": {
-        "default": "Champiñón magnífico",
-        "emoji": "🍱",
-        "noun": "Champiñón magnífico"
-      },
       "event2602": {
         "default": "Champiñón colorido",
         "emoji": "🍫💝",
@@ -85,6 +75,31 @@
         "default": "Champiñón brillante",
         "emoji": "🎮",
         "noun": "Champiñón brillante"
+      },
+      "event2606": {
+        "default": "Champiñón misterioso",
+        "emoji": "☀️",
+        "noun": "Champiñón misterioso"
+      },
+      "event2607": {
+        "default": "Champiñón extraño",
+        "emoji": "🎻",
+        "noun": "Champiñón extraño"
+      },
+      "event2608": {
+        "default": "champiñón de espuma",
+        "emoji": "🌴",
+        "noun": "champiñón de espuma"
+      },
+      "event2609": {
+        "default": "Champiñón magnífico",
+        "emoji": "🥨🌭",
+        "noun": "Champiñón magnífico"
+      },
+      "event2610": {
+        "default": "Champiñón de Halloween",
+        "emoji": "🎃",
+        "noun": "Champiñón de Halloween"
       },
       "fire": {
         "default": "Champiñón de fuego",

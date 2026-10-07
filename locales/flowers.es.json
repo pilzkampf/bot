@@ -10,7 +10,7 @@
     },
     "birds of paradise": {
       "name": "aves del paraíso",
-      "emoji": "🌺"
+      "emoji": "💐"
     },
     "bougainvilleas": {
       "name": "buganvillas",
@@ -23,6 +23,10 @@
     "camellias": {
       "name": "camelias",
       "emoji": "🏵️"
+    },
+    "canna lilies": {
+      "name": "cañas de Indias",
+      "emoji": "🥀"
     },
     "canola flowers": {
       "name": "flores de colza",
@@ -132,12 +136,16 @@
       "name": "orquídeas mariposa",
       "emoji": "🦋"
     },
+    "orchid cactuses": {
+      "name": "cactus orquídea",
+      "emoji": "🌵"
+    },
     "pansies": {
       "name": "pensamientos",
       "emoji": "🧿"
     },
     "parrot tulips": {
-      "name": " tulipanes loro ",
+      "name": "tulipanes loro",
       "emoji": "🦜"
     },
     "peonies": {
@@ -159,6 +167,10 @@
     "poppies": {
       "name": "amapolas",
       "emoji": "🌺"
+    },
+    "prairie gentians": {
+      "name": "genciana de las praderas",
+      "emoji": "🪻"
     },
     "primroses": {
       "name": "prímulas",
@@ -191,6 +203,10 @@
     "sweet peas": {
       "name": "guisantes de olor",
       "emoji": "🎐"
+    },
+    "thistles": {
+      "name": "cardos",
+      "emoji": "🌱"
     },
     "tulips": {
       "name": "tulipanes",

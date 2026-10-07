@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-21",
+  "version": "2026-09-28",
   "grammar": {
     "size": {
       "small": {
@@ -56,16 +56,6 @@
         "emoji": "🍧",
         "noun": "奇異蘑菇"
       },
-      "event2512": {
-        "default": "奇異蘑菇",
-        "emoji": "🎁🎄",
-        "noun": "奇異蘑菇"
-      },
-      "event2601": {
-        "default": "華麗蘑菇",
-        "emoji": "🍱",
-        "noun": "華麗蘑菇"
-      },
       "event2602": {
         "default": "繽紛蘑菇",
         "emoji": "🍫💝",
@@ -85,6 +75,31 @@
         "default": "輝煌蘑菇",
         "emoji": "🎮",
         "noun": "輝煌蘑菇"
+      },
+      "event2606": {
+        "default": "神秘蘑菇",
+        "emoji": "☀️",
+        "noun": "神秘蘑菇"
+      },
+      "event2607": {
+        "default": "奇異蘑菇",
+        "emoji": "🎻",
+        "noun": "奇異蘑菇"
+      },
+      "event2608": {
+        "default": "海泡泡蘑菇",
+        "emoji": "🌴",
+        "noun": "海泡泡蘑菇"
+      },
+      "event2609": {
+        "default": "華麗蘑菇",
+        "emoji": "🥨🌭",
+        "noun": "華麗蘑菇"
+      },
+      "event2610": {
+        "default": "聖節蘑菇",
+        "emoji": "🎃",
+        "noun": "聖節蘑菇"
       },
       "fire": {
         "default": "火蘑菇",
