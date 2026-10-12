@@ -375,7 +375,8 @@
     "newalarm": "Nieuw paddenstoel alarm",
     "introduction": "Het <b>Paddenstoel Alarm</b> informeert je zodra een geschikte paddenstoel beschikbaar is. In het overzicht van actieve paddenstoelen met <code>/active</code> kun je onderaan de paddenstoel-wensen zien. Je alarm wordt daar niet meer getoond als je langer dan drie dagen niet actief bent geweest. Als je 14 dagen niet actief was, word je niet meer over paddenstoelen geïnformeerd. Je bent actief wanneer je via de bot deelneemt aan een paddenstoelgevecht.",
     "noalarm": "Je hebt nog geen paddenstoel alarm ingesteld.",
-    "saved": "Paddenstoel alarm opgeslagen"
+    "saved": "Paddenstoel alarm opgeslagen",
+    "wish_mute": "Wil je de paddenstoelwaarschuwing uitschakelen? Je kunt de waarschuwing aan- en uitschakelen met <code>/alert on</code> en <code>/alert off</code>."
   },
   "register": {
     "not_registered": "Je kunt je alleen bij mij persoonlijk registreren. Stuur me een bericht onder @{bot_name}, druk op 'Start' en probeer het commando /register opnieuw.",

@@ -296,7 +296,8 @@
     "newalarm": "New mushroom alert",
     "introduction": "The <b>Mushroom Alert</b> notifies you as soon as a suitable mushroom fight is available. In the list of active mushroom fights with <code>/active</code> is a list of alerts others have set. After three days of inactivity, your alert will not be listed anymore. After 14 days of inactivity, you will not get notified for new mushrooms. You stay active by joining or starting a mushroom fight with the bot.",
     "noalarm": "There are no mushroom alerts set, yet.",
-    "saved": "Alert is saved"
+    "saved": "Alert is saved",
+    "wish_mute": "Would you like to mute the mushroom alert? You can switch the alert on and off with <code>/alert on</code> and <code>/alert off</code>."
   },
   "register": {
     "not_registered": "You can only register yourself with me in a private chat. Start a chat with @{bot_name}, press 'START' and try the command /register again.",

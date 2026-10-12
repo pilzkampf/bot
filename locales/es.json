@@ -296,7 +296,8 @@
     "newalarm": "Nueva alerta de champiñón",
     "introduction": "La <b>Alerta de Champiñón</b> te notifica tan pronto como haya disponible un combate de champiñón adecuado. En la lista de combates de champiñón activos con <code>/active</code> hay una lista de alertas que otros han configurado. Después de tres días de inactividad, tu alerta dejará de aparecer en la lista. Después de 14 días de inactividad, no recibirás notificaciones para nuevos champiñones. Mantente activo uniéndote o iniciando un combate de champiñón con el bot.",
     "noalarm": "Aún no hay alertas de champiñón configuradas.",
-    "saved": "Alerta guardada"
+    "saved": "Alerta guardada",
+    "wish_mute": "¿Te gustaría silenciar la alerta de champiñón? Puedes encender y apagar la alerta con <code>/alert on</code> y <code>/alert off</code>."
   },
   "register": {
     "not_registered": "Solo puedes registrarte conmigo en un chat privado. Inicia un chat con @{bot_name}, pulsa 'INICIAR' e intenta el comando /register de nuevo.",

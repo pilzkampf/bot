@@ -296,7 +296,8 @@
     "newalarm": "新蘑菇警報",
     "introduction": "<b>蘑菇警報</b> 會在有適合的蘑菇戰鬥時通知您。在 <code>/active</code> 顯示的活動蘑菇列表中，可以看到其他人設定的警報。若您超過三天未活動，您的警報將不再列出；若超過 14 天未活動，則會停止通知。透過機器人參加或發起戰鬥即可保持活動狀態。",
     "noalarm": "目前尚未設定任何警報。",
-    "saved": "警報已儲存"
+    "saved": "警報已儲存",
+    "wish_mute": "您是否要靜音蘑菇警報？您可以使用 <code>/alert on</code> 和 <code>/alert off</code> 來開關警報。"
   },
   "register": {
     "not_registered": "您必須在私訊中向我註冊。請私訊 @{bot_name}，按下「開始」後再次嘗試 /register 指令。",

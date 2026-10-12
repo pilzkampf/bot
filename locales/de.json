@@ -404,7 +404,8 @@
     "newalarm": "Neuer Pilz-Alarm",
     "introduction": "Der <b>Pilz-Alarm</b> informiert dich, sobald ein passender Pilz verfügbar ist. In der Ansicht der aktiven Pilze mit <code>/aktiv</code> kannst du unten die Pilz-Wünsche sehen. Dein Alarm wird dort nicht mehr angezeigt wenn du länger als drei Tage lang nicht aktiv warst. Wenn du 14 Tage nicht aktiv warst, wirst du nicht mehr über Pilze informiert. Du bist aktiv wenn du über den Bot bei einem Pilzkampf teilnimmst.",
     "noalarm": "Du hast noch keinen Pilz-Alarm eingerichtet.",
-    "saved": "Pilz-Alarm gespeichert"
+    "saved": "Pilz-Alarm gespeichert",
+    "wish_mute": "Möchtest du den Pilz-Alarm stummschalten? Du kannst den Alarm mit <code>/alarm an</code> und <code>/alarm aus</code> ein- und ausschalten."
   },
   "register": {
     "not_registered": "Du kannst dich nur bei mir persönlich registieren. Schreib mich unter @{bot_name} an, drücke 'Start' und versuche das Kommando /register nochmal. ",
